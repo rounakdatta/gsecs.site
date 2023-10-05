@@ -1,19 +1,23 @@
 #[macro_use]
 extern crate rocket;
 
-use rocket::fairing::AdHoc;
-use rocket::futures::lock::Mutex;
-
-mod api;
+mod handlers;
 mod db;
+mod models;
 
-#[launch]
-fn rocket() -> _ {
-    rocket::build()
-    .attach(AdHoc::on_ignite("SQLx config", |rocket| async {
-        let database_url = std::env::var("DATABASE_URL").expect("DATABASE_URL must be set");
-        let pool = db::create_pool(&database_url).await;
-        rocket.manage(Mutex::new(pool))
-    }))
-    .mount("/api", api::configure())
+use rocket::Rocket;
+
+#[rocket::main]
+async fn main() {
+    let db_pool = db::create_pool()
+        .await
+        .expect("Db pool to be created");
+    db::apply_migrations(&db_pool)
+        .await
+        .expect("Migrations to be applied");
+    Rocket::build()
+        .manage(db_pool)
+        .launch()
+        .await
+        .expect("Server should start");
 }

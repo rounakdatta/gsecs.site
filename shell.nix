@@ -18,10 +18,9 @@ pkgs.mkShell {
 
     # create the .env file
     echo "export DATABASE_URL=postgres://postgres:postgres@postgres/postgres" > .env
-    echo "export SECRET_KEY_BASE=$(openssl rand -hex 48)" >> .env
-    echo "export URL_HOST=localhost" >> .env
-    echo "export URL_SCHEMA=http" >> .env
-    echo "export URL_PORT=4000" >> .env
+
+    export DATABASE_URL=postgres://postgres:postgres@postgres/postgres
+    export SQLX_OFFLINE=true
 
     cargo build
     cargo run
