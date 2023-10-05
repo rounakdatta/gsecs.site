@@ -1,23 +1,18 @@
-#[macro_use]
-extern crate rocket;
+use actix_web::{web, App, HttpRequest, HttpServer, Responder};
 
-mod handlers;
-mod db;
-mod models;
+async fn greet(req: HttpRequest) -> impl Responder {
+    let name = req.match_info().get("name").unwrap_or("World");
+    format!("Hello {}!", &name)
+}
 
-use rocket::Rocket;
-
-#[rocket::main]
-async fn main() {
-    let db_pool = db::create_pool()
-        .await
-        .expect("Db pool to be created");
-    db::apply_migrations(&db_pool)
-        .await
-        .expect("Migrations to be applied");
-    Rocket::build()
-        .manage(db_pool)
-        .launch()
-        .await
-        .expect("Server should start");
+#[tokio::main]
+async fn main() -> std::io::Result<()> {
+    HttpServer::new(|| {
+        App::new()
+        .route("/", web::get().to(greet))
+        .route("/{name}", web::get().to(greet))
+    })
+    .bind("127.0.0.1:8000")?
+    .run()
+    .await
 }

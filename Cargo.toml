@@ -4,10 +4,5 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-rocket = { version = "=0.5.0-rc.3", features = ["json"] }
-sqlx = { version = "0.7.2", features = ["postgres", "runtime-tokio-rustls", "chrono", "json", "migrate", "uuid"] }
-sqlx-cli = { version = "0.7.2", features = ["native-tls", "postgres"] }
-tokio = { version = "1.32.0", features = ["full"] }
-chrono = { version = "0.4.31", features = ["serde"] }
-config = "0.13.3"
-serde = "1.0.188"
+actix-web = "4.4.0"
+tokio = { version = "1.32.0", features = ["macros", "rt-multi-thread"] }

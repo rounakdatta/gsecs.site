@@ -23,6 +23,6 @@ pkgs.mkShell {
     export SQLX_OFFLINE=true
 
     cargo build
-    cargo run
+    cargo check
     '';
 }
