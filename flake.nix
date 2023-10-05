@@ -21,6 +21,10 @@
                 toolchain
                 pkgs.rust-analyzer-unwrapped
                 pkgs.postgresql
+
+                # remember that cargo test and other commands require the following dependencies
+                pkgs.pkg-config
+                pkgs.openssl
             ];
 
             RUST_SRC_PATH = "${toolchain}/lib/rustlib/src/rust/library";
