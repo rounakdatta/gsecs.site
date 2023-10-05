@@ -20,9 +20,20 @@
             packages = [
                 toolchain
                 pkgs.rust-analyzer-unwrapped
+                pkgs.postgresql
             ];
 
             RUST_SRC_PATH = "${toolchain}/lib/rustlib/src/rust/library";
+
+            shellHook = ''
+            # stop and remove any old Postgresql container
+            docker rm -f postgres || true
+
+            # spin up the Postgresql container
+            docker run --rm --name postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres:13
+
+            cargo check     
+            '';
         };
     };
 }
