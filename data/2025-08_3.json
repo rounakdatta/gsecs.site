@@ -1,0 +1,28 @@
+{
+  "security_name": "5.91% Government Stock 2028",
+  "security_type": "Gilt",
+  "security_codes": ["591GS28A25", "591GOI28", "591GS2028-GS"],
+  "announcement_date": "2025-08-18",
+  "auction_date": "2025-08-22",
+  "issuance_date": "2025-08-25",
+  "maturity_date": "2028-06-30",
+  "coupon_rate": 5.91,
+  "yield_at_auction": 5.7986,
+  "amount_issued_crore": 6000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR92741893C48153A42D3836F5EE6119D9C9C.PDF",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR95726DD2C7816F04DC1B9233FC1A2630DB4.PDF"
+  ],
+  "additional_info": {
+    "auction_type": "Price-based auction using multiple price method",
+    "non_competitive_segment": "Up to 5% of notified amount",
+    "minimum_bid_size": 10000,
+    "rbi_retention_option": 2000,
+    "competitive_bids_received": 24453,
+    "competitive_bids_accepted": 5998.13,
+    "non_competitive_bids_accepted": 1.86,
+    "weighted_average_yield": 5.7986,
+    "note": "Re-issuance of 3-year security"
+  }
+}

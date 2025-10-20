@@ -1,0 +1,24 @@
+{
+  "security_name": "6.01% Government Stock 2030",
+  "security_type": "Gilt",
+  "security_codes": ["601GS30Jl25", "601GOI30", "601GS2030-GS"],
+  "announcement_date": "2025-07-14",
+  "auction_date": "2025-07-18",
+  "issuance_date": "2025-07-21",
+  "maturity_date": "2030-07-21",
+  "coupon_rate": 6.01,
+  "yield_at_auction": 6.0100,
+  "amount_issued_crore": 15000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR711096205B350B0434E965E1EB6B0BA1875.PDF",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR739D59F60978C264B358ACE791F1DB3C7B3.PDF"
+  ],
+  "additional_info": {
+    "auction_type": "Price-based auction using multiple price method",
+    "isin": "IN0020250067",
+    "non_competitive_segment": "Up to 5% of notified amount",
+    "minimum_bid_size": 10000,
+    "note": "New 5-year security announced as 'New GS 2030'"
+  }
+}

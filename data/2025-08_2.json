@@ -1,0 +1,24 @@
+{
+  "security_name": "7.24% Government Stock 2055",
+  "security_type": "Gilt",
+  "security_codes": ["724GS55A25", "724GOI55", "724GS2055-GS"],
+  "announcement_date": "2025-08-11",
+  "auction_date": "2025-08-14",
+  "issuance_date": "2025-08-18",
+  "maturity_date": "2055-08-18",
+  "coupon_rate": 7.24,
+  "yield_at_auction": null,
+  "amount_issued_crore": 13000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR8838BA57C09B9E446D2825AE7FE54C1F231.PDF",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR90868041582CB4E450596CD3FF59934DCDA.PDF"
+  ],
+  "additional_info": {
+    "auction_type": "Yield-based auction using multiple price method",
+    "non_competitive_segment": "Up to 5% of notified amount",
+    "minimum_bid_size": 10000,
+    "underwriting_amount": 13000,
+    "note": "New 30-year security issued in August 2025"
+  }
+}

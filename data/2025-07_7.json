@@ -1,0 +1,24 @@
+{
+  "security_name": "6.68% Government Stock 2040",
+  "security_type": "Gilt",
+  "security_codes": ["668GS40A25", "668GOI40", "668GS2040-GS"],
+  "announcement_date": "2025-07-28",
+  "auction_date": "2025-08-01",
+  "issuance_date": "2025-08-04",
+  "maturity_date": "2040-07-07",
+  "coupon_rate": 6.68,
+  "yield_at_auction": 6.9646,
+  "amount_issued_crore": 16000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR7960D322AB6963A47B0B05196B565D3F3DE.PDF"
+  ],
+  "additional_info": {
+    "auction_type": "Multiple price-based auction",
+    "isin": "IN0020250042",
+    "non_competitive_segment": "Up to 5% of notified amount",
+    "minimum_bid_size": 10000,
+    "rbi_retention_option": 2000,
+    "note": "Re-issuance, auction conducted in early August but announced in late July"
+  }
+}

@@ -6,7 +6,7 @@ description: Scrapes relevant bulletins from the RBI website intelligently and f
 # G-Sec Information Gatherer
 
 ## Instructions
-Your source of truth is always the official RBI website Press Releases webpage: https://website.rbi.org.in/web/rbi/press-releases?publishDateFrom=2025-10-01&publishDateTo=2025-10-31&delta=100 and then you can keep navigating through pages by adding `&start=2` and so on to the URL, until there are no more. When you open this website, you would be able to see month-wise, year-wise bulletins published. Your monumental task is to figure out what's to be picked and what not to. Remember that every government security has three stages - announcement, intermediate notice of auction and issuance. This is how the bulletin titles look like:
+Your source of truth is always the official RBI website Press Releases webpage, but you should access it cleverly as `python3 rbi_scraper.py <year> <month>`. Your monumental task is to figure out what's to be picked and what not to. Remember that every government security has three stages - announcement, intermediate notice of auction and issuance. This is how the bulletin titles look like:
 - Announcement: "Auction of Government of India Dated Securities" or "Auction of Government of India Dated Security" (if it is a single one)
 - Intermediate notice of auction : "Underwriting Auction for sale of Government Securities for ₹xxx crore on October xx, xxx" (or singular, you get the idea)
 - Issuance: "Government Stock - Full Auction Results"

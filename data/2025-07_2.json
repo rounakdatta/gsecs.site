@@ -1,0 +1,23 @@
+{
+  "security_name": "7.09% Government Stock 2074",
+  "security_type": "Gilt",
+  "security_codes": ["709GS74Jl25", "709GOI74", "709GS2074-GS"],
+  "announcement_date": "2025-07-07",
+  "auction_date": "2025-07-11",
+  "issuance_date": "2025-07-14",
+  "maturity_date": "2074-11-25",
+  "coupon_rate": 7.09,
+  "yield_at_auction": 7.1541,
+  "amount_issued_crore": 14000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR673C6893C57179C46E583860BEE750726AE.PDF",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR696CD314B0B27024F779728633B0AA67F95.PDF"
+  ],
+  "additional_info": {
+    "auction_type": "Price-based auction using multiple price method",
+    "non_competitive_segment": "Up to 5% of notified amount",
+    "minimum_bid_size": 10000,
+    "note": "New 50-year security issued in July 2025, extremely long maturity"
+  }
+}

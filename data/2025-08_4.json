@@ -1,0 +1,29 @@
+{
+  "security_name": "6.33% Government Stock 2035",
+  "security_type": "Gilt",
+  "security_codes": ["633GS35A25", "633GOI35", "633GS2035-GS"],
+  "announcement_date": "2025-08-18",
+  "auction_date": "2025-08-22",
+  "issuance_date": "2025-08-25",
+  "maturity_date": "2035-05-05",
+  "coupon_rate": 6.33,
+  "yield_at_auction": 6.3325,
+  "amount_issued_crore": 30000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR92741893C48153A42D3836F5EE6119D9C9C.PDF",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR95726DD2C7816F04DC1B9233FC1A2630DB4.PDF"
+  ],
+  "additional_info": {
+    "auction_type": "Price-based auction using multiple price method",
+    "isin": "IN0020250026",
+    "non_competitive_segment": "Up to 5% of notified amount",
+    "minimum_bid_size": 10000,
+    "rbi_retention_option": 2000,
+    "competitive_bids_received": 74694,
+    "competitive_bids_accepted": 29947.86,
+    "non_competitive_bids_accepted": 52.13,
+    "weighted_average_yield": 6.3325,
+    "note": "Re-issuance of 10-year security"
+  }
+}
