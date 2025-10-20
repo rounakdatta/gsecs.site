@@ -1,0 +1,34 @@
+{
+  "security_name": "7.09% Government Stock 2074",
+  "security_type": "Gilt",
+  "security_codes": ["709GS74O25", "709GOI74", "709GS2074-GS"],
+  "announcement_date": "2025-10-13",
+  "auction_date": "2025-10-17",
+  "issuance_date": "2025-10-20",
+  "maturity_date": "2074-11-25",
+  "coupon_rate": 7.09,
+  "yield_at_auction": 7.1782,
+  "amount_issued_crore": 12000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61420",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61439",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61452",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61453"
+  ],
+  "additional_info": {
+    "auction_type": "Multiple price-based auction",
+    "cut_off_price": 98.80,
+    "non_competitive_segment": "Up to 5% of notified amount",
+    "when_issued_trading_period": "2025-10-14 to 2025-10-17",
+    "minimum_bid_size": 10000,
+    "rbi_retention_option": 2000,
+    "competitive_bids_received": 170,
+    "competitive_bids_accepted": 128,
+    "non_competitive_bids_accepted": 5,
+    "devolvement_on_primary_dealers": 0,
+    "underwriting_amount": 12000,
+    "min_underwriting_per_pd": 286,
+    "note": "Long-dated security with 49+ year maturity"
+  }
+}
