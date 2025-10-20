@@ -1,6 +1,0 @@
-{
-    "nixEnvSelector.nixFile": "${workspaceRoot}/flake.nix",
-    "rust-analyzer.showUnlinkedFileNotification": false,
-    "git.ignoreLimitWarning": true,
-    "rust-analyzer.procMacro.enable": true
-}
