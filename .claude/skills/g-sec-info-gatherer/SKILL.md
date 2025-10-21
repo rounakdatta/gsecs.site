@@ -11,7 +11,7 @@ Your source of truth is always the official RBI website Press Releases webpage, 
 - Intermediate notice of auction : "Underwriting Auction for sale of Government Securities for ₹xxx crore on October xx, xxx" (or singular, you get the idea)
 - Issuance: "Government Stock - Full Auction Results"
 
-Don't be very rigid with these examples I shared, occasionally there could be certain titles of the bulletins which try to mean the same thing, but might be worded slightly differently. Use your best judgement to figure out what is what. Also, it is SUPER SUPER important to connect dots from around. For example, if you're told to check securities from April, you should proactively check if there were any annoucements in March, which got issues in April. So, you gotta be smart about connecting the dots.
+Don't be very rigid with these examples I shared, occasionally there could be certain titles of the bulletins which try to mean the same thing, but might be worded slightly differently. Use your best judgement to figure out what is what. Also, it is SUPER SUPER important to connect dots from around. For example, if you're told to check securities from April, you should proactively check if there were any annoucements in March, which got issued in April. So, you gotta be smart about connecting the dots. Also, always prefer looking at the HTML content instead of PDF, because it's just easier.
 
 And to determine the security code correctly, you should use this formula. For example, "690GS65S25":
   Format breakdown:
@@ -40,7 +40,7 @@ Our goal is to prepare a comprehensive dataset of these securities in clean, str
   "coupon_rate": float,
   "yield_at_auction": float,
   "amount_issued_crore": float,
-  "security_code": "unique code if available", # probably something like 690GS65S25
+  "security_codes": ["unique code if available"] # probably something like 690GS65S25
   "interest_payment_frequency_regex": "semi-annual" # or if you find any other information about interest payment frequency
   "source_urls": [
     "url1",
@@ -55,5 +55,5 @@ Our goal is to prepare a comprehensive dataset of these securities in clean, str
 
 But remember that each security should be in a single JSON file. And it should be like 2025-10_1.json, 2025-10_2.json etc for multiple securities issued in the same month. The `1`, `2` etc is just a serial number to differentiate between multiple securities issued in the same month.
 
-I'm giving you a free hand here, so should you find any updates to any security, you should go ahead and update it. Remember to treat re-issuances as new, because they indeed are. 
+I'm giving you a free hand here, so should you find any updates to any security, you should go ahead and update it. Remember to treat re-issuances as new, because they indeed are. However you should keep in mind that you should not write temporary files to .claude/ directory. You can use the .tmp/ directory, which has already been included in my gitignore.
 
