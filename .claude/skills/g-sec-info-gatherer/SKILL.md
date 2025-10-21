@@ -55,5 +55,28 @@ Our goal is to prepare a comprehensive dataset of these securities in clean, str
 
 But remember that each security should be in a single JSON file. And it should be like 2025-10_1.json, 2025-10_2.json etc for multiple securities issued in the same month. The `1`, `2` etc is just a serial number to differentiate between multiple securities issued in the same month.
 
-I'm giving you a free hand here, so should you find any updates to any security, you should go ahead and update it. Remember to treat re-issuances as new, because they indeed are. However you should keep in mind that you should not write temporary files to .claude/ directory. You can use the .tmp/ directory, which has already been included in my gitignore.
+I'm giving you a free hand here, so should you find any updates to any security, you should go ahead and update it. Remember to treat re-issuances as new, because they indeed are.
+
+## CRITICAL: File Writing Rules
+
+**ALL rough work, temporary files, scripts, and intermediate artifacts MUST go to `.tmp/` directory ONLY.**
+
+This includes but is not limited to:
+- Python scripts for scraping/parsing (extract_gsec_data.py, pdf_parser.py, fetch_gsecs.py, etc.)
+- Status/progress reports (STATUS.md, COMPLETION_REPORT.md, FINAL_SUMMARY.md, etc.)
+- Any intermediate processing files
+- Downloaded PDFs or HTML files
+- Debug outputs
+
+**Absolute paths only:**
+- Temporary work files: `/Users/rounak/personal/gsecs.site/.tmp/`
+- Final JSON data: `/Users/rounak/personal/gsecs.site/data/`
+
+**ONLY final, production-ready JSON data files** should be written to the `data/` directory in the format: `YYYY-MM_N.json`
+
+**NEVER write ANY files:**
+- To the `.claude/` directory - this is reserved for skill definitions only
+- To the project root directory - NO scripts, reports, or any files at all
+
+The `.tmp/` directory is already in `.gitignore` and is the correct place for all your working files.
 
