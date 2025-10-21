@@ -1,13 +1,13 @@
 {
-  "security_name": "6.68% Government Stock 2040",
+  "security_name": "6.92% Government Stock 2039",
   "security_type": "Gilt",
-  "security_codes": ["668GS40J25", "668GOI40", "668GS2040-GS"],
+  "security_codes": ["692GS39J25", "692GOI39", "692GS2039-GS"],
   "announcement_date": "2025-05-27",
   "auction_date": "2025-06-06",
   "issuance_date": "2025-06-09",
-  "maturity_date": "2040-07-07",
-  "coupon_rate": 6.68,
-  "yield_at_auction": null,
+  "maturity_date": "2039-11-18",
+  "coupon_rate": 6.92,
+  "yield_at_auction": 6.5043,
   "amount_issued_crore": 16000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [

@@ -1,0 +1,22 @@
+{
+  "security_name": "6.64% GS 2027",
+  "security_type": "Gilt",
+  "security_codes": [
+    "664GS27M25",
+    "664GOI27",
+    "664GS2027-GS"
+  ],
+  "announcement_date": "2025-04-28",
+  "auction_date": "2025-05-02",
+  "issuance_date": "2025-05-05",
+  "maturity_date": "2027-12-09",
+  "coupon_rate": 6.64,
+  "yield_at_auction": 6.0080,
+  "amount_issued_crore": 6000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR198E61A205790C84556A622EFC7897DA980.PDF",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR232A5D3CA1F7E4B4407BB6AC4C46959FA08.PDF",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR2317DA23DEC6F5D4265BE6E64CE13EF2091.PDF"
+  ]
+}

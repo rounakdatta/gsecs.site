@@ -1,0 +1,25 @@
+{
+  "security_name": "6.98% GOI SGrB 2054",
+  "security_type": "Sovereign Green Bond",
+  "security_codes": [
+    "698GS54A25",
+    "698GOI54",
+    "698GS2054-GS"
+  ],
+  "announcement_date": "2025-04-11",
+  "auction_date": "2025-04-17",
+  "issuance_date": "2025-04-21",
+  "maturity_date": "2054-12-16",
+  "coupon_rate": 6.98,
+  "yield_at_auction": 6.8765,
+  "amount_issued_crore": 5000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR94F9427D8345654FADBD0588C03AB96435.PDF",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1288F88F88512714D4EAB62283CAF022AAB.PDF",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR125AE303DB6822F435BA13032854545FAC6.PDF"
+  ],
+  "additional_info": {
+    "bond_type": "Sovereign Green Bond (SGrB)"
+  }
+}

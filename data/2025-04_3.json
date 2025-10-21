@@ -1,0 +1,22 @@
+{
+  "security_name": "6.92% GS 2039",
+  "security_type": "Gilt",
+  "security_codes": [
+    "692GS39A25",
+    "692GOI39",
+    "692GS2039-GS"
+  ],
+  "announcement_date": "2025-04-07",
+  "auction_date": "2025-04-11",
+  "issuance_date": "2025-04-15",
+  "maturity_date": "2039-11-18",
+  "coupon_rate": 6.92,
+  "yield_at_auction": 6.5579,
+  "amount_issued_crore": 16000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR50C5A035F8BF7B4CBAA8B99A07A5F69551.PDF",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR874ADA365F81D74BD7BD2FB17324C8518B.PDF",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR85DC17141BE59B4A0DBDB6089FB677C2AB.PDF"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "security_name": "6.79% GS 2034",
+  "security_type": "Gilt",
+  "security_codes": [
+    "679GS34A25",
+    "679GOI34",
+    "679GS2034-GS"
+  ],
+  "announcement_date": "2025-03-28",
+  "auction_date": "2025-04-04",
+  "issuance_date": "2025-04-07",
+  "maturity_date": "2034-10-07",
+  "coupon_rate": 6.79,
+  "yield_at_auction": 6.4904,
+  "amount_issued_crore": 30000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR25097B1A7382F1D24489B53BCB4E6551F279.PDF",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR35B35C021690E042748905DD000004D7C9.PDF",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR34702A28D1ABAD4D7F9E17C660B50BCA6D.PDF"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "security_name": "7.09% GS 2054",
+  "security_type": "Gilt",
+  "security_codes": [
+    "709GS54A25",
+    "709GOI54",
+    "709GS2054-GS"
+  ],
+  "announcement_date": "2025-04-21",
+  "auction_date": "2025-04-25",
+  "issuance_date": "2025-04-28",
+  "maturity_date": "2054-08-05",
+  "coupon_rate": 7.09,
+  "yield_at_auction": 6.8145,
+  "amount_issued_crore": 12000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1468600053CA2FC485DA3F53599E587EDB8.PDF",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR18249D74E3C5B6B4EE68289DBFBB4C35E8D.PDF",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR181F35EACC7C05344838D0D1FA39C720543.PDF"
+  ]
+}

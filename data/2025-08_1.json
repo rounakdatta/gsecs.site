@@ -7,7 +7,7 @@
   "issuance_date": "2025-08-18",
   "maturity_date": "2030-07-21",
   "coupon_rate": 6.01,
-  "yield_at_auction": null,
+  "yield_at_auction": 6.2572,
   "amount_issued_crore": 15000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
