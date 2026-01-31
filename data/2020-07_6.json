@@ -1,0 +1,21 @@
+{
+  "security_name": "7.16% GS 2050",
+  "security_type": "Gilt",
+  "security_codes": [
+    "716GS50L20",
+    "716GOI50",
+    "716GS2050-GS"
+  ],
+  "announcement_date": "2020-07-03",
+  "auction_date": "2020-07-10",
+  "issuance_date": "2020-07-15",
+  "maturity_date": "2050-06-28",
+  "coupon_rate": 7.16,
+  "yield_at_auction": null,
+  "amount_issued_crore": null,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50066",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR40C2F91B8ABE6349C68B177D6386F73CF7.PDF"
+  ]
+}

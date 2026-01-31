@@ -1,0 +1,21 @@
+{
+  "security_name": "8.17% GS 2044",
+  "security_type": "Gilt",
+  "security_codes": [
+    "817GS44A16",
+    "817GOI44",
+    "817GS2044-GS"
+  ],
+  "announcement_date": "2016-04-06",
+  "auction_date": "2016-04-13",
+  "issuance_date": "2016-04-18",
+  "maturity_date": "2044-09-29",
+  "coupon_rate": 8.17,
+  "yield_at_auction": 7.7269,
+  "amount_issued_crore": 2000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=36732",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR24156A8E5234EB1E464E98E535FEAE96A98E.PDF"
+  ]
+}

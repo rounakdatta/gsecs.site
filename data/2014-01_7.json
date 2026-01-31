@@ -1,0 +1,21 @@
+{
+  "security_name": "8.24% GS 2027",
+  "security_type": "Gilt",
+  "security_codes": [
+    "824GS27J16",
+    "824GOI27",
+    "824GS2027-GS"
+  ],
+  "announcement_date": "2014-01-24",
+  "auction_date": "2014-01-31",
+  "issuance_date": "2014-02-05",
+  "maturity_date": "2027-06-03",
+  "coupon_rate": 8.24,
+  "yield_at_auction": 8.9477,
+  "amount_issued_crore": null,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=30525",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR1540GS0114.pdf"
+  ]
+}

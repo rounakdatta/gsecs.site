@@ -1,0 +1,21 @@
+{
+  "security_name": "7.02% GS 2031",
+  "security_type": "Gilt",
+  "security_codes": [
+    "702GS31L24",
+    "702GOI31",
+    "702GS2031-GS"
+  ],
+  "announcement_date": "2024-07-05",
+  "auction_date": "2024-07-12",
+  "issuance_date": "2024-07-17",
+  "maturity_date": "2031-06-01",
+  "coupon_rate": 7.02,
+  "yield_at_auction": 6.989,
+  "amount_issued_crore": 16000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58280",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR683A1C6A87FB868439A9F3A8AE799CCB3D9.PDF"
+  ]
+}

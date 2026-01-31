@@ -1,0 +1,20 @@
+{
+  "security_name": "7.24% Government Stock 2055",
+  "security_type": "Gilt",
+  "security_codes": ["724GS55N25", "724GOI55", "724GS2055-GS"],
+  "announcement_date": "2025-11-21",
+  "auction_date": "2025-11-28",
+  "issuance_date": "2025-12-01",
+  "maturity_date": "2055-08-18",
+  "coupon_rate": 7.24,
+  "yield_at_auction": 7.2875,
+  "amount_issued_crore": 7000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61695",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1579313B3D168AB543DD8ED81B902F2482E2.PDF"
+  ],
+  "additional_info": {
+    "note": "Re-issuance of security first issued in August 2025"
+  }
+}

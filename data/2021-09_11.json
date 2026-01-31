@@ -1,0 +1,21 @@
+{
+  "security_name": "GOI FRB 2034",
+  "security_type": "FRB",
+  "security_codes": [
+    "0GS34S21",
+    "0GOI34",
+    "0GS2034-GS"
+  ],
+  "announcement_date": "2021-09-17",
+  "auction_date": "2021-09-24",
+  "issuance_date": "2021-09-29",
+  "maturity_date": "2034-07-04",
+  "coupon_rate": 0,
+  "yield_at_auction": 4.4673,
+  "amount_issued_crore": null,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52295",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR930C8AA7358910D4D7DB1112999766AA303.PDF"
+  ]
+}

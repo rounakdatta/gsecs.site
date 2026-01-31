@@ -1,0 +1,21 @@
+{
+  "security_name": "6.57% GS 2033",
+  "security_type": "Gilt",
+  "security_codes": [
+    "657GS33G17",
+    "657GOI33",
+    "657GS2033-GS"
+  ],
+  "announcement_date": "2017-08-11",
+  "auction_date": "2017-08-18",
+  "issuance_date": "2017-08-23",
+  "maturity_date": "2033-06-07",
+  "coupon_rate": 6.57,
+  "yield_at_auction": 6.9103,
+  "amount_issued_crore": 2000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=41405",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR4735D3DAC4F923A419EB88A4BF7D95444CA.PDF"
+  ]
+}

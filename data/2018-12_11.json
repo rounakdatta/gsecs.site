@@ -1,0 +1,21 @@
+{
+  "security_name": "8.24% GS 2033",
+  "security_type": "Gilt",
+  "security_codes": [
+    "824GS33D18",
+    "824GOI33",
+    "824GS2033-GS"
+  ],
+  "announcement_date": "2018-12-21",
+  "auction_date": "2018-12-28",
+  "issuance_date": "2019-01-02",
+  "maturity_date": "2033-06-07",
+  "coupon_rate": 8.24,
+  "yield_at_auction": 7.5996,
+  "amount_issued_crore": 2000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=45842",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1486F03690D238BA423BB2979B74F0E7E845.PDF"
+  ]
+}

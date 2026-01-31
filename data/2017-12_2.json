@@ -1,0 +1,21 @@
+{
+  "security_name": "6.79% GS 2027",
+  "security_type": "Gilt",
+  "security_codes": [
+    "679GS27D17",
+    "679GOI27",
+    "679GS2027-GS"
+  ],
+  "announcement_date": "2017-12-15",
+  "auction_date": "2017-12-22",
+  "issuance_date": "2017-12-27",
+  "maturity_date": "2027-06-03",
+  "coupon_rate": 6.79,
+  "yield_at_auction": 7.2646,
+  "amount_issued_crore": 8000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=42654",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1722C6ED3A01E82D408890A8138A4E5911F8.PDF"
+  ]
+}

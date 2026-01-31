@@ -1,0 +1,21 @@
+{
+  "security_name": "7.32% GS 2030",
+  "security_type": "Gilt",
+  "security_codes": [
+    "732GS30F24",
+    "732GOI30",
+    "732GS2030-GS"
+  ],
+  "announcement_date": "2024-01-26",
+  "auction_date": "2024-02-02",
+  "issuance_date": "2024-02-07",
+  "maturity_date": "2030-07-21",
+  "coupon_rate": 7.32,
+  "yield_at_auction": 6.9883,
+  "amount_issued_crore": 12000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=57241",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1791GOVERNMENTSTOCK51CD7EB58D8C4E1E997301A35BA35C4E.PDF"
+  ]
+}

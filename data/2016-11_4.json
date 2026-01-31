@@ -1,0 +1,21 @@
+{
+  "security_name": "6.84% GS 2022",
+  "security_type": "Gilt",
+  "security_codes": [
+    "684GS22N16",
+    "684GOI22",
+    "684GS2022-GS"
+  ],
+  "announcement_date": "2016-11-04",
+  "auction_date": "2016-11-11",
+  "issuance_date": "2016-11-16",
+  "maturity_date": "2022-06-15",
+  "coupon_rate": 6.84,
+  "yield_at_auction": 6.6371,
+  "amount_issued_crore": 3000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=38561",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR11833C443957267B438BB8C4982E80DC60DE.PDF"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "security_name": "6.89% GS 2025",
+  "security_type": "Gilt",
+  "security_codes": [
+    "689GS25F23",
+    "689GOI25",
+    "689GS2025-GS"
+  ],
+  "announcement_date": "2023-02-03",
+  "auction_date": "2023-02-10",
+  "issuance_date": "2023-02-15",
+  "maturity_date": "2025-02-11",
+  "coupon_rate": 6.89,
+  "yield_at_auction": 7.14,
+  "amount_issued_crore": 4000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=55202",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1704B396CB0DEBB14EBA89753CF761BEDA9E.PDF"
+  ]
+}

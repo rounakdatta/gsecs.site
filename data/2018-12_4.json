@@ -1,0 +1,21 @@
+{
+  "security_name": "7.72% GS 2055",
+  "security_type": "Gilt",
+  "security_codes": [
+    "772GS55D18",
+    "772GOI55",
+    "772GS2055-GS"
+  ],
+  "announcement_date": "2018-11-30",
+  "auction_date": "2018-12-07",
+  "issuance_date": "2018-12-12",
+  "maturity_date": "2055-06-08",
+  "coupon_rate": 7.72,
+  "yield_at_auction": 7.7,
+  "amount_issued_crore": 3000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=45683",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR132569D218F919584B57AB5EF99C4E08FEEF.PDF"
+  ]
+}

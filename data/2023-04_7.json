@@ -1,0 +1,21 @@
+{
+  "security_name": "7.36% GS 2052",
+  "security_type": "Gilt",
+  "security_codes": [
+    "736GS52A23",
+    "736GOI52",
+    "736GS2052-GS"
+  ],
+  "announcement_date": "2023-04-14",
+  "auction_date": "2023-04-21",
+  "issuance_date": "2023-04-26",
+  "maturity_date": "2052-06-26",
+  "coupon_rate": 7.36,
+  "yield_at_auction": 7.3741,
+  "amount_issued_crore": 11000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=55555",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR105FEC70714F7FC4A7B823628AF4DAD2AC8.PDF"
+  ]
+}

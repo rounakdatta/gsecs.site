@@ -1,0 +1,21 @@
+{
+  "security_name": "8.30% GS 2042",
+  "security_type": "Gilt",
+  "security_codes": [
+    "83GS42Y16",
+    "83GOI42",
+    "83GS2042-GS"
+  ],
+  "announcement_date": "2013-05-03",
+  "auction_date": "2013-05-10",
+  "issuance_date": "2013-05-15",
+  "maturity_date": "2042-12-31",
+  "coupon_rate": 8.3,
+  "yield_at_auction": 7.7103,
+  "amount_issued_crore": null,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=28646",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR1876GS0513.pdf"
+  ]
+}

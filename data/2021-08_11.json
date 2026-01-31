@@ -1,0 +1,21 @@
+{
+  "security_name": "5.63% GS 2026",
+  "security_type": "Gilt",
+  "security_codes": [
+    "563GS26G21",
+    "563GOI26",
+    "563GS2026-GS"
+  ],
+  "announcement_date": "2021-08-20",
+  "auction_date": "2021-08-27",
+  "issuance_date": "2021-09-01",
+  "maturity_date": "2026-12-07",
+  "coupon_rate": 5.63,
+  "yield_at_auction": 6.8273,
+  "amount_issued_crore": null,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52124",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR759D7BCB963A6AF4459BBEA83BCACD5F83D.PDF"
+  ]
+}

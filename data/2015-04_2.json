@@ -1,0 +1,21 @@
+{
+  "security_name": "8.24% GS 2033",
+  "security_type": "Gilt",
+  "security_codes": [
+    "824GS33A16",
+    "824GOI33",
+    "824GS2033-GS"
+  ],
+  "announcement_date": "2015-04-03",
+  "auction_date": "2015-04-10",
+  "issuance_date": "2015-04-15",
+  "maturity_date": "2033-06-07",
+  "coupon_rate": 8.24,
+  "yield_at_auction": 7.7998,
+  "amount_issued_crore": null,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=33666",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR2140GSF0415.pdf"
+  ]
+}

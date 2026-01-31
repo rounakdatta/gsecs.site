@@ -1,0 +1,21 @@
+{
+  "security_name": "8.83% GS 2041",
+  "security_type": "Gilt",
+  "security_codes": [
+    "883GS41U16",
+    "883GOI41",
+    "883GS2041-GS"
+  ],
+  "announcement_date": "2013-06-14",
+  "auction_date": "2013-06-21",
+  "issuance_date": "2013-06-26",
+  "maturity_date": "2041-12-31",
+  "coupon_rate": 8.83,
+  "yield_at_auction": 7.7389,
+  "amount_issued_crore": null,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=28918",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR2148G0613.pdf"
+  ]
+}

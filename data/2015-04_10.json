@@ -1,0 +1,21 @@
+{
+  "security_name": "8.27% GS 2020",
+  "security_type": "Gilt",
+  "security_codes": [
+    "827GS20A16",
+    "827GOI20",
+    "827GS2020-GS"
+  ],
+  "announcement_date": "2015-04-23",
+  "auction_date": "2015-04-30",
+  "issuance_date": "2015-05-05",
+  "maturity_date": "2020-04-08",
+  "coupon_rate": 8.27,
+  "yield_at_auction": 7.8533,
+  "amount_issued_crore": 3000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=33833",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR2307GSE5F00163F6D949358032C277FBC3683B.PDF"
+  ]
+}

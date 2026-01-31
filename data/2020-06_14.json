@@ -1,0 +1,21 @@
+{
+  "security_name": "6.19% GS 2034",
+  "security_type": "Gilt",
+  "security_codes": [
+    "619GS34U20",
+    "619GOI34",
+    "619GS2034-GS"
+  ],
+  "announcement_date": "2020-06-05",
+  "auction_date": "2020-06-12",
+  "issuance_date": "2020-06-17",
+  "maturity_date": "2034-07-04",
+  "coupon_rate": 6.19,
+  "yield_at_auction": null,
+  "amount_issued_crore": null,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=49941",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR24895F16329503AD4107B8768273E23191A4.PDF"
+  ]
+}

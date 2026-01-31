@@ -1,0 +1,21 @@
+{
+  "security_name": "7.57% GS 2033",
+  "security_type": "Gilt",
+  "security_codes": [
+    "757GS33L19",
+    "757GOI33",
+    "757GS2033-GS"
+  ],
+  "announcement_date": "2019-07-05",
+  "auction_date": "2019-07-12",
+  "issuance_date": "2019-07-17",
+  "maturity_date": "2033-06-07",
+  "coupon_rate": 7.57,
+  "yield_at_auction": 6.7677,
+  "amount_issued_crore": 5000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=47587",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1351BB13C5C09F74DE996B22C440B8C6189.PDF"
+  ]
+}

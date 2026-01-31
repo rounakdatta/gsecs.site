@@ -1,0 +1,21 @@
+{
+  "security_name": "7.57% GS 2033",
+  "security_type": "Gilt",
+  "security_codes": [
+    "757GS33J20",
+    "757GOI33",
+    "757GS2033-GS"
+  ],
+  "announcement_date": "2020-01-03",
+  "auction_date": "2020-01-10",
+  "issuance_date": "2020-01-15",
+  "maturity_date": "2033-06-07",
+  "coupon_rate": 7.57,
+  "yield_at_auction": null,
+  "amount_issued_crore": null,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=49114",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1662B1D6A818361F4D03A2ABB7CFA9D36B17.PDF"
+  ]
+}

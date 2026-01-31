@@ -1,0 +1,21 @@
+{
+  "security_name": "7.06% GS 2046",
+  "security_type": "Gilt",
+  "security_codes": [
+    "706GS46F19",
+    "706GOI46",
+    "706GS2046-GS"
+  ],
+  "announcement_date": "2019-02-01",
+  "auction_date": "2019-02-08",
+  "issuance_date": "2019-02-13",
+  "maturity_date": "2046-12-31",
+  "coupon_rate": 7.06,
+  "yield_at_auction": 7.6796,
+  "amount_issued_crore": 3000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=46248",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1890EC7C44F22A754274B3435FFE1974EC74.PDF"
+  ]
+}

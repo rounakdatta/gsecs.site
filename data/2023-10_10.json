@@ -1,0 +1,21 @@
+{
+  "security_name": "7.25% GS 2063",
+  "security_type": "Gilt",
+  "security_codes": [
+    "725GS63O23",
+    "725GOI63",
+    "725GS2063-GS"
+  ],
+  "announcement_date": "2023-10-20",
+  "auction_date": "2023-10-27",
+  "issuance_date": "2023-11-01",
+  "maturity_date": "2063-05-29",
+  "coupon_rate": 7.25,
+  "yield_at_auction": 7.458,
+  "amount_issued_crore": 10000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=56639",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1189FD9025D577A149239F8CEC723E5FFCDB.PDF"
+  ]
+}

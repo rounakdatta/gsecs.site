@@ -1,0 +1,21 @@
+{
+  "security_name": "6.17% GS 2021",
+  "security_type": "Gilt",
+  "security_codes": [
+    "617GS21G19",
+    "617GOI21",
+    "617GS2021-GS"
+  ],
+  "announcement_date": "2019-08-02",
+  "auction_date": "2019-08-09",
+  "issuance_date": "2019-08-14",
+  "maturity_date": "2021-03-14",
+  "coupon_rate": 6.17,
+  "yield_at_auction": 5.8656,
+  "amount_issued_crore": 3000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=47847",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR39588C172EA5488432E8607000A8CBB8C37.PDF"
+  ]
+}

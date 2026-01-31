@@ -1,0 +1,21 @@
+{
+  "security_name": "7.59% GS 2026",
+  "security_type": "Gilt",
+  "security_codes": [
+    "759GS26G18",
+    "759GOI26",
+    "759GS2026-GS"
+  ],
+  "announcement_date": "2018-07-27",
+  "auction_date": "2018-08-03",
+  "issuance_date": "2018-08-08",
+  "maturity_date": "2026-12-07",
+  "coupon_rate": 7.59,
+  "yield_at_auction": 8.0069,
+  "amount_issued_crore": 2000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=44669",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR309CB589510F1564BDDA53457DD6645FD7F.PDF"
+  ]
+}

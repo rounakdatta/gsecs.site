@@ -1,0 +1,21 @@
+{
+  "security_name": "7.38% GS 2027",
+  "security_type": "Gilt",
+  "security_codes": [
+    "738GS27S22",
+    "738GOI27",
+    "738GS2027-GS"
+  ],
+  "announcement_date": "2022-09-16",
+  "auction_date": "2022-09-23",
+  "issuance_date": "2022-09-28",
+  "maturity_date": "2027-06-03",
+  "coupon_rate": 7.38,
+  "yield_at_auction": 7.3809,
+  "amount_issued_crore": 9000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=54420",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR9222985CFFF5E624FA8A39360C0F79FC89C.PDF"
+  ]
+}

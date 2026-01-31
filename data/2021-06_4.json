@@ -1,0 +1,21 @@
+{
+  "security_name": "5.85% GS 2030",
+  "security_type": "Gilt",
+  "security_codes": [
+    "585GS30U21",
+    "585GOI30",
+    "585GS2030-GS"
+  ],
+  "announcement_date": "2021-06-04",
+  "auction_date": "2021-06-11",
+  "issuance_date": "2021-06-16",
+  "maturity_date": "2030-07-21",
+  "coupon_rate": 5.85,
+  "yield_at_auction": 4.1929,
+  "amount_issued_crore": null,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=51719",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR353GSECCA0B189DA95B40EAA9275947EADB125A.PDF"
+  ]
+}

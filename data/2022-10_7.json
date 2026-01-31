@@ -1,0 +1,21 @@
+{
+  "security_name": "7.40% GS 2062",
+  "security_type": "Gilt",
+  "security_codes": [
+    "74GS62O22",
+    "74GOI62",
+    "74GS2062-GS"
+  ],
+  "announcement_date": "2022-10-07",
+  "auction_date": "2022-10-14",
+  "issuance_date": "2022-10-19",
+  "maturity_date": "2062-04-02",
+  "coupon_rate": 7.4,
+  "yield_at_auction": 7.6167,
+  "amount_issued_crore": 9000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=54539",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1041ABDD3224054A41729F7A465904C7F0EC.PDF"
+  ]
+}

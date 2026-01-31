@@ -1,0 +1,21 @@
+{
+  "security_name": "6.68% GS 2031",
+  "security_type": "Gilt",
+  "security_codes": [
+    "668GS31J18",
+    "668GOI31",
+    "668GS2031-GS"
+  ],
+  "announcement_date": "2018-01-05",
+  "auction_date": "2018-01-12",
+  "issuance_date": "2018-01-17",
+  "maturity_date": "2031-06-01",
+  "coupon_rate": 6.68,
+  "yield_at_auction": 7.5783,
+  "amount_issued_crore": 8000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=42857",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR19269425FAAD45E749249DADA71E08F5F25B.PDF"
+  ]
+}

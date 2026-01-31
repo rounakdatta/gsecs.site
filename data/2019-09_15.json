@@ -1,0 +1,21 @@
+{
+  "security_name": "7.72% GS 2049",
+  "security_type": "Gilt",
+  "security_codes": [
+    "772GS49S19",
+    "772GOI49",
+    "772GS2049-GS"
+  ],
+  "announcement_date": "2019-09-20",
+  "auction_date": "2019-09-27",
+  "issuance_date": "2019-10-02",
+  "maturity_date": "2049-06-13",
+  "coupon_rate": 7.72,
+  "yield_at_auction": 7.2488,
+  "amount_issued_crore": 4000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=48256",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR8044682CBD4D91B45A1852F3979B7FC8C4B.PDF"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "security_name": "6.54% GS 2032",
+  "security_type": "Gilt",
+  "security_codes": [
+    "654GS32A22",
+    "654GOI32",
+    "654GS2032-GS"
+  ],
+  "announcement_date": "2022-04-06",
+  "auction_date": "2022-04-13",
+  "issuance_date": "2022-04-18",
+  "maturity_date": "2032-07-14",
+  "coupon_rate": 6.54,
+  "yield_at_auction": 7.2446,
+  "amount_issued_crore": 7000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53571",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR73C4642A5D19C647F8A2B0A18553736F98.PDF"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "security_name": "8.07% GS 2017",
+  "security_type": "Gilt",
+  "security_codes": [
+    "807GS17F16",
+    "807GOI17",
+    "807GS2017-GS"
+  ],
+  "announcement_date": "2013-02-01",
+  "auction_date": "2013-02-08",
+  "issuance_date": "2013-02-13",
+  "maturity_date": "2017-12-31",
+  "coupon_rate": 8.07,
+  "yield_at_auction": 7.8722,
+  "amount_issued_crore": null,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=28109",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR1341GS0213.pdf"
+  ]
+}

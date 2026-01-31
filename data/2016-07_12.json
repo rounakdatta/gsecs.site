@@ -1,0 +1,21 @@
+{
+  "security_name": "7.50% GS 2034",
+  "security_type": "Gilt",
+  "security_codes": [
+    "75GS34L16",
+    "75GOI34",
+    "75GS2034-GS"
+  ],
+  "announcement_date": "2016-07-22",
+  "auction_date": "2016-07-29",
+  "issuance_date": "2016-08-03",
+  "maturity_date": "2034-07-04",
+  "coupon_rate": 7.5,
+  "yield_at_auction": 7.3263,
+  "amount_issued_crore": 2000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=37637",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR26165B9E5933297401EA2F9DF1DF4EACE31.PDF"
+  ]
+}

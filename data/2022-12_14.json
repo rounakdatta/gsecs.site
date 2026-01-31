@@ -1,0 +1,21 @@
+{
+  "security_name": "6.69% GS 2024",
+  "security_type": "Gilt",
+  "security_codes": [
+    "669GS24D22",
+    "669GOI24",
+    "669GS2024-GS"
+  ],
+  "announcement_date": "2022-12-23",
+  "auction_date": "2022-12-30",
+  "issuance_date": "2023-01-04",
+  "maturity_date": "2024-06-04",
+  "coupon_rate": 6.69,
+  "yield_at_auction": 6.9769,
+  "amount_issued_crore": 4000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=54962",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1464F59023AE7D484630A7C7944B18D5C341.PDF"
+  ]
+}

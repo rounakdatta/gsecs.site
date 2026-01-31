@@ -1,0 +1,21 @@
+{
+  "security_name": "7.30% GS 2053",
+  "security_type": "Gilt",
+  "security_codes": [
+    "73GS53L23",
+    "73GOI53",
+    "73GS2053-GS"
+  ],
+  "announcement_date": "2023-07-07",
+  "auction_date": "2023-07-14",
+  "issuance_date": "2023-07-19",
+  "maturity_date": "2053-04-23",
+  "coupon_rate": 7.3,
+  "yield_at_auction": 7.3366,
+  "amount_issued_crore": 11000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=56049",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR59964CE869B17CD4571BB982811BA118345.PDF"
+  ]
+}

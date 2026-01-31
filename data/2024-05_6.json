@@ -1,0 +1,21 @@
+{
+  "security_name": "7.1% GS 2034",
+  "security_type": "Gilt",
+  "security_codes": [
+    "710GS34Y24",
+    "710GOI34",
+    "710GS2034-GS"
+  ],
+  "announcement_date": "2024-05-10",
+  "auction_date": "2024-05-17",
+  "issuance_date": "2024-05-22",
+  "maturity_date": "2034-07-04",
+  "coupon_rate": 7.1,
+  "yield_at_auction": 7.0458,
+  "amount_issued_crore": 14000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=57920",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR323C2552037CA9542D68A0C7FF35B77B7B9.PDF"
+  ]
+}

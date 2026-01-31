@@ -1,0 +1,21 @@
+{
+  "security_name": "7.26% GS 2029",
+  "security_type": "Gilt",
+  "security_codes": [
+    "726GS29U19",
+    "726GOI29",
+    "726GS2029-GS"
+  ],
+  "announcement_date": "2019-05-31",
+  "auction_date": "2019-06-07",
+  "issuance_date": "2019-06-12",
+  "maturity_date": "2029-12-23",
+  "coupon_rate": 7.26,
+  "yield_at_auction": 6.9707,
+  "amount_issued_crore": 6000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=47242",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR2885341E183A10064C63A98A86CD57C38BC4.PDF"
+  ]
+}

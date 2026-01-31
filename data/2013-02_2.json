@@ -1,0 +1,21 @@
+{
+  "security_name": "8.20% GS 2025",
+  "security_type": "Gilt",
+  "security_codes": [
+    "82GS25F16",
+    "82GOI25",
+    "82GS2025-GS"
+  ],
+  "announcement_date": "2013-01-25",
+  "auction_date": "2013-02-01",
+  "issuance_date": "2013-02-06",
+  "maturity_date": "2025-02-11",
+  "coupon_rate": 8.2,
+  "yield_at_auction": 8.0298,
+  "amount_issued_crore": null,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=28065",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR1295G0213.pdf"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "security_name": "8.32% GS 2032",
+  "security_type": "Gilt",
+  "security_codes": [
+    "832GS32F16",
+    "832GOI32",
+    "832GS2032-GS"
+  ],
+  "announcement_date": "2014-01-31",
+  "auction_date": "2014-02-07",
+  "issuance_date": "2014-02-12",
+  "maturity_date": "2032-07-14",
+  "coupon_rate": 8.32,
+  "yield_at_auction": 8.7264,
+  "amount_issued_crore": null,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=30572",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR1586GS0214.pdf"
+  ]
+}

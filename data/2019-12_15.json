@@ -1,0 +1,21 @@
+{
+  "security_name": "6.18% GS 2024",
+  "security_type": "Gilt",
+  "security_codes": [
+    "618GS24D19",
+    "618GOI24",
+    "618GS2024-GS"
+  ],
+  "announcement_date": "2019-12-20",
+  "auction_date": "2019-12-27",
+  "issuance_date": "2020-01-01",
+  "maturity_date": "2024-06-04",
+  "coupon_rate": 6.18,
+  "yield_at_auction": 6.4724,
+  "amount_issued_crore": 4000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=48977",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1525C463D91CA47C40549B1F33C90FFCD9D9.PDF"
+  ]
+}

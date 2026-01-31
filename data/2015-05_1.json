@@ -1,0 +1,21 @@
+{
+  "security_name": "7.68% GS 2023",
+  "security_type": "Gilt",
+  "security_codes": [
+    "768GS23Y16",
+    "768GOI23",
+    "768GS2023-GS"
+  ],
+  "announcement_date": "2015-05-01",
+  "auction_date": "2015-05-08",
+  "issuance_date": "2015-05-13",
+  "maturity_date": "2023-12-31",
+  "coupon_rate": 7.68,
+  "yield_at_auction": 7.8899,
+  "amount_issued_crore": 3000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=33883",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR23573844728BE17646A49BAFDD459149AC8B.PDF"
+  ]
+}

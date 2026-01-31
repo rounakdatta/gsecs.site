@@ -1,0 +1,21 @@
+{
+  "security_name": "6.65% GS 2020",
+  "security_type": "Gilt",
+  "security_codes": [
+    "665GS20G18",
+    "665GOI20",
+    "665GS2020-GS"
+  ],
+  "announcement_date": "2018-08-24",
+  "auction_date": "2018-08-31",
+  "issuance_date": "2018-09-05",
+  "maturity_date": "2020-04-08",
+  "coupon_rate": 6.65,
+  "yield_at_auction": 7.7117,
+  "amount_issued_crore": 2000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=44875",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR5177BB72D79269C4B8F9924596CF25EA89F.PDF"
+  ]
+}

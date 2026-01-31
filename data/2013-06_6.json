@@ -1,0 +1,21 @@
+{
+  "security_name": "7.28% GS 2019",
+  "security_type": "Gilt",
+  "security_codes": [
+    "728GS19U16",
+    "728GOI19",
+    "728GS2019-GS"
+  ],
+  "announcement_date": "2013-06-14",
+  "auction_date": "2013-06-21",
+  "issuance_date": "2013-06-26",
+  "maturity_date": "2019-12-31",
+  "coupon_rate": 7.28,
+  "yield_at_auction": 7.5648,
+  "amount_issued_crore": null,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=28918",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR2148G0613.pdf"
+  ]
+}

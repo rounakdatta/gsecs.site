@@ -1,0 +1,21 @@
+{
+  "security_name": "1.44% GS 2023",
+  "security_type": "Gilt",
+  "security_codes": [
+    "144GS23L16",
+    "144GOI23",
+    "144GS2023-GS"
+  ],
+  "announcement_date": "2013-07-22",
+  "auction_date": "2013-07-29",
+  "issuance_date": "2013-08-01",
+  "maturity_date": "2023-12-31",
+  "coupon_rate": 1.44,
+  "yield_at_auction": null,
+  "amount_issued_crore": null,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=29183",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR197GS0713.pdf"
+  ]
+}

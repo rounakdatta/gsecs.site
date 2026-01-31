@@ -1,0 +1,21 @@
+{
+  "security_name": "5.74% GS 2026",
+  "security_type": "Gilt",
+  "security_codes": [
+    "574GS26Y22",
+    "574GOI26",
+    "574GS2026-GS"
+  ],
+  "announcement_date": "2022-05-13",
+  "auction_date": "2022-05-20",
+  "issuance_date": "2022-05-25",
+  "maturity_date": "2026-12-07",
+  "coupon_rate": 5.74,
+  "yield_at_auction": 7.1105,
+  "amount_issued_crore": 9000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53742",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR244GSECA7BC0707C6144146AEC43E470B23C690.PDF"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "security_name": "7.26% GS 2032",
+  "security_type": "Gilt",
+  "security_codes": [
+    "726GS32S22",
+    "726GOI32",
+    "726GS2032-GS"
+  ],
+  "announcement_date": "2022-09-23",
+  "auction_date": "2022-09-30",
+  "issuance_date": "2022-10-05",
+  "maturity_date": "2032-07-14",
+  "coupon_rate": 7.26,
+  "yield_at_auction": 7.394,
+  "amount_issued_crore": 13000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=54470",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR9723D55C69682B8401FB3463AA80276D7E4.PDF"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "security_name": "7.32% GS 2024",
+  "security_type": "Gilt",
+  "security_codes": [
+    "732GS24U19",
+    "732GOI24",
+    "732GS2024-GS"
+  ],
+  "announcement_date": "2019-05-31",
+  "auction_date": "2019-06-07",
+  "issuance_date": "2019-06-12",
+  "maturity_date": "2024-06-04",
+  "coupon_rate": 7.32,
+  "yield_at_auction": 6.7762,
+  "amount_issued_crore": 5000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=47242",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR2885341E183A10064C63A98A86CD57C38BC4.PDF"
+  ]
+}

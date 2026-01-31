@@ -1,0 +1,21 @@
+{
+  "security_name": "7.19% GS 2060",
+  "security_type": "Gilt",
+  "security_codes": [
+    "719GS60U20",
+    "719GOI60",
+    "719GS2060-GS"
+  ],
+  "announcement_date": "2020-06-12",
+  "auction_date": "2020-06-19",
+  "issuance_date": "2020-06-24",
+  "maturity_date": "2060-10-06",
+  "coupon_rate": 7.19,
+  "yield_at_auction": 4.65,
+  "amount_issued_crore": null,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=49978",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR252679822B3FF20142DD8C7E6F08A6AE9C2A.PDF"
+  ]
+}

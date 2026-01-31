@@ -1,0 +1,21 @@
+{
+  "security_name": "6.76% GS 2061",
+  "security_type": "Gilt",
+  "security_codes": [
+    "676GS61G21",
+    "676GOI61",
+    "676GS2061-GS"
+  ],
+  "announcement_date": "2021-07-30",
+  "auction_date": "2021-08-06",
+  "issuance_date": "2021-08-11",
+  "maturity_date": "2061-03-04",
+  "coupon_rate": 6.76,
+  "yield_at_auction": 0.0,
+  "amount_issued_crore": null,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52017",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR6523CB8EAAAB229425A81D6B33EA5DCFB81.PDF"
+  ]
+}

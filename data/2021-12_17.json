@@ -1,0 +1,21 @@
+{
+  "security_name": "6.95% GS 2061",
+  "security_type": "Gilt",
+  "security_codes": [
+    "695GS61D21",
+    "695GOI61",
+    "695GS2061-GS"
+  ],
+  "announcement_date": "2021-12-24",
+  "auction_date": "2021-12-31",
+  "issuance_date": "2022-01-05",
+  "maturity_date": "2061-03-04",
+  "coupon_rate": 6.95,
+  "yield_at_auction": 7.0948,
+  "amount_issued_crore": null,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53011",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR145614419979BCDD4388AEABDFB03C3F7123.PDF"
+  ]
+}

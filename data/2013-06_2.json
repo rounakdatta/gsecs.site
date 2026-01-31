@@ -1,0 +1,21 @@
+{
+  "security_name": "8.33% GS 2026",
+  "security_type": "Gilt",
+  "security_codes": [
+    "833GS26U16",
+    "833GOI26",
+    "833GS2026-GS"
+  ],
+  "announcement_date": "2013-05-31",
+  "auction_date": "2013-06-07",
+  "issuance_date": "2013-06-12",
+  "maturity_date": "2026-12-07",
+  "coupon_rate": 8.33,
+  "yield_at_auction": 7.3827,
+  "amount_issued_crore": null,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=28831",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR2059GS0613.pdf"
+  ]
+}

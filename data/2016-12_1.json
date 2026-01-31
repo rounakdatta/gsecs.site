@@ -1,0 +1,21 @@
+{
+  "security_name": "7.61% GS 2030",
+  "security_type": "Gilt",
+  "security_codes": [
+    "761GS30D16",
+    "761GOI30",
+    "761GS2030-GS"
+  ],
+  "announcement_date": "2016-11-25",
+  "auction_date": "2016-12-02",
+  "issuance_date": "2016-12-07",
+  "maturity_date": "2030-07-21",
+  "coupon_rate": 7.61,
+  "yield_at_auction": 6.4594,
+  "amount_issued_crore": 8000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=38771",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR13933036FB6223CA41139036EF4E4EFC5B8A.PDF"
+  ]
+}

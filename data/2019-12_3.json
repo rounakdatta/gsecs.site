@@ -1,0 +1,21 @@
+{
+  "security_name": "6.45% GS 2029",
+  "security_type": "Gilt",
+  "security_codes": [
+    "645GS29D19",
+    "645GOI29",
+    "645GS2029-GS"
+  ],
+  "announcement_date": "2019-11-29",
+  "auction_date": "2019-12-06",
+  "issuance_date": "2019-12-11",
+  "maturity_date": "2029-12-23",
+  "coupon_rate": 6.45,
+  "yield_at_auction": 6.6772,
+  "amount_issued_crore": 7000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=48818",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR13659BC82D97F89B4BEBA666F2536BB056B6.PDF"
+  ]
+}

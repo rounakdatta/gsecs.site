@@ -1,0 +1,21 @@
+{
+  "security_name": "7.35% GS 2024",
+  "security_type": "Gilt",
+  "security_codes": [
+    "735GS24A16",
+    "735GOI24",
+    "735GS2024-GS"
+  ],
+  "announcement_date": "2016-04-06",
+  "auction_date": "2016-04-13",
+  "issuance_date": "2016-04-18",
+  "maturity_date": "2024-06-04",
+  "coupon_rate": 7.35,
+  "yield_at_auction": 7.53,
+  "amount_issued_crore": 3000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=36732",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR24156A8E5234EB1E464E98E535FEAE96A98E.PDF"
+  ]
+}

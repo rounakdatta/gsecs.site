@@ -1,0 +1,21 @@
+{
+  "security_name": "7.06% GS 2028",
+  "security_type": "Gilt",
+  "security_codes": [
+    "706GS28U23",
+    "706GOI28",
+    "706GS2028-GS"
+  ],
+  "announcement_date": "2023-06-09",
+  "auction_date": "2023-06-16",
+  "issuance_date": "2023-06-21",
+  "maturity_date": "2028-06-30",
+  "coupon_rate": 7.06,
+  "yield_at_auction": 6.9794,
+  "amount_issued_crore": 8000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=55870",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR420BDC59D4FA1F34ED3893F29BB7D57DDCF.PDF"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "security_name": "4.48% GS 2023",
+  "security_type": "Gilt",
+  "security_codes": [
+    "448GS23D20",
+    "448GOI23",
+    "448GS2023-GS"
+  ],
+  "announcement_date": "2020-11-27",
+  "auction_date": "2020-12-04",
+  "issuance_date": "2020-12-09",
+  "maturity_date": "2023-12-31",
+  "coupon_rate": 4.48,
+  "yield_at_auction": 4.2199,
+  "amount_issued_crore": null,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50752",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR726E581BB016BF44810BDA82F7FF41948B6.PDF"
+  ]
+}

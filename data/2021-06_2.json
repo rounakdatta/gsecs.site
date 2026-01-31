@@ -1,0 +1,21 @@
+{
+  "security_name": "6.64% GS 2035",
+  "security_type": "Gilt",
+  "security_codes": [
+    "664GS35U21",
+    "664GOI35",
+    "664GS2035-GS"
+  ],
+  "announcement_date": "2021-05-27",
+  "auction_date": "2021-06-03",
+  "issuance_date": "2021-06-08",
+  "maturity_date": "2035-06-05",
+  "coupon_rate": 6.64,
+  "yield_at_auction": 4.8974,
+  "amount_issued_crore": null,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=51677",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR312GSD5461105878242468C4790326540E3F8.PDF"
+  ]
+}

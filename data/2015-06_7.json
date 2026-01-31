@@ -1,0 +1,21 @@
+{
+  "security_name": "7.95% GS 2032",
+  "security_type": "Gilt",
+  "security_codes": [
+    "795GS32U16",
+    "795GOI32",
+    "795GS2032-GS"
+  ],
+  "announcement_date": "2015-06-05",
+  "auction_date": "2015-06-12",
+  "issuance_date": "2015-06-17",
+  "maturity_date": "2032-07-14",
+  "coupon_rate": 7.95,
+  "yield_at_auction": 8.2387,
+  "amount_issued_crore": 3000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=34167",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR2641AA710A52C7FC4AE2823741D679D2A686.PDF"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "security_name": "7.73% GS 2034",
+  "security_type": "Gilt",
+  "security_codes": [
+    "773GS34A17",
+    "773GOI34",
+    "773GS2034-GS"
+  ],
+  "announcement_date": "2017-04-06",
+  "auction_date": "2017-04-13",
+  "issuance_date": "2017-04-18",
+  "maturity_date": "2034-07-04",
+  "coupon_rate": 7.73,
+  "yield_at_auction": 7.4009,
+  "amount_issued_crore": 3000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=40153",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR27720914B15EA1A74FBB8C2CE07156C47B21.PDF"
+  ]
+}

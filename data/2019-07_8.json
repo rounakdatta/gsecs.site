@@ -1,0 +1,21 @@
+{
+  "security_name": "7.62% GS 2039",
+  "security_type": "Gilt",
+  "security_codes": [
+    "762GS39L19",
+    "762GOI39",
+    "762GS2039-GS"
+  ],
+  "announcement_date": "2019-07-05",
+  "auction_date": "2019-07-12",
+  "issuance_date": "2019-07-17",
+  "maturity_date": "2039-11-18",
+  "coupon_rate": 7.62,
+  "yield_at_auction": 6.7479,
+  "amount_issued_crore": 2000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=47587",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1351BB13C5C09F74DE996B22C440B8C6189.PDF"
+  ]
+}

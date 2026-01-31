@@ -1,0 +1,21 @@
+{
+  "security_name": "7.37% GS 2023",
+  "security_type": "Gilt",
+  "security_codes": [
+    "737GS23D18",
+    "737GOI23",
+    "737GS2023-GS"
+  ],
+  "announcement_date": "2018-12-21",
+  "auction_date": "2018-12-28",
+  "issuance_date": "2019-01-02",
+  "maturity_date": "2023-12-31",
+  "coupon_rate": 7.37,
+  "yield_at_auction": 7.1625,
+  "amount_issued_crore": 3000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=45842",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1486F03690D238BA423BB2979B74F0E7E845.PDF"
+  ]
+}

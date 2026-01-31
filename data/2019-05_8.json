@@ -1,0 +1,21 @@
+{
+  "security_name": "7.69% GS 2043",
+  "security_type": "Gilt",
+  "security_codes": [
+    "769GS43Y19",
+    "769GOI43",
+    "769GS2043-GS"
+  ],
+  "announcement_date": "2019-05-03",
+  "auction_date": "2019-05-10",
+  "issuance_date": "2019-05-15",
+  "maturity_date": "2043-12-31",
+  "coupon_rate": 7.69,
+  "yield_at_auction": 7.6404,
+  "amount_issued_crore": 2000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=47009",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR26511097DF67B7B7498795E1C073C88FD088.PDF"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "security_name": "7.54% GS 2036",
+  "security_type": "Gilt",
+  "security_codes": [
+    "754GS36G22",
+    "754GOI36",
+    "754GS2036-GS"
+  ],
+  "announcement_date": "2022-08-05",
+  "auction_date": "2022-08-12",
+  "issuance_date": "2022-08-17",
+  "maturity_date": "2036-04-08",
+  "coupon_rate": 7.54,
+  "yield_at_auction": 7.5144,
+  "amount_issued_crore": 11000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=54204",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR706C0F762B5EC6D4BF9B33067D72F987585.PDF"
+  ]
+}

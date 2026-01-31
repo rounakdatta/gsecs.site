@@ -1,0 +1,21 @@
+{
+  "security_name": "5.22% GS 2025",
+  "security_type": "Gilt",
+  "security_codes": [
+    "522GS25L20",
+    "522GOI25",
+    "522GS2025-GS"
+  ],
+  "announcement_date": "2020-07-17",
+  "auction_date": "2020-07-24",
+  "issuance_date": "2020-07-29",
+  "maturity_date": "2025-02-11",
+  "coupon_rate": 5.22,
+  "yield_at_auction": null,
+  "amount_issued_crore": null,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50121",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR95E0C007DDC39948749C61409E03DF60A9.PDF"
+  ]
+}

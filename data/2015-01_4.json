@@ -1,0 +1,21 @@
+{
+  "security_name": "8.08% GS 2022",
+  "security_type": "Gilt",
+  "security_codes": [
+    "808GS22J16",
+    "808GOI22",
+    "808GS2022-GS"
+  ],
+  "announcement_date": "2015-01-02",
+  "auction_date": "2015-01-09",
+  "issuance_date": "2015-01-14",
+  "maturity_date": "2022-06-15",
+  "coupon_rate": 8.08,
+  "yield_at_auction": 8.0463,
+  "amount_issued_crore": null,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=32970",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR1446GF0115.pdf"
+  ]
+}

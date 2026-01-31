@@ -1,0 +1,21 @@
+{
+  "security_name": "7.34% GS 2064",
+  "security_type": "Gilt",
+  "security_codes": [
+    "734GS64N24",
+    "734GOI64",
+    "734GS2064-GS"
+  ],
+  "announcement_date": "2024-11-01",
+  "auction_date": "2024-11-08",
+  "issuance_date": "2024-11-13",
+  "maturity_date": "2064-06-14",
+  "coupon_rate": 7.34,
+  "yield_at_auction": 7.013,
+  "amount_issued_crore": 10000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=59055",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1457B465C20022EE4544AA8AC5C799B9184B.PDF"
+  ]
+}

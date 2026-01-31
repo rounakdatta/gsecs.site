@@ -1,0 +1,21 @@
+{
+  "security_name": "6.67% GS 2035",
+  "security_type": "Gilt",
+  "security_codes": [
+    "667GS35A22",
+    "667GOI35",
+    "667GS2035-GS"
+  ],
+  "announcement_date": "2022-04-15",
+  "auction_date": "2022-04-22",
+  "issuance_date": "2022-04-27",
+  "maturity_date": "2035-06-05",
+  "coupon_rate": 6.67,
+  "yield_at_auction": 7.3552,
+  "amount_issued_crore": 10000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53600",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1029DD4475E4E2442BC9EE56B26B6F60D65.PDF"
+  ]
+}

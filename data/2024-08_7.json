@@ -1,0 +1,21 @@
+{
+  "security_name": "7.04% GS 2029",
+  "security_type": "Gilt",
+  "security_codes": [
+    "704GS29G24",
+    "704GOI29",
+    "704GS2029-GS"
+  ],
+  "announcement_date": "2024-08-16",
+  "auction_date": "2024-08-23",
+  "issuance_date": "2024-08-28",
+  "maturity_date": "2029-12-23",
+  "coupon_rate": 7.04,
+  "yield_at_auction": 6.7825,
+  "amount_issued_crore": 16000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58558",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR9610675F6333A55471DB23A71CA9FB03143.PDF"
+  ]
+}

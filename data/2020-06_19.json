@@ -1,0 +1,21 @@
+{
+  "security_name": "GOI FRB 2033",
+  "security_type": "FRB",
+  "security_codes": [
+    "0GS33U20",
+    "0GOI33",
+    "0GS2033-GS"
+  ],
+  "announcement_date": "2020-06-12",
+  "auction_date": "2020-06-19",
+  "issuance_date": "2020-06-24",
+  "maturity_date": "2033-06-07",
+  "coupon_rate": 0,
+  "yield_at_auction": 6.5781,
+  "amount_issued_crore": null,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=49978",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR252679822B3FF20142DD8C7E6F08A6AE9C2A.PDF"
+  ]
+}

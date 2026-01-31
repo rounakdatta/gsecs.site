@@ -1,0 +1,21 @@
+{
+  "security_name": "7.17% GS 2030",
+  "security_type": "Gilt",
+  "security_codes": [
+    "717GS30A23",
+    "717GOI30",
+    "717GS2030-GS"
+  ],
+  "announcement_date": "2023-04-21",
+  "auction_date": "2023-04-28",
+  "issuance_date": "2023-05-03",
+  "maturity_date": "2030-07-21",
+  "coupon_rate": 7.17,
+  "yield_at_auction": 7.0861,
+  "amount_issued_crore": 7000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=55591",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR14133EC647FF3E24176A4AE457A0BA86016.PDF"
+  ]
+}

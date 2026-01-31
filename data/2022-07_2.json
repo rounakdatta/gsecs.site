@@ -1,0 +1,21 @@
+{
+  "security_name": "GOI FRB 2028",
+  "security_type": "FRB",
+  "security_codes": [
+    "0GS28L22",
+    "0GOI28",
+    "0GS2028-GS"
+  ],
+  "announcement_date": "2022-06-24",
+  "auction_date": "2022-07-01",
+  "issuance_date": "2022-07-06",
+  "maturity_date": "2028-06-30",
+  "coupon_rate": 0,
+  "yield_at_auction": 6.8948,
+  "amount_issued_crore": 4000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53955",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR45723EE07472CBB471782A95513E370C710.PDF"
+  ]
+}

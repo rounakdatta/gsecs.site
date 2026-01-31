@@ -1,0 +1,21 @@
+{
+  "security_name": "8.13% GS 2045",
+  "security_type": "Gilt",
+  "security_codes": [
+    "813GS45O16",
+    "813GOI45",
+    "813GS2045-GS"
+  ],
+  "announcement_date": "2015-10-09",
+  "auction_date": "2015-10-16",
+  "issuance_date": "2015-10-21",
+  "maturity_date": "2045-12-07",
+  "coupon_rate": 8.13,
+  "yield_at_auction": 7.5931,
+  "amount_issued_crore": 2000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=35248",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR930E2110F9949C149018D160C1382958937.PDF"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "security_name": "7.63% GS 2059",
+  "security_type": "Gilt",
+  "security_codes": [
+    "763GS59G19",
+    "763GOI59",
+    "763GS2059-GS"
+  ],
+  "announcement_date": "2019-08-02",
+  "auction_date": "2019-08-09",
+  "issuance_date": "2019-08-14",
+  "maturity_date": "2059-12-31",
+  "coupon_rate": 7.63,
+  "yield_at_auction": 6.8998,
+  "amount_issued_crore": 4000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=47847",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR39588C172EA5488432E8607000A8CBB8C37.PDF"
+  ]
+}

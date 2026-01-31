@@ -1,0 +1,21 @@
+{
+  "security_name": "7.16% GS 2023",
+  "security_type": "Gilt",
+  "security_codes": [
+    "716GS23G16",
+    "716GOI23",
+    "716GS2023-GS"
+  ],
+  "announcement_date": "2013-08-23",
+  "auction_date": "2013-08-30",
+  "issuance_date": "2013-09-04",
+  "maturity_date": "2023-12-31",
+  "coupon_rate": 7.16,
+  "yield_at_auction": 9.4028,
+  "amount_issued_crore": null,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=29435",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR449GS0813.pdf"
+  ]
+}

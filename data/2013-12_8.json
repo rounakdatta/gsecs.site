@@ -1,0 +1,21 @@
+{
+  "security_name": "9.23% GS 2043",
+  "security_type": "Gilt",
+  "security_codes": [
+    "923GS43D16",
+    "923GOI43",
+    "923GS2043-GS"
+  ],
+  "announcement_date": "2013-12-20",
+  "auction_date": "2013-12-27",
+  "issuance_date": "2014-01-01",
+  "maturity_date": "2043-12-31",
+  "coupon_rate": 9.23,
+  "yield_at_auction": 9.2894,
+  "amount_issued_crore": null,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=30273",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR1287GS1213.pdf"
+  ]
+}

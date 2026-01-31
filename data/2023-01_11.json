@@ -1,0 +1,21 @@
+{
+  "security_name": "7.10% GS 2029",
+  "security_type": "Gilt",
+  "security_codes": [
+    "71GS29J23",
+    "71GOI29",
+    "71GS2029-GS"
+  ],
+  "announcement_date": "2023-01-20",
+  "auction_date": "2023-01-27",
+  "issuance_date": "2023-02-01",
+  "maturity_date": "2029-12-23",
+  "coupon_rate": 7.1,
+  "yield_at_auction": 7.3407,
+  "amount_issued_crore": 6000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=55119",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR16218DCD788497184738BBA9F8FD19481AD4.PDF"
+  ]
+}

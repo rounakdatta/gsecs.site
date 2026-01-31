@@ -1,0 +1,21 @@
+{
+  "security_name": "7.46% GS 2073",
+  "security_type": "Gilt",
+  "security_codes": [
+    "746GS73A24",
+    "746GOI73",
+    "746GS2073-GS"
+  ],
+  "announcement_date": "2024-04-19",
+  "auction_date": "2024-04-26",
+  "issuance_date": "2024-05-01",
+  "maturity_date": "2073-04-03",
+  "coupon_rate": 7.46,
+  "yield_at_auction": 7.3338,
+  "amount_issued_crore": 10000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=57790",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR193B4740AF995E84377A32F76FDC023C7DD.PDF"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "security_name": "7.17% GS 2028",
+  "security_type": "Gilt",
+  "security_codes": [
+    "717GS28L18",
+    "717GOI28",
+    "717GS2028-GS"
+  ],
+  "announcement_date": "2018-07-06",
+  "auction_date": "2018-07-13",
+  "issuance_date": "2018-07-18",
+  "maturity_date": "2028-06-30",
+  "coupon_rate": 7.17,
+  "yield_at_auction": 7.8017,
+  "amount_issued_crore": 4000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=44485",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1273738F24ADF5D4CB6A6C7BD27ED176C81.PDF"
+  ]
+}

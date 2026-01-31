@@ -1,0 +1,21 @@
+{
+  "security_name": "6.67% GS 2050",
+  "security_type": "Gilt",
+  "security_codes": [
+    "667GS50O21",
+    "667GOI50",
+    "667GS2050-GS"
+  ],
+  "announcement_date": "2021-10-15",
+  "auction_date": "2021-10-22",
+  "issuance_date": "2021-10-27",
+  "maturity_date": "2050-12-31",
+  "coupon_rate": 6.67,
+  "yield_at_auction": 7.1175,
+  "amount_issued_crore": null,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52447",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1082C0A8EB5C79874073931BFAB7A37CD6BF.PDF"
+  ]
+}

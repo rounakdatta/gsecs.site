@@ -1,0 +1,21 @@
+{
+  "security_name": "GOI FRB 2024",
+  "security_type": "FRB",
+  "security_codes": [
+    "0GS24S17",
+    "0GOI24",
+    "0GS2024-GS"
+  ],
+  "announcement_date": "2017-09-01",
+  "auction_date": "2017-09-08",
+  "issuance_date": "2017-09-13",
+  "maturity_date": "2024-06-04",
+  "coupon_rate": 0,
+  "yield_at_auction": 6.6801,
+  "amount_issued_crore": 3000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=41606",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR6751BCCDE08FC76477AA1FB6D75CF222953.PDF"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "security_name": "7.3% GS 2053",
+  "security_type": "Gilt",
+  "security_codes": [
+    "730GS53Y24",
+    "730GOI53",
+    "730GS2053-GS"
+  ],
+  "announcement_date": "2024-05-03",
+  "auction_date": "2024-05-10",
+  "issuance_date": "2024-05-15",
+  "maturity_date": "2053-04-23",
+  "coupon_rate": 7.3,
+  "yield_at_auction": 7.2066,
+  "amount_issued_crore": 10000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=57876",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR27997B910BA8C0747FE956134CE898E1355.PDF"
+  ]
+}

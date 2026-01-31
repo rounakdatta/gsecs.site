@@ -1,0 +1,21 @@
+{
+  "security_name": "7.41% GS 2036",
+  "security_type": "Gilt",
+  "security_codes": [
+    "741GS36U23",
+    "741GOI36",
+    "741GS2036-GS"
+  ],
+  "announcement_date": "2023-06-16",
+  "auction_date": "2023-06-23",
+  "issuance_date": "2023-06-28",
+  "maturity_date": "2036-04-08",
+  "coupon_rate": 7.41,
+  "yield_at_auction": 7.1873,
+  "amount_issued_crore": 12000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=55907",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR45781E292926B1E4AE788FA8498BF5D56EF.PDF"
+  ]
+}

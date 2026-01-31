@@ -1,0 +1,21 @@
+{
+  "security_name": "6.10% GS 2031",
+  "security_type": "Gilt",
+  "security_codes": [
+    "61GS31O21",
+    "61GOI31",
+    "61GS2031-GS"
+  ],
+  "announcement_date": "2021-09-24",
+  "auction_date": "2021-10-01",
+  "issuance_date": "2021-10-06",
+  "maturity_date": "2031-06-01",
+  "coupon_rate": 6.1,
+  "yield_at_auction": 6.9892,
+  "amount_issued_crore": null,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52337",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR9722C1D0BFCD62A4DDD9AEE0EACA65D5F94.PDF"
+  ]
+}

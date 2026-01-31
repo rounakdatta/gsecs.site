@@ -1,0 +1,21 @@
+{
+  "security_name": "4.26% GS 2023",
+  "security_type": "Gilt",
+  "security_codes": [
+    "426GS23O21",
+    "426GOI23",
+    "426GS2023-GS"
+  ],
+  "announcement_date": "2021-10-15",
+  "auction_date": "2021-10-22",
+  "issuance_date": "2021-10-27",
+  "maturity_date": "2023-12-31",
+  "coupon_rate": 4.26,
+  "yield_at_auction": 4.4057,
+  "amount_issued_crore": null,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52447",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1082C0A8EB5C79874073931BFAB7A37CD6BF.PDF"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "security_name": "7.36% GS 2052",
+  "security_type": "Gilt",
+  "security_codes": [
+    "736GS52N22",
+    "736GOI52",
+    "736GS2052-GS"
+  ],
+  "announcement_date": "2022-11-04",
+  "auction_date": "2022-11-11",
+  "issuance_date": "2022-11-16",
+  "maturity_date": "2052-06-26",
+  "coupon_rate": 7.36,
+  "yield_at_auction": 7.4503,
+  "amount_issued_crore": 9000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=54682",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR11841FEA2C88D56D4C6183C0CFAAF908B618.PDF"
+  ]
+}

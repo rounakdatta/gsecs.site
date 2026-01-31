@@ -1,0 +1,21 @@
+{
+  "security_name": "5.09% GS 2022",
+  "security_type": "Gilt",
+  "security_codes": [
+    "509GS22L20",
+    "509GOI22",
+    "509GS2022-GS"
+  ],
+  "announcement_date": "2020-07-10",
+  "auction_date": "2020-07-17",
+  "issuance_date": "2020-07-22",
+  "maturity_date": "2022-06-15",
+  "coupon_rate": 5.09,
+  "yield_at_auction": 3.9576,
+  "amount_issued_crore": null,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50097",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR7173A6E8C4EAFD4266AAD2A7BD847C9684.PDF"
+  ]
+}

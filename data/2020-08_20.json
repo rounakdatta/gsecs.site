@@ -1,0 +1,21 @@
+{
+  "security_name": "5.77% GS 2030",
+  "security_type": "Gilt",
+  "security_codes": [
+    "577GS30G20",
+    "577GOI30",
+    "577GS2030-GS"
+  ],
+  "announcement_date": "2020-08-21",
+  "auction_date": "2020-08-28",
+  "issuance_date": "2020-09-02",
+  "maturity_date": "2030-07-21",
+  "coupon_rate": 5.77,
+  "yield_at_auction": 6.1448,
+  "amount_issued_crore": null,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50272",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR246DB726BC50A1C4CD392EE1AC93E9E0A9F.PDF"
+  ]
+}

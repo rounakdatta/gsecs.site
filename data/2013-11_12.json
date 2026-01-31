@@ -1,0 +1,21 @@
+{
+  "security_name": "8.83% GS 2023",
+  "security_type": "Gilt",
+  "security_codes": [
+    "883GS23N16",
+    "883GOI23",
+    "883GS2023-GS"
+  ],
+  "announcement_date": "2013-11-15",
+  "auction_date": "2013-11-22",
+  "issuance_date": "2013-11-27",
+  "maturity_date": "2023-12-31",
+  "coupon_rate": 8.83,
+  "yield_at_auction": 9.2391,
+  "amount_issued_crore": null,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=30030",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR1044FS1113.pdf"
+  ]
+}

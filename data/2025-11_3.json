@@ -1,0 +1,20 @@
+{
+  "security_name": "6.90% Government Stock 2065",
+  "security_type": "Gilt",
+  "security_codes": ["690GS65N25", "690GOI65", "690GS2065-GS"],
+  "announcement_date": "2025-11-07",
+  "auction_date": "2025-11-14",
+  "issuance_date": "2025-11-17",
+  "maturity_date": "2065-04-15",
+  "coupon_rate": 6.90,
+  "yield_at_auction": 7.3759,
+  "amount_issued_crore": 12000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61621",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1505E348D3311EC04BFBB0098E619609646B.PDF"
+  ],
+  "additional_info": {
+    "note": "Re-issuance of security first issued in April 2025"
+  }
+}

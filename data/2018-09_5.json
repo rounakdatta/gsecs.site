@@ -1,0 +1,21 @@
+{
+  "security_name": "GOI FRB 2031",
+  "security_type": "FRB",
+  "security_codes": [
+    "0GS31S18",
+    "0GOI31",
+    "0GS2031-GS"
+  ],
+  "announcement_date": "2018-09-14",
+  "auction_date": "2018-09-21",
+  "issuance_date": "2018-09-26",
+  "maturity_date": "2031-06-01",
+  "coupon_rate": 0,
+  "yield_at_auction": 7.9096,
+  "amount_issued_crore": 2000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=45028",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR670B1715F8B1D804B29B6BEF9F82E7FD161.PDF"
+  ]
+}

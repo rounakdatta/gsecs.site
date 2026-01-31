@@ -1,0 +1,21 @@
+{
+  "security_name": "8.30% GS 2040",
+  "security_type": "Gilt",
+  "security_codes": [
+    "83GS40J16",
+    "83GOI40",
+    "83GS2040-GS"
+  ],
+  "announcement_date": "2015-01-02",
+  "auction_date": "2015-01-09",
+  "issuance_date": "2015-01-14",
+  "maturity_date": "2040-12-31",
+  "coupon_rate": 8.3,
+  "yield_at_auction": 8.0564,
+  "amount_issued_crore": null,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=32970",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR1446GF0115.pdf"
+  ]
+}

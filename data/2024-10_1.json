@@ -1,0 +1,21 @@
+{
+  "security_name": "7.02% GS 2027",
+  "security_type": "Gilt",
+  "security_codes": [
+    "702GS27O24",
+    "702GOI27",
+    "702GS2027-GS"
+  ],
+  "announcement_date": "2024-09-27",
+  "auction_date": "2024-10-04",
+  "issuance_date": "2024-10-09",
+  "maturity_date": "2027-06-03",
+  "coupon_rate": 7.02,
+  "yield_at_auction": 6.6878,
+  "amount_issued_crore": 10000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58820",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR12228B9A5DD6A2AB4E1B983E422C16D4B114.PDF"
+  ]
+}

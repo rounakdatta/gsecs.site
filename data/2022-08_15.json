@@ -1,0 +1,21 @@
+{
+  "security_name": "6.99% GS 2051",
+  "security_type": "Gilt",
+  "security_codes": [
+    "699GS51G22",
+    "699GOI51",
+    "699GS2051-GS"
+  ],
+  "announcement_date": "2022-08-19",
+  "auction_date": "2022-08-26",
+  "issuance_date": "2022-08-31",
+  "maturity_date": "2051-06-06",
+  "coupon_rate": 6.99,
+  "yield_at_auction": 7.5467,
+  "amount_issued_crore": 8000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=54267",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR7695C97F1CFF2AE4BFE8AAEE574BC21F0F7.PDF"
+  ]
+}

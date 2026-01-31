@@ -1,0 +1,21 @@
+{
+  "security_name": "6.62% GS 2051",
+  "security_type": "Gilt",
+  "security_codes": [
+    "662GS51A17",
+    "662GOI51",
+    "662GS2051-GS"
+  ],
+  "announcement_date": "2017-04-14",
+  "auction_date": "2017-04-21",
+  "issuance_date": "2017-04-26",
+  "maturity_date": "2051-06-06",
+  "coupon_rate": 6.62,
+  "yield_at_auction": 7.4497,
+  "amount_issued_crore": 3000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=40237",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR2857830A72D099CF4A679B6B1BA2097D8893.PDF"
+  ]
+}

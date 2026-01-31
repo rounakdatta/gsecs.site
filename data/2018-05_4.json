@@ -1,0 +1,21 @@
+{
+  "security_name": "7.40% GS 2035",
+  "security_type": "Gilt",
+  "security_codes": [
+    "74GS35Y18",
+    "74GOI35",
+    "74GS2035-GS"
+  ],
+  "announcement_date": "2018-05-04",
+  "auction_date": "2018-05-11",
+  "issuance_date": "2018-05-16",
+  "maturity_date": "2035-06-05",
+  "coupon_rate": 7.4,
+  "yield_at_auction": 7.9598,
+  "amount_issued_crore": 2000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=43903",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR29726249B4C735CF4F6EB47F8F62CB11ECF5.PDF"
+  ]
+}

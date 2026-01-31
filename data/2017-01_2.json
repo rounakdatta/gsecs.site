@@ -1,0 +1,21 @@
+{
+  "security_name": "6.79% GS 2029",
+  "security_type": "Gilt",
+  "security_codes": [
+    "679GS29J17",
+    "679GOI29",
+    "679GS2029-GS"
+  ],
+  "announcement_date": "2016-12-30",
+  "auction_date": "2017-01-06",
+  "issuance_date": "2017-01-11",
+  "maturity_date": "2029-12-23",
+  "coupon_rate": 6.79,
+  "yield_at_auction": 6.5206,
+  "amount_issued_crore": 5000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=39181",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1803C0FF8459ACF048329B5F1F373E697BBF.PDF"
+  ]
+}

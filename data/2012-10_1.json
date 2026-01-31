@@ -1,0 +1,21 @@
+{
+  "security_name": "8.19% GS 2020",
+  "security_type": "Gilt",
+  "security_codes": [
+    "819GS20O16",
+    "819GOI20",
+    "819GS2020-GS"
+  ],
+  "announcement_date": "2012-09-28",
+  "auction_date": "2012-10-05",
+  "issuance_date": "2012-10-10",
+  "maturity_date": "2020-04-08",
+  "coupon_rate": 8.19,
+  "yield_at_auction": 8.1992,
+  "amount_issued_crore": null,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=27348",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR578G1012.pdf"
+  ]
+}

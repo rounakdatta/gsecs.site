@@ -1,0 +1,21 @@
+{
+  "security_name": "4.56% GS 2023",
+  "security_type": "Gilt",
+  "security_codes": [
+    "456GS23J22",
+    "456GOI23",
+    "456GS2023-GS"
+  ],
+  "announcement_date": "2022-01-14",
+  "auction_date": "2022-01-21",
+  "issuance_date": "2022-01-26",
+  "maturity_date": "2023-12-31",
+  "coupon_rate": 4.56,
+  "yield_at_auction": 4.9348,
+  "amount_issued_crore": 2000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53142",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR158708E9222CC6A24B899FEBA958E30C76A0.PDF"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "security_name": "7.33% GS 2026",
+  "security_type": "Gilt",
+  "security_codes": [
+    "733GS26N23",
+    "733GOI26",
+    "733GS2026-GS"
+  ],
+  "announcement_date": "2023-11-17",
+  "auction_date": "2023-11-24",
+  "issuance_date": "2023-11-29",
+  "maturity_date": "2026-12-07",
+  "coupon_rate": 7.33,
+  "yield_at_auction": 7.2688,
+  "amount_issued_crore": 8000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=56800",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1350D5859FED4BDF489DAFDDA1CC0703E304.PDF"
+  ]
+}

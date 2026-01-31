@@ -1,0 +1,21 @@
+{
+  "security_name": "8.97% GS 2030",
+  "security_type": "Gilt",
+  "security_codes": [
+    "897GS30O16",
+    "897GOI30",
+    "897GS2030-GS"
+  ],
+  "announcement_date": "2012-10-05",
+  "auction_date": "2012-10-12",
+  "issuance_date": "2012-10-17",
+  "maturity_date": "2030-07-21",
+  "coupon_rate": 8.97,
+  "yield_at_auction": 8.3908,
+  "amount_issued_crore": null,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=27392",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR6223G1012.pdf"
+  ]
+}

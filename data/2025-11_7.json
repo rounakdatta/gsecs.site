@@ -1,0 +1,20 @@
+{
+  "security_name": "6.28% Government Stock 2032",
+  "security_type": "Gilt",
+  "security_codes": ["628GS32N25", "628GOI32", "628GS2032-GS"],
+  "announcement_date": "2025-11-21",
+  "auction_date": "2025-11-28",
+  "issuance_date": "2025-12-01",
+  "maturity_date": "2032-07-14",
+  "coupon_rate": 6.28,
+  "yield_at_auction": 6.4343,
+  "amount_issued_crore": 11000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61695",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1579313B3D168AB543DD8ED81B902F2482E2.PDF"
+  ],
+  "additional_info": {
+    "note": "Re-issuance of security first issued in July 2025"
+  }
+}

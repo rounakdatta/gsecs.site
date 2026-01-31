@@ -1,0 +1,21 @@
+{
+  "security_name": "7.72% GS 2025",
+  "security_type": "Gilt",
+  "security_codes": [
+    "772GS25L16",
+    "772GOI25",
+    "772GS2025-GS"
+  ],
+  "announcement_date": "2015-06-26",
+  "auction_date": "2015-07-03",
+  "issuance_date": "2015-07-08",
+  "maturity_date": "2025-02-11",
+  "coupon_rate": 7.72,
+  "yield_at_auction": 7.8034,
+  "amount_issued_crore": 6000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=34355",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IPR38017552A4FE354C1F805DA4671B61656B.PDF"
+  ]
+}

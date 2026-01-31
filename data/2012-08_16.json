@@ -1,0 +1,21 @@
+{
+  "security_name": "8.33% GS 2036",
+  "security_type": "Gilt",
+  "security_codes": [
+    "833GS36G16",
+    "833GOI36",
+    "833GS2036-GS"
+  ],
+  "announcement_date": "2012-08-17",
+  "auction_date": "2012-08-24",
+  "issuance_date": "2012-08-29",
+  "maturity_date": "2036-04-08",
+  "coupon_rate": 8.33,
+  "yield_at_auction": null,
+  "amount_issued_crore": null,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=27095",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR325GF0812.pdf"
+  ]
+}

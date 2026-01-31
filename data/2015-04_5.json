@@ -1,0 +1,21 @@
+{
+  "security_name": "8.40% GS 2024",
+  "security_type": "Gilt",
+  "security_codes": [
+    "84GS24A16",
+    "84GOI24",
+    "84GS2024-GS"
+  ],
+  "announcement_date": "2015-04-10",
+  "auction_date": "2015-04-17",
+  "issuance_date": "2015-04-22",
+  "maturity_date": "2024-06-04",
+  "coupon_rate": 8.4,
+  "yield_at_auction": 7.8133,
+  "amount_issued_crore": 7000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=33727",
+    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR22014DAD9D5BE8D24C12B3257E71DC66F0DA.PDF"
+  ]
+}
