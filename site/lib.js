@@ -23,8 +23,12 @@ export function shiftMonths(iso, n) {
   return toIso(yy, mm, Math.min(d, daysIn(yy, mm)));
 }
 
+const ISO = /^\d{4}-\d{2}-\d{2}$/;
+const isDate = (x) => typeof x === 'string' && ISO.test(x) && !Number.isNaN(utc(x));
+
 // Government securities pay half-yearly on the maturity date's day and month, and six months away.
 export function couponDatesAfter(maturity, after, upto = maturity) {
+  if (!isDate(maturity) || !isDate(after)) return [];
   const out = [];
   for (let k = 0; ; k++) {
     const d = shiftMonths(maturity, -6 * k);
@@ -83,24 +87,35 @@ export function ytm(price, coupon, settle, maturity) {
 // Banks in Mumbai, where RBI pays from, shut on Sundays, the second and fourth Saturdays and a few
 // fixed-date holidays; money due on one of those arrives the next working day. Holidays that move
 // with the moon (Holi, Diwali, Eid…) are not known here, so on those the money comes a day later.
+// A bond that matures on such a day repays, with its last coupon, on the working day before.
 const SHUT = new Set(['01-26', '04-14', '05-01', '08-15', '10-02', '12-25']);
+function shut(d) {
+  const day = parts(d)[2];
+  const wd = new Date(utc(d)).getUTCDay();
+  return wd === 0 || (wd === 6 && ((day > 7 && day <= 14) || (day > 21 && day <= 28))) || SHUT.has(d.slice(5));
+}
 export function workingDay(iso) {
   let d = iso;
-  for (;;) {
-    const day = parts(d)[2];
-    const wd = new Date(utc(d)).getUTCDay();
-    const offSaturday = wd === 6 && ((day > 7 && day <= 14) || (day > 21 && day <= 28));
-    if (wd !== 0 && !offSaturday && !SHUT.has(d.slice(5))) return d;
-    d = addDays(d, 1);
-  }
+  while (shut(d)) d = addDays(d, 1);
+  return d;
 }
+export function previousWorkingDay(iso) {
+  let d = iso;
+  while (shut(d)) d = addDays(d, -1);
+  return d;
+}
+
+// Gold bonds paid 2.75% a year until the 2016-17 Series II issue of September 2016, 2.5% after.
+const sgbRate = (h) => (h.issueDate < '2016-09-01' ? 2.75 : 2.5);
+export const sgbCoupon = (h) => (h.grams * h.issuePrice * sgbRate(h)) / 200;
 
 // Every payment a holding makes after it was bought: interest, and the principal at maturity.
 // `date` is the day it falls due (and what a payment is matched against); `on` is the working day
-// the money actually arrives.
+// the money actually arrives. An amount nobody can know yet is null: a floating rate bond's coupon
+// before RBI sets its rate, an inflation-indexed bond's, and a gold bond's redemption.
 export function paymentsOf(h, bond) {
   if (h.kind === 'sgb') {
-    const per = h.grams * h.issuePrice * 0.0125; // 2.5% a year on the issue price, half-yearly
+    const per = sgbCoupon(h);
     const out = [];
     for (let k = 1; k <= 16; k++) {
       const date = shiftMonths(h.issueDate, 6 * k);
@@ -112,19 +127,29 @@ export function paymentsOf(h, bond) {
   }
   if (!bond) return [];
   const half = (h.face * bond.coupon) / 200;
+  const fixed = bond.kind !== 'frb' && bond.kind !== 'iib';
+  const arrives = (date) => (date === bond.maturity ? previousWorkingDay(date) : workingDay(date));
   const out = couponDatesAfter(bond.maturity, h.date).map((date) => {
     // A new bond's first period is usually short (it is issued between two coupon dates);
     // whoever holds it on that first date gets only the interest since the first issue.
     const prev = shiftMonths(date, -6);
     const share = bond.issued && bond.issued > prev ? days360(bond.issued, date) / 180 : 1;
-    return { date, on: workingDay(date), amount: half * share, kind: 'interest' };
+    return { date, on: arrives(date), amount: fixed ? half * share : null, kind: 'interest' };
   });
-  out.push({ date: bond.maturity, on: workingDay(bond.maturity), amount: h.face, kind: 'principal' });
+  if (bond.maturity > h.date) out.push({ date: bond.maturity, on: arrives(bond.maturity), amount: h.face, kind: 'principal' });
   return out;
 }
 
-export const yearlyIncome = (h, bond) =>
-  h.kind === 'sgb' ? h.grams * h.issuePrice * 0.025 : bond && bond.maturity > h.date ? (h.face * bond.coupon) / 100 : 0;
+export const endOf = (h, bond) => (h.kind === 'sgb' ? shiftMonths(h.issueDate, 96) : bond ? bond.maturity : null);
+
+// What a holding pays in a year, as of `today`: nothing once it has matured, and null when the rate
+// floats.
+export function yearlyIncome(h, bond, today) {
+  const end = endOf(h, bond);
+  if (!end || end <= today || end <= h.date) return 0;
+  if (h.kind === 'sgb') return (h.grams * h.issuePrice * sgbRate(h)) / 100;
+  return bond.kind === 'frb' || bond.kind === 'iib' ? null : (h.face * bond.coupon) / 100;
+}
 
 // Match money that arrived to the payments that were due. The bank narration never names the
 // bond (CDSL credits read "…CENTRAL DEPOSITORY SERVICES INDIA LIMITED G-<NAME>…"), but the
@@ -148,25 +173,56 @@ export function candidates(payment, holdings, bonds) {
   return out.sort((a, b) => a.score - b.score || a.due.localeCompare(b.due));
 }
 
-// Each due payment can be claimed once. Payments the person matched by hand keep their choice.
+// Each due payment can be claimed once; at maturity the last coupon and the repayment fall on the
+// same day and are two payments. Payments the person matched by hand keep their choice, and those
+// that belonged to a bond since removed keep its name rather than being matched afresh.
+export const dueKey = (holding, due, kind = 'interest') => `${holding}|${due}|${kind}`;
+
 export function reconcile(payments, holdings, bonds) {
   const taken = new Set();
   const result = new Map();
   for (const p of payments) {
     if (p.holding && p.due) {
-      taken.add(`${p.holding}|${p.due}`);
-      result.set(p.id, { holding: p.holding, due: p.due });
-    }
+      const m = { holding: p.holding, due: p.due, kind: p.kind || 'interest' };
+      taken.add(dueKey(m.holding, m.due, m.kind));
+      result.set(p.id, m);
+    } else if (p.label) result.set(p.id, null);
   }
   const open = payments.filter((p) => !result.has(p.id)).sort((a, b) => a.date.localeCompare(b.date));
   for (const p of open) {
-    const c = candidates(p, holdings, bonds).find((x) => !taken.has(`${x.holding}|${x.due}`));
+    const c = candidates(p, holdings, bonds).find((x) => !taken.has(dueKey(x.holding, x.due, x.kind)));
     if (c) {
-      taken.add(`${c.holding}|${c.due}`);
-      result.set(p.id, { holding: c.holding, due: c.due });
+      taken.add(dueKey(c.holding, c.due, c.kind));
+      result.set(p.id, { holding: c.holding, due: c.due, kind: c.kind });
     } else result.set(p.id, null);
   }
   return result;
+}
+
+// When a person says which bond a credit came from: the payment of that bond it most likely is.
+// A credit far larger than any coupon is the repayment; otherwise the nearest coupon by date.
+export function nearestDue(payment, h, bond) {
+  const dues = paymentsOf(h, bond);
+  if (!dues.length) return null;
+  const known = dues.filter((d) => d.kind === 'interest' && d.amount != null).map((d) => d.amount);
+  const coupon = known.length ? Math.max(...known) : (h.kind === 'sgb' ? h.grams * h.issuePrice : h.face) * 0.05;
+  const big = payment.amount > 2 * coupon;
+  const fits = (d) => (d.kind === 'interest' ? !big : big);
+  const best = [...dues].sort((a, b) => fits(b) - fits(a)
+    || Math.abs(daysBetween(a.date, payment.date)) - Math.abs(daysBetween(b.date, payment.date)))[0];
+  return { due: best.date, kind: best.kind };
+}
+
+// Whatever comes out of localStorage or a backup file, only records that can be read go on.
+const positive = (x) => typeof x === 'number' && Number.isFinite(x) && x > 0;
+const anId = (x) => typeof x === 'string' || typeof x === 'number';
+export function clean(s) {
+  if (!s || !Array.isArray(s.holdings) || !Array.isArray(s.payments)) return null;
+  const holdings = s.holdings.filter((h) => h && typeof h === 'object' && anId(h.id) && (h.kind === 'sgb'
+    ? typeof h.series === 'string' && positive(h.grams) && positive(h.issuePrice) && isDate(h.issueDate) && isDate(h.date)
+    : typeof h.bond === 'string' && positive(h.face) && isDate(h.date)));
+  const payments = s.payments.filter((p) => p && typeof p === 'object' && anId(p.id) && isDate(p.date) && positive(p.amount));
+  return { holdings, payments };
 }
 
 // ---------------------------------------------------------------- reading a bank statement

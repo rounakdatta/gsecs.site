@@ -6,8 +6,8 @@ const state = { bonds: [], byId: {}, asof: null, loaded: false, failed: false, s
 
 function read() {
   try {
-    const s = JSON.parse(localStorage.getItem(KEY));
-    if (s && Array.isArray(s.holdings) && Array.isArray(s.payments)) return s;
+    const s = L.clean(JSON.parse(localStorage.getItem(KEY)));
+    if (s) return s;
   } catch {}
   return { holdings: [], payments: [] };
 }
@@ -50,12 +50,12 @@ const searchIcon = () =>
 
 // ---------------------------------------------------------------- bonds
 const bondOf = (h) => (h.kind === 'sgb' ? null : state.byId[h.bond]);
-const nameOf = (h) => (h.kind === 'sgb' ? h.series : bondOf(h)?.name || 'Unknown bond');
+const nameOf = (h) => (h.kind === 'sgb' ? h.series : bondOf(h)?.name || h.name || 'A bond no longer listed');
 const shortOf = (h) => (h.kind === 'sgb'
   ? h.series.replace(/^Sovereign Gold Bond\s*/i, 'SGB ').replace(/\bSeries\s*/i, '')
   : nameOf(h).replace(' GS ', ' ').replace(' GOI SGrB ', ' green ').replace('GOI FRB ', 'FRB '));
 const outstanding = (b) => b.maturity > today();
-const endOf = (hd) => bondOf(hd)?.maturity || L.shiftMonths(hd.issueDate, 96);
+const endOf = (hd) => L.endOf(hd, bondOf(hd)) || ''; // '' for a bond RBI's list no longer has
 const auctionsOf = (b) => b.auctions.map(([auction, issued, isNew, price, yld, crore, coupon]) => ({ auction, issued, isNew: !!isNew, price, yld, crore, coupon }));
 
 function haystack(b) {
@@ -82,19 +82,22 @@ function ledger() {
   const claimed = new Map();
   for (const p of state.store.payments) {
     const m = match.get(p.id);
-    if (m) claimed.set(`${m.holding}|${m.due}`, p);
+    if (m) claimed.set(L.dueKey(m.holding, m.due, m.kind), p);
   }
   const rows = hs.map((h) => {
     const due = L.paymentsOf(h, bondOf(h)).map((d) => {
-      const paid = claimed.get(`${h.id}|${d.date}`);
+      const paid = claimed.get(L.dueKey(h.id, d.date, d.kind));
       return { ...d, holding: h, paid, status: paid ? 'got' : d.on < t ? 'due' : 'soon' };
     });
-    return { h, due, next: due.find((d) => !d.paid && d.on >= t && d.amount != null) };
+    return { h, due, next: due.find((d) => !d.paid && d.on >= t) };
   });
-  const upcoming = rows.flatMap((r) => r.due.filter((d) => !d.paid && d.on >= t && d.amount != null)).sort((a, b) => a.on.localeCompare(b.on));
+  const upcoming = rows.flatMap((r) => r.due.filter((d) => !d.paid && d.on >= t)).sort((a, b) => a.on.localeCompare(b.on));
   if (upcoming[0]) for (const d of upcoming.filter((x) => x.on === upcoming[0].on)) d.status = 'next';
-  const yearly = hs.reduce((sum, h) => sum + L.yearlyIncome(h, bondOf(h)), 0);
-  return { rows, upcoming, match, yearly };
+  const incomes = hs.map((h) => L.yearlyIncome(h, bondOf(h), t));
+  const yearly = incomes.reduce((sum, x) => sum + (x || 0), 0);
+  const fixed = incomes.filter((x) => x > 0).length;
+  const floating = hs.filter((h, i) => incomes[i] === null);
+  return { rows, upcoming, match, yearly, fixed, floating };
 }
 
 // ---------------------------------------------------------------- views
@@ -115,7 +118,7 @@ function render() {
   }
   const bondId = route.match(/^\/bonds\/(.+)$/)?.[1];
   const view = bondId ? bondPage(decodeURIComponent(bondId)) : route.startsWith('/bonds') ? allBonds() : home();
-  m.replaceChildren(...[view].flat());
+  m.replaceChildren(...[view].flat().filter(Boolean)); // a section with nothing to show is null, not the word
   document.title = bondId && state.byId[decodeURIComponent(bondId)] ? `${state.byId[decodeURIComponent(bondId)].name} · gsecs` : 'gsecs · when your government bonds pay';
   document.querySelector('[data-action="backup"]').closest('li').hidden = !(held().length || state.store.payments.length);
   afterRender.forEach((f) => f());
@@ -149,27 +152,27 @@ function welcome() {
 function home() {
   if (!held().length) return welcome();
   const t = today();
-  const { rows, upcoming, yearly, match } = ledger();
+  const { rows, upcoming, yearly, fixed, floating, match } = ledger();
   const next = upcoming[0];
   const nextAll = upcoming.filter((d) => next && d.on === next.on);
-  const active = held().filter((x) => endOf(x) > t).length;
+  const known = nextAll.filter((d) => d.amount != null);
+  const floats = floating.length ? `${fixed ? ', plus ' : ''}${floating.map(nameOf).join(' and ')} at a floating rate` : '';
   const out = [];
   out.push(h('section', { class: 'summary' },
     h('h1', { class: 'visually-hidden' }, 'Your bonds'),
-    h('span', { class: 'big' }, L.rupees(yearly), h('span', { class: 'per' }, ' a year')),
-    h('span', { class: 'muted' }, `from ${active} ${active === 1 ? 'bond' : 'bonds'}`),
+    fixed ? [h('span', { class: 'big' }, L.rupees(yearly), h('span', { class: 'per' }, ' a year')),
+      h('span', { class: 'muted' }, `from ${fixed} ${fixed === 1 ? 'bond' : 'bonds'}${floats}`)]
+      : h('p', { class: 'muted' }, floating.length ? `${floats[0].toUpperCase()}${floats.slice(1)}.` : 'Your bonds have all matured.'),
     next && h('p', { class: 'next' }, 'Next: ',
-      h('span', { class: 'amount' }, L.rupees(nextAll.reduce((x, d) => x + d.amount, 0))),
-      ' ', h('time', { datetime: next.on }, next.on === t ? 'today' : next.on === L.addDays(t, 1) ? 'tomorrow' : `on ${L.sayDate(next.on, t)}`),
-      ' from ', nextAll.map((d, i) => [i ? ' and ' : '', shortName(d.holding)]))));
+      known.length ? [h('span', { class: 'amount' }, L.rupees(known.reduce((x, d) => x + d.amount, 0))), ' '] : null,
+      h('time', { datetime: next.on }, next.on === t ? 'today' : next.on === L.addDays(t, 1) ? 'tomorrow' : `on ${L.sayDate(next.on, t)}`),
+      ' from ', nextAll.map((d, i) => [i ? ' and ' : '', nameOf(d.holding)]))));
   out.push(gantt(rows, t));
   out.push(agenda(upcoming, t));
   out.push(holdingsList(rows, t));
   out.push(receivedList(t, match));
   return out;
 }
-
-const shortName = (h) => nameOf(h);
 
 // ---------------------------------------------------------------- the calendar
 const ROW_H = 44;
@@ -234,9 +237,9 @@ function timeline(visible, t, width) {
       if (d.kind === 'interest') {
         const what = d.status === 'got' ? 'received' : d.on >= t ? 'due' : 'was due';
         g.push(s('g', { class: `pay ${d.status}` },
-          s('title', {}, `${L.rupees(d.amount)} ${what} on ${L.sayDate(d.on, t)} from ${nameOf(r.h)}`),
+          s('title', {}, `${d.amount != null ? L.rupees(d.amount) : 'Interest'} ${what} on ${L.sayDate(d.on, t)} from ${nameOf(r.h)}`),
           s('circle', { cx, cy: y, r: d.status === 'next' ? 6 : 4.5 }),
-          (roomy || d.status === 'next') && s('text', { x: cx, y: y - 11, 'text-anchor': anchor }, L.rupees(d.amount))));
+          (roomy || d.status === 'next') && d.amount != null && s('text', { x: cx, y: y - 11, 'text-anchor': anchor }, L.rupees(d.amount))));
       } else {
         g.push(s('g', { class: 'pay back' },
           s('title', {}, `${nameOf(r.h)} matures on ${L.sayDate(d.on, t)}`),
@@ -268,11 +271,11 @@ function agenda(upcoming, t) {
       [...byMonth].map(([k, ds]) => [
         h('li', { class: 'month' },
           h('span', { class: 'label' }, L.sayMonth(k + '-01').replace(` ${t.slice(0, 4)}`, '')),
-          ds.length > 1 && h('span', { class: 'total amount' }, L.rupees(ds.reduce((x, d) => x + d.amount, 0)))),
+          ds.length > 1 && ds.every((d) => d.amount != null) && h('span', { class: 'total amount' }, L.rupees(ds.reduce((x, d) => x + d.amount, 0)))),
         ds.map((d) => h('li', { class: 'pay' },
           h('time', { class: 'when', datetime: d.on }, L.sayDate(d.on, t).replace(/ [A-Z][a-z]{2}( \d{4})?$/, '')),
-          h('span', {}, nameOf(d.holding), d.kind === 'principal' && h('span', { class: 'muted' }, ' matures')),
-          money(d.amount))),
+          h('span', {}, nameOf(d.holding), d.kind !== 'interest' && h('span', { class: 'muted' }, ' matures')),
+          d.amount != null ? money(d.amount) : h('span', { class: 'amount muted small' }, d.kind === 'maturity' ? 'at the gold price' : 'rate not set yet'))),
       ])));
 }
 
@@ -281,25 +284,32 @@ const nb = (x) => x.replace(/ /g, '\u00a0');
 function holdingsList(rows, t) {
   const yields = (h) => {
     const b = bondOf(h);
-    if (!b || !h.price) return null;
+    if (!b || !h.price || b.kind === 'frb' || b.kind === 'iib') return null;
     return L.ytm(h.price, b.coupon, h.date, b.maturity);
   };
   return h('section', {},
     h('div', { class: 'section-head' },
       h('h2', {}, 'Your bonds'),
       h('div', { class: 'actions' },
-        h('button', { class: 'link', type: 'button', onclick: () => openHolding({}) }, 'Add a bond'),
-        h('button', { class: 'link quiet', type: 'button', onclick: () => openSgb() }, 'Add a gold bond'))),
+        h('button', { class: 'link', type: 'button', 'data-key': 'add-bond', onclick: () => openHolding({}) }, 'Add a bond'),
+        h('button', { class: 'link quiet', type: 'button', 'data-key': 'add-sgb', onclick: () => openSgb() }, 'Add a gold bond'))),
     h('ul', { class: 'plain' },
-      [...rows].sort((a, b) => endOf(a.h).localeCompare(endOf(b.h))).map(({ h: hd, due }) => {
+      [...rows].sort((a, b) => (endOf(a.h) || '9999').localeCompare(endOf(b.h) || '9999')).map(({ h: hd, due }) => {
         const b = bondOf(hd);
         const got = due.filter((d) => d.paid).reduce((x, d) => x + d.paid.amount, 0);
         const nGot = due.filter((d) => d.paid).length;
         const y = yields(hd);
-        const matured = endOf(hd) <= t;
+        const end = endOf(hd);
+        const matured = end && end <= t;
+        const days = (m) => L.payDays(m).split(' and ').map(nb).join(' and ');
+        const pays = !b ? null
+          : b.kind === 'frb' ? `pays on ${days(b.maturity)} at a rate RBI resets every six months`
+            : b.kind === 'iib' ? `pays on ${days(b.maturity)}, linked to inflation`
+              : `pays ${L.rupees(hd.face * b.coupon / 200)} on ${days(b.maturity)}`;
         const facts = hd.kind === 'sgb'
-          ? [`${hd.grams} g at ${L.rupees(hd.issuePrice)} a gram`, `pays ${L.rupees(hd.grams * hd.issuePrice * 0.0125)} every six months`, `until ${nb(L.sayMonth(L.shiftMonths(hd.issueDate, 96)))}`]
-          : [L.rupees(hd.face), `pays ${L.rupees(hd.face * b.coupon / 200)} on ${L.payDays(b.maturity).split(' and ').map(nb).join(' and ')}`, `${matured ? 'matured' : 'until'} ${nb(L.sayDate(b.maturity, t, { weekday: false }))}`];
+          ? [`${hd.grams} g at ${L.rupees(hd.issuePrice)} a gram`, `pays ${L.rupees(L.sgbCoupon(hd))} every six months`, `${matured ? 'matured' : 'until'} ${nb(L.sayMonth(end))}`]
+          : b ? [L.rupees(hd.face), pays, `${matured ? 'matured' : 'until'} ${nb(L.sayDate(b.maturity, t, { weekday: false }))}`]
+            : [L.rupees(hd.face), 'RBI’s list no longer has this bond, so its payments can’t be worked out. Edit it to choose the bond again.'];
         const on = (d) => nb(L.sayDate(d, t, { weekday: false }));
         const bought = hd.kind === 'sgb' ? null
           : hd.how === 'auction'
@@ -307,10 +317,10 @@ function holdingsList(rows, t) {
             : `bought on ${on(hd.date)}`;
         return h('li', { class: 'holding' },
           h('div', { class: 'top' },
-            hd.kind === 'sgb' ? h('span', { class: 'name' }, nameOf(hd)) : h('a', { class: 'name', href: `#/bonds/${hd.bond}` }, nameOf(hd)),
+            hd.kind === 'sgb' || !b ? h('span', { class: 'name' }, nameOf(hd)) : h('a', { class: 'name', href: `#/bonds/${hd.bond}` }, nameOf(hd)),
             h('div', { class: 'tools' },
-              h('button', { class: 'link quiet', type: 'button', onclick: () => (hd.kind === 'sgb' ? openSgb(hd) : openHolding({ edit: hd })) }, 'Edit'),
-              h('button', { class: 'link quiet', type: 'button', onclick: (e) => confirmRemove(e.target.closest('.holding'), hd) }, 'Remove'))),
+              h('button', { class: 'link quiet', type: 'button', 'data-key': `edit-${hd.id}`, onclick: () => (hd.kind === 'sgb' ? openSgb(hd) : openHolding({ edit: hd })) }, 'Edit'),
+              h('button', { class: 'link quiet', type: 'button', onclick: (e) => confirmRemove(e.target.closest('.holding'), hd, e.target) }, 'Remove'))),
           h('p', { class: 'facts' }, facts.map((f) => h('span', {}, f))),
           h('p', { class: 'facts' },
             bought && h('span', {}, bought + (hd.price ? ` at ${L.rupees(hd.price)}` : '')),
@@ -319,17 +329,21 @@ function holdingsList(rows, t) {
       })));
 }
 
-function confirmRemove(li, hd) {
+function confirmRemove(li, hd, from) {
   if (li.querySelector('.confirm')) return;
+  const { match } = ledger();
+  const its = state.store.payments.filter((p) => match.get(p.id)?.holding === hd.id);
   const box = h('div', { class: 'confirm', role: 'group', 'aria-label': `Remove ${nameOf(hd)}?` },
-    h('span', {}, `Remove ${nameOf(hd)} and forget its payments?`),
+    h('span', {}, `Remove ${nameOf(hd)}?`, its.length ? ` The ${its.length === 1 ? 'payment' : `${its.length} payments`} you recorded from it stay under Received.` : ''),
     h('button', { class: 'button quiet', type: 'button', onclick: () => {
+      // what it paid stays income you received, under its name, and is not matched to another bond
+      for (const p of its) { p.label = nameOf(hd); delete p.holding; delete p.due; delete p.kind; }
       state.store.holdings = held().filter((x) => x.id !== hd.id);
-      for (const p of state.store.payments) if (p.holding === hd.id) { delete p.holding; delete p.due; }
       write();
       render();
+      main().focus();
     } }, 'Remove'),
-    h('button', { class: 'link quiet', type: 'button', onclick: () => box.remove() }, 'Keep it'));
+    h('button', { class: 'link quiet', type: 'button', onclick: () => { box.remove(); from.focus(); } }, 'Keep it'));
   li.append(box);
   box.querySelector('button').focus();
 }
@@ -352,44 +366,25 @@ function receivedList(t, match) {
   const row = (p) => {
     const m = match.get(p.id);
     const hd = m && held().find((x) => x.id === m.holding);
-    return h('li', { class: hd ? null : 'loose' },
-      h('button', { class: 'pay-row', type: 'button', 'aria-haspopup': 'dialog', onclick: () => openPayment(p) },
+    return h('li', {},
+      h('button', { class: 'pay-row', type: 'button', 'aria-haspopup': 'dialog', 'data-key': `pay-${p.id}`, onclick: () => openPayment(p) },
         h('time', { class: 'when', datetime: p.date }, L.sayDate(p.date, t, { weekday: false })),
-        hd ? h('span', {}, nameOf(hd)) : h('span', { class: 'narration' }, p.narration || ''),
-        money(p.amount)),
-      !hd && whichBond(p));
+        hd ? h('span', {}, nameOf(hd)) : p.label ? h('span', { class: 'gone' }, p.label) : h('span', { class: 'ask' }, 'Which bond?'),
+        money(p.amount)));
   };
   return h('section', { class: 'received' },
     h('div', { class: 'section-head' },
       h('h2', {}, 'Received'),
       h('div', { class: 'actions' },
-        h('button', { class: 'link', type: 'button', onclick: () => openPayment() }, 'Record a payment'),
-        h('button', { class: 'link quiet', type: 'button', onclick: () => openPaste() }, 'Paste from a statement'))),
+        h('button', { class: 'link', type: 'button', 'data-key': 'record', onclick: () => openPayment() }, 'Record a payment'),
+        h('button', { class: 'link quiet', type: 'button', 'data-key': 'paste', onclick: () => openPaste() }, 'Paste from a statement'))),
     !pays.length
       ? h('p', { class: 'empty-note' }, 'Note the interest that reaches your bank, and each credit is matched to its bond by amount and date.')
-      : [...groups].map(([k, ps], i) => h('details', { class: 'fy', open: i === 0 || ps.some((p) => !match.get(p.id)) },
+      : [...groups].map(([k, ps], i) => h('details', { class: 'fy', open: i === 0 || ps.some((p) => !match.get(p.id) && !p.label) },
         h('summary', {},
           h('span', { class: 'label' }, `FY ${k}`),
           h('span', { class: 'total amount' }, L.rupees(ps.reduce((x, p) => x + p.amount, 0)))),
         h('ul', { class: 'plain' }, ps.map(row)))));
-}
-
-// An unmatched credit asks which bond it belongs to, in place.
-function whichBond(p) {
-  const sel = h('select', { 'aria-label': `Which bond paid ${L.rupees(p.amount)} on ${L.sayDate(p.date, today())}?`,
-    onchange: () => {
-      const hd = held().find((x) => x.id === sel.value);
-      if (!hd) return;
-      const near = L.paymentsOf(hd, bondOf(hd)).filter((d) => d.amount != null)
-        .sort((a, b) => Math.abs(L.daysBetween(a.date, p.date)) - Math.abs(L.daysBetween(b.date, p.date)))[0];
-      p.holding = hd.id;
-      p.due = near ? near.date : p.date;
-      write();
-      render();
-    } },
-    h('option', { value: '' }, 'Which bond?'),
-    held().map((x) => h('option', { value: x.id }, nameOf(x))));
-  return h('span', {}, sel);
 }
 
 // ---------------------------------------------------------------- all bonds
@@ -399,9 +394,11 @@ function allBonds() {
   const q = params.get('q') || '';
   const matured = params.get('matured') === '1';
   const list = h('ul', { class: 'plain bonds' });
+  const count = h('p', { class: 'visually-hidden', role: 'status' });
   const heldIds = new Set(held().map((x) => x.bond));
   const fill = () => {
     const hits = searchBonds(input.value, { matured: box.checked });
+    count.textContent = `${hits.length} ${hits.length === 1 ? 'bond' : 'bonds'}`;
     list.replaceChildren(...(hits.length
       ? [h('li', { class: 'head', 'aria-hidden': 'true' }, h('span', {}), h('span', {}), h('span', {}, 'yield at its last auction')), ...hits.map((b) => {
         const last = lastAuction(b);
@@ -427,6 +424,7 @@ function allBonds() {
     h('h1', {}, 'All bonds'),
     h('p', { class: 'muted' }, `Every Government of India bond auctioned since August 2012, as RBI announced it. The last auction was on ${L.sayDate(state.asof, t)}.`),
     h('div', { class: 'filters' }, h('div', { class: 'search' }, h('div', { class: 'box' }, searchIcon(), input)), h('label', {}, box, 'Matured too')),
+    count,
     list,
   ];
 }
@@ -442,7 +440,8 @@ function bondPage(id) {
     h('p', { class: 'label', style: 'margin:0 0 .2em' }, kind),
     h('h1', {}, b.name),
     h('dl', { class: 'facts-list' },
-      h('dt', {}, 'Interest'), h('dd', {}, b.kind === 'frb' ? `floating, ${L.percent(b.coupon)} lately` : `${L.percent(b.coupon)} a year`),
+      h('dt', {}, 'Interest'), h('dd', {}, b.kind === 'frb' ? 'floating: RBI resets the rate every six months'
+        : b.kind === 'iib' ? `${L.percent(b.coupon)} a year on a principal that grows with inflation` : `${L.percent(b.coupon)} a year`),
       h('dt', {}, 'Paid on'), h('dd', {}, L.payDays(b.maturity)),
       h('dt', {}, outstanding(b) ? 'Matures' : 'Matured'), h('dd', {}, L.sayDate(b.maturity, t, { weekday: false })),
       h('dt', {}, 'First issued'), h('dd', {}, L.sayDate(b.issued, t, { weekday: false }))),
@@ -533,8 +532,10 @@ function bondSearch({ autofocus, onPick, value = '' }) {
 // ---------------------------------------------------------------- sheets
 const sheet = () => document.getElementById('sheet');
 
+let opener = null;
 function openSheet(title, body, actions) {
   const d = sheet();
+  if (!d.open) opener = document.activeElement?.closest?.('[data-key]')?.dataset.key || null;
   d.replaceChildren(h('form', { class: 'sheet', method: 'dialog', novalidate: true, onsubmit: (e) => e.preventDefault() },
     h('header', {}, h('h2', { id: 'sheet-title' }, title),
       h('button', { class: 'link quiet', type: 'button', onclick: () => d.close() }, 'Close')),
@@ -545,6 +546,14 @@ function openSheet(title, body, actions) {
 }
 
 // The label names the input itself, even when a ₹ sits in front of it, and the hint describes it.
+// Saved: close the sheet, redraw, and put focus back on what opened it (or the page, if that is gone).
+function done() {
+  sheet().close();
+  render();
+  const back = opener && document.querySelector(`[data-key="${CSS.escape(opener)}"]`);
+  (back || main()).focus();
+}
+
 function field(label, control, { hint, id = 'f' + uid() } = {}) {
   const input = control.matches('input, select, textarea') ? control : control.querySelector('input, select, textarea');
   input.id = id;
@@ -554,12 +563,22 @@ function field(label, control, { hint, id = 'f' + uid() } = {}) {
 
 const num = (v) => (v === '' || v == null ? null : Number(String(v).replace(/,/g, '')));
 
+function forgetStaleMatches(rec) {
+  const dues = L.paymentsOf(rec, bondOf(rec));
+  for (const p of state.store.payments) {
+    if (p.holding === rec.id && !dues.some((d) => d.date === p.due && d.kind === (p.kind || 'interest'))) {
+      delete p.holding; delete p.due; delete p.kind;
+    }
+  }
+}
+
 function openHolding({ bond, edit } = {}) {
   const t = today();
   const st = edit
     ? { ...edit }
     : { bond: bond || null, how: 'auction', face: null, date: null, price: null, auction: null };
-  const draw = () => {
+  let first = true;
+  const draw = (focus) => {
     const b = st.bond && state.byId[st.bond];
     const body = [];
     if (!b) {
@@ -571,14 +590,14 @@ function openHolding({ bond, edit } = {}) {
         !edit && h('button', { class: 'link quiet', type: 'button', onclick: () => { st.bond = null; draw(); } }, 'Change')));
       const aus = auctionsOf(b).filter((a) => a.issued <= t).reverse();
       body.push(h('div', { class: 'choice', role: 'group', 'aria-label': 'How did you buy it?' },
-        ['auction', 'market'].map((k) => h('button', { type: 'button', 'aria-pressed': String(st.how === k),
-          onclick: () => { st.how = k; if (k === 'market') { st.auction = null; } draw(); } }, k === 'auction' ? 'At an RBI auction' : 'From the market'))));
+        ['auction', 'market'].map((k) => h('button', { type: 'button', 'aria-pressed': String(st.how === k), 'data-focus': `how-${k}`,
+          onclick: () => { st.how = k; if (k === 'market') { st.auction = null; } draw(`how-${k}`); } }, k === 'auction' ? 'At an RBI auction' : 'From the market'))));
       if (st.how === 'auction') {
         if (!st.auction && aus[0]) Object.assign(st, { auction: aus[0].auction, date: aus[0].issued, price: aus[0].price, isNew: aus[0].isNew });
-        const sel = h('select', { onchange: () => {
+        const sel = h('select', { 'data-focus': 'auction', onchange: () => {
           const a = aus.find((x) => x.auction === sel.value);
           Object.assign(st, { auction: a.auction, date: a.issued, price: a.price, isNew: a.isNew });
-          draw();
+          draw('auction');
         } }, aus.map((a) => h('option', { value: a.auction, selected: a.auction === st.auction },
           `${L.sayDate(a.auction, t, { weekday: false })} · ${a.isNew ? 'new issue' : 're-issue'}${a.price ? ` · ${L.rupees(a.price)}` : ''}`)));
         body.push(field('Which auction?', sel, { hint: 'Retail bidders pay the average price of the auction, shown here.' }));
@@ -594,26 +613,30 @@ function openHolding({ bond, edit } = {}) {
         oninput: (e) => { st.face = num(e.target.value); preview(); } });
       body.push(field('Face value', h('div', { class: 'prefix' }, h('span', {}, '₹'), faceInput), { hint: 'What the bond repays at the end: 100 bonds of ₹100 is ₹10,000.' }));
       body.push(h('div', { class: 'preview', 'aria-live': 'polite' }));
-      if (!edit && !st.face) afterRender.push(() => faceInput.focus());
+      if (first && !edit && !st.face) afterRender.push(() => faceInput.focus());
     }
     const save = h('button', { class: 'button', type: 'button', onclick: () => {
       const b2 = st.bond && state.byId[st.bond];
       const bad = !b2 ? 'Pick a bond first.' : !(st.face > 0) ? 'Enter the face value.' : st.face % 100 ? 'Face value comes in steps of ₹100.' : !st.date ? 'Enter when you bought it.' : null;
       const out = sheet().querySelector('.complaint') || h('p', { class: 'complaint', role: 'alert' });
       if (bad) { out.textContent = bad; sheet().querySelector('.body').append(out); return; }
-      const rec = { id: st.id || uid(), kind: 'gsec', bond: st.bond, face: st.face, date: st.date, price: st.price || null, how: st.how,
+      const rec = { id: st.id || uid(), kind: 'gsec', bond: st.bond, name: b2.name, face: st.face, date: st.date, price: st.price || null, how: st.how,
         auction: st.how === 'auction' ? st.auction : null, isNew: st.how === 'auction' ? !!st.isNew : false };
       state.store.holdings = edit ? held().map((x) => (x.id === rec.id ? rec : x)) : [...held(), rec];
+      if (edit) forgetStaleMatches(rec);
       write();
-      sheet().close();
-      location.hash = '#/';
-      render();
+      if (location.hash.replace(/^#/, '') !== '/' && location.hash !== '') {
+        sheet().close();
+        location.hash = '#/';
+      } else done();
     } }, edit ? 'Save' : 'Add to my bonds');
     openSheet(edit ? `Edit ${b ? b.name : 'bond'}` : 'Add a bond you hold', body, [
       h('button', { class: 'button quiet', type: 'button', onclick: () => sheet().close() }, 'Cancel'), save]);
     preview();
     afterRender.forEach((f) => f());
     afterRender.length = 0;
+    if (focus) sheet().querySelector(`[data-focus="${focus}"]`)?.focus();
+    first = false;
   };
   // What the person is about to save, in plain words: the payments, and what they paid.
   const preview = () => {
@@ -621,7 +644,12 @@ function openHolding({ bond, edit } = {}) {
     const b = st.bond && state.byId[st.bond];
     if (!box || !b) return;
     const lines = [];
-    if (st.face > 0) {
+    const floats = b.kind === 'frb' || b.kind === 'iib';
+    if (st.face > 0 && floats) {
+      lines.push(h('p', {}, `Pays on ${L.payDays(b.maturity)} until ${L.sayMonth(b.maturity)}, then ${L.rupees(st.face)} back. `,
+        b.kind === 'frb' ? 'RBI resets the rate every six months, so each amount is known only shortly before it is paid.' : 'Each amount follows inflation.'));
+      if (st.price) lines.push(h('p', {}, `Cost ${L.rupees((st.face * st.price) / 100)}, plus any interest already earned.`));
+    } else if (st.face > 0) {
       const half = (st.face * b.coupon) / 200;
       lines.push(h('p', {}, 'Pays ', h('strong', { class: 'amount' }, L.rupees(half)), ` on ${L.payDays(b.maturity)} until ${L.sayMonth(b.maturity)}, then ${L.rupees(st.face)} back.`));
       if (st.date && st.price) {
@@ -631,7 +659,6 @@ function openHolding({ bond, edit } = {}) {
           acc > 0.005 ? ` plus ${L.rupees(acc)} of interest already earned, which the first payment returns` : '',
           y != null ? `. Yield when bought: ${L.percent(y)}.` : '.'));
       }
-      if (b.kind === 'frb') lines.push(h('p', { class: 'muted' }, 'A floating rate bond: each payment is reset every six months, so later amounts will differ.'));
     }
     box.hidden = !lines.length;
     box.replaceChildren(...lines);
@@ -646,7 +673,7 @@ function openSgb(edit) {
   const preview = () => {
     if (!(st.grams > 0 && st.issuePrice > 0 && st.issueDate)) { box.hidden = true; return; }
     box.hidden = false;
-    const per = st.grams * st.issuePrice * 0.0125;
+    const per = L.sgbCoupon(st);
     const a = L.shiftMonths(st.issueDate, 6);
     box.replaceChildren(h('p', {}, 'Pays ', h('strong', { class: 'amount' }, L.rupees(per)),
       ` every six months (${L.sayDate(a, t, { weekday: false }).replace(/ \d{4}$/, '')} and ${L.sayDate(st.issueDate, t, { weekday: false }).replace(/ \d{4}$/, '')}) until ${L.sayMonth(L.shiftMonths(st.issueDate, 96))}.`));
@@ -657,10 +684,12 @@ function openSgb(edit) {
     if (bad) { out.textContent = bad; sheet().querySelector('.body').append(out); return; }
     const rec = { id: st.id || uid(), kind: 'sgb', series: st.series.trim(), grams: st.grams, issuePrice: st.issuePrice, issueDate: st.issueDate, date: st.date || st.issueDate };
     state.store.holdings = edit ? held().map((x) => (x.id === rec.id ? rec : x)) : [...held(), rec];
+    if (edit) forgetStaleMatches(rec);
     write();
-    sheet().close();
-    location.hash = '#/';
-    render();
+    if (location.hash.replace(/^#/, '') !== '/' && location.hash !== '') {
+      sheet().close();
+      location.hash = '#/';
+    } else done();
   };
   openSheet(edit ? `Edit ${edit.series}` : 'Add a gold bond', [
     field('Series', h('input', { type: 'text', value: st.series, placeholder: 'SGB 2023-24 Series II', oninput: (e) => { st.series = e.target.value; } })),
@@ -686,12 +715,12 @@ function openPayment(edit) {
   const sel = h('select', { onchange: () => { st.choice = sel.value; } },
     h('option', { value: '' }, 'Work it out from the amount and date'),
     held().map((x) => h('option', { value: x.id, selected: x.id === st.choice }, nameOf(x))));
-  const say = (hd, due, verb) => `${verb} ${nameOf(hd)}’s ${L.sayDate(due, t, { weekday: false })} payment.`;
+  const say = (hd, due, kind, verb) => `${verb} ${nameOf(hd)}’s ${kind === 'interest' ? `${L.sayDate(due, t, { weekday: false })} payment` : 'repayment'}.`;
   const guess = () => {
     if (!(st.amount > 0) || !st.date) { hintBox.textContent = ''; return; }
     const c = L.candidates({ date: st.date, amount: st.amount }, held(), state.byId)[0];
     const hd = c && held().find((x) => x.id === c.holding);
-    hintBox.textContent = hd ? say(hd, c.due, 'Looks like') : 'No bond you hold pays this amount around this date.';
+    hintBox.textContent = hd ? say(hd, c.due, c.kind, 'Looks like') : 'No bond you hold pays this amount around this date.';
   };
   const save = () => {
     if (!(st.amount > 0) || !st.date) {
@@ -701,16 +730,14 @@ function openPayment(edit) {
       return;
     }
     const p = { id: edit?.id || uid(), date: st.date, amount: st.amount, narration: st.narration.trim() || null };
-    if (st.choice) {
-      const hd = held().find((x) => x.id === st.choice);
-      const near = L.paymentsOf(hd, bondOf(hd)).filter((d) => d.amount != null)
-        .sort((a, b) => Math.abs(L.daysBetween(a.date, p.date)) - Math.abs(L.daysBetween(b.date, p.date)))[0];
-      Object.assign(p, { holding: hd.id, due: near ? near.date : p.date });
-    }
+    const hd = st.choice && held().find((x) => x.id === st.choice);
+    if (hd) {
+      const near = L.nearestDue(p, hd, bondOf(hd));
+      Object.assign(p, { holding: hd.id, due: near ? near.due : p.date, kind: near ? near.kind : 'interest' });
+    } else if (edit?.label) p.label = edit.label; // still the removed bond's, unless another is chosen
     state.store.payments = edit ? state.store.payments.map((x) => (x.id === p.id ? p : x)) : [...state.store.payments, p];
     write();
-    sheet().close();
-    render();
+    done();
   };
   const remove = () => {
     const foot = sheet().querySelector('footer');
@@ -719,8 +746,7 @@ function openPayment(edit) {
       h('button', { class: 'button', type: 'button', onclick: () => {
         state.store.payments = state.store.payments.filter((x) => x.id !== edit.id);
         write();
-        sheet().close();
-        render();
+        done();
       } }, 'Remove'));
     foot.querySelector('.button').focus();
   };
@@ -738,8 +764,10 @@ function openPayment(edit) {
   // An existing payment says what it was matched to, until the amount or date changes.
   const m = edit && ledger().match.get(edit.id);
   const hd = m && held().find((x) => x.id === m.holding);
-  if (hd) hintBox.textContent = say(hd, m.due, 'Matched to');
+  if (hd) hintBox.textContent = say(hd, m.due, m.kind, 'Matched to');
+  else if (edit?.label) hintBox.textContent = `From ${edit.label}, which you removed.`;
   else guess();
+  if (edit && !hd && !edit.label && matchMedia('(pointer: fine)').matches) sel.focus(); // it was opened to answer "Which bond?"
 }
 
 // Many credits at once: paste the lines of a statement, keep the ones that are interest.
@@ -751,8 +779,7 @@ function openPaste() {
     const have = new Set(state.store.payments.map((p) => `${p.date}|${p.amount}`));
     for (const f of found) if (!have.has(`${f.date}|${f.amount}`)) state.store.payments.push({ id: uid(), ...f });
     write();
-    sheet().close();
-    render();
+    done();
   } }, 'Add');
   const read = (text) => {
     const have = new Set(state.store.payments.map((p) => `${p.date}|${p.amount}`));
@@ -789,17 +816,31 @@ function backup() {
 
 function restore(file) {
   file.text().then((text) => {
-    let s;
-    try { s = JSON.parse(text); } catch { s = null; }
-    if (!s || !Array.isArray(s.holdings) || !Array.isArray(s.payments)) {
+    let raw = null;
+    try { raw = JSON.parse(text); } catch {}
+    const s = L.clean(raw);
+    if (!s) {
       openSheet('That file isn’t a backup', h('p', {}, 'Choose a file saved with “Back up” on this site.'),
         h('button', { class: 'button', type: 'button', onclick: () => sheet().close() }, 'OK'));
       return;
     }
-    state.store = { holdings: s.holdings, payments: s.payments };
-    write();
-    location.hash = '#/';
-    render();
+    const n = (k, one, many) => `${k} ${k === 1 ? one : many}`;
+    const has = held().length + state.store.payments.length;
+    const skipped = raw.holdings.length + raw.payments.length - s.holdings.length - s.payments.length;
+    const replace = () => {
+      state.store = s;
+      write();
+      sheet().close();
+      if (location.hash.replace(/^#/, '') !== '/' && location.hash !== '') location.hash = '#/';
+      else { render(); main().focus(); }
+    };
+    if (!has && !skipped) { replace(); return; }
+    openSheet(has ? 'Replace what’s here with the backup?' : 'Restore the backup?', [
+      h('p', {}, `The file has ${n(s.holdings.length, 'bond', 'bonds')} and ${n(s.payments.length, 'payment', 'payments')}`,
+        has ? `; this browser has ${n(held().length, 'bond', 'bonds')} and ${n(state.store.payments.length, 'payment', 'payments')}, which restoring replaces.` : '.'),
+      skipped ? h('p', { class: 'muted' }, `${n(skipped, 'record', 'records')} in it could not be read and will be left out.`) : null,
+    ], [h('button', { class: 'button quiet', type: 'button', onclick: () => sheet().close() }, has ? 'Keep what’s here' : 'Cancel'),
+      h('button', { class: 'button', type: 'button', onclick: replace }, has ? 'Replace' : 'Restore')]);
   });
 }
 
@@ -829,5 +870,6 @@ document.addEventListener('click', (e) => {
 });
 document.querySelector('[data-restore]').addEventListener('change', (e) => { if (e.target.files[0]) restore(e.target.files[0]); e.target.value = ''; });
 window.addEventListener('hashchange', () => { render(); main().focus({ preventScroll: true }); window.scrollTo(0, 0); });
+document.querySelector('.skip-link').addEventListener('click', (e) => { e.preventDefault(); main().focus(); });
 window.addEventListener('storage', (e) => { if (e.key === KEY) { state.store = read(); render(); } });
 boot();

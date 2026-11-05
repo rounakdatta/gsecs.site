@@ -57,7 +57,7 @@ test('a gold bond pays 2.5% a year on its issue price, half-yearly from the issu
   assert.deepEqual([p[2].date, p[2].on], ['2024-09-14', '2024-09-16']); // a second Saturday, so Monday
   assert.equal(p.filter((x) => x.kind === 'interest').length, 16);
   assert.deepEqual(p.at(-1), { date: '2031-03-14', on: '2031-03-14', amount: null, kind: 'maturity' });
-  assert.ok(Math.abs(L.yearlyIncome(sgb) - 561.1) < 1e-9);
+  assert.ok(Math.abs(L.yearlyIncome(sgb, null, '2026-11-05') - 561.1) < 1e-9);
 });
 
 test('a credit is matched to its bond by amount and date, allowing a paisa and a few days', () => {
@@ -68,23 +68,23 @@ test('a credit is matched to its bond by amount and date, allowing a paisa and a
     { id: 3, date: '2024-06-12', amount: 999 }, // not a coupon of anything held
   ];
   const r = L.reconcile(pays, holdings, BONDS);
-  assert.deepEqual(r.get(1), { holding: 'a', due: '2025-04-18' });
-  assert.deepEqual(r.get(2), { holding: 'b', due: '2024-06-12' });
+  assert.deepEqual(r.get(1), { holding: 'a', due: '2025-04-18', kind: 'interest' });
+  assert.deepEqual(r.get(2), { holding: 'b', due: '2024-06-12', kind: 'interest' });
   assert.equal(r.get(3), null);
 });
 
 test('each due payment is claimed once: a second identical credit is not matched to the same coupon', () => {
   const holdings = [holding('a', 'gs2029', 100000, '2023-01-02')];
   const r = L.reconcile([{ id: 1, date: '2025-04-18', amount: 3550 }, { id: 2, date: '2025-04-19', amount: 3550 }], holdings, BONDS);
-  assert.deepEqual(r.get(1), { holding: 'a', due: '2025-04-18' });
+  assert.deepEqual(r.get(1), { holding: 'a', due: '2025-04-18', kind: 'interest' });
   assert.equal(r.get(2), null);
 });
 
 test('a choice made by hand is kept, even against a better automatic match', () => {
   const holdings = [holding('a', 'gs2029', 100000, '2023-01-02'), holding('b', 'gs2029', 100000, '2023-01-02')];
   const r = L.reconcile([{ id: 1, date: '2025-04-18', amount: 3550, holding: 'b', due: '2025-04-18' }, { id: 2, date: '2025-04-18', amount: 3550 }], holdings, BONDS);
-  assert.deepEqual(r.get(1), { holding: 'b', due: '2025-04-18' });
-  assert.deepEqual(r.get(2), { holding: 'a', due: '2025-04-18' });
+  assert.deepEqual(r.get(1), { holding: 'b', due: '2025-04-18', kind: 'interest' });
+  assert.deepEqual(r.get(2), { holding: 'a', due: '2025-04-18', kind: 'interest' });
 });
 
 test('a pasted statement line yields its date and the credit that matches a coupon, not the balance', () => {
@@ -116,4 +116,62 @@ test('money due on a bank holiday arrives the next working day, as real credits 
   assert.equal(L.workingDay('2026-12-12'), '2026-12-14'); // a second Saturday
   assert.equal(L.workingDay('2028-08-15'), '2028-08-16'); // Independence Day, a Tuesday
   assert.equal(L.workingDay('2026-11-05'), '2026-11-05'); // an ordinary Thursday
+});
+
+test('a stored or restored file is cleaned: records that cannot be read are dropped, so they never break the page', () => {
+  const s = L.clean({
+    holdings: [
+      { id: 'a', kind: 'gsec', bond: 'x', face: 1000, date: '2024-01-02' },
+      { id: 'b', kind: 'gsec', bond: 'x', face: 1000 }, // no purchase date
+      { id: 'c', kind: 'sgb', series: 'S', grams: 1, issuePrice: 5000 }, // no issue date
+      { id: 'd', kind: 'sgb', series: 'S', grams: 1, issuePrice: 5000, issueDate: '2023-03-14', date: '2023-03-14' },
+      null, 'junk',
+    ],
+    payments: [{ id: 'p', date: '2024-03-12', amount: 36.8 }, { id: 'q', date: 'yesterday', amount: 5 }, { id: 'r', date: '2024-03-12' }],
+  });
+  assert.deepEqual(s.holdings.map((h) => h.id), ['a', 'd']);
+  assert.deepEqual(s.payments.map((p) => p.id), ['p']);
+  assert.equal(L.clean({ holdings: 'x' }), null);
+  assert.deepEqual(L.couponDatesAfter('2052-09-12', undefined), []); // and a missing date cannot loop forever
+});
+
+test('at maturity the last coupon and the repayment are two payments, each matched on its own', () => {
+  const bonds = { m: bond(7.33, '2026-10-30', '2023-10-30') };
+  const holdings = [holding('a', 'm', 100000, '2024-01-02')];
+  const r = L.reconcile([{ id: 1, date: '2026-10-30', amount: 3665 }, { id: 2, date: '2026-10-30', amount: 100000 }], holdings, bonds);
+  assert.deepEqual(r.get(1), { holding: 'a', due: '2026-10-30', kind: 'interest' });
+  assert.deepEqual(r.get(2), { holding: 'a', due: '2026-10-30', kind: 'principal' });
+  // choosing the bond by hand for the repayment leaves the coupon matched
+  const byHand = L.nearestDue({ date: '2026-10-30', amount: 100000 }, holdings[0], bonds.m);
+  assert.deepEqual(byHand, { due: '2026-10-30', kind: 'principal' });
+  const r2 = L.reconcile([{ id: 1, date: '2026-10-30', amount: 3665 }, { id: 2, date: '2026-10-30', amount: 100000, holding: 'a', ...byHand }], holdings, bonds);
+  assert.deepEqual(r2.get(1), { holding: 'a', due: '2026-10-30', kind: 'interest' });
+  assert.deepEqual(L.nearestDue({ date: '2026-10-29', amount: 3665 }, holdings[0], bonds.m), { due: '2026-10-30', kind: 'interest' });
+});
+
+test('a matured bond no longer counts toward the yearly income', () => {
+  assert.equal(L.yearlyIncome(holding('a', 'gs2022', 100000, '2016-09-12'), BONDS.gs2022, '2026-11-05'), 0);
+  assert.equal(L.yearlyIncome(holding('a', 'gs2052', 100000, '2024-01-02'), BONDS.gs2052, '2026-11-05'), 7360);
+  const early = { kind: 'sgb', grams: 1, issuePrice: 2684, issueDate: '2015-11-26', date: '2015-11-26' };
+  assert.equal(L.yearlyIncome(early, null, '2026-11-05'), 0); // redeemed in 2023
+});
+
+test('a bond that matures on a holiday repays, with its last coupon, on the working day before', () => {
+  const b = bond(5.74, '2026-11-15', '2021-11-15'); // Sunday 15 Nov 2026; Saturday 14th is a second Saturday
+  const p = L.paymentsOf(holding('a', 'b', 100000, '2024-01-02'), b);
+  assert.deepEqual(p.filter((x) => x.date === '2026-11-15').map((x) => [x.kind, x.on]), [['interest', '2026-11-13'], ['principal', '2026-11-13']]);
+  assert.equal(L.previousWorkingDay('2026-11-15'), '2026-11-13');
+});
+
+test('the first gold bonds, issued before September 2016, paid 2.75% a year', () => {
+  const s = { id: 's', kind: 'sgb', grams: 2, issuePrice: 2684, issueDate: '2015-11-26', date: '2015-11-26' };
+  assert.ok(Math.abs(L.paymentsOf(s)[0].amount - 2 * 2684 * 0.01375) < 1e-9);
+});
+
+test('a floating rate bond pays on known dates, but each amount waits for the rate RBI sets', () => {
+  const frb = { kind: 'frb', coupon: 4.51, maturity: '2034-10-30', issued: '2021-10-30' };
+  const p = L.paymentsOf(holding('a', 'f', 100000, '2024-01-02'), frb);
+  assert.deepEqual(p.slice(0, 2).map((x) => [x.date, x.amount]), [['2024-04-30', null], ['2024-10-30', null]]);
+  assert.equal(p.at(-1).amount, 100000);
+  assert.equal(L.yearlyIncome(holding('a', 'f', 100000, '2024-01-02'), frb, '2026-11-05'), null);
 });

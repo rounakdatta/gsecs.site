@@ -901,17 +901,12 @@ textarea {
   text-align: right;
 }
 
-.received .loose > span {
-  display: block;
-  padding: 0 0 0.5em calc(5.2em + 0.75em);
+.received .ask {
+  color: var(--accent);
 }
 
-.received select {
-  min-height: 2.1rem;
-  padding: 0.1em 0.4em;
-  font-size: var(--step-small);
-  width: auto;
-  max-width: 100%;
+.received .gone {
+  color: var(--ink-muted);
 }
 
 .empty-note {

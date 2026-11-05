@@ -26,8 +26,10 @@ def build():
             price = a.get('weighted_average_price') or a.get('cut_off_price') or (100 if new else None)
             auctions.append([r['auction_date'], r['issuance_date'], 1 if new else 0, price, r['yield_at_auction'],
                              r['amount_issued_crore']] + ([r['coupon_rate']] if kind == 'frb' else []))
+        # A floating rate bond's rate is reset every six months and data/ holds only the rates of the
+        # periods it was auctioned in, so it gets no single coupon here; its auctions keep theirs.
         bonds.append({'id': f'{coupon}-{kind}-{maturity}' if coupon else f'{kind}-{maturity}', 'name': name, 'kind': kind,
-                      'coupon': rs[-1]['coupon_rate'], 'maturity': maturity,
+                      'coupon': None if kind == 'frb' else rs[-1]['coupon_rate'], 'maturity': maturity,
                       'issued': ai.get('original_issue_date') or rs[0]['issuance_date'], 'auctions': auctions})
     bonds.sort(key=lambda b: (b['maturity'], b['name']))
     asof = max(r['auction_date'] for rs in by.values() for r in rs)
