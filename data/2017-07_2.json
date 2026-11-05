@@ -1,21 +1,35 @@
 {
-  "security_name": "6.79% GS 2029",
+  "security_name": "7.73% GS 2034",
   "security_type": "Gilt",
   "security_codes": [
-    "679GS29L17",
-    "679GOI29",
-    "679GS2029-GS"
+    "773GS34J17",
+    "773GOI34",
+    "773GS2034-GS"
   ],
-  "announcement_date": "2017-06-30",
-  "auction_date": "2017-07-07",
-  "issuance_date": "2017-07-12",
-  "maturity_date": "2029-12-23",
-  "coupon_rate": 6.79,
-  "yield_at_auction": 6.8571,
-  "amount_issued_crore": 9000,
+  "announcement_date": "2017-06-23",
+  "auction_date": "2017-06-30",
+  "issuance_date": "2017-07-03",
+  "maturity_date": "2034-12-19",
+  "coupon_rate": 7.73,
+  "yield_at_auction": 7.0504,
+  "amount_issued_crore": 2000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=40998",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR67169EF09CE205499189CB0CC7C2A3D002.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=40911",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=40908",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11015&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11012&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/press_23062017.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 2000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2015-10-12",
+    "cut_off_price": 106.76,
+    "weighted_average_price": 106.84,
+    "competitive_bids_received_crore": 5164.106,
+    "competitive_bids_accepted_crore": 1993.578,
+    "non_competitive_bids_accepted_crore": 6.422,
+    "auction_method": "Multiple price"
+  }
 }

@@ -1,0 +1,36 @@
+{
+  "security_name": "7.06% GS 2046",
+  "security_type": "Gilt",
+  "security_codes": [
+    "706GS46N16",
+    "706GOI46",
+    "706GS2046-GS"
+  ],
+  "announcement_date": "2016-11-11",
+  "auction_date": "2016-11-18",
+  "issuance_date": "2016-11-21",
+  "maturity_date": "2046-10-10",
+  "coupon_rate": 7.06,
+  "yield_at_auction": 6.945,
+  "amount_issued_crore": 3000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=38626",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=38625",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10704&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10700&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/AuctionPressrelease11112106.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2016-10-10",
+    "cut_off_price": 101.43,
+    "weighted_average_price": 101.78,
+    "competitive_bids_received_crore": 6506.1,
+    "competitive_bids_accepted_crore": 1720,
+    "non_competitive_bids_accepted_crore": 31,
+    "devolvement_on_primary_dealers_crore": 1249,
+    "auction_method": "Multiple price"
+  }
+}

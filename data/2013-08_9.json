@@ -1,0 +1,36 @@
+{
+  "security_name": "7.28% GS 2019",
+  "security_type": "Gilt",
+  "security_codes": [
+    "728GS19A13",
+    "728GOI19",
+    "728GS2019-GS"
+  ],
+  "announcement_date": "2013-08-12",
+  "auction_date": "2013-08-16",
+  "issuance_date": "2013-08-19",
+  "maturity_date": "2019-06-03",
+  "coupon_rate": 7.28,
+  "yield_at_auction": 9.2046,
+  "amount_issued_crore": 4000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=29316",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=29315",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=8300&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=8299&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/Auctionforsale12082013.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 4000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2013-06-03",
+    "cut_off_price": 91.49,
+    "weighted_average_price": 91.49,
+    "competitive_bids_received_crore": 5617.11,
+    "competitive_bids_accepted_crore": 3429.11,
+    "non_competitive_bids_accepted_crore": 9.835,
+    "devolvement_on_primary_dealers_crore": 561.055,
+    "auction_method": "Uniform price"
+  }
+}

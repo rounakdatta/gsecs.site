@@ -1,0 +1,35 @@
+{
+  "security_name": "7.57% GS 2033",
+  "security_type": "Gilt",
+  "security_codes": [
+    "757GS33S19",
+    "757GOI33",
+    "757GS2033-GS"
+  ],
+  "announcement_date": "2019-09-23",
+  "auction_date": "2019-09-27",
+  "issuance_date": "2019-09-30",
+  "maturity_date": "2033-06-17",
+  "coupon_rate": 7.57,
+  "yield_at_auction": 7.071,
+  "amount_issued_crore": 6000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=48256",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=48255",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11694&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressCommunique_E_23092019.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 6000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2019-05-20",
+    "cut_off_price": 104.32,
+    "weighted_average_yield": 7.0647,
+    "weighted_average_price": 104.38,
+    "competitive_bids_received_crore": 19779,
+    "competitive_bids_accepted_crore": 5982.921,
+    "non_competitive_bids_accepted_crore": 17.079,
+    "auction_method": "Multiple price"
+  }
+}

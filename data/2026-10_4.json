@@ -1,0 +1,34 @@
+{
+  "security_name": "7.50% GOI SGrB 2056",
+  "security_type": "Sovereign Green Bond",
+  "security_codes": [
+    "750GS56O26",
+    "750GOI56",
+    "750GS2056-GS"
+  ],
+  "announcement_date": "2026-09-28",
+  "auction_date": "2026-10-01",
+  "issuance_date": "2026-10-05",
+  "maturity_date": "2056-04-27",
+  "coupon_rate": 7.5,
+  "yield_at_auction": 7.6539,
+  "amount_issued_crore": 3000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63709",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63708",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63681"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2026-04-27",
+    "cut_off_price": 98.2,
+    "weighted_average_yield": 7.6408,
+    "weighted_average_price": 98.35,
+    "competitive_bids_received_crore": 5964,
+    "competitive_bids_accepted_crore": 2999.102,
+    "non_competitive_bids_accepted_crore": 0.898,
+    "auction_method": "Multiple price"
+  }
+}

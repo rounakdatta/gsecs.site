@@ -1,0 +1,35 @@
+{
+  "security_name": "7.88% GS 2030",
+  "security_type": "Gilt",
+  "security_codes": [
+    "788GS30S15",
+    "788GOI30",
+    "788GS2030-GS"
+  ],
+  "announcement_date": "2015-08-31",
+  "auction_date": "2015-09-04",
+  "issuance_date": "2015-09-07",
+  "maturity_date": "2030-03-19",
+  "coupon_rate": 7.88,
+  "yield_at_auction": 7.8949,
+  "amount_issued_crore": 6000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=34906",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=34904",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10011&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10008&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/AuctionSale31082015.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 6000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2015-05-11",
+    "cut_off_price": 99.86,
+    "weighted_average_price": 99.88,
+    "competitive_bids_received_crore": 17916.3,
+    "competitive_bids_accepted_crore": 5977.81,
+    "non_competitive_bids_accepted_crore": 22.19,
+    "auction_method": "Multiple price"
+  }
+}

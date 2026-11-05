@@ -2,20 +2,34 @@
   "security_name": "7.40% GS 2062",
   "security_type": "Gilt",
   "security_codes": [
-    "74GS62D22",
-    "74GOI62",
-    "74GS2062-GS"
+    "740GS62D22",
+    "740GOI62",
+    "740GS2062-GS"
   ],
-  "announcement_date": "2022-11-25",
+  "announcement_date": "2022-11-28",
   "auction_date": "2022-12-02",
-  "issuance_date": "2022-12-07",
-  "maturity_date": "2062-04-02",
+  "issuance_date": "2022-12-05",
+  "maturity_date": "2062-09-19",
   "coupon_rate": 7.4,
   "yield_at_auction": 7.3489,
   "amount_issued_crore": 9000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=54794",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1296D802416113FF4B19B34A811279B83335.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=54793",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=54767",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_28112022.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 9000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2022-09-19",
+    "cut_off_price": 100.64,
+    "weighted_average_yield": 7.3219,
+    "weighted_average_price": 100.99,
+    "competitive_bids_received_crore": 20755.869,
+    "competitive_bids_accepted_crore": 8995.77,
+    "non_competitive_bids_accepted_crore": 4.23,
+    "auction_method": "Multiple price"
+  }
 }

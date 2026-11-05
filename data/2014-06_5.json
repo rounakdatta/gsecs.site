@@ -1,0 +1,33 @@
+{
+  "security_name": "8.27% GS 2020",
+  "security_type": "Gilt",
+  "security_codes": [
+    "827GS20J14",
+    "827GOI20",
+    "827GS2020-GS"
+  ],
+  "announcement_date": "2014-06-02",
+  "auction_date": "2014-06-06",
+  "issuance_date": "2014-06-09",
+  "maturity_date": "2020-06-09",
+  "coupon_rate": 8.27,
+  "yield_at_auction": 8.27,
+  "amount_issued_crore": 4000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=31360",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=31359",
+    "https://dea.gov.in/files/press_release_documents/AuctionSale02062014.pdf",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=9121&Mode=0"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 4000,
+    "issue_type": "New issue",
+    "original_issue_date": "2014-06-09",
+    "weighted_average_yield": 8.27,
+    "competitive_bids_received_crore": 10270,
+    "competitive_bids_accepted_crore": 3993,
+    "non_competitive_bids_accepted_crore": 7,
+    "auction_method": "Uniform price"
+  }
+}

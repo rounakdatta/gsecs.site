@@ -1,21 +1,33 @@
 {
-  "security_name": "6.67% GS 2035",
-  "security_type": "Gilt",
-  "security_codes": [
-    "667GS35S21",
-    "667GOI35",
-    "667GS2035-GS"
-  ],
-  "announcement_date": "2021-09-17",
+  "security_name": "GOI FRB 2034",
+  "security_type": "FRB",
+  "security_codes": [],
+  "announcement_date": "2021-09-20",
   "auction_date": "2021-09-24",
-  "issuance_date": "2021-09-29",
-  "maturity_date": "2035-06-05",
-  "coupon_rate": 6.67,
-  "yield_at_auction": 6.6757,
-  "amount_issued_crore": null,
+  "issuance_date": "2021-09-27",
+  "maturity_date": "2034-10-30",
+  "coupon_rate": 4.45,
+  "yield_at_auction": 4.4673,
+  "amount_issued_crore": 3000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52295",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR930C8AA7358910D4D7DB1112999766AA303.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52289",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52255",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_20092021.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2021-08-30",
+    "cut_off_price": 99.83,
+    "weighted_average_yield": 4.4673,
+    "weighted_average_price": 99.83,
+    "competitive_bids_received_crore": 9426.355,
+    "competitive_bids_accepted_crore": 2999.954,
+    "non_competitive_bids_accepted_crore": 0.046,
+    "auction_method": "Uniform price",
+    "coupon_period": "2021-08-30 to 2021-10-29",
+    "note": "Floating rate bond: coupon_rate is the rate fixed for the first coupon period at the new issue."
+  }
 }

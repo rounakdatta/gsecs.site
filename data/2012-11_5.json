@@ -2,20 +2,34 @@
   "security_name": "8.20% GS 2025",
   "security_type": "Gilt",
   "security_codes": [
-    "82GS25N16",
-    "82GOI25",
-    "82GS2025-GS"
+    "820GS25N12",
+    "820GOI25",
+    "820GS2025-GS"
   ],
-  "announcement_date": "2012-11-02",
+  "announcement_date": "2012-11-05",
   "auction_date": "2012-11-09",
-  "issuance_date": "2012-11-14",
-  "maturity_date": "2025-02-11",
+  "issuance_date": "2012-11-12",
+  "maturity_date": "2025-09-24",
   "coupon_rate": 8.2,
   "yield_at_auction": 8.2887,
-  "amount_issued_crore": null,
+  "amount_issued_crore": 7000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=27563",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR793G1112.pdf"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=27562",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=7674&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=7671&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/Auction_GovtStock05112012.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 7000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2012-09-24",
+    "cut_off_price": 99.29,
+    "weighted_average_price": 99.29,
+    "competitive_bids_received_crore": 14172.19,
+    "competitive_bids_accepted_crore": 6980.2,
+    "non_competitive_bids_accepted_crore": 19.8,
+    "auction_method": "Uniform price"
+  }
 }

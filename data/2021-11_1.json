@@ -1,21 +1,33 @@
 {
-  "security_name": "4.26% GS 2023",
-  "security_type": "Gilt",
-  "security_codes": [
-    "426GS23N21",
-    "426GOI23",
-    "426GS2023-GS"
-  ],
-  "announcement_date": "2021-11-05",
-  "auction_date": "2021-11-12",
-  "issuance_date": "2021-11-17",
-  "maturity_date": "2023-12-31",
-  "coupon_rate": 4.26,
-  "yield_at_auction": 4.5029,
-  "amount_issued_crore": null,
+  "security_name": "GOI FRB 2028",
+  "security_type": "FRB",
+  "security_codes": [],
+  "announcement_date": "2021-10-25",
+  "auction_date": "2021-10-29",
+  "issuance_date": "2021-11-01",
+  "maturity_date": "2028-10-04",
+  "coupon_rate": 4.04,
+  "yield_at_auction": 4.3776,
+  "amount_issued_crore": 4000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52552",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR11872FF84E1F89BA4550B2480364C95BFF91.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52484",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52480",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52459",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_25102021.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 4000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2021-10-04",
+    "cut_off_price": 99.65,
+    "weighted_average_yield": 4.3776,
+    "weighted_average_price": 99.65,
+    "competitive_bids_received_crore": 8111.921,
+    "competitive_bids_accepted_crore": 3999.979,
+    "non_competitive_bids_accepted_crore": 0.021,
+    "auction_method": "Uniform price",
+    "coupon_period": "2021-10-04 to 2022-04-03",
+    "note": "Floating rate bond: coupon_rate is the rate fixed for the first coupon period at the new issue."
+  }
 }

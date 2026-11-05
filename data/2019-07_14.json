@@ -1,21 +1,36 @@
 {
-  "security_name": "6.17% GS 2021",
+  "security_name": "7.63% GS 2059",
   "security_type": "Gilt",
   "security_codes": [
-    "617GS21L19",
-    "617GOI21",
-    "617GS2021-GS"
+    "763GS59J19",
+    "763GOI59",
+    "763GS2059-GS"
   ],
-  "announcement_date": "2019-07-19",
-  "auction_date": "2019-07-26",
-  "issuance_date": "2019-07-31",
-  "maturity_date": "2021-03-14",
-  "coupon_rate": 6.17,
-  "yield_at_auction": 6.1407,
-  "amount_issued_crore": 3000,
+  "announcement_date": "2019-07-08",
+  "auction_date": "2019-07-12",
+  "issuance_date": "2019-07-15",
+  "maturity_date": "2059-06-17",
+  "coupon_rate": 7.63,
+  "yield_at_auction": 6.7479,
+  "amount_issued_crore": 4000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=47708",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR25707D01834371F4A1EADD16DA6DE821145.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=47587",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=47586",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11626&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11625&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_08072019.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 4000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2019-05-06",
+    "cut_off_price": 112.14,
+    "weighted_average_yield": 6.7479,
+    "weighted_average_price": 112.14,
+    "competitive_bids_received_crore": 9862,
+    "competitive_bids_accepted_crore": 3997.883,
+    "non_competitive_bids_accepted_crore": 2.117,
+    "auction_method": "Multiple price"
+  }
 }

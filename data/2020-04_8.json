@@ -1,0 +1,35 @@
+{
+  "security_name": "6.45% GS 2029",
+  "security_type": "Gilt",
+  "security_codes": [
+    "645GS29A20",
+    "645GOI29",
+    "645GS2029-GS"
+  ],
+  "announcement_date": "2020-04-20",
+  "auction_date": "2020-04-24",
+  "issuance_date": "2020-04-27",
+  "maturity_date": "2029-10-07",
+  "coupon_rate": 6.45,
+  "yield_at_auction": 6.1319,
+  "amount_issued_crore": 9000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=49718",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=49717",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11875&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressReleaseauction_G_Sec_20042020_E.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 9000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2019-10-07",
+    "cut_off_price": 102.25,
+    "weighted_average_yield": 6.1153,
+    "weighted_average_price": 102.37,
+    "competitive_bids_received_crore": 30192.8,
+    "competitive_bids_accepted_crore": 8972.641,
+    "non_competitive_bids_accepted_crore": 27.359,
+    "auction_method": "Multiple price"
+  }
+}

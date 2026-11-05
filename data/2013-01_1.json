@@ -2,20 +2,34 @@
   "security_name": "8.07% GS 2017",
   "security_type": "Gilt",
   "security_codes": [
-    "807GS17J16",
+    "807GS17J13",
     "807GOI17",
     "807GS2017-GS"
   ],
-  "announcement_date": "2013-01-11",
+  "announcement_date": "2013-01-14",
   "auction_date": "2013-01-18",
-  "issuance_date": "2013-01-23",
-  "maturity_date": "2017-12-31",
+  "issuance_date": "2013-01-21",
+  "maturity_date": "2017-07-03",
   "coupon_rate": 8.07,
   "yield_at_auction": 7.8247,
-  "amount_issued_crore": null,
+  "amount_issued_crore": 3000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=27988",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR1219A0113.pdf"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=27986",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=7810&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=7809&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/Auctionforsale14012013.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2012-07-03",
+    "cut_off_price": 100.9,
+    "weighted_average_price": 100.92,
+    "competitive_bids_received_crore": 8903.5,
+    "competitive_bids_accepted_crore": 2969.05,
+    "non_competitive_bids_accepted_crore": 30.95,
+    "auction_method": "Multiple price"
+  }
 }

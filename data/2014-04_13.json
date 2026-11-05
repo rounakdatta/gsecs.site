@@ -1,0 +1,35 @@
+{
+  "security_name": "7.80% GS 2020",
+  "security_type": "Gilt",
+  "security_codes": [
+    "780GS20A14",
+    "780GOI20",
+    "780GS2020-GS"
+  ],
+  "announcement_date": "2014-04-21",
+  "auction_date": "2014-04-25",
+  "issuance_date": "2014-04-28",
+  "maturity_date": "2020-05-03",
+  "coupon_rate": 7.8,
+  "yield_at_auction": 8.9359,
+  "amount_issued_crore": 4000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=31072",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=31071",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=31043",
+    "https://dea.gov.in/files/press_release_documents/AuctionSale21042014.pdf",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=8865&Mode=0"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 4000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2010-05-03",
+    "cut_off_price": 94.8,
+    "weighted_average_price": 94.8,
+    "competitive_bids_received_crore": 7799,
+    "competitive_bids_accepted_crore": 3996,
+    "non_competitive_bids_accepted_crore": 4,
+    "auction_method": "Uniform price"
+  }
+}

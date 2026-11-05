@@ -1,0 +1,35 @@
+{
+  "security_name": "7.35% GS 2024",
+  "security_type": "Gilt",
+  "security_codes": [
+    "735GS24S15",
+    "735GOI24",
+    "735GS2024-GS"
+  ],
+  "announcement_date": "2015-09-21",
+  "auction_date": "2015-09-24",
+  "issuance_date": "2015-09-28",
+  "maturity_date": "2024-06-22",
+  "coupon_rate": 7.35,
+  "yield_at_auction": 7.8589,
+  "amount_issued_crore": 2000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=35065",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=35064",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10032&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10031&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/AuctionSale21092015.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 2000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2009-06-22",
+    "cut_off_price": 96.81,
+    "weighted_average_price": 96.82,
+    "competitive_bids_received_crore": 9429,
+    "competitive_bids_accepted_crore": 1994.37,
+    "non_competitive_bids_accepted_crore": 5.63,
+    "auction_method": "Multiple price"
+  }
+}

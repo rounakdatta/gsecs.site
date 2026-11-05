@@ -1,21 +1,35 @@
 {
-  "security_name": "8.28% GS 2027",
+  "security_name": "8.35% GS 2022",
   "security_type": "Gilt",
   "security_codes": [
-    "828GS27Y16",
-    "828GOI27",
-    "828GS2027-GS"
+    "835GS22M14",
+    "835GOI22",
+    "835GS2022-GS"
   ],
-  "announcement_date": "2014-04-25",
+  "announcement_date": "2014-04-28",
   "auction_date": "2014-05-02",
-  "issuance_date": "2014-05-07",
-  "maturity_date": "2027-06-03",
-  "coupon_rate": 8.28,
-  "yield_at_auction": 9.0399,
-  "amount_issued_crore": null,
+  "issuance_date": "2014-05-05",
+  "maturity_date": "2022-05-14",
+  "coupon_rate": 8.35,
+  "yield_at_auction": 8.916,
+  "amount_issued_crore": 4000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=31110",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR2125GS0514.pdf"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=31108",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=8858&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=8857&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/AuctionSale28042014.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 4000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2002-05-14",
+    "cut_off_price": 96.8,
+    "weighted_average_price": 96.8,
+    "competitive_bids_received_crore": 9636,
+    "competitive_bids_accepted_crore": 3994.6,
+    "non_competitive_bids_accepted_crore": 5.4,
+    "auction_method": "Uniform price"
+  }
 }

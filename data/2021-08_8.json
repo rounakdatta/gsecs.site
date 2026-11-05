@@ -1,21 +1,35 @@
 {
-  "security_name": "6.10% GS 2031",
-  "security_type": "Gilt",
-  "security_codes": [
-    "61GS31G21",
-    "61GOI31",
-    "61GS2031-GS"
-  ],
-  "announcement_date": "2021-08-13",
-  "auction_date": "2021-08-20",
-  "issuance_date": "2021-08-25",
-  "maturity_date": "2031-06-01",
-  "coupon_rate": 6.1,
-  "yield_at_auction": 6.2318,
-  "amount_issued_crore": null,
+  "security_name": "GOI FRB 2033",
+  "security_type": "FRB",
+  "security_codes": [],
+  "announcement_date": "2021-08-09",
+  "auction_date": "2021-08-13",
+  "issuance_date": "2021-08-17",
+  "maturity_date": "2033-09-22",
+  "coupon_rate": 4.7,
+  "yield_at_auction": 4.5855,
+  "amount_issued_crore": 3750,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52089",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR7248196EC9B415C46E7A45903A46B023ABA.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52056",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52053",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52027",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_09082021.pdf",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=51301"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2020-06-22",
+    "cut_off_price": 101.05,
+    "weighted_average_yield": 4.5855,
+    "weighted_average_price": 101.05,
+    "competitive_bids_received_crore": 16187.496,
+    "competitive_bids_accepted_crore": 3748.123,
+    "non_competitive_bids_accepted_crore": 1.877,
+    "auction_method": "Uniform price",
+    "coupon_period": "2021-03-22 to 2021-09-21",
+    "additional_amount_retained_crore": 750,
+    "note": "Floating rate bond: coupon_rate is the rate RBI set for the coupon period in which this tranche was issued."
+  }
 }

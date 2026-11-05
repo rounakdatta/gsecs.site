@@ -1,0 +1,35 @@
+{
+  "security_name": "6.97% GS 2026",
+  "security_type": "Gilt",
+  "security_codes": [
+    "697GS26N16",
+    "697GOI26",
+    "697GS2026-GS"
+  ],
+  "announcement_date": "2016-11-21",
+  "auction_date": "2016-11-25",
+  "issuance_date": "2016-11-28",
+  "maturity_date": "2026-09-06",
+  "coupon_rate": 6.97,
+  "yield_at_auction": 6.205,
+  "amount_issued_crore": 8000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=38702",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=38701",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10728&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10726&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/auctionpressrelease21112016.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 8000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2016-09-06",
+    "cut_off_price": 105.53,
+    "weighted_average_price": 105.63,
+    "competitive_bids_received_crore": 17649,
+    "competitive_bids_accepted_crore": 7967,
+    "non_competitive_bids_accepted_crore": 33,
+    "auction_method": "Multiple price"
+  }
+}

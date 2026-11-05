@@ -1,20 +1,34 @@
 {
-  "security_name": "6.28% Government Stock 2032",
+  "security_name": "6.90% GS 2065",
   "security_type": "Gilt",
-  "security_codes": ["628GS32D25", "628GOI32", "628GS2032-GS"],
-  "announcement_date": "2025-12-19",
-  "auction_date": "2025-12-26",
-  "issuance_date": "2025-12-29",
-  "maturity_date": "2032-07-14",
-  "coupon_rate": 6.28,
-  "yield_at_auction": 6.5842,
-  "amount_issued_crore": 11000,
+  "security_codes": [
+    "690GS65D25",
+    "690GOI65",
+    "690GS2065-GS"
+  ],
+  "announcement_date": "2025-12-08",
+  "auction_date": "2025-12-12",
+  "issuance_date": "2025-12-15",
+  "maturity_date": "2065-04-15",
+  "coupon_rate": 6.9,
+  "yield_at_auction": 7.434,
+  "amount_issued_crore": 12000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61895",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR17797349AA99C34F4F12865EE328B74AE13E.PDF"
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61806",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61804",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61778"
   ],
   "additional_info": {
-    "note": "Re-issuance of security first issued in July 2025"
+    "notified_amount_crore": 12000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2025-04-15",
+    "cut_off_price": 93.21,
+    "weighted_average_yield": 7.4223,
+    "weighted_average_price": 93.35,
+    "competitive_bids_received_crore": 32398,
+    "competitive_bids_accepted_crore": 11954.74,
+    "non_competitive_bids_accepted_crore": 45.26,
+    "auction_method": "Multiple price"
   }
 }

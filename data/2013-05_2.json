@@ -2,20 +2,34 @@
   "security_name": "8.33% GS 2026",
   "security_type": "Gilt",
   "security_codes": [
-    "833GS26Y16",
+    "833GS26M13",
     "833GOI26",
     "833GS2026-GS"
   ],
-  "announcement_date": "2013-04-26",
+  "announcement_date": "2013-04-29",
   "auction_date": "2013-05-03",
-  "issuance_date": "2013-05-08",
-  "maturity_date": "2026-12-07",
+  "issuance_date": "2013-05-06",
+  "maturity_date": "2026-07-09",
   "coupon_rate": 8.33,
-  "yield_at_auction": 7.999,
-  "amount_issued_crore": null,
+  "yield_at_auction": 7.8295,
+  "amount_issued_crore": 6000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=28597",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR1827GS0513.pdf"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=28596",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=7954&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=7952&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/Auctionforsale29042013.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 6000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2012-07-09",
+    "cut_off_price": 104.05,
+    "weighted_average_price": 104.11,
+    "competitive_bids_received_crore": 18602.75,
+    "competitive_bids_accepted_crore": 5970.15,
+    "non_competitive_bids_accepted_crore": 29.85,
+    "auction_method": "Multiple price"
+  }
 }

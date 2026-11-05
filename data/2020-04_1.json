@@ -1,0 +1,35 @@
+{
+  "security_name": "5.09% GS 2022",
+  "security_type": "Gilt",
+  "security_codes": [
+    "509GS22A20",
+    "509GOI22",
+    "509GS2022-GS"
+  ],
+  "announcement_date": "2020-04-03",
+  "auction_date": "2020-04-09",
+  "issuance_date": "2020-04-13",
+  "maturity_date": "2022-04-13",
+  "coupon_rate": 5.09,
+  "yield_at_auction": 5.09,
+  "amount_issued_crore": 5000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=49654",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=49652",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11859&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_03042020_E.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "New issue",
+    "original_issue_date": "2020-04-13",
+    "weighted_average_yield": 5.0698,
+    "weighted_average_price": 100.04,
+    "competitive_bids_received_crore": 19384,
+    "competitive_bids_accepted_crore": 4992.999,
+    "non_competitive_bids_accepted_crore": 7.001,
+    "auction_method": "Multiple price",
+    "additional_amount_retained_crore": 2000
+  }
+}

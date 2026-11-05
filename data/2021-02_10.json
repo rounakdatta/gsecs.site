@@ -1,0 +1,35 @@
+{
+  "security_name": "GOI FRB 2033",
+  "security_type": "FRB",
+  "security_codes": [],
+  "announcement_date": "2021-02-08",
+  "auction_date": "2021-02-12",
+  "issuance_date": "2021-02-15",
+  "maturity_date": "2033-09-22",
+  "coupon_rate": 4.7,
+  "yield_at_auction": 4.6364,
+  "amount_issued_crore": 7000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=51125",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=51121",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=51096",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_08022021.pdf",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50390"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 5000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2020-06-22",
+    "cut_off_price": 101.44,
+    "weighted_average_yield": 4.6239,
+    "weighted_average_price": 101.56,
+    "competitive_bids_received_crore": 16195,
+    "competitive_bids_accepted_crore": 6999.961,
+    "non_competitive_bids_accepted_crore": 0.039,
+    "auction_method": "Multiple price",
+    "coupon_period": "2020-09-22 to 2021-03-21",
+    "additional_amount_retained_crore": 2000,
+    "note": "Floating rate bond: coupon_rate is the rate RBI set for the coupon period in which this tranche was issued."
+  }
+}

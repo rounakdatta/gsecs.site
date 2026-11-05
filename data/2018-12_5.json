@@ -1,21 +1,35 @@
 {
-  "security_name": "6.65% GS 2020",
+  "security_name": "7.06% GS 2046",
   "security_type": "Gilt",
   "security_codes": [
-    "665GS20D18",
-    "665GOI20",
-    "665GS2020-GS"
+    "706GS46D18",
+    "706GOI46",
+    "706GS2046-GS"
   ],
-  "announcement_date": "2018-12-14",
-  "auction_date": "2018-12-21",
-  "issuance_date": "2018-12-26",
-  "maturity_date": "2020-04-08",
-  "coupon_rate": 6.65,
-  "yield_at_auction": 6.8937,
-  "amount_issued_crore": 2000,
+  "announcement_date": "2018-11-26",
+  "auction_date": "2018-11-30",
+  "issuance_date": "2018-12-03",
+  "maturity_date": "2046-10-10",
+  "coupon_rate": 7.06,
+  "yield_at_auction": 7.8799,
+  "amount_issued_crore": 3000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=45790",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1432DE474F51CA1E4EC49FD57147A27FB6E8.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=45609",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=45608",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11420&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11419&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_Auction_GovernmentStock_26112018.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2016-10-10",
+    "cut_off_price": 90.79,
+    "weighted_average_price": 91,
+    "competitive_bids_received_crore": 8412,
+    "competitive_bids_accepted_crore": 2996.609,
+    "non_competitive_bids_accepted_crore": 3.391,
+    "auction_method": "Multiple price"
+  }
 }

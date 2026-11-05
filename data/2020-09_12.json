@@ -6,16 +6,31 @@
     "577GOI30",
     "577GS2030-GS"
   ],
-  "announcement_date": "2020-09-04",
-  "auction_date": "2020-09-11",
-  "issuance_date": "2020-09-16",
-  "maturity_date": "2030-07-21",
+  "announcement_date": "2020-09-21",
+  "auction_date": "2020-09-25",
+  "issuance_date": "2020-09-28",
+  "maturity_date": "2030-08-03",
   "coupon_rate": 5.77,
-  "yield_at_auction": null,
-  "amount_issued_crore": null,
+  "yield_at_auction": 6.0095,
+  "amount_issued_crore": 18000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50344",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR318B20053E8A9B040CBAC2C87A5839FB45D.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50420",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50418",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50391",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_21092020.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 18000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2020-08-03",
+    "cut_off_price": 98.23,
+    "weighted_average_yield": 6.004,
+    "weighted_average_price": 98.27,
+    "competitive_bids_received_crore": 28345,
+    "competitive_bids_accepted_crore": 125,
+    "non_competitive_bids_accepted_crore": 11.103,
+    "devolvement_on_primary_dealers_crore": 17863.897,
+    "auction_method": "Multiple price"
+  }
 }

@@ -1,20 +1,34 @@
 {
-  "security_name": "6.90% Government Stock 2065",
-  "security_type": "Gilt",
-  "security_codes": ["690GS65N25", "690GOI65", "690GS2065-GS"],
-  "announcement_date": "2025-11-07",
-  "auction_date": "2025-11-14",
-  "issuance_date": "2025-11-17",
-  "maturity_date": "2065-04-15",
-  "coupon_rate": 6.90,
-  "yield_at_auction": 7.3759,
-  "amount_issued_crore": 12000,
+  "security_name": "6.98% GOI SGrB 2054",
+  "security_type": "Sovereign Green Bond",
+  "security_codes": [
+    "698GS54N25",
+    "698GOI54",
+    "698GS2054-GS"
+  ],
+  "announcement_date": "2025-10-27",
+  "auction_date": "2025-10-31",
+  "issuance_date": "2025-11-03",
+  "maturity_date": "2054-12-16",
+  "coupon_rate": 6.98,
+  "yield_at_auction": 7.1876,
+  "amount_issued_crore": 5000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61621",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1505E348D3311EC04BFBB0098E619609646B.PDF"
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61540",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61538",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61504"
   ],
   "additional_info": {
-    "note": "Re-issuance of security first issued in April 2025"
+    "notified_amount_crore": 5000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2024-12-16",
+    "cut_off_price": 97.47,
+    "weighted_average_yield": 7.1868,
+    "weighted_average_price": 97.48,
+    "competitive_bids_received_crore": 14214.999,
+    "competitive_bids_accepted_crore": 4999.12,
+    "non_competitive_bids_accepted_crore": 0.88,
+    "auction_method": "Multiple price"
   }
 }

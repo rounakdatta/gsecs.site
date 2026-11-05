@@ -1,20 +1,34 @@
 {
-  "security_name": "6.90% Government Stock 2065",
+  "security_name": "7.24% GS 2055",
   "security_type": "Gilt",
-  "security_codes": ["690GS65D25", "690GOI65", "690GS2065-GS"],
-  "announcement_date": "2025-12-05",
-  "auction_date": "2025-12-12",
-  "issuance_date": "2025-12-15",
-  "maturity_date": "2065-04-15",
-  "coupon_rate": 6.90,
-  "yield_at_auction": 7.4340,
-  "amount_issued_crore": 12000,
+  "security_codes": [
+    "724GS55D25",
+    "724GOI55",
+    "724GS2055-GS"
+  ],
+  "announcement_date": "2025-11-24",
+  "auction_date": "2025-11-28",
+  "issuance_date": "2025-12-01",
+  "maturity_date": "2055-08-18",
+  "coupon_rate": 7.24,
+  "yield_at_auction": 7.2875,
+  "amount_issued_crore": 7000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61806",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1690E322F5BA50404BC79118627B19C3294D.PDF"
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61695",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61693",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61675"
   ],
   "additional_info": {
-    "note": "Re-issuance of security first issued in April 2025"
+    "notified_amount_crore": 7000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2025-08-18",
+    "cut_off_price": 99.41,
+    "weighted_average_yield": 7.28,
+    "weighted_average_price": 99.5,
+    "competitive_bids_received_crore": 15254.45,
+    "competitive_bids_accepted_crore": 6970.955,
+    "non_competitive_bids_accepted_crore": 29.045,
+    "auction_method": "Multiple price"
   }
 }

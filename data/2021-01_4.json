@@ -1,0 +1,35 @@
+{
+  "security_name": "6.67% GS 2050",
+  "security_type": "Gilt",
+  "security_codes": [
+    "667GS50J21",
+    "667GOI50",
+    "667GS2050-GS"
+  ],
+  "announcement_date": "2020-12-28",
+  "auction_date": "2021-01-01",
+  "issuance_date": "2021-01-04",
+  "maturity_date": "2050-12-17",
+  "coupon_rate": 6.67,
+  "yield_at_auction": 6.538,
+  "amount_issued_crore": 5000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50900",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50899",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50867",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_281220.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 5000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2020-11-02",
+    "cut_off_price": 101.72,
+    "weighted_average_yield": 6.538,
+    "weighted_average_price": 101.72,
+    "competitive_bids_received_crore": 13545.1,
+    "competitive_bids_accepted_crore": 4988.313,
+    "non_competitive_bids_accepted_crore": 11.687,
+    "auction_method": "Multiple price"
+  }
+}

@@ -6,16 +6,30 @@
     "726GOI32",
     "726GS2032-GS"
   ],
-  "announcement_date": "2022-12-02",
+  "announcement_date": "2022-12-05",
   "auction_date": "2022-12-09",
-  "issuance_date": "2022-12-14",
-  "maturity_date": "2032-07-14",
+  "issuance_date": "2022-12-12",
+  "maturity_date": "2032-08-22",
   "coupon_rate": 7.26,
   "yield_at_auction": 7.2985,
   "amount_issued_crore": 12000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=54834",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR13365D116E1B60F944B682A77F5A84BAE580.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=54833",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=54805",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_05122022.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 12000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2022-08-22",
+    "cut_off_price": 99.72,
+    "weighted_average_yield": 7.2985,
+    "weighted_average_price": 99.72,
+    "competitive_bids_received_crore": 34698.599,
+    "competitive_bids_accepted_crore": 11978.077,
+    "non_competitive_bids_accepted_crore": 21.923,
+    "auction_method": "Uniform price"
+  }
 }

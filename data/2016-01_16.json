@@ -1,0 +1,35 @@
+{
+  "security_name": "7.72% GS 2055",
+  "security_type": "Gilt",
+  "security_codes": [
+    "772GS55J16",
+    "772GOI55",
+    "772GS2055-GS"
+  ],
+  "announcement_date": "2016-01-18",
+  "auction_date": "2016-01-22",
+  "issuance_date": "2016-01-25",
+  "maturity_date": "2055-10-26",
+  "coupon_rate": 7.72,
+  "yield_at_auction": 7.9996,
+  "amount_issued_crore": 2000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=36049",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=36046",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10232&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10228&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/AuctionSaleNotification18012016.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 2000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2015-10-26",
+    "cut_off_price": 96.64,
+    "weighted_average_price": 96.67,
+    "competitive_bids_received_crore": 4893,
+    "competitive_bids_accepted_crore": 2000,
+    "non_competitive_bids_accepted_crore": 0,
+    "auction_method": "Multiple price"
+  }
+}

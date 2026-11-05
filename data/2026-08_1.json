@@ -1,0 +1,34 @@
+{
+  "security_name": "6.94% GS 2036",
+  "security_type": "Gilt",
+  "security_codes": [
+    "694GS36A26",
+    "694GOI36",
+    "694GS2036-GS"
+  ],
+  "announcement_date": "2026-07-27",
+  "auction_date": "2026-07-31",
+  "issuance_date": "2026-08-03",
+  "maturity_date": "2036-05-11",
+  "coupon_rate": 6.94,
+  "yield_at_auction": 6.8117,
+  "amount_issued_crore": 34000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63264",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63263",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63245"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 34000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2026-05-11",
+    "cut_off_price": 100.89,
+    "weighted_average_yield": 6.8089,
+    "weighted_average_price": 100.91,
+    "competitive_bids_received_crore": 85565,
+    "competitive_bids_accepted_crore": 33964.938,
+    "non_competitive_bids_accepted_crore": 35.062,
+    "auction_method": "Multiple price"
+  }
+}

@@ -2,20 +2,34 @@
   "security_name": "8.20% GS 2025",
   "security_type": "Gilt",
   "security_codes": [
-    "82GS25A16",
-    "82GOI25",
-    "82GS2025-GS"
+    "820GS25A13",
+    "820GOI25",
+    "820GS2025-GS"
   ],
-  "announcement_date": "2013-04-05",
+  "announcement_date": "2013-04-08",
   "auction_date": "2013-04-12",
-  "issuance_date": "2013-04-17",
-  "maturity_date": "2025-02-11",
+  "issuance_date": "2013-04-15",
+  "maturity_date": "2025-09-24",
   "coupon_rate": 8.2,
-  "yield_at_auction": 8.124,
-  "amount_issued_crore": null,
+  "yield_at_auction": 7.9291,
+  "amount_issued_crore": 6000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=28490",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR1718GS0413.pdf"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=28483",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=7935&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=7933&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/Auctionforsale08042013.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 6000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2012-09-24",
+    "cut_off_price": 102.11,
+    "weighted_average_price": 102.18,
+    "competitive_bids_received_crore": 31863.723,
+    "competitive_bids_accepted_crore": 5966.61,
+    "non_competitive_bids_accepted_crore": 33.39,
+    "auction_method": "Multiple price"
+  }
 }

@@ -1,0 +1,35 @@
+{
+  "security_name": "8.32% GS 2032",
+  "security_type": "Gilt",
+  "security_codes": [
+    "832GS32J13",
+    "832GOI32",
+    "832GS2032-GS"
+  ],
+  "announcement_date": "2013-07-08",
+  "auction_date": "2013-07-12",
+  "issuance_date": "2013-07-15",
+  "maturity_date": "2032-08-02",
+  "coupon_rate": 8.32,
+  "yield_at_auction": 7.8489,
+  "amount_issued_crore": 3000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=29068",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=29067",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=8224&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=8221&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/Auctionforsale08072013.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2007-08-02",
+    "cut_off_price": 104.61,
+    "weighted_average_price": 104.61,
+    "competitive_bids_received_crore": 7138.12,
+    "competitive_bids_accepted_crore": 2994.2,
+    "non_competitive_bids_accepted_crore": 5.8,
+    "auction_method": "Uniform price"
+  }
+}

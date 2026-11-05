@@ -15,8 +15,20 @@
   "amount_issued_crore": 30000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR198E61A205790C84556A622EFC7897DA980.PDF",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR232A5D3CA1F7E4B4407BB6AC4C46959FA08.PDF",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR2317DA23DEC6F5D4265BE6E64CE13EF2091.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=60347",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=60346",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=60313",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_28042025.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 30000,
+    "issue_type": "New issue",
+    "original_issue_date": "2025-05-05",
+    "weighted_average_yield": 6.3272,
+    "weighted_average_price": 100.02,
+    "competitive_bids_received_crore": 129617,
+    "competitive_bids_accepted_crore": 29941.515,
+    "non_competitive_bids_accepted_crore": 58.485,
+    "auction_method": "Multiple price"
+  }
 }

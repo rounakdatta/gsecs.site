@@ -2,20 +2,35 @@
   "security_name": "6.80% GS 2060",
   "security_type": "Gilt",
   "security_codes": [
-    "68GS60D20",
-    "68GOI60",
-    "68GS2060-GS"
+    "680GS60D20",
+    "680GOI60",
+    "680GS2060-GS"
   ],
-  "announcement_date": "2020-12-04",
+  "announcement_date": "2020-12-07",
   "auction_date": "2020-12-11",
-  "issuance_date": "2020-12-16",
-  "maturity_date": "2060-10-06",
+  "issuance_date": "2020-12-14",
+  "maturity_date": "2060-12-15",
   "coupon_rate": 6.8,
   "yield_at_auction": 6.5572,
-  "amount_issued_crore": null,
+  "amount_issued_crore": 8000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50789",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR762A9C914506115406AA153958FEC45B722.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50788",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50765",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_07122020.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 6000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2020-08-31",
+    "cut_off_price": 103.41,
+    "weighted_average_yield": 6.549,
+    "weighted_average_price": 103.53,
+    "competitive_bids_received_crore": 19819,
+    "competitive_bids_accepted_crore": 7991.838,
+    "non_competitive_bids_accepted_crore": 8.162,
+    "auction_method": "Multiple price",
+    "additional_amount_retained_crore": 2000
+  }
 }

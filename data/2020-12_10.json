@@ -6,16 +6,30 @@
     "515GOI25",
     "515GS2025-GS"
   ],
-  "announcement_date": "2020-12-04",
+  "announcement_date": "2020-12-07",
   "auction_date": "2020-12-11",
-  "issuance_date": "2020-12-16",
-  "maturity_date": "2025-02-11",
+  "issuance_date": "2020-12-14",
+  "maturity_date": "2025-11-09",
   "coupon_rate": 5.15,
   "yield_at_auction": 5.1488,
-  "amount_issued_crore": null,
+  "amount_issued_crore": 9000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50789",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR762A9C914506115406AA153958FEC45B722.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50788",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50765",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_07122020.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 11000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2020-11-09",
+    "cut_off_price": 100,
+    "weighted_average_yield": 5.1348,
+    "weighted_average_price": 100.06,
+    "competitive_bids_received_crore": 23276,
+    "competitive_bids_accepted_crore": 8974.87,
+    "non_competitive_bids_accepted_crore": 25.13,
+    "auction_method": "Multiple price"
+  }
 }

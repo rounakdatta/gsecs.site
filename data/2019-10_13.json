@@ -1,0 +1,35 @@
+{
+  "security_name": "7.62% GS 2039",
+  "security_type": "Gilt",
+  "security_codes": [
+    "762GS39O19",
+    "762GOI39",
+    "762GS2039-GS"
+  ],
+  "announcement_date": "2019-10-14",
+  "auction_date": "2019-10-18",
+  "issuance_date": "2019-10-22",
+  "maturity_date": "2039-09-15",
+  "coupon_rate": 7.62,
+  "yield_at_auction": 7.1764,
+  "amount_issued_crore": 1000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=48436",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=48435",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11711&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressCommunique_14102019.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 1000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2019-04-08",
+    "cut_off_price": 104.65,
+    "weighted_average_yield": 7.1651,
+    "weighted_average_price": 104.77,
+    "competitive_bids_received_crore": 5948,
+    "competitive_bids_accepted_crore": 987.935,
+    "non_competitive_bids_accepted_crore": 12.065,
+    "auction_method": "Multiple price"
+  }
+}

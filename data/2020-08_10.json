@@ -1,21 +1,33 @@
 {
-  "security_name": "5.77% GS 2030",
-  "security_type": "Gilt",
-  "security_codes": [
-    "577GS30G20",
-    "577GOI30",
-    "577GS2030-GS"
-  ],
-  "announcement_date": "2020-08-07",
+  "security_name": "GOI FRB 2033",
+  "security_type": "FRB",
+  "security_codes": [],
+  "announcement_date": "2020-08-10",
   "auction_date": "2020-08-14",
-  "issuance_date": "2020-08-19",
-  "maturity_date": "2030-07-21",
-  "coupon_rate": 5.77,
-  "yield_at_auction": null,
-  "amount_issued_crore": null,
+  "issuance_date": "2020-08-17",
+  "maturity_date": "2033-09-22",
+  "coupon_rate": 4.65,
+  "yield_at_auction": 4.6354,
+  "amount_issued_crore": 4000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50217",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1910461C4E9F5334D519A4D69F9A29B80F8.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50215",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50192",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_10082020.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 4000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2020-06-22",
+    "cut_off_price": 99.67,
+    "weighted_average_yield": 4.6159,
+    "weighted_average_price": 99.86,
+    "competitive_bids_received_crore": 12523,
+    "competitive_bids_accepted_crore": 3999.991,
+    "non_competitive_bids_accepted_crore": 0.009,
+    "auction_method": "Multiple price",
+    "coupon_period": "2020-06-22 to 2020-09-21",
+    "note": "Floating rate bond: coupon_rate is the rate fixed for the first coupon period at the new issue."
+  }
 }

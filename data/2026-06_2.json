@@ -1,0 +1,34 @@
+{
+  "security_name": "7.43% GS 2076",
+  "security_type": "Gilt",
+  "security_codes": [
+    "743GS76J26",
+    "743GOI76",
+    "743GS2076-GS"
+  ],
+  "announcement_date": "2026-05-25",
+  "auction_date": "2026-05-29",
+  "issuance_date": "2026-06-01",
+  "maturity_date": "2076-01-19",
+  "coupon_rate": 7.43,
+  "yield_at_auction": 7.71,
+  "amount_issued_crore": 11000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62824",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62823",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62805"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 11000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2026-01-19",
+    "cut_off_price": 96.44,
+    "weighted_average_yield": 7.692,
+    "weighted_average_price": 96.66,
+    "competitive_bids_received_crore": 24369,
+    "competitive_bids_accepted_crore": 10986.928,
+    "non_competitive_bids_accepted_crore": 13.072,
+    "auction_method": "Multiple price"
+  }
+}

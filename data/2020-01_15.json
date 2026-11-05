@@ -1,0 +1,35 @@
+{
+  "security_name": "6.18% GS 2024",
+  "security_type": "Gilt",
+  "security_codes": [
+    "618GS24J20",
+    "618GOI24",
+    "618GS2024-GS"
+  ],
+  "announcement_date": "2020-01-20",
+  "auction_date": "2020-01-24",
+  "issuance_date": "2020-01-27",
+  "maturity_date": "2024-11-04",
+  "coupon_rate": 6.18,
+  "yield_at_auction": 6.4163,
+  "amount_issued_crore": 2000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=49238",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=49237",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11792&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_20012020_E.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 2000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2019-11-04",
+    "cut_off_price": 99.03,
+    "weighted_average_yield": 6.4114,
+    "weighted_average_price": 99.05,
+    "competitive_bids_received_crore": 10991.381,
+    "competitive_bids_accepted_crore": 1984.851,
+    "non_competitive_bids_accepted_crore": 15.149,
+    "auction_method": "Multiple price"
+  }
+}

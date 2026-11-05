@@ -1,0 +1,36 @@
+{
+  "security_name": "7.32% GS 2024",
+  "security_type": "Gilt",
+  "security_codes": [
+    "732GS24J19",
+    "732GOI24",
+    "732GS2024-GS"
+  ],
+  "announcement_date": "2019-01-21",
+  "auction_date": "2019-01-25",
+  "issuance_date": "2019-01-28",
+  "maturity_date": "2024-01-28",
+  "coupon_rate": 7.32,
+  "yield_at_auction": 7.32,
+  "amount_issued_crore": 4000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=46105",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=46103",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11458&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11457&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_Auction_GovernmentStock_21012019.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "New issue",
+    "original_issue_date": "2019-01-28",
+    "weighted_average_yield": 7.3147,
+    "weighted_average_price": 100.02,
+    "competitive_bids_received_crore": 15600,
+    "competitive_bids_accepted_crore": 3995.98,
+    "non_competitive_bids_accepted_crore": 4.02,
+    "auction_method": "Multiple price",
+    "additional_amount_retained_crore": 1000
+  }
+}

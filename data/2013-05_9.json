@@ -2,20 +2,34 @@
   "security_name": "7.83% GS 2018",
   "security_type": "Gilt",
   "security_codes": [
-    "783GS18Y16",
+    "783GS18M13",
     "783GOI18",
     "783GS2018-GS"
   ],
-  "announcement_date": "2013-05-10",
+  "announcement_date": "2013-05-13",
   "auction_date": "2013-05-17",
-  "issuance_date": "2013-05-22",
-  "maturity_date": "2018-12-31",
+  "issuance_date": "2013-05-20",
+  "maturity_date": "2018-04-11",
   "coupon_rate": 7.83,
   "yield_at_auction": 7.2237,
-  "amount_issued_crore": null,
+  "amount_issued_crore": 3000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=28689",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR1919GS0513.pdf"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=28687",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=7982&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=7980&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/Auctionforsale13052013.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2011-04-11",
+    "cut_off_price": 102.45,
+    "weighted_average_price": 102.49,
+    "competitive_bids_received_crore": 9380.5,
+    "competitive_bids_accepted_crore": 2981.75,
+    "non_competitive_bids_accepted_crore": 18.25,
+    "auction_method": "Multiple price"
+  }
 }

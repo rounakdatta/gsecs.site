@@ -1,21 +1,35 @@
 {
-  "security_name": "7.16% GS 2023",
-  "security_type": "Gilt",
+  "security_name": "1.44% GOI IIB 2023",
+  "security_type": "Inflation Indexed Bond",
   "security_codes": [
-    "716GS23U16",
-    "716GOI23",
-    "716GS2023-GS"
+    "144GS23J13",
+    "144GOI23",
+    "144GS2023-GS"
   ],
-  "announcement_date": "2013-06-14",
-  "auction_date": "2013-06-21",
-  "issuance_date": "2013-06-26",
-  "maturity_date": "2023-12-31",
-  "coupon_rate": 7.16,
-  "yield_at_auction": 7.4388,
-  "amount_issued_crore": null,
+  "announcement_date": "2013-05-29",
+  "auction_date": "2013-06-04",
+  "issuance_date": "2013-06-05",
+  "maturity_date": "2023-06-05",
+  "coupon_rate": 1.44,
+  "yield_at_auction": 1.44,
+  "amount_issued_crore": 1000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=28918",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR2148G0613.pdf"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=28801",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=28803",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=28762",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=8007&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/Auctionforsale29052013.pdf",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=8044&Mode=0"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 1000,
+    "issue_type": "New issue",
+    "original_issue_date": "2013-06-05",
+    "weighted_average_yield": 1.44,
+    "competitive_bids_received_crore": 4616,
+    "competitive_bids_accepted_crore": 985.94,
+    "non_competitive_bids_accepted_crore": 14.06,
+    "auction_method": "Uniform price"
+  }
 }

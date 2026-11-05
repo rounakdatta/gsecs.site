@@ -1,24 +1,35 @@
 {
-  "security_name": "7.09% Government Stock 2054",
+  "security_name": "6.90% GS 2065",
   "security_type": "Gilt",
-  "security_codes": ["709GS54J25", "709GOI54", "709GS2054-GS"],
-  "announcement_date": "2025-06-16",
-  "auction_date": "2025-06-20",
-  "issuance_date": "2025-06-23",
-  "maturity_date": "2054-08-05",
-  "coupon_rate": 7.09,
-  "yield_at_auction": 7.0517,
-  "amount_issued_crore": 12000,
+  "security_codes": [
+    "690GS65J25",
+    "690GOI65",
+    "690GS2065-GS"
+  ],
+  "announcement_date": "2025-06-02",
+  "auction_date": "2025-06-06",
+  "issuance_date": "2025-06-09",
+  "maturity_date": "2065-04-15",
+  "coupon_rate": 6.9,
+  "yield_at_auction": 6.9489,
+  "amount_issued_crore": 16000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR580CCCACC4A715D4B0E94389E39A343C7A3.PDF",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR569EE522C3416F94AAD89A0CCEA2B947A2F.PDF"
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=60611",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=60609",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=60574",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_02062025.pdf"
   ],
   "additional_info": {
-    "auction_type": "Multiple price-based auction",
-    "isin": "IN0020240118",
-    "non_competitive_segment": "Up to 5% of notified amount",
-    "minimum_bid_size": 10000,
-    "note": "Long-dated 30-year security, re-issuance"
+    "notified_amount_crore": 16000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2025-04-15",
+    "cut_off_price": 99.33,
+    "weighted_average_yield": 6.9414,
+    "weighted_average_price": 99.43,
+    "competitive_bids_received_crore": 37586,
+    "competitive_bids_accepted_crore": 15986.817,
+    "non_competitive_bids_accepted_crore": 13.183,
+    "auction_method": "Multiple price"
   }
 }

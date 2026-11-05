@@ -1,0 +1,35 @@
+{
+  "security_name": "9.20% GS 2030",
+  "security_type": "Gilt",
+  "security_codes": [
+    "920GS30S14",
+    "920GOI30",
+    "920GS2030-GS"
+  ],
+  "announcement_date": "2014-09-22",
+  "auction_date": "2014-09-26",
+  "issuance_date": "2014-09-29",
+  "maturity_date": "2030-09-30",
+  "coupon_rate": 9.2,
+  "yield_at_auction": 8.6984,
+  "amount_issued_crore": 2000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=32178",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=32174",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=9250&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=9247&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/AuctionSale22092014.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 2000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2013-09-30",
+    "cut_off_price": 104.29,
+    "weighted_average_price": 104.33,
+    "competitive_bids_received_crore": 5915.24,
+    "competitive_bids_accepted_crore": 1992.8,
+    "non_competitive_bids_accepted_crore": 7.2,
+    "auction_method": "Multiple price"
+  }
+}

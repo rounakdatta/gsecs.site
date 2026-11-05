@@ -6,16 +6,29 @@
     "732GOI30",
     "732GS2030-GS"
   ],
-  "announcement_date": "2023-12-01",
+  "announcement_date": "2023-12-04",
   "auction_date": "2023-12-08",
-  "issuance_date": "2023-12-13",
-  "maturity_date": "2030-07-21",
+  "issuance_date": "2023-12-11",
+  "maturity_date": "2030-11-13",
   "coupon_rate": 7.32,
   "yield_at_auction": 7.2811,
   "amount_issued_crore": 12000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=56894",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1444GOVERNMENTSTOCKCFCE1E789F5741C8AD40047F7C74E941.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=56893",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=56861"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 12000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2023-11-13",
+    "cut_off_price": 100.2,
+    "weighted_average_yield": 7.2811,
+    "weighted_average_price": 100.2,
+    "competitive_bids_received_crore": 21290,
+    "competitive_bids_accepted_crore": 11990.769,
+    "non_competitive_bids_accepted_crore": 9.231,
+    "auction_method": "Uniform price"
+  }
 }

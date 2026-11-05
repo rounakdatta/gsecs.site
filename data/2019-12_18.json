@@ -1,21 +1,35 @@
 {
-  "security_name": "7.72% GS 2049",
+  "security_name": "7.63% GS 2059",
   "security_type": "Gilt",
   "security_codes": [
-    "772GS49D19",
-    "772GOI49",
-    "772GS2049-GS"
+    "763GS59D19",
+    "763GOI59",
+    "763GS2059-GS"
   ],
-  "announcement_date": "2019-12-20",
-  "auction_date": "2019-12-27",
-  "issuance_date": "2020-01-01",
-  "maturity_date": "2049-06-13",
-  "coupon_rate": 7.72,
-  "yield_at_auction": 7.1392,
+  "announcement_date": "2019-12-16",
+  "auction_date": "2019-12-20",
+  "issuance_date": "2019-12-23",
+  "maturity_date": "2059-06-17",
+  "coupon_rate": 7.63,
+  "yield_at_auction": 7.1588,
   "amount_issued_crore": 4000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=48977",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1525C463D91CA47C40549B1F33C90FFCD9D9.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=48928",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=48926",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11757&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_G_Sec_Auction_16122019.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 4000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2019-05-06",
+    "cut_off_price": 106.17,
+    "weighted_average_yield": 7.1473,
+    "weighted_average_price": 106.33,
+    "competitive_bids_received_crore": 18961,
+    "competitive_bids_accepted_crore": 3984.126,
+    "non_competitive_bids_accepted_crore": 15.874,
+    "auction_method": "Multiple price"
+  }
 }

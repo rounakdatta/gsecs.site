@@ -1,21 +1,36 @@
 {
-  "security_name": "7.26% GS 2029",
+  "security_name": "7.27% GS 2026",
   "security_type": "Gilt",
   "security_codes": [
-    "726GS29U19",
-    "726GOI29",
-    "726GS2029-GS"
+    "727GS26J19",
+    "727GOI26",
+    "727GS2026-GS"
   ],
-  "announcement_date": "2019-06-14",
-  "auction_date": "2019-06-21",
-  "issuance_date": "2019-06-26",
-  "maturity_date": "2029-12-23",
-  "coupon_rate": 7.26,
-  "yield_at_auction": 6.8776,
-  "amount_issued_crore": 6000,
+  "announcement_date": "2019-06-10",
+  "auction_date": "2019-06-14",
+  "issuance_date": "2019-06-17",
+  "maturity_date": "2026-04-08",
+  "coupon_rate": 7.27,
+  "yield_at_auction": 6.9293,
+  "amount_issued_crore": 3000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=47367",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR300951C9B1E210F84F97AF225A6803009D6A.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=47303",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=47302",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11585&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11584&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/Press_Release_auction_G_Sec_10062019.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2019-04-08",
+    "cut_off_price": 101.81,
+    "weighted_average_yield": 6.9293,
+    "weighted_average_price": 101.81,
+    "competitive_bids_received_crore": 13387,
+    "competitive_bids_accepted_crore": 2993.338,
+    "non_competitive_bids_accepted_crore": 6.662,
+    "auction_method": "Multiple price"
+  }
 }

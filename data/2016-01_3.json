@@ -1,21 +1,34 @@
 {
-  "security_name": "7.72% GS 2055",
+  "security_name": "8.24% GS 2033",
   "security_type": "Gilt",
   "security_codes": [
-    "772GS55J16",
-    "772GOI55",
-    "772GS2055-GS"
+    "824GS33J16",
+    "824GOI33",
+    "824GS2033-GS"
   ],
-  "announcement_date": "2016-01-01",
-  "auction_date": "2016-01-08",
-  "issuance_date": "2016-01-13",
-  "maturity_date": "2055-06-08",
-  "coupon_rate": 7.72,
-  "yield_at_auction": 7.9896,
-  "amount_issued_crore": 8000,
+  "announcement_date": "2015-12-28",
+  "auction_date": "2016-01-01",
+  "issuance_date": "2016-01-04",
+  "maturity_date": "2033-11-10",
+  "coupon_rate": 8.24,
+  "yield_at_auction": 8.13,
+  "amount_issued_crore": 3000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=35925",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR160836EB63CAFFC848F5A61C49CBB6A8A325.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=35866",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=35865",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10186&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10183&Mode=0"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2014-11-10",
+    "cut_off_price": 101.01,
+    "weighted_average_price": 101.09,
+    "competitive_bids_received_crore": 7668.5,
+    "competitive_bids_accepted_crore": 2985.41,
+    "non_competitive_bids_accepted_crore": 14.59,
+    "auction_method": "Multiple price"
+  }
 }

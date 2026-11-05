@@ -1,0 +1,35 @@
+{
+  "security_name": "1.44% GOI IIB 2023",
+  "security_type": "Inflation Indexed Bond",
+  "security_codes": [
+    "144GS23J13",
+    "144GOI23",
+    "144GS2023-GS"
+  ],
+  "announcement_date": "2013-06-19",
+  "auction_date": "2013-06-25",
+  "issuance_date": "2013-06-26",
+  "maturity_date": "2023-06-05",
+  "coupon_rate": 1.44,
+  "yield_at_auction": 1.9855,
+  "amount_issued_crore": 1000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=28939",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=28938",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=28903",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=8044&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/Auctionforinflatstock2023.pdf",
+    "https://dea.gov.in/files/press_release_documents/AuctionForSale19Jun13.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 1000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2013-06-05",
+    "cut_off_price": 95.1,
+    "competitive_bids_received_crore": 2388,
+    "competitive_bids_accepted_crore": 997.7,
+    "non_competitive_bids_accepted_crore": 2.3,
+    "auction_method": "Uniform price"
+  }
+}

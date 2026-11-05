@@ -6,16 +6,30 @@
     "702GOI27",
     "702GS2027-GS"
   ],
-  "announcement_date": "2024-09-27",
+  "announcement_date": "2024-09-30",
   "auction_date": "2024-10-04",
-  "issuance_date": "2024-10-09",
-  "maturity_date": "2027-06-03",
+  "issuance_date": "2024-10-07",
+  "maturity_date": "2027-05-27",
   "coupon_rate": 7.02,
   "yield_at_auction": 6.6878,
-  "amount_issued_crore": 10000,
+  "amount_issued_crore": 7000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58820",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR12228B9A5DD6A2AB4E1B983E422C16D4B114.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58819",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58793",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_30092024.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 7000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2024-05-27",
+    "cut_off_price": 100.78,
+    "weighted_average_yield": 6.6795,
+    "weighted_average_price": 100.8,
+    "competitive_bids_received_crore": 29587,
+    "competitive_bids_accepted_crore": 6989.891,
+    "non_competitive_bids_accepted_crore": 10.109,
+    "auction_method": "Multiple price"
+  }
 }

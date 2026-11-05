@@ -1,21 +1,35 @@
 {
-  "security_name": "GOI FRB 2024",
-  "security_type": "FRB",
+  "security_name": "7.06% GS 2046",
+  "security_type": "Gilt",
   "security_codes": [
-    "0GS24J18",
-    "0GOI24",
-    "0GS2024-GS"
+    "706GS46J18",
+    "706GOI46",
+    "706GS2046-GS"
   ],
-  "announcement_date": "2018-01-05",
-  "auction_date": "2018-01-12",
-  "issuance_date": "2018-01-17",
-  "maturity_date": "2024-06-04",
-  "coupon_rate": 0,
-  "yield_at_auction": 6.9995,
-  "amount_issued_crore": 3000,
+  "announcement_date": "2017-12-22",
+  "auction_date": "2017-12-29",
+  "issuance_date": "2018-01-01",
+  "maturity_date": "2046-10-10",
+  "coupon_rate": 7.06,
+  "yield_at_auction": 7.6702,
+  "amount_issued_crore": 2000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=42857",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR19269425FAAD45E749249DADA71E08F5F25B.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=42705",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=42702",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11192&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11191&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/Press_Release_PIB_22122017E.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 2000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2016-10-10",
+    "cut_off_price": 92.94,
+    "weighted_average_price": 92.94,
+    "competitive_bids_received_crore": 4976,
+    "competitive_bids_accepted_crore": 1999.3,
+    "non_competitive_bids_accepted_crore": 0.7,
+    "auction_method": "Multiple price"
+  }
 }

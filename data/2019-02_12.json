@@ -6,16 +6,31 @@
     "795GOI32",
     "795GS2032-GS"
   ],
-  "announcement_date": "2019-02-08",
+  "announcement_date": "2019-02-11",
   "auction_date": "2019-02-15",
-  "issuance_date": "2019-02-20",
-  "maturity_date": "2032-07-14",
+  "issuance_date": "2019-02-18",
+  "maturity_date": "2032-08-28",
   "coupon_rate": 7.95,
   "yield_at_auction": 7.76,
   "amount_issued_crore": 3000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=46316",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR19556FFD7530E43E4C75B8DAA2F9A9208072.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=46309",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11474&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11473&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_Auction_GovernmentStock_11022019.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2002-08-28",
+    "cut_off_price": 101.57,
+    "weighted_average_yield": 7.7508,
+    "weighted_average_price": 101.65,
+    "competitive_bids_received_crore": 8987,
+    "competitive_bids_accepted_crore": 2996.919,
+    "non_competitive_bids_accepted_crore": 3.081,
+    "auction_method": "Multiple price"
+  }
 }

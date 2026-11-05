@@ -1,0 +1,35 @@
+{
+  "security_name": "6.65% GS 2020",
+  "security_type": "Gilt",
+  "security_codes": [
+    "665GS20J18",
+    "665GOI20",
+    "665GS2020-GS"
+  ],
+  "announcement_date": "2018-07-16",
+  "auction_date": "2018-07-20",
+  "issuance_date": "2018-07-23",
+  "maturity_date": "2020-04-09",
+  "coupon_rate": 6.65,
+  "yield_at_auction": 7.5342,
+  "amount_issued_crore": 2000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=44544",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=44543",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11340&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11339&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_Auction_GovernmentStock_16072018.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 2000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2018-04-09",
+    "cut_off_price": 98.59,
+    "weighted_average_price": 98.6,
+    "competitive_bids_received_crore": 10266.734,
+    "competitive_bids_accepted_crore": 1999.976,
+    "non_competitive_bids_accepted_crore": 0.024,
+    "auction_method": "Multiple price"
+  }
+}

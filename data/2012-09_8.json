@@ -1,21 +1,35 @@
 {
-  "security_name": "8.07% GS 2017",
+  "security_name": "8.33% GS 2036",
   "security_type": "Gilt",
   "security_codes": [
-    "807GS17S16",
-    "807GOI17",
-    "807GS2017-GS"
+    "833GS36S12",
+    "833GOI36",
+    "833GS2036-GS"
   ],
-  "announcement_date": "2012-09-21",
-  "auction_date": "2012-09-28",
-  "issuance_date": "2012-10-03",
-  "maturity_date": "2017-12-31",
-  "coupon_rate": 8.07,
-  "yield_at_auction": 8.1809,
-  "amount_issued_crore": null,
+  "announcement_date": "2012-09-03",
+  "auction_date": "2012-09-07",
+  "issuance_date": "2012-09-10",
+  "maturity_date": "2036-06-07",
+  "coupon_rate": 8.33,
+  "yield_at_auction": 8.5387,
+  "amount_issued_crore": 2000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=27303",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR533G0912.pdf"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=27177",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=27175",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=7547&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=7543&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/Auction_GovtStock03092012.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 2000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2006-06-07",
+    "cut_off_price": 97.87,
+    "weighted_average_price": 97.87,
+    "competitive_bids_received_crore": 5479.38,
+    "competitive_bids_accepted_crore": 1984.225,
+    "non_competitive_bids_accepted_crore": 15.775,
+    "auction_method": "Uniform price"
+  }
 }

@@ -1,21 +1,34 @@
 {
-  "security_name": "6.84% GS 2022",
-  "security_type": "Gilt",
-  "security_codes": [
-    "684GS22O17",
-    "684GOI22",
-    "684GS2022-GS"
-  ],
-  "announcement_date": "2017-09-29",
-  "auction_date": "2017-10-06",
-  "issuance_date": "2017-10-11",
-  "maturity_date": "2022-06-15",
-  "coupon_rate": 6.84,
-  "yield_at_auction": 6.7236,
+  "security_name": "GOI FRB 2024",
+  "security_type": "FRB",
+  "security_codes": [],
+  "announcement_date": "2017-09-25",
+  "auction_date": "2017-09-29",
+  "issuance_date": "2017-10-03",
+  "maturity_date": "2024-11-07",
+  "coupon_rate": 6.3,
+  "yield_at_auction": 6.6866,
   "amount_issued_crore": 3000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=41886",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR9511F081D1CDD1B4E54B77421353D77A36E.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=41815",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=41814",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11131&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11130&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/AuctionSale25092017.pdf",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=40379"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2016-11-07",
+    "cut_off_price": 97.38,
+    "weighted_average_price": 97.44,
+    "competitive_bids_received_crore": 13597,
+    "competitive_bids_accepted_crore": 3000,
+    "non_competitive_bids_accepted_crore": 0,
+    "auction_method": "Multiple price",
+    "coupon_period": "2017-05-07 to 2017-11-06",
+    "note": "Floating rate bond: coupon_rate is the rate RBI set for the coupon period in which this tranche was issued."
+  }
 }

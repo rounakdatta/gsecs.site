@@ -2,20 +2,34 @@
   "security_name": "6.84% GS 2022",
   "security_type": "Gilt",
   "security_codes": [
-    "684GS22U17",
+    "684GS22J17",
     "684GOI22",
     "684GS2022-GS"
   ],
-  "announcement_date": "2017-05-26",
+  "announcement_date": "2017-05-29",
   "auction_date": "2017-06-02",
-  "issuance_date": "2017-06-07",
-  "maturity_date": "2022-06-15",
+  "issuance_date": "2017-06-05",
+  "maturity_date": "2022-12-19",
   "coupon_rate": 6.84,
   "yield_at_auction": 6.7601,
   "amount_issued_crore": 3000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=40641",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR326262C1E88854D941F2A6A3681F3A05E1F8.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=40639",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10986&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10985&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/auctionpress29052017.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2016-09-12",
+    "cut_off_price": 100.36,
+    "weighted_average_price": 100.38,
+    "competitive_bids_received_crore": 10292,
+    "competitive_bids_accepted_crore": 2990.5,
+    "non_competitive_bids_accepted_crore": 9.5,
+    "auction_method": "Multiple price"
+  }
 }

@@ -1,0 +1,33 @@
+{
+  "security_name": "8.15% GS 2026",
+  "security_type": "Gilt",
+  "security_codes": [
+    "815GS26N14",
+    "815GOI26",
+    "815GS2026-GS"
+  ],
+  "announcement_date": "2014-11-17",
+  "auction_date": "2014-11-21",
+  "issuance_date": "2014-11-24",
+  "maturity_date": "2026-11-24",
+  "coupon_rate": 8.15,
+  "yield_at_auction": 8.15,
+  "amount_issued_crore": 6000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=32565",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=32561",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=9339&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/AuctionSale17112014.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 6000,
+    "issue_type": "New issue",
+    "original_issue_date": "2014-11-24",
+    "weighted_average_yield": 8.1333,
+    "competitive_bids_received_crore": 16935,
+    "competitive_bids_accepted_crore": 5968.45,
+    "non_competitive_bids_accepted_crore": 31.55,
+    "auction_method": "Multiple price"
+  }
+}

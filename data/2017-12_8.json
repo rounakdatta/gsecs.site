@@ -1,21 +1,36 @@
 {
-  "security_name": "7.06% GS 2046",
+  "security_name": "7.40% GS 2035",
   "security_type": "Gilt",
   "security_codes": [
-    "706GS46D17",
-    "706GOI46",
-    "706GS2046-GS"
+    "740GS35D17",
+    "740GOI35",
+    "740GS2035-GS"
   ],
-  "announcement_date": "2017-12-22",
-  "auction_date": "2017-12-29",
-  "issuance_date": "2018-01-03",
-  "maturity_date": "2046-01-17",
-  "coupon_rate": 7.06,
-  "yield_at_auction": 7.6702,
-  "amount_issued_crore": 2000,
+  "announcement_date": "2017-12-04",
+  "auction_date": "2017-12-08",
+  "issuance_date": "2017-12-11",
+  "maturity_date": "2035-09-09",
+  "coupon_rate": 7.4,
+  "yield_at_auction": 7.4939,
+  "amount_issued_crore": 1000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=42705",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1775422AFEF19B484B09B4F69C76F9F843A3.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=42505",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=42500",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11182&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11181&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/AuctionPress04122017.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 1000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2005-09-09",
+    "cut_off_price": 99.07,
+    "weighted_average_price": 99.27,
+    "competitive_bids_received_crore": 1980,
+    "competitive_bids_accepted_crore": 993.5,
+    "non_competitive_bids_accepted_crore": 6.5,
+    "auction_method": "Multiple price",
+    "note": "Announced by the Government press communique of 4 Dec 2017; the specific notification RBI published is dated 5 Dec 2017."
+  }
 }

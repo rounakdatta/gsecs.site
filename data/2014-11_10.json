@@ -1,0 +1,35 @@
+{
+  "security_name": "8.40% GS 2024",
+  "security_type": "Gilt",
+  "security_codes": [
+    "840GS24N14",
+    "840GOI24",
+    "840GS2024-GS"
+  ],
+  "announcement_date": "2014-11-10",
+  "auction_date": "2014-11-14",
+  "issuance_date": "2014-11-17",
+  "maturity_date": "2024-07-28",
+  "coupon_rate": 8.4,
+  "yield_at_auction": 8.218,
+  "amount_issued_crore": 7000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=32512",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=32511",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=9333&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=9331&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/AuctionSale10112014.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 7000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2014-07-28",
+    "cut_off_price": 101.18,
+    "weighted_average_price": 101.2,
+    "competitive_bids_received_crore": 22028,
+    "competitive_bids_accepted_crore": 6966.8,
+    "non_competitive_bids_accepted_crore": 33.2,
+    "auction_method": "Multiple price"
+  }
+}

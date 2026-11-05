@@ -1,21 +1,35 @@
 {
-  "security_name": "7.26% GS 2029",
+  "security_name": "7.95% GS 2032",
   "security_type": "Gilt",
   "security_codes": [
-    "726GS29J19",
-    "726GOI29",
-    "726GS2029-GS"
+    "795GS32J19",
+    "795GOI32",
+    "795GS2032-GS"
   ],
-  "announcement_date": "2019-01-18",
-  "auction_date": "2019-01-25",
-  "issuance_date": "2019-01-30",
-  "maturity_date": "2029-12-23",
-  "coupon_rate": 7.26,
-  "yield_at_auction": 7.7121,
-  "amount_issued_crore": 4000,
+  "announcement_date": "2019-01-14",
+  "auction_date": "2019-01-18",
+  "issuance_date": "2019-01-21",
+  "maturity_date": "2032-08-28",
+  "coupon_rate": 7.95,
+  "yield_at_auction": 7.7549,
+  "amount_issued_crore": 3000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=46105",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1746DA3943CBACD04A1FA325CADF7E88BF6C.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=46050",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=46045",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11455&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11454&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_Auction_GovernmentStock_14012019.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2002-08-28",
+    "cut_off_price": 101.61,
+    "weighted_average_price": 101.75,
+    "competitive_bids_received_crore": 7668.65,
+    "competitive_bids_accepted_crore": 2997.979,
+    "non_competitive_bids_accepted_crore": 2.021,
+    "auction_method": "Multiple price"
+  }
 }

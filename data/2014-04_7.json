@@ -1,21 +1,35 @@
 {
-  "security_name": "8.24% GS 2027",
+  "security_name": "8.32% GS 2032",
   "security_type": "Gilt",
   "security_codes": [
-    "824GS27A16",
-    "824GOI27",
-    "824GS2027-GS"
+    "832GS32A14",
+    "832GOI32",
+    "832GS2032-GS"
   ],
-  "announcement_date": "2014-04-10",
-  "auction_date": "2014-04-17",
-  "issuance_date": "2014-04-22",
-  "maturity_date": "2027-06-03",
-  "coupon_rate": 8.24,
-  "yield_at_auction": 9.1584,
-  "amount_issued_crore": null,
+  "announcement_date": "2014-04-07",
+  "auction_date": "2014-04-11",
+  "issuance_date": "2014-04-15",
+  "maturity_date": "2032-08-02",
+  "coupon_rate": 8.32,
+  "yield_at_auction": 9.3291,
+  "amount_issued_crore": 3000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=31027",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR2041GS0414.pdf"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=30993",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=30992",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=30965",
+    "https://dea.gov.in/files/press_release_documents/AuctionSale07042014.pdf",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=8727&Mode=0"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2007-08-02",
+    "cut_off_price": 91.2,
+    "weighted_average_price": 91.2,
+    "competitive_bids_received_crore": 8791.388,
+    "competitive_bids_accepted_crore": 2993.05,
+    "non_competitive_bids_accepted_crore": 6.95,
+    "auction_method": "Uniform price"
+  }
 }

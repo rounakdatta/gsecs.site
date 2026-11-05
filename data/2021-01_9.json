@@ -1,0 +1,35 @@
+{
+  "security_name": "4.48% GS 2023",
+  "security_type": "Gilt",
+  "security_codes": [
+    "448GS23J21",
+    "448GOI23",
+    "448GS2023-GS"
+  ],
+  "announcement_date": "2021-01-11",
+  "auction_date": "2021-01-15",
+  "issuance_date": "2021-01-18",
+  "maturity_date": "2023-11-02",
+  "coupon_rate": 4.48,
+  "yield_at_auction": 4.4392,
+  "amount_issued_crore": 6000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50980",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50978",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50950",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_11012021.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 6000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2020-11-02",
+    "cut_off_price": 100.1,
+    "weighted_average_yield": 4.4315,
+    "weighted_average_price": 100.12,
+    "competitive_bids_received_crore": 18939,
+    "competitive_bids_accepted_crore": 5996.308,
+    "non_competitive_bids_accepted_crore": 3.692,
+    "auction_method": "Multiple price"
+  }
+}

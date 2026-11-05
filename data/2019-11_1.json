@@ -8,14 +8,27 @@
   ],
   "announcement_date": "2019-10-25",
   "auction_date": "2019-11-01",
-  "issuance_date": "2019-11-06",
-  "maturity_date": "2024-06-04",
+  "issuance_date": "2019-11-04",
+  "maturity_date": "2024-11-04",
   "coupon_rate": 6.18,
-  "yield_at_auction": 5.9635,
+  "yield_at_auction": 6.18,
   "amount_issued_crore": 4000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=48533",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR10791397D1600BA6415F97BAEC7B5763B9DA.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=48528",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11715&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_25102019.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 4000,
+    "issue_type": "New issue",
+    "original_issue_date": "2019-11-04",
+    "weighted_average_yield": 6.1707,
+    "weighted_average_price": 100.04,
+    "competitive_bids_received_crore": 15565,
+    "competitive_bids_accepted_crore": 3987.607,
+    "non_competitive_bids_accepted_crore": 12.393,
+    "auction_method": "Multiple price"
+  }
 }

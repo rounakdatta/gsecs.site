@@ -1,21 +1,34 @@
 {
-  "security_name": "7.73% GS 2034",
+  "security_name": "6.62% GS 2051",
   "security_type": "Gilt",
   "security_codes": [
-    "773GS34O17",
-    "773GOI34",
-    "773GS2034-GS"
+    "662GS51O17",
+    "662GOI51",
+    "662GS2051-GS"
   ],
-  "announcement_date": "2017-10-06",
-  "auction_date": "2017-10-13",
-  "issuance_date": "2017-10-18",
-  "maturity_date": "2034-07-04",
-  "coupon_rate": 7.73,
-  "yield_at_auction": 7.2885,
+  "announcement_date": "2017-09-29",
+  "auction_date": "2017-10-06",
+  "issuance_date": "2017-10-09",
+  "maturity_date": "2051-11-28",
+  "coupon_rate": 6.62,
+  "yield_at_auction": 7.3198,
   "amount_issued_crore": 2000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=41960",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR102843D23BEE81EF4EB58FD60BAA5D75D6F6.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=41886",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=41881",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11134&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11133&Mode=0"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 2000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2016-11-28",
+    "cut_off_price": 91.25,
+    "weighted_average_price": 91.25,
+    "competitive_bids_received_crore": 5118,
+    "competitive_bids_accepted_crore": 1995.5,
+    "non_competitive_bids_accepted_crore": 4.5,
+    "auction_method": "Multiple price"
+  }
 }

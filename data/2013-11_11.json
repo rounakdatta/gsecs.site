@@ -1,21 +1,37 @@
 {
-  "security_name": "8.32% GS 2032",
+  "security_name": "9.20% GS 2030",
   "security_type": "Gilt",
   "security_codes": [
-    "832GS32N16",
-    "832GOI32",
-    "832GS2032-GS"
+    "920GS30N13",
+    "920GOI30",
+    "920GS2030-GS"
   ],
-  "announcement_date": "2013-11-15",
-  "auction_date": "2013-11-22",
-  "issuance_date": "2013-11-27",
-  "maturity_date": "2032-07-14",
-  "coupon_rate": 8.32,
-  "yield_at_auction": 9.2679,
-  "amount_issued_crore": null,
+  "announcement_date": "2013-11-11",
+  "auction_date": "2013-11-14",
+  "issuance_date": "2013-11-18",
+  "maturity_date": "2030-09-30",
+  "coupon_rate": 9.2,
+  "yield_at_auction": 9.1671,
+  "amount_issued_crore": 2000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=30030",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR1044FS1113.pdf"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=29980",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=29979",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=8568&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=8565&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/Auctionforsale11112013.pdf",
+    "https://dea.gov.in/files/press_release_documents/"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 2000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2013-09-30",
+    "cut_off_price": 100.26,
+    "weighted_average_price": 100.26,
+    "competitive_bids_received_crore": 7149.433,
+    "competitive_bids_accepted_crore": 1972.1,
+    "non_competitive_bids_accepted_crore": 27.9,
+    "auction_method": "Uniform price",
+    "note": "Auction preponed from 15 Nov 2013 to 14 Nov 2013 after Maharashtra moved the Muharram holiday; settlement unchanged (DEA press communique dated 12 Nov 2013)."
+  }
 }

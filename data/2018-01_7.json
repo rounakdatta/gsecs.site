@@ -1,21 +1,35 @@
 {
-  "security_name": "GOI FRB 2024",
-  "security_type": "FRB",
+  "security_name": "6.57% GS 2033",
+  "security_type": "Gilt",
   "security_codes": [
-    "0GS24J18",
-    "0GOI24",
-    "0GS2024-GS"
+    "657GS33J18",
+    "657GOI33",
+    "657GS2033-GS"
   ],
-  "announcement_date": "2018-01-18",
-  "auction_date": "2018-01-25",
-  "issuance_date": "2018-01-30",
-  "maturity_date": "2024-06-04",
-  "coupon_rate": 0,
-  "yield_at_auction": 7.0554,
-  "amount_issued_crore": 3000,
+  "announcement_date": "2018-01-08",
+  "auction_date": "2018-01-12",
+  "issuance_date": "2018-01-15",
+  "maturity_date": "2033-12-05",
+  "coupon_rate": 6.57,
+  "yield_at_auction": 7.6505,
+  "amount_issued_crore": 2000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=42973",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR204131ADF935E850417AAF0FFDA948B92307.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=42857",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=42850",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11202&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11201&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/Auction_Sale_Reissue_GovernmentStocks_08012018_E.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 2000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2016-12-05",
+    "cut_off_price": 90.15,
+    "weighted_average_price": 90.15,
+    "competitive_bids_received_crore": 5003,
+    "competitive_bids_accepted_crore": 1996,
+    "non_competitive_bids_accepted_crore": 4,
+    "auction_method": "Multiple price"
+  }
 }

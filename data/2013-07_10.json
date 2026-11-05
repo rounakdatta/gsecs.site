@@ -1,0 +1,35 @@
+{
+  "security_name": "8.33% GS 2026",
+  "security_type": "Gilt",
+  "security_codes": [
+    "833GS26J13",
+    "833GOI26",
+    "833GS2026-GS"
+  ],
+  "announcement_date": "2013-07-08",
+  "auction_date": "2013-07-12",
+  "issuance_date": "2013-07-15",
+  "maturity_date": "2026-07-09",
+  "coupon_rate": 8.33,
+  "yield_at_auction": 7.6066,
+  "amount_issued_crore": 6000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=29068",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=29067",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=8224&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=8222&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/Auctionforsale08072013.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 6000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2012-07-09",
+    "cut_off_price": 105.9,
+    "weighted_average_price": 105.9,
+    "competitive_bids_received_crore": 17370.5,
+    "competitive_bids_accepted_crore": 5997.57,
+    "non_competitive_bids_accepted_crore": 2.43,
+    "auction_method": "Uniform price"
+  }
+}

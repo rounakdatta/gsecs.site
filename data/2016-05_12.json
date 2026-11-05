@@ -1,0 +1,35 @@
+{
+  "security_name": "8.17% GS 2044",
+  "security_type": "Gilt",
+  "security_codes": [
+    "817GS44M16",
+    "817GOI44",
+    "817GS2044-GS"
+  ],
+  "announcement_date": "2016-05-09",
+  "auction_date": "2016-05-13",
+  "issuance_date": "2016-05-16",
+  "maturity_date": "2044-12-01",
+  "coupon_rate": 8.17,
+  "yield_at_auction": 7.8498,
+  "amount_issued_crore": 2000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=36975",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=36974",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10391&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10387&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/AuctionSaleNotification09052016.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 2000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2014-12-01",
+    "cut_off_price": 103.62,
+    "weighted_average_price": 103.65,
+    "competitive_bids_received_crore": 7087.25,
+    "competitive_bids_accepted_crore": 1992,
+    "non_competitive_bids_accepted_crore": 8,
+    "auction_method": "Multiple price"
+  }
+}

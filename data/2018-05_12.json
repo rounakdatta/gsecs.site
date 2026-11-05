@@ -1,0 +1,33 @@
+{
+  "security_name": "GOI FRB 2031",
+  "security_type": "FRB",
+  "security_codes": [],
+  "announcement_date": "2018-05-14",
+  "auction_date": "2018-05-18",
+  "issuance_date": "2018-05-21",
+  "maturity_date": "2031-12-07",
+  "coupon_rate": 7.33,
+  "yield_at_auction": 7.4838,
+  "amount_issued_crore": 4000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=43975",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=43968",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11276&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11275&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_AuctionGovernmentStock14052018.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 4000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2018-05-07",
+    "cut_off_price": 100.05,
+    "weighted_average_price": 100.28,
+    "competitive_bids_received_crore": 9233,
+    "competitive_bids_accepted_crore": 4000,
+    "non_competitive_bids_accepted_crore": 0,
+    "auction_method": "Multiple price",
+    "coupon_period": "2018-05-07 to 2018-06-06",
+    "note": "Floating rate bond: coupon_rate is the rate fixed for the first coupon period at the new issue."
+  }
+}

@@ -1,21 +1,34 @@
 {
-  "security_name": "7.50% GS 2034",
-  "security_type": "Gilt",
-  "security_codes": [
-    "75GS34D18",
-    "75GOI34",
-    "75GS2034-GS"
-  ],
-  "announcement_date": "2018-11-30",
-  "auction_date": "2018-12-07",
-  "issuance_date": "2018-12-12",
-  "maturity_date": "2034-07-04",
-  "coupon_rate": 7.5,
-  "yield_at_auction": 7.6957,
-  "amount_issued_crore": 2000,
+  "security_name": "GOI FRB 2031",
+  "security_type": "FRB",
+  "security_codes": [],
+  "announcement_date": "2018-11-26",
+  "auction_date": "2018-11-30",
+  "issuance_date": "2018-12-03",
+  "maturity_date": "2031-12-07",
+  "coupon_rate": 7.79,
+  "yield_at_auction": 8.0705,
+  "amount_issued_crore": 3000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=45683",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR132569D218F919584B57AB5EF99C4E08FEEF.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=45609",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=45608",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11420&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11419&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_Auction_GovernmentStock_26112018.pdf",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=44135"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2018-05-07",
+    "cut_off_price": 100.23,
+    "weighted_average_price": 100.35,
+    "competitive_bids_received_crore": 18107,
+    "competitive_bids_accepted_crore": 3000,
+    "non_competitive_bids_accepted_crore": 0,
+    "auction_method": "Multiple price",
+    "coupon_period": "2018-06-07 to 2018-12-06",
+    "note": "Floating rate bond: coupon_rate is the rate RBI set for the coupon period in which this tranche was issued."
+  }
 }

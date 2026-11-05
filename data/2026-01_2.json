@@ -1,0 +1,34 @@
+{
+  "security_name": "6.68% GS 2040",
+  "security_type": "Gilt",
+  "security_codes": [
+    "668GS40J26",
+    "668GOI40",
+    "668GS2040-GS"
+  ],
+  "announcement_date": "2026-01-05",
+  "auction_date": "2026-01-09",
+  "issuance_date": "2026-01-12",
+  "maturity_date": "2040-07-07",
+  "coupon_rate": 6.68,
+  "yield_at_auction": 7.1007,
+  "amount_issued_crore": 16000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62008",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62007",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61971"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 16000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2025-07-07",
+    "cut_off_price": 96.23,
+    "weighted_average_yield": 7.0973,
+    "weighted_average_price": 96.26,
+    "competitive_bids_received_crore": 43917.8,
+    "competitive_bids_accepted_crore": 15987.323,
+    "non_competitive_bids_accepted_crore": 12.677,
+    "auction_method": "Multiple price"
+  }
+}

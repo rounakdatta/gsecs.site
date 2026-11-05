@@ -1,21 +1,35 @@
 {
-  "security_name": "8.28% GS 2032",
+  "security_name": "8.15% GS 2022",
   "security_type": "Gilt",
   "security_codes": [
-    "828GS32S16",
-    "828GOI32",
-    "828GS2032-GS"
+    "815GS22S12",
+    "815GOI22",
+    "815GS2022-GS"
   ],
-  "announcement_date": "2012-09-14",
-  "auction_date": "2012-09-21",
-  "issuance_date": "2012-09-26",
-  "maturity_date": "2032-07-14",
-  "coupon_rate": 8.28,
-  "yield_at_auction": 8.5805,
-  "amount_issued_crore": null,
+  "announcement_date": "2012-09-03",
+  "auction_date": "2012-09-07",
+  "issuance_date": "2012-09-10",
+  "maturity_date": "2022-06-11",
+  "coupon_rate": 8.15,
+  "yield_at_auction": 8.1907,
+  "amount_issued_crore": 7000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=27261",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR490GS0912.pdf"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=27177",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=27175",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=7547&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=7545&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/Auction_GovtStock03092012.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 7000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2012-06-11",
+    "cut_off_price": 99.71,
+    "weighted_average_price": 99.71,
+    "competitive_bids_received_crore": 18050,
+    "competitive_bids_accepted_crore": 6983,
+    "non_competitive_bids_accepted_crore": 17,
+    "auction_method": "Uniform price"
+  }
 }

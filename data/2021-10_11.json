@@ -6,16 +6,30 @@
     "426GOI23",
     "426GS2023-GS"
   ],
-  "announcement_date": "2021-10-15",
+  "announcement_date": "2021-10-18",
   "auction_date": "2021-10-22",
-  "issuance_date": "2021-10-27",
-  "maturity_date": "2023-12-31",
+  "issuance_date": "2021-10-25",
+  "maturity_date": "2023-05-17",
   "coupon_rate": 4.26,
   "yield_at_auction": 4.4057,
-  "amount_issued_crore": null,
+  "amount_issued_crore": 2000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52447",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1082C0A8EB5C79874073931BFAB7A37CD6BF.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52446",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52426",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_18102021.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 2000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2021-05-17",
+    "cut_off_price": 99.78,
+    "weighted_average_yield": 4.4057,
+    "weighted_average_price": 99.78,
+    "competitive_bids_received_crore": 8346,
+    "competitive_bids_accepted_crore": 1997.92,
+    "non_competitive_bids_accepted_crore": 2.08,
+    "auction_method": "Uniform price"
+  }
 }

@@ -1,0 +1,33 @@
+{
+  "security_name": "8.83% GS 2023",
+  "security_type": "Gilt",
+  "security_codes": [
+    "883GS23N13",
+    "883GOI23",
+    "883GS2023-GS"
+  ],
+  "announcement_date": "2013-11-18",
+  "auction_date": "2013-11-22",
+  "issuance_date": "2013-11-25",
+  "maturity_date": "2023-11-25",
+  "coupon_rate": 8.83,
+  "yield_at_auction": 8.83,
+  "amount_issued_crore": 7000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=30030",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=30029",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=8579&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=8578&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/Auctionforsale18112013.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 7000,
+    "issue_type": "New issue",
+    "original_issue_date": "2013-11-25",
+    "competitive_bids_received_crore": 14327.8,
+    "competitive_bids_accepted_crore": 6986.655,
+    "non_competitive_bids_accepted_crore": 13.345,
+    "auction_method": "Uniform price"
+  }
+}

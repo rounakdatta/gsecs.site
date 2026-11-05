@@ -6,16 +6,30 @@
     "679GOI27",
     "679GS2027-GS"
   ],
-  "announcement_date": "2017-11-10",
+  "announcement_date": "2017-11-13",
   "auction_date": "2017-11-17",
-  "issuance_date": "2017-11-22",
-  "maturity_date": "2027-06-03",
+  "issuance_date": "2017-11-20",
+  "maturity_date": "2027-05-15",
   "coupon_rate": 6.79,
   "yield_at_auction": 6.9706,
   "amount_issued_crore": 8000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=42302",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1371FE1772BACD02412395475C8848F9D035.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=42301",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11165&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11164&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/AuctionPress13112017.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 8000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2017-05-15",
+    "cut_off_price": 98.76,
+    "weighted_average_price": 98.77,
+    "competitive_bids_received_crore": 28195,
+    "competitive_bids_accepted_crore": 7995.51,
+    "non_competitive_bids_accepted_crore": 4.49,
+    "auction_method": "Multiple price"
+  }
 }

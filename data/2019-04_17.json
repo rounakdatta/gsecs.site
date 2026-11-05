@@ -1,0 +1,35 @@
+{
+  "security_name": "7.69% GS 2043",
+  "security_type": "Gilt",
+  "security_codes": [
+    "769GS43A19",
+    "769GOI43",
+    "769GS2043-GS"
+  ],
+  "announcement_date": "2019-04-22",
+  "auction_date": "2019-04-26",
+  "issuance_date": "2019-04-30",
+  "maturity_date": "2043-06-17",
+  "coupon_rate": 7.69,
+  "yield_at_auction": 7.69,
+  "amount_issued_crore": 2000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=46904",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=46903",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11543&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11542&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressCommunique_22042019.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 2000,
+    "issue_type": "New issue",
+    "original_issue_date": "2019-04-30",
+    "weighted_average_yield": 7.69,
+    "weighted_average_price": 100,
+    "competitive_bids_received_crore": 6615,
+    "competitive_bids_accepted_crore": 1999.987,
+    "non_competitive_bids_accepted_crore": 0.013,
+    "auction_method": "Multiple price"
+  }
+}

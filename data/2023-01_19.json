@@ -1,0 +1,35 @@
+{
+  "security_name": "7.41% GS 2036",
+  "security_type": "Gilt",
+  "security_codes": [
+    "741GS36J23",
+    "741GOI36",
+    "741GS2036-GS"
+  ],
+  "announcement_date": "2023-01-23",
+  "auction_date": "2023-01-27",
+  "issuance_date": "2023-01-30",
+  "maturity_date": "2036-12-19",
+  "coupon_rate": 7.41,
+  "yield_at_auction": 7.4507,
+  "amount_issued_crore": 11000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=55119",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=55118",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=55096",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_23012023.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 11000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2022-12-19",
+    "cut_off_price": 99.64,
+    "weighted_average_yield": 7.4507,
+    "weighted_average_price": 99.64,
+    "competitive_bids_received_crore": 23618.2,
+    "competitive_bids_accepted_crore": 10984.408,
+    "non_competitive_bids_accepted_crore": 15.592,
+    "auction_method": "Uniform price"
+  }
+}

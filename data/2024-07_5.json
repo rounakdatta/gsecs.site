@@ -1,21 +1,35 @@
 {
-  "security_name": "7.34% GS 2064",
+  "security_name": "7.30% GS 2053",
   "security_type": "Gilt",
   "security_codes": [
-    "734GS64L24",
-    "734GOI64",
-    "734GS2064-GS"
+    "730GS53J24",
+    "730GOI53",
+    "730GS2053-GS"
   ],
-  "announcement_date": "2024-07-05",
-  "auction_date": "2024-07-12",
-  "issuance_date": "2024-07-17",
-  "maturity_date": "2064-06-14",
-  "coupon_rate": 7.34,
-  "yield_at_auction": 7.1025,
+  "announcement_date": "2024-07-01",
+  "auction_date": "2024-07-05",
+  "issuance_date": "2024-07-08",
+  "maturity_date": "2053-06-19",
+  "coupon_rate": 7.3,
+  "yield_at_auction": 7.0837,
   "amount_issued_crore": 10000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58280",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR683A1C6A87FB868439A9F3A8AE799CCB3D9.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58233",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58232",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58207",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_01072024.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 10000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2023-06-19",
+    "cut_off_price": 102.64,
+    "weighted_average_yield": 7.0797,
+    "weighted_average_price": 102.69,
+    "competitive_bids_received_crore": 30879.25,
+    "competitive_bids_accepted_crore": 9988.25,
+    "non_competitive_bids_accepted_crore": 11.75,
+    "auction_method": "Multiple price"
+  }
 }

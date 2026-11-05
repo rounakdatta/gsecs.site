@@ -1,0 +1,35 @@
+{
+  "security_name": "7.09% GS 2054",
+  "security_type": "Gilt",
+  "security_codes": [
+    "709GS54D24",
+    "709GOI54",
+    "709GS2054-GS"
+  ],
+  "announcement_date": "2024-12-23",
+  "auction_date": "2024-12-27",
+  "issuance_date": "2024-12-30",
+  "maturity_date": "2054-08-05",
+  "coupon_rate": 7.09,
+  "yield_at_auction": 7.0641,
+  "amount_issued_crore": 10000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=59394",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=59393",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=59365",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_23122024.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 10000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2024-08-05",
+    "cut_off_price": 100.31,
+    "weighted_average_yield": 7.0617,
+    "weighted_average_price": 100.34,
+    "competitive_bids_received_crore": 31018.05,
+    "competitive_bids_accepted_crore": 9983.54,
+    "non_competitive_bids_accepted_crore": 16.46,
+    "auction_method": "Multiple price"
+  }
+}

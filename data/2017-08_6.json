@@ -2,20 +2,33 @@
   "security_name": "6.79% GS 2027",
   "security_type": "Gilt",
   "security_codes": [
-    "679GS27G17",
+    "679GS27A17",
     "679GOI27",
     "679GS2027-GS"
   ],
-  "announcement_date": "2017-08-04",
+  "announcement_date": "2017-08-07",
   "auction_date": "2017-08-11",
-  "issuance_date": "2017-08-16",
-  "maturity_date": "2027-06-03",
+  "issuance_date": "2017-08-14",
+  "maturity_date": "2027-05-15",
   "coupon_rate": 6.79,
   "yield_at_auction": 6.501,
   "amount_issued_crore": 8000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=41357",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR42648A483063FDC47B7917E991BBA16A4E9.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=41353",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11086&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11084&Mode=0"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 8000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2017-05-15",
+    "cut_off_price": 102.05,
+    "weighted_average_price": 102.09,
+    "competitive_bids_received_crore": 18866.981,
+    "competitive_bids_accepted_crore": 7993.85,
+    "non_competitive_bids_accepted_crore": 6.15,
+    "auction_method": "Multiple price"
+  }
 }

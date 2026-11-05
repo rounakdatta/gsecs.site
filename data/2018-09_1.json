@@ -1,21 +1,35 @@
 {
-  "security_name": "7.37% GS 2023",
+  "security_name": "6.65% GS 2020",
   "security_type": "Gilt",
   "security_codes": [
-    "737GS23S18",
-    "737GOI23",
-    "737GS2023-GS"
+    "665GS20S18",
+    "665GOI20",
+    "665GS2020-GS"
   ],
-  "announcement_date": "2018-08-31",
-  "auction_date": "2018-09-07",
-  "issuance_date": "2018-09-12",
-  "maturity_date": "2023-12-31",
-  "coupon_rate": 7.37,
-  "yield_at_auction": 8.1298,
+  "announcement_date": "2018-08-27",
+  "auction_date": "2018-08-31",
+  "issuance_date": "2018-09-03",
+  "maturity_date": "2020-04-09",
+  "coupon_rate": 6.65,
+  "yield_at_auction": 7.7117,
   "amount_issued_crore": 2000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=44932",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR572A6E45F5402BA453BACF9C8BF1C43061C.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=44875",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=44872",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11365&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11364&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_Auction_GovernmentStock_27082018.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 2000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2018-04-09",
+    "cut_off_price": 98.42,
+    "weighted_average_price": 98.43,
+    "competitive_bids_received_crore": 8695,
+    "competitive_bids_accepted_crore": 1997.981,
+    "non_competitive_bids_accepted_crore": 2.019,
+    "auction_method": "Multiple price"
+  }
 }

@@ -1,0 +1,35 @@
+{
+  "security_name": "8.13% GS 2045",
+  "security_type": "Gilt",
+  "security_codes": [
+    "813GS45N18",
+    "813GOI45",
+    "813GS2045-GS"
+  ],
+  "announcement_date": "2018-11-16",
+  "auction_date": "2018-11-22",
+  "issuance_date": "2018-11-26",
+  "maturity_date": "2045-06-22",
+  "coupon_rate": 8.13,
+  "yield_at_auction": 8.0003,
+  "amount_issued_crore": 3000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=45546",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=45545",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11416&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11415&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_Auction_GovernmentStock_16112018.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2015-06-22",
+    "cut_off_price": 101.41,
+    "weighted_average_price": 101.41,
+    "competitive_bids_received_crore": 7656.571,
+    "competitive_bids_accepted_crore": 2999.917,
+    "non_competitive_bids_accepted_crore": 0.083,
+    "auction_method": "Multiple price"
+  }
+}

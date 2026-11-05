@@ -1,0 +1,35 @@
+{
+  "security_name": "6.68% GS 2031",
+  "security_type": "Gilt",
+  "security_codes": [
+    "668GS31A18",
+    "668GOI31",
+    "668GS2031-GS"
+  ],
+  "announcement_date": "2018-04-23",
+  "auction_date": "2018-04-26",
+  "issuance_date": "2018-04-27",
+  "maturity_date": "2031-09-17",
+  "coupon_rate": 6.68,
+  "yield_at_auction": 7.9803,
+  "amount_issued_crore": 4000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=43777",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=43774",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11263&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11262&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/Auction_sale_Reissue_PressRelease_23042018.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 4000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2017-09-04",
+    "cut_off_price": 89.41,
+    "weighted_average_price": 89.47,
+    "competitive_bids_received_crore": 11347.5,
+    "competitive_bids_accepted_crore": 3990.718,
+    "non_competitive_bids_accepted_crore": 9.282,
+    "auction_method": "Multiple price"
+  }
+}

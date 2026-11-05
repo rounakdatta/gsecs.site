@@ -1,21 +1,33 @@
 {
-  "security_name": "6.19% GS 2034",
-  "security_type": "Gilt",
-  "security_codes": [
-    "619GS34U20",
-    "619GOI34",
-    "619GS2034-GS"
-  ],
-  "announcement_date": "2020-06-05",
-  "auction_date": "2020-06-12",
-  "issuance_date": "2020-06-17",
-  "maturity_date": "2034-07-04",
-  "coupon_rate": 6.19,
-  "yield_at_auction": null,
-  "amount_issued_crore": null,
+  "security_name": "GOI FRB 2033",
+  "security_type": "FRB",
+  "security_codes": [],
+  "announcement_date": "2020-06-15",
+  "auction_date": "2020-06-19",
+  "issuance_date": "2020-06-22",
+  "maturity_date": "2033-09-22",
+  "coupon_rate": 4.65,
+  "yield_at_auction": 4.65,
+  "amount_issued_crore": 4000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=49941",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR24895F16329503AD4107B8768273E23191A4.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=49978",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=49970",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=49973",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11914&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_15062020.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 4000,
+    "issue_type": "New issue",
+    "original_issue_date": "2020-06-22",
+    "weighted_average_yield": 4.6324,
+    "weighted_average_price": 100.18,
+    "competitive_bids_received_crore": 14388,
+    "competitive_bids_accepted_crore": 3999.998,
+    "non_competitive_bids_accepted_crore": 0.002,
+    "auction_method": "Multiple price",
+    "coupon_period": "2020-06-22 to 2020-09-21",
+    "note": "Floating rate bond: coupon_rate is the rate fixed for the first coupon period at the new issue."
+  }
 }

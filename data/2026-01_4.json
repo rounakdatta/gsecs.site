@@ -1,0 +1,34 @@
+{
+  "security_name": "6.01% GS 2030",
+  "security_type": "Gilt",
+  "security_codes": [
+    "601GS30J26",
+    "601GOI30",
+    "601GS2030-GS"
+  ],
+  "announcement_date": "2026-01-12",
+  "auction_date": "2026-01-16",
+  "issuance_date": "2026-01-19",
+  "maturity_date": "2030-07-21",
+  "coupon_rate": 6.01,
+  "yield_at_auction": 6.4743,
+  "amount_issued_crore": 18000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62051",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62050",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62022"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 18000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2025-07-21",
+    "cut_off_price": 98.21,
+    "weighted_average_yield": 6.469,
+    "weighted_average_price": 98.23,
+    "competitive_bids_received_crore": 54460.227,
+    "competitive_bids_accepted_crore": 17998.533,
+    "non_competitive_bids_accepted_crore": 1.467,
+    "auction_method": "Multiple price"
+  }
+}

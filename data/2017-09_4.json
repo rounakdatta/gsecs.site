@@ -6,16 +6,29 @@
     "668GOI31",
     "668GS2031-GS"
   ],
-  "announcement_date": "2017-08-25",
+  "announcement_date": "2017-08-28",
   "auction_date": "2017-09-01",
-  "issuance_date": "2017-09-06",
-  "maturity_date": "2031-06-01",
+  "issuance_date": "2017-09-04",
+  "maturity_date": "2031-09-17",
   "coupon_rate": 6.68,
-  "yield_at_auction": null,
+  "yield_at_auction": 6.68,
   "amount_issued_crore": 9000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=41540",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR6086EC3E16563684728AF54ACF7686298FD.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=41538",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11108&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11106&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/auctionpress28082017.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 9000,
+    "issue_type": "New issue",
+    "original_issue_date": "2017-09-04",
+    "weighted_average_yield": 6.6711,
+    "competitive_bids_received_crore": 49300,
+    "competitive_bids_accepted_crore": 8983,
+    "non_competitive_bids_accepted_crore": 17,
+    "auction_method": "Multiple price"
+  }
 }

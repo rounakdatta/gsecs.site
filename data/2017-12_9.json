@@ -1,0 +1,36 @@
+{
+  "security_name": "7.72% GS 2055",
+  "security_type": "Gilt",
+  "security_codes": [
+    "772GS55D17",
+    "772GOI55",
+    "772GS2055-GS"
+  ],
+  "announcement_date": "2017-12-04",
+  "auction_date": "2017-12-08",
+  "issuance_date": "2017-12-11",
+  "maturity_date": "2055-10-26",
+  "coupon_rate": 7.72,
+  "yield_at_auction": 7.4898,
+  "amount_issued_crore": 2000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=42505",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=42500",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11182&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11181&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/AuctionPress04122017.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 2000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2015-10-26",
+    "cut_off_price": 102.87,
+    "weighted_average_price": 102.87,
+    "competitive_bids_received_crore": 4378,
+    "competitive_bids_accepted_crore": 1996,
+    "non_competitive_bids_accepted_crore": 4,
+    "auction_method": "Multiple price",
+    "note": "Announced by the Government press communique of 4 Dec 2017; the specific notification RBI published is dated 5 Dec 2017."
+  }
+}

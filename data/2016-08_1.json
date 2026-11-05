@@ -1,21 +1,35 @@
 {
-  "security_name": "7.61% GS 2030",
+  "security_name": "7.80% GS 2021",
   "security_type": "Gilt",
   "security_codes": [
-    "761GS30G16",
-    "761GOI30",
-    "761GS2030-GS"
+    "780GS21A16",
+    "780GOI21",
+    "780GS2021-GS"
   ],
-  "announcement_date": "2016-07-29",
-  "auction_date": "2016-08-05",
-  "issuance_date": "2016-08-10",
-  "maturity_date": "2030-07-21",
-  "coupon_rate": 7.61,
-  "yield_at_auction": 7.1727,
+  "announcement_date": "2016-07-25",
+  "auction_date": "2016-07-29",
+  "issuance_date": "2016-08-01",
+  "maturity_date": "2021-04-11",
+  "coupon_rate": 7.8,
+  "yield_at_auction": 7.0469,
   "amount_issued_crore": 3000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=37708",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR332F5405DE31442427F97BA4D8719398598.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=37637",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=37633",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10529&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10528&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/AuctionSaleNotification25072016.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2011-04-11",
+    "cut_off_price": 102.95,
+    "weighted_average_price": 102.96,
+    "competitive_bids_received_crore": 10974,
+    "competitive_bids_accepted_crore": 2983.5,
+    "non_competitive_bids_accepted_crore": 16.5,
+    "auction_method": "Multiple price"
+  }
 }

@@ -1,0 +1,35 @@
+{
+  "security_name": "6.17% GS 2021",
+  "security_type": "Gilt",
+  "security_codes": [
+    "617GS21F20",
+    "617GOI21",
+    "617GS2021-GS"
+  ],
+  "announcement_date": "2020-01-27",
+  "auction_date": "2020-01-31",
+  "issuance_date": "2020-02-03",
+  "maturity_date": "2021-07-15",
+  "coupon_rate": 6.17,
+  "yield_at_auction": 5.6721,
+  "amount_issued_crore": 2000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=49290",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=49289",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11800&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_27012020_E.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 2000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2019-07-15",
+    "cut_off_price": 100.68,
+    "weighted_average_yield": 5.6721,
+    "weighted_average_price": 100.68,
+    "competitive_bids_received_crore": 11463,
+    "competitive_bids_accepted_crore": 1996.794,
+    "non_competitive_bids_accepted_crore": 3.206,
+    "auction_method": "Multiple price"
+  }
+}

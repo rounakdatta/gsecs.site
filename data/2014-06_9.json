@@ -1,0 +1,35 @@
+{
+  "security_name": "8.35% GS 2022",
+  "security_type": "Gilt",
+  "security_codes": [
+    "835GS22J14",
+    "835GOI22",
+    "835GS2022-GS"
+  ],
+  "announcement_date": "2014-06-16",
+  "auction_date": "2014-06-20",
+  "issuance_date": "2014-06-23",
+  "maturity_date": "2022-05-14",
+  "coupon_rate": 8.35,
+  "yield_at_auction": 8.7336,
+  "amount_issued_crore": 3000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=31457",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=31454",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=31419",
+    "https://dea.gov.in/files/press_release_documents/AuctionSale17062014.pdf",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=8857&Mode=0"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2002-05-14",
+    "cut_off_price": 97.83,
+    "weighted_average_price": 97.83,
+    "competitive_bids_received_crore": 8311.415,
+    "competitive_bids_accepted_crore": 2975.75,
+    "non_competitive_bids_accepted_crore": 24.25,
+    "auction_method": "Uniform price"
+  }
+}

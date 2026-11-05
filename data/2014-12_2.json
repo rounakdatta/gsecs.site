@@ -1,21 +1,33 @@
 {
-  "security_name": "8.24% GS 2033",
+  "security_name": "8.17% GS 2044",
   "security_type": "Gilt",
   "security_codes": [
-    "824GS33D16",
-    "824GOI33",
-    "824GS2033-GS"
+    "817GS44D14",
+    "817GOI44",
+    "817GS2044-GS"
   ],
-  "announcement_date": "2014-11-28",
-  "auction_date": "2014-12-05",
-  "issuance_date": "2014-12-10",
-  "maturity_date": "2033-06-07",
-  "coupon_rate": 8.24,
-  "yield_at_auction": 7.9422,
-  "amount_issued_crore": null,
+  "announcement_date": "2014-11-24",
+  "auction_date": "2014-11-28",
+  "issuance_date": "2014-12-01",
+  "maturity_date": "2044-12-01",
+  "coupon_rate": 8.17,
+  "yield_at_auction": 8.17,
+  "amount_issued_crore": 3000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=32689",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR1164GF1214.pdf"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=32626",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=32624",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=9351&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/AuctionSale24112014.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "New issue",
+    "original_issue_date": "2014-12-01",
+    "weighted_average_yield": 8.162,
+    "competitive_bids_received_crore": 11355.75,
+    "competitive_bids_accepted_crore": 2986.8,
+    "non_competitive_bids_accepted_crore": 13.2,
+    "auction_method": "Multiple price"
+  }
 }

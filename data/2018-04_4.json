@@ -1,21 +1,35 @@
 {
-  "security_name": "7.73% GS 2034",
+  "security_name": "6.62% GS 2051",
   "security_type": "Gilt",
   "security_codes": [
-    "773GS34A18",
-    "773GOI34",
-    "773GS2034-GS"
+    "662GS51A18",
+    "662GOI51",
+    "662GS2051-GS"
   ],
-  "announcement_date": "2018-04-06",
-  "auction_date": "2018-04-13",
-  "issuance_date": "2018-04-18",
-  "maturity_date": "2034-07-04",
-  "coupon_rate": 7.73,
-  "yield_at_auction": 7.7502,
-  "amount_issued_crore": 4000,
+  "announcement_date": "2018-04-02",
+  "auction_date": "2018-04-06",
+  "issuance_date": "2018-04-09",
+  "maturity_date": "2051-11-28",
+  "coupon_rate": 6.62,
+  "yield_at_auction": 7.4002,
+  "amount_issued_crore": 3000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=43660",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR2726E479B43505B24931B7C243D086486622.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=43587",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=43585",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11238&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11237&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_E_02042018.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2016-11-28",
+    "cut_off_price": 90.36,
+    "weighted_average_price": 90.36,
+    "competitive_bids_received_crore": 9209,
+    "competitive_bids_accepted_crore": 2998,
+    "non_competitive_bids_accepted_crore": 2,
+    "auction_method": "Multiple price"
+  }
 }

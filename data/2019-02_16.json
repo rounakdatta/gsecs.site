@@ -1,21 +1,36 @@
 {
-  "security_name": "8.24% GS 2033",
+  "security_name": "7.26% GS 2029",
   "security_type": "Gilt",
   "security_codes": [
-    "824GS33F19",
-    "824GOI33",
-    "824GS2033-GS"
+    "726GS29F19",
+    "726GOI29",
+    "726GS2029-GS"
   ],
-  "announcement_date": "2019-02-15",
+  "announcement_date": "2019-02-18",
   "auction_date": "2019-02-22",
-  "issuance_date": "2019-02-27",
-  "maturity_date": "2033-06-07",
-  "coupon_rate": 8.24,
+  "issuance_date": "2019-02-25",
+  "maturity_date": "2029-01-14",
+  "coupon_rate": 7.26,
   "yield_at_auction": 7.3839,
   "amount_issued_crore": 4000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=46366",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR2008E9288CFCD86C492CAEF6D11F09D7DE97.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=46365",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11477&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11476&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_Auction_GovernmentStock_18022019.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 4000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2019-01-14",
+    "cut_off_price": 99.13,
+    "weighted_average_yield": 7.3799,
+    "weighted_average_price": 99.16,
+    "competitive_bids_received_crore": 9965,
+    "competitive_bids_accepted_crore": 3995.282,
+    "non_competitive_bids_accepted_crore": 4.718,
+    "auction_method": "Multiple price"
+  }
 }

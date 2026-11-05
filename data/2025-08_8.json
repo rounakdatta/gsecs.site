@@ -1,0 +1,35 @@
+{
+  "security_name": "6.33% GS 2035",
+  "security_type": "Gilt",
+  "security_codes": [
+    "633GS35A25",
+    "633GOI35",
+    "633GS2035-GS"
+  ],
+  "announcement_date": "2025-08-18",
+  "auction_date": "2025-08-22",
+  "issuance_date": "2025-08-25",
+  "maturity_date": "2035-05-05",
+  "coupon_rate": 6.33,
+  "yield_at_auction": 6.5553,
+  "amount_issued_crore": 30000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61073",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61072",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61043",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_GSec_18082025.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 30000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2025-05-05",
+    "cut_off_price": 98.39,
+    "weighted_average_yield": 6.5496,
+    "weighted_average_price": 98.43,
+    "competitive_bids_received_crore": 70397.283,
+    "competitive_bids_accepted_crore": 29979.31,
+    "non_competitive_bids_accepted_crore": 20.69,
+    "auction_method": "Multiple price"
+  }
+}

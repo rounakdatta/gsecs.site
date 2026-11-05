@@ -1,21 +1,35 @@
 {
   "security_name": "GOI FRB 2031",
   "security_type": "FRB",
-  "security_codes": [
-    "0GS31F19",
-    "0GOI31",
-    "0GS2031-GS"
-  ],
-  "announcement_date": "2019-01-25",
+  "security_codes": [],
+  "announcement_date": "2019-01-28",
   "auction_date": "2019-02-01",
-  "issuance_date": "2019-02-06",
-  "maturity_date": "2031-06-01",
-  "coupon_rate": 0,
+  "issuance_date": "2019-02-04",
+  "maturity_date": "2031-12-07",
+  "coupon_rate": 8.05,
   "yield_at_auction": 7.5481,
   "amount_issued_crore": 3000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=46172",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1814F2FD4279CA7B44C5B2E4DEB96A19259E.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=46171",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11460&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11459&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_Auction_GovernmentStock_28012019.pdf",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=45677"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2018-05-07",
+    "cut_off_price": 101.33,
+    "weighted_average_yield": 7.5303,
+    "weighted_average_price": 101.48,
+    "competitive_bids_received_crore": 19069,
+    "competitive_bids_accepted_crore": 2999.999,
+    "non_competitive_bids_accepted_crore": 0.001,
+    "auction_method": "Multiple price",
+    "coupon_period": "2018-12-07 to 2019-06-06",
+    "note": "Floating rate bond: coupon_rate is the rate RBI set for the coupon period in which this tranche was issued."
+  }
 }

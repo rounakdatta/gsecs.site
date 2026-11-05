@@ -1,0 +1,35 @@
+{
+  "security_name": "8.83% GS 2041",
+  "security_type": "Gilt",
+  "security_codes": [
+    "883GS41S13",
+    "883GOI41",
+    "883GS2041-GS"
+  ],
+  "announcement_date": "2013-09-23",
+  "auction_date": "2013-09-27",
+  "issuance_date": "2013-09-30",
+  "maturity_date": "2041-12-12",
+  "coupon_rate": 8.83,
+  "yield_at_auction": 9.3986,
+  "amount_issued_crore": 3000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=29651",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=29647",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=8457&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=8453&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/Auctionforsale23092013.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2011-12-12",
+    "cut_off_price": 94.38,
+    "weighted_average_price": 94.38,
+    "competitive_bids_received_crore": 6476.27,
+    "competitive_bids_accepted_crore": 2998.43,
+    "non_competitive_bids_accepted_crore": 1.57,
+    "auction_method": "Uniform price"
+  }
+}

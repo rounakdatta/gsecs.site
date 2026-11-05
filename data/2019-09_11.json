@@ -1,21 +1,35 @@
 {
-  "security_name": "GOI FRB 2031",
-  "security_type": "FRB",
+  "security_name": "7.57% GS 2033",
+  "security_type": "Gilt",
   "security_codes": [
-    "0GS31S19",
-    "0GOI31",
-    "0GS2031-GS"
+    "757GS33S19",
+    "757GOI33",
+    "757GS2033-GS"
   ],
-  "announcement_date": "2019-09-13",
-  "auction_date": "2019-09-20",
-  "issuance_date": "2019-09-25",
-  "maturity_date": "2031-06-01",
-  "coupon_rate": 0,
-  "yield_at_auction": 6.7366,
-  "amount_issued_crore": 3000,
+  "announcement_date": "2019-09-09",
+  "auction_date": "2019-09-13",
+  "issuance_date": "2019-09-16",
+  "maturity_date": "2033-06-17",
+  "coupon_rate": 7.57,
+  "yield_at_auction": 6.9653,
+  "amount_issued_crore": 6000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=48201",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR7496D22F9B858674C47B9A63388D8FF711F.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=48141",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=48140",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11682&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressCommunique_09092019.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 6000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2019-05-20",
+    "cut_off_price": 105.28,
+    "weighted_average_yield": 6.9609,
+    "weighted_average_price": 105.32,
+    "competitive_bids_received_crore": 26959.581,
+    "competitive_bids_accepted_crore": 5990.876,
+    "non_competitive_bids_accepted_crore": 9.124,
+    "auction_method": "Multiple price"
+  }
 }

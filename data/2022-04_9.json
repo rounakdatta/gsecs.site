@@ -1,21 +1,35 @@
 {
-  "security_name": "GOI FRB 2034",
-  "security_type": "FRB",
+  "security_name": "5.74% GS 2026",
+  "security_type": "Gilt",
   "security_codes": [
-    "0GS34A22",
-    "0GOI34",
-    "0GS2034-GS"
+    "574GS26A22",
+    "574GOI26",
+    "574GS2026-GS"
   ],
-  "announcement_date": "2022-04-15",
+  "announcement_date": "2022-04-18",
   "auction_date": "2022-04-22",
-  "issuance_date": "2022-04-27",
-  "maturity_date": "2034-07-04",
-  "coupon_rate": 0,
-  "yield_at_auction": 5.6473,
-  "amount_issued_crore": 4000,
+  "issuance_date": "2022-04-25",
+  "maturity_date": "2026-11-15",
+  "coupon_rate": 5.74,
+  "yield_at_auction": 6.6681,
+  "amount_issued_crore": 9000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53600",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1029DD4475E4E2442BC9EE56B26B6F60D65.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53599",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53583",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_18042022.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 9000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2021-11-15",
+    "cut_off_price": 96.4,
+    "weighted_average_yield": 6.6681,
+    "weighted_average_price": 96.4,
+    "competitive_bids_received_crore": 20546.654,
+    "competitive_bids_accepted_crore": 8993.986,
+    "non_competitive_bids_accepted_crore": 6.014,
+    "auction_method": "Uniform price"
+  }
 }

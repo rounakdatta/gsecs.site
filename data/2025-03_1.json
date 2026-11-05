@@ -1,0 +1,35 @@
+{
+  "security_name": "6.79% GS 2031",
+  "security_type": "Gilt",
+  "security_codes": [
+    "679GS31M25",
+    "679GOI31",
+    "679GS2031-GS"
+  ],
+  "announcement_date": "2025-02-24",
+  "auction_date": "2025-02-28",
+  "issuance_date": "2025-03-03",
+  "maturity_date": "2031-12-30",
+  "coupon_rate": 6.79,
+  "yield_at_auction": 6.7376,
+  "amount_issued_crore": 10000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=59873",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=59871",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=59842",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_24022025.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 10000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2024-12-30",
+    "cut_off_price": 100.27,
+    "weighted_average_yield": 6.7247,
+    "weighted_average_price": 100.34,
+    "competitive_bids_received_crore": 23824,
+    "competitive_bids_accepted_crore": 9998.906,
+    "non_competitive_bids_accepted_crore": 1.094,
+    "auction_method": "Multiple price"
+  }
+}

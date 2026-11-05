@@ -6,16 +6,31 @@
     "772GOI55",
     "772GS2055-GS"
   ],
-  "announcement_date": "2019-02-08",
+  "announcement_date": "2019-02-11",
   "auction_date": "2019-02-15",
-  "issuance_date": "2019-02-20",
-  "maturity_date": "2055-06-08",
+  "issuance_date": "2019-02-18",
+  "maturity_date": "2055-10-26",
   "coupon_rate": 7.72,
   "yield_at_auction": 7.7202,
   "amount_issued_crore": 3000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=46316",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR19556FFD7530E43E4C75B8DAA2F9A9208072.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=46309",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11474&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11473&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_Auction_GovernmentStock_11022019.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2015-10-26",
+    "cut_off_price": 99.98,
+    "weighted_average_yield": 7.7202,
+    "weighted_average_price": 99.98,
+    "competitive_bids_received_crore": 7819,
+    "competitive_bids_accepted_crore": 2999.735,
+    "non_competitive_bids_accepted_crore": 0.265,
+    "auction_method": "Multiple price"
+  }
 }

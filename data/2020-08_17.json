@@ -1,21 +1,33 @@
 {
-  "security_name": "5.09% GS 2022",
-  "security_type": "Gilt",
-  "security_codes": [
-    "509GS22G20",
-    "509GOI22",
-    "509GS2022-GS"
-  ],
-  "announcement_date": "2020-08-07",
-  "auction_date": "2020-08-14",
-  "issuance_date": "2020-08-19",
-  "maturity_date": "2022-06-15",
-  "coupon_rate": 5.09,
-  "yield_at_auction": null,
-  "amount_issued_crore": null,
+  "security_name": "GOI FRB 2033",
+  "security_type": "FRB",
+  "security_codes": [],
+  "announcement_date": "2020-08-24",
+  "auction_date": "2020-08-28",
+  "issuance_date": "2020-08-31",
+  "maturity_date": "2033-09-22",
+  "coupon_rate": 4.65,
+  "yield_at_auction": 4.8496,
+  "amount_issued_crore": 4000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50217",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1910461C4E9F5334D519A4D69F9A29B80F8.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50272",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50271",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50250",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_24082020.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 4000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2020-06-22",
+    "cut_off_price": 97.99,
+    "weighted_average_yield": 4.7791,
+    "weighted_average_price": 98.66,
+    "competitive_bids_received_crore": 7185,
+    "competitive_bids_accepted_crore": 3999.86,
+    "non_competitive_bids_accepted_crore": 0.14,
+    "auction_method": "Multiple price",
+    "coupon_period": "2020-06-22 to 2020-09-21",
+    "note": "Floating rate bond: coupon_rate is the rate fixed for the first coupon period at the new issue."
+  }
 }

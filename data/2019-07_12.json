@@ -1,21 +1,36 @@
 {
-  "security_name": "7.69% GS 2043",
+  "security_name": "7.57% GS 2033",
   "security_type": "Gilt",
   "security_codes": [
-    "769GS43L19",
-    "769GOI43",
-    "769GS2043-GS"
+    "757GS33J19",
+    "757GOI33",
+    "757GS2033-GS"
   ],
-  "announcement_date": "2019-07-12",
-  "auction_date": "2019-07-19",
-  "issuance_date": "2019-07-24",
-  "maturity_date": "2043-12-31",
-  "coupon_rate": 7.69,
-  "yield_at_auction": 6.7498,
-  "amount_issued_crore": 2000,
+  "announcement_date": "2019-07-08",
+  "auction_date": "2019-07-12",
+  "issuance_date": "2019-07-15",
+  "maturity_date": "2033-06-17",
+  "coupon_rate": 7.57,
+  "yield_at_auction": 6.7361,
+  "amount_issued_crore": 5000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=47650",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR198CCB3A92894B542909B182C6759976B61.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=47587",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=47586",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11626&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11625&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_08072019.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 5000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2019-05-20",
+    "cut_off_price": 107.45,
+    "weighted_average_yield": 6.7217,
+    "weighted_average_price": 107.58,
+    "competitive_bids_received_crore": 10796.5,
+    "competitive_bids_accepted_crore": 4995.947,
+    "non_competitive_bids_accepted_crore": 4.053,
+    "auction_method": "Multiple price"
+  }
 }
