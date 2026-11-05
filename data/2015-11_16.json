@@ -1,0 +1,35 @@
+{
+  "security_name": "7.73% GS 2034",
+  "security_type": "Gilt",
+  "security_codes": [
+    "773GS34N15",
+    "773GOI34",
+    "773GS2034-GS"
+  ],
+  "announcement_date": "2015-11-23",
+  "auction_date": "2015-11-27",
+  "issuance_date": "2015-11-30",
+  "maturity_date": "2034-12-19",
+  "coupon_rate": 7.73,
+  "yield_at_auction": 7.9165,
+  "amount_issued_crore": 3000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=35576",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=35575",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10138&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10135&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/AuctionSale23112015.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2015-10-12",
+    "cut_off_price": 98.17,
+    "weighted_average_price": 98.4,
+    "competitive_bids_received_crore": 6350,
+    "competitive_bids_accepted_crore": 2996.837,
+    "non_competitive_bids_accepted_crore": 3.163,
+    "auction_method": "Multiple price"
+  }
+}

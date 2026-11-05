@@ -6,16 +6,30 @@
     "695GOI61",
     "695GS2061-GS"
   ],
-  "announcement_date": "2021-11-26",
+  "announcement_date": "2021-11-29",
   "auction_date": "2021-12-03",
-  "issuance_date": "2021-12-08",
-  "maturity_date": "2061-03-04",
+  "issuance_date": "2021-12-06",
+  "maturity_date": "2061-12-16",
   "coupon_rate": 6.95,
   "yield_at_auction": 6.9591,
-  "amount_issued_crore": null,
+  "amount_issued_crore": 7000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52668",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1303428AF3E457824E62A734C25DB55CBBA5.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52667",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52639",
+    "https://dea.gov.in/files/press_release_documents/Auction_G_Sec_Notification_29112021.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 7000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2021-11-22",
+    "cut_off_price": 99.88,
+    "weighted_average_yield": 6.9487,
+    "weighted_average_price": 100.02,
+    "competitive_bids_received_crore": 16132.51,
+    "competitive_bids_accepted_crore": 6988.622,
+    "non_competitive_bids_accepted_crore": 11.378,
+    "auction_method": "Multiple price"
+  }
 }

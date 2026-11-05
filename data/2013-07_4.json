@@ -1,21 +1,35 @@
 {
-  "security_name": "7.16% GS 2023",
+  "security_name": "7.40% GS 2035",
   "security_type": "Gilt",
   "security_codes": [
-    "716GS23L16",
-    "716GOI23",
-    "716GS2023-GS"
+    "740GS35J13",
+    "740GOI35",
+    "740GS2035-GS"
   ],
-  "announcement_date": "2013-07-12",
-  "auction_date": "2013-07-19",
-  "issuance_date": "2013-07-24",
-  "maturity_date": "2023-12-31",
-  "coupon_rate": 7.16,
-  "yield_at_auction": 8.4981,
-  "amount_issued_crore": null,
+  "announcement_date": "2013-06-24",
+  "auction_date": "2013-06-28",
+  "issuance_date": "2013-07-02",
+  "maturity_date": "2035-09-09",
+  "coupon_rate": 7.4,
+  "yield_at_auction": 7.7994,
+  "amount_issued_crore": 2000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=29125",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR139GS0713.pdf"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=28971",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=28970",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=8052&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=8048&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/Auctionforsale24062013.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 2000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2005-09-09",
+    "cut_off_price": 95.8,
+    "weighted_average_price": 95.8,
+    "competitive_bids_received_crore": 7085.94,
+    "competitive_bids_accepted_crore": 1983.9,
+    "non_competitive_bids_accepted_crore": 16.1,
+    "auction_method": "Uniform price"
+  }
 }

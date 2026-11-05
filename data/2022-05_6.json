@@ -1,21 +1,33 @@
 {
-  "security_name": "7.10% GS 2029",
-  "security_type": "Gilt",
-  "security_codes": [
-    "71GS29Y22",
-    "71GOI29",
-    "71GS2029-GS"
-  ],
-  "announcement_date": "2022-05-06",
-  "auction_date": "2022-05-13",
-  "issuance_date": "2022-05-18",
-  "maturity_date": "2029-12-23",
-  "coupon_rate": 7.1,
-  "yield_at_auction": 7.24,
-  "amount_issued_crore": 7000,
+  "security_name": "GOI FRB 2028",
+  "security_type": "FRB",
+  "security_codes": [],
+  "announcement_date": "2022-04-29",
+  "auction_date": "2022-05-06",
+  "issuance_date": "2022-05-09",
+  "maturity_date": "2028-10-04",
+  "coupon_rate": 4.93,
+  "yield_at_auction": 5.301,
+  "amount_issued_crore": 4000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53703",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR205F55A2D1AA6C049C5BF854D2AC375AEC8.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53667",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53666",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53633",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53503"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 4000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2021-10-04",
+    "cut_off_price": 98.55,
+    "weighted_average_yield": 5.301,
+    "weighted_average_price": 98.55,
+    "competitive_bids_received_crore": 8393,
+    "competitive_bids_accepted_crore": 3999.573,
+    "non_competitive_bids_accepted_crore": 0.427,
+    "auction_method": "Uniform price",
+    "coupon_period": "2022-04-04 to 2022-10-03",
+    "note": "Floating rate bond: coupon_rate is the rate RBI set for the coupon period in which this tranche was issued."
+  }
 }

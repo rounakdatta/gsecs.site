@@ -1,0 +1,35 @@
+{
+  "security_name": "8.83% GS 2041",
+  "security_type": "Gilt",
+  "security_codes": [
+    "883GS41O12",
+    "883GOI41",
+    "883GS2041-GS"
+  ],
+  "announcement_date": "2012-10-15",
+  "auction_date": "2012-10-19",
+  "issuance_date": "2012-10-22",
+  "maturity_date": "2041-12-12",
+  "coupon_rate": 8.83,
+  "yield_at_auction": 8.35,
+  "amount_issued_crore": 3000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=27441",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=27440",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=7629&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=7626&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/Auction_GovtStock15102012.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2011-12-12",
+    "cut_off_price": 105.2,
+    "weighted_average_price": 105.2,
+    "competitive_bids_received_crore": 10560.28,
+    "competitive_bids_accepted_crore": 2994,
+    "non_competitive_bids_accepted_crore": 6,
+    "auction_method": "Uniform price"
+  }
+}

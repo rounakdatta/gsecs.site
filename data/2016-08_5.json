@@ -1,21 +1,35 @@
 {
-  "security_name": "7.50% GS 2034",
+  "security_name": "7.35% GS 2024",
   "security_type": "Gilt",
   "security_codes": [
-    "75GS34G16",
-    "75GOI34",
-    "75GS2034-GS"
+    "735GS24A16",
+    "735GOI24",
+    "735GS2024-GS"
   ],
-  "announcement_date": "2016-08-05",
-  "auction_date": "2016-08-12",
-  "issuance_date": "2016-08-17",
-  "maturity_date": "2034-07-04",
-  "coupon_rate": 7.5,
-  "yield_at_auction": 7.0971,
-  "amount_issued_crore": 8000,
+  "announcement_date": "2016-08-01",
+  "auction_date": "2016-08-05",
+  "issuance_date": "2016-08-08",
+  "maturity_date": "2024-06-22",
+  "coupon_rate": 7.35,
+  "yield_at_auction": 7.1727,
+  "amount_issued_crore": 3000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=37772",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR395A9938396F879497C87E478FE29972D35.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=37708",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=37706",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10539&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10538&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/AuctionSaleNotification01082016.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2009-06-22",
+    "cut_off_price": 101.04,
+    "weighted_average_price": 101.05,
+    "competitive_bids_received_crore": 10978,
+    "competitive_bids_accepted_crore": 2975,
+    "non_competitive_bids_accepted_crore": 25,
+    "auction_method": "Multiple price"
+  }
 }

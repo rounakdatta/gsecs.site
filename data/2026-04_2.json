@@ -1,0 +1,35 @@
+{
+  "security_name": "7.43% GS 2076",
+  "security_type": "Gilt",
+  "security_codes": [
+    "743GS76A26",
+    "743GOI76",
+    "743GS2076-GS"
+  ],
+  "announcement_date": "2026-03-28",
+  "auction_date": "2026-04-02",
+  "issuance_date": "2026-04-06",
+  "maturity_date": "2076-01-19",
+  "coupon_rate": 7.43,
+  "yield_at_auction": 7.8812,
+  "amount_issued_crore": 12000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62491",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62489",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62459",
+    "https://dea.gov.in/files/press_release_documents/Press%20Release%20for%20auction%20of%20G-Sec-28.03.2026.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 12000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2026-01-19",
+    "cut_off_price": 94.38,
+    "weighted_average_yield": 7.8718,
+    "weighted_average_price": 94.49,
+    "competitive_bids_received_crore": 26999,
+    "competitive_bids_accepted_crore": 11985.535,
+    "non_competitive_bids_accepted_crore": 14.465,
+    "auction_method": "Multiple price"
+  }
+}

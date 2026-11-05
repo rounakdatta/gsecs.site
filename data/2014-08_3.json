@@ -2,20 +2,34 @@
   "security_name": "9.23% GS 2043",
   "security_type": "Gilt",
   "security_codes": [
-    "923GS43G16",
+    "923GS43A14",
     "923GOI43",
     "923GS2043-GS"
   ],
-  "announcement_date": "2014-08-07",
-  "auction_date": "2014-08-14",
-  "issuance_date": "2014-08-19",
-  "maturity_date": "2043-12-31",
+  "announcement_date": "2014-07-28",
+  "auction_date": "2014-08-01",
+  "issuance_date": "2014-08-04",
+  "maturity_date": "2043-12-23",
   "coupon_rate": 9.23,
-  "yield_at_auction": 8.5667,
-  "amount_issued_crore": null,
+  "yield_at_auction": 8.7624,
+  "amount_issued_crore": 2000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=31863",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR339GS0814.pdf"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=31759",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=31757",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=9137&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=9134&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/AuctionSale28072014.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 2000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2013-12-23",
+    "cut_off_price": 104.89,
+    "weighted_average_price": 104.97,
+    "competitive_bids_received_crore": 5795,
+    "competitive_bids_accepted_crore": 1996,
+    "non_competitive_bids_accepted_crore": 4,
+    "auction_method": "Multiple price"
+  }
 }

@@ -1,0 +1,35 @@
+{
+  "security_name": "8.97% GS 2030",
+  "security_type": "Gilt",
+  "security_codes": [
+    "897GS30J13",
+    "897GOI30",
+    "897GS2030-GS"
+  ],
+  "announcement_date": "2013-06-17",
+  "auction_date": "2013-06-21",
+  "issuance_date": "2013-06-24",
+  "maturity_date": "2030-12-05",
+  "coupon_rate": 8.97,
+  "yield_at_auction": 7.7292,
+  "amount_issued_crore": 3000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=28918",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=28917",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=8042&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=8039&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/auctiongoistock2030.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2011-12-05",
+    "cut_off_price": 111.77,
+    "weighted_average_price": 111.77,
+    "competitive_bids_received_crore": 8655.1,
+    "competitive_bids_accepted_crore": 2989.3,
+    "non_competitive_bids_accepted_crore": 10.7,
+    "auction_method": "Uniform price"
+  }
+}

@@ -6,16 +6,31 @@
     "824GOI27",
     "824GS2027-GS"
   ],
-  "announcement_date": "2019-01-25",
+  "announcement_date": "2019-01-28",
   "auction_date": "2019-02-01",
-  "issuance_date": "2019-02-06",
-  "maturity_date": "2027-06-03",
+  "issuance_date": "2019-02-04",
+  "maturity_date": "2027-02-15",
   "coupon_rate": 8.24,
   "yield_at_auction": 7.5787,
   "amount_issued_crore": 2000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=46172",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1814F2FD4279CA7B44C5B2E4DEB96A19259E.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=46171",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11460&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11459&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_Auction_GovernmentStock_28012019.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 2000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2007-02-15",
+    "cut_off_price": 103.92,
+    "weighted_average_yield": 7.5402,
+    "weighted_average_price": 104.15,
+    "competitive_bids_received_crore": 7921,
+    "competitive_bids_accepted_crore": 1995.055,
+    "non_competitive_bids_accepted_crore": 4.945,
+    "auction_method": "Multiple price"
+  }
 }

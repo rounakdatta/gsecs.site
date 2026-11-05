@@ -1,0 +1,36 @@
+{
+  "security_name": "7.63% GS 2059",
+  "security_type": "Gilt",
+  "security_codes": [
+    "763GS59J20",
+    "763GOI59",
+    "763GS2059-GS"
+  ],
+  "announcement_date": "2020-01-13",
+  "auction_date": "2020-01-17",
+  "issuance_date": "2020-01-20",
+  "maturity_date": "2059-06-17",
+  "coupon_rate": 7.63,
+  "yield_at_auction": 7.148,
+  "amount_issued_crore": 5000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=49185",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=49181",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11786&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_G_SecAuction_13012020.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 4000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2019-05-06",
+    "cut_off_price": 106.31,
+    "weighted_average_yield": 7.1415,
+    "weighted_average_price": 106.4,
+    "competitive_bids_received_crore": 11747,
+    "competitive_bids_accepted_crore": 4999.851,
+    "non_competitive_bids_accepted_crore": 0.149,
+    "auction_method": "Multiple price",
+    "additional_amount_retained_crore": 1000
+  }
+}

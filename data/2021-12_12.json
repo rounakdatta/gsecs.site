@@ -6,16 +6,31 @@
     "574GOI26",
     "574GS2026-GS"
   ],
-  "announcement_date": "2021-12-17",
+  "announcement_date": "2021-12-20",
   "auction_date": "2021-12-24",
-  "issuance_date": "2021-12-29",
-  "maturity_date": "2026-12-07",
+  "issuance_date": "2021-12-27",
+  "maturity_date": "2026-11-15",
   "coupon_rate": 5.74,
   "yield_at_auction": 5.8336,
-  "amount_issued_crore": null,
+  "amount_issued_crore": 6000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52918",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1412DADDBB6377C544D2927CCA52B9767B36.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52917",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52767",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_20122021.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 6000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2021-11-15",
+    "cut_off_price": 99.6,
+    "weighted_average_yield": 5.8336,
+    "weighted_average_price": 99.6,
+    "competitive_bids_received_crore": 15713,
+    "competitive_bids_accepted_crore": 1295,
+    "non_competitive_bids_accepted_crore": 2.316,
+    "devolvement_on_primary_dealers_crore": 4702.684,
+    "auction_method": "Uniform price"
+  }
 }

@@ -1,21 +1,35 @@
 {
-  "security_name": "8.28% GS 2027",
+  "security_name": "8.83% GS 2041",
   "security_type": "Gilt",
   "security_codes": [
-    "828GS27D16",
-    "828GOI27",
-    "828GS2027-GS"
+    "883GS41D13",
+    "883GOI41",
+    "883GS2041-GS"
   ],
-  "announcement_date": "2013-12-13",
-  "auction_date": "2013-12-20",
-  "issuance_date": "2013-12-25",
-  "maturity_date": "2027-06-03",
-  "coupon_rate": 8.28,
-  "yield_at_auction": 8.9562,
-  "amount_issued_crore": null,
+  "announcement_date": "2013-11-25",
+  "auction_date": "2013-11-29",
+  "issuance_date": "2013-12-02",
+  "maturity_date": "2041-12-12",
+  "coupon_rate": 8.83,
+  "yield_at_auction": 9.1903,
+  "amount_issued_crore": 3000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=30233",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR1246GS1213.pdf"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=30080",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=30079",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=8590&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=8586&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/AuctionSale25112013.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2011-12-12",
+    "cut_off_price": 96.39,
+    "weighted_average_price": 96.39,
+    "competitive_bids_received_crore": 6447.46,
+    "competitive_bids_accepted_crore": 2994,
+    "non_competitive_bids_accepted_crore": 6,
+    "auction_method": "Uniform price"
+  }
 }

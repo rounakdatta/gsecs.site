@@ -1,21 +1,36 @@
 {
-  "security_name": "GOI FRB 2028",
-  "security_type": "FRB",
+  "security_name": "6.95% GS 2061",
+  "security_type": "Gilt",
   "security_codes": [
-    "0GS28F22",
-    "0GOI28",
-    "0GS2028-GS"
+    "695GS61F22",
+    "695GOI61",
+    "695GS2061-GS"
   ],
-  "announcement_date": "2022-02-18",
+  "announcement_date": "2022-02-21",
   "auction_date": "2022-02-25",
-  "issuance_date": "2022-03-02",
-  "maturity_date": "2028-06-30",
-  "coupon_rate": 0,
-  "yield_at_auction": 5.1899,
-  "amount_issued_crore": 4000,
+  "issuance_date": "2022-02-28",
+  "maturity_date": "2061-12-16",
+  "coupon_rate": 6.95,
+  "yield_at_auction": 7.0903,
+  "amount_issued_crore": 6000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53326",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR177173E41EACE8684C09933F5D692185575A.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53325",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53303",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_21022022.pdf",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52639"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 6000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2021-11-22",
+    "cut_off_price": 98.13,
+    "weighted_average_yield": 7.0849,
+    "weighted_average_price": 98.2,
+    "competitive_bids_received_crore": 19747.8,
+    "competitive_bids_accepted_crore": 5992.789,
+    "non_competitive_bids_accepted_crore": 7.211,
+    "auction_method": "Multiple price"
+  }
 }

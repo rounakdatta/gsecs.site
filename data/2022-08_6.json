@@ -1,21 +1,35 @@
 {
-  "security_name": "GOI FRB 2028",
-  "security_type": "FRB",
+  "security_name": "7.10% GS 2029",
+  "security_type": "Gilt",
   "security_codes": [
-    "0GS28G22",
-    "0GOI28",
-    "0GS2028-GS"
+    "710GS29A22",
+    "710GOI29",
+    "710GS2029-GS"
   ],
-  "announcement_date": "2022-08-05",
-  "auction_date": "2022-08-12",
-  "issuance_date": "2022-08-17",
-  "maturity_date": "2028-06-30",
-  "coupon_rate": 0,
-  "yield_at_auction": 0.0,
-  "amount_issued_crore": 4000,
+  "announcement_date": "2022-08-01",
+  "auction_date": "2022-08-05",
+  "issuance_date": "2022-08-08",
+  "maturity_date": "2029-04-18",
+  "coupon_rate": 7.1,
+  "yield_at_auction": 7.2213,
+  "amount_issued_crore": 7000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=54204",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR706C0F762B5EC6D4BF9B33067D72F987585.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=54160",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=54152",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=54131",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_01082022.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 7000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2022-04-18",
+    "cut_off_price": 99.35,
+    "weighted_average_yield": 7.2213,
+    "weighted_average_price": 99.35,
+    "competitive_bids_received_crore": 14022,
+    "competitive_bids_accepted_crore": 6980.68,
+    "non_competitive_bids_accepted_crore": 19.32,
+    "auction_method": "Uniform price"
+  }
 }

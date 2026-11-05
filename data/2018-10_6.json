@@ -1,21 +1,35 @@
 {
-  "security_name": "7.95% GS 2032",
+  "security_name": "7.59% GS 2026",
   "security_type": "Gilt",
   "security_codes": [
-    "795GS32O18",
-    "795GOI32",
-    "795GS2032-GS"
+    "759GS26O18",
+    "759GOI26",
+    "759GS2026-GS"
   ],
-  "announcement_date": "2018-10-19",
-  "auction_date": "2018-10-26",
-  "issuance_date": "2018-10-31",
-  "maturity_date": "2032-07-14",
-  "coupon_rate": 7.95,
-  "yield_at_auction": 8.1807,
-  "amount_issued_crore": 3000,
+  "announcement_date": "2018-10-01",
+  "auction_date": "2018-10-05",
+  "issuance_date": "2018-10-08",
+  "maturity_date": "2026-01-11",
+  "coupon_rate": 7.59,
+  "yield_at_auction": 8.2861,
+  "amount_issued_crore": 2000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=45335",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR977ED556E3485A44534925378DA242FC069.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=45155",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=45149",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11383&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11382&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_Auction_GovernmentStock_01102018E.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 2000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2016-01-11",
+    "cut_off_price": 96.24,
+    "weighted_average_price": 96.28,
+    "competitive_bids_received_crore": 6544.211,
+    "competitive_bids_accepted_crore": 1991.382,
+    "non_competitive_bids_accepted_crore": 8.618,
+    "auction_method": "Multiple price"
+  }
 }

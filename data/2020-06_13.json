@@ -1,21 +1,36 @@
 {
-  "security_name": "7.16% GS 2050",
+  "security_name": "7.19% GS 2060",
   "security_type": "Gilt",
   "security_codes": [
-    "716GS50U20",
-    "716GOI50",
-    "716GS2050-GS"
+    "719GS60J20",
+    "719GOI60",
+    "719GS2060-GS"
   ],
-  "announcement_date": "2020-06-05",
-  "auction_date": "2020-06-12",
-  "issuance_date": "2020-06-17",
-  "maturity_date": "2050-06-28",
-  "coupon_rate": 7.16,
-  "yield_at_auction": null,
-  "amount_issued_crore": null,
+  "announcement_date": "2020-06-15",
+  "auction_date": "2020-06-19",
+  "issuance_date": "2020-06-22",
+  "maturity_date": "2060-09-15",
+  "coupon_rate": 7.19,
+  "yield_at_auction": 6.5781,
+  "amount_issued_crore": 7000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=49941",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR24895F16329503AD4107B8768273E23191A4.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=49978",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=49970",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11914&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_15062020.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 5000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2020-04-13",
+    "cut_off_price": 108.6,
+    "weighted_average_yield": 6.5557,
+    "weighted_average_price": 108.94,
+    "competitive_bids_received_crore": 18792,
+    "competitive_bids_accepted_crore": 6994.621,
+    "non_competitive_bids_accepted_crore": 5.379,
+    "auction_method": "Multiple price",
+    "additional_amount_retained_crore": 2000
+  }
 }

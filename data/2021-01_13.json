@@ -1,0 +1,35 @@
+{
+  "security_name": "3.96% GS 2022",
+  "security_type": "Gilt",
+  "security_codes": [
+    "396GS22J21",
+    "396GOI22",
+    "396GS2022-GS"
+  ],
+  "announcement_date": "2021-01-18",
+  "auction_date": "2021-01-22",
+  "issuance_date": "2021-01-25",
+  "maturity_date": "2022-11-09",
+  "coupon_rate": 3.96,
+  "yield_at_auction": 4.0976,
+  "amount_issued_crore": 2000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=51014",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=51012",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50990",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_18012021.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 2000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2020-11-09",
+    "cut_off_price": 99.76,
+    "weighted_average_yield": 4.0801,
+    "weighted_average_price": 99.79,
+    "competitive_bids_received_crore": 7183,
+    "competitive_bids_accepted_crore": 1999.949,
+    "non_competitive_bids_accepted_crore": 0.051,
+    "auction_method": "Multiple price"
+  }
+}

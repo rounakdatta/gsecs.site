@@ -1,0 +1,35 @@
+{
+  "security_name": "8.28% GS 2027",
+  "security_type": "Gilt",
+  "security_codes": [
+    "828GS27S13",
+    "828GOI27",
+    "828GS2027-GS"
+  ],
+  "announcement_date": "2013-09-23",
+  "auction_date": "2013-09-27",
+  "issuance_date": "2013-09-30",
+  "maturity_date": "2027-09-21",
+  "coupon_rate": 8.28,
+  "yield_at_auction": 9.1852,
+  "amount_issued_crore": 6000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=29651",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=29647",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=8457&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=8455&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/Auctionforsale23092013.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 6000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2007-09-21",
+    "cut_off_price": 92.95,
+    "weighted_average_price": 92.95,
+    "competitive_bids_received_crore": 13551.85,
+    "competitive_bids_accepted_crore": 5990.35,
+    "non_competitive_bids_accepted_crore": 9.65,
+    "auction_method": "Uniform price"
+  }
+}

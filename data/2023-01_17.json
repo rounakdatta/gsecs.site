@@ -1,0 +1,35 @@
+{
+  "security_name": "6.89% GS 2025",
+  "security_type": "Gilt",
+  "security_codes": [
+    "689GS25J23",
+    "689GOI25",
+    "689GS2025-GS"
+  ],
+  "announcement_date": "2023-01-23",
+  "auction_date": "2023-01-27",
+  "issuance_date": "2023-01-30",
+  "maturity_date": "2025-01-16",
+  "coupon_rate": 6.89,
+  "yield_at_auction": 7.0097,
+  "amount_issued_crore": 4000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=55119",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=55118",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=55096",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_23012023.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 4000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2023-01-16",
+    "cut_off_price": 99.78,
+    "weighted_average_yield": 7.0097,
+    "weighted_average_price": 99.78,
+    "competitive_bids_received_crore": 6614,
+    "competitive_bids_accepted_crore": 3996.943,
+    "non_competitive_bids_accepted_crore": 3.057,
+    "auction_method": "Uniform price"
+  }
+}

@@ -1,21 +1,36 @@
 {
-  "security_name": "7.40% GS 2035",
+  "security_name": "6.65% GS 2020",
   "security_type": "Gilt",
   "security_codes": [
-    "74GS35A18",
-    "74GOI35",
-    "74GS2035-GS"
+    "665GS20A18",
+    "665GOI20",
+    "665GS2020-GS"
   ],
-  "announcement_date": "2018-04-19",
-  "auction_date": "2018-04-26",
-  "issuance_date": "2018-05-01",
-  "maturity_date": "2035-06-05",
-  "coupon_rate": 7.4,
-  "yield_at_auction": 7.9795,
+  "announcement_date": "2018-04-16",
+  "auction_date": "2018-04-20",
+  "issuance_date": "2018-04-23",
+  "maturity_date": "2020-04-09",
+  "coupon_rate": 6.65,
+  "yield_at_auction": 7.1532,
   "amount_issued_crore": 2000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=43777",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR2846BDDB695E94E54BA2926B893AAEC09B76.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=43729",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=43723",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11260&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11259&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/Auction_sale_IssueRe_PressRelease_E_16042018.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 2000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2018-04-09",
+    "cut_off_price": 99.09,
+    "weighted_average_price": 99.15,
+    "competitive_bids_received_crore": 4661,
+    "competitive_bids_accepted_crore": 1600,
+    "non_competitive_bids_accepted_crore": 2,
+    "devolvement_on_primary_dealers_crore": 398,
+    "auction_method": "Multiple price"
+  }
 }

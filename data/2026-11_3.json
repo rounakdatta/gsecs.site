@@ -1,0 +1,34 @@
+{
+  "security_name": "7.63% GS 2056",
+  "security_type": "Gilt",
+  "security_codes": [
+    "763GS56N26",
+    "763GOI56",
+    "763GS2056-GS"
+  ],
+  "announcement_date": "2026-10-26",
+  "auction_date": "2026-10-30",
+  "issuance_date": "2026-11-02",
+  "maturity_date": "2056-09-15",
+  "coupon_rate": 7.63,
+  "yield_at_auction": 7.8459,
+  "amount_issued_crore": 9000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63889",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63888",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63868"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 9000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2026-09-15",
+    "cut_off_price": 97.51,
+    "weighted_average_yield": 7.8415,
+    "weighted_average_price": 97.56,
+    "competitive_bids_received_crore": 27235,
+    "competitive_bids_accepted_crore": 8901.23,
+    "non_competitive_bids_accepted_crore": 98.77,
+    "auction_method": "Multiple price"
+  }
+}

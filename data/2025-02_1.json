@@ -15,9 +15,21 @@
   "amount_issued_crore": 10000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR2017EC31CFE6D42E449BB2A8190EB6BD1EB0.PDF",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR203747640E9D9A404E9DA9AF7B6A9370A54A.PDF",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR2052355D1D9B0F6644769521285DA2F08DA6.PDF",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR20512B5DB204FACA4916980F0D7B8B083AB6.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=59650",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=59649",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=59615",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_27012025.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 10000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2024-12-30",
+    "cut_off_price": 100.46,
+    "weighted_average_yield": 6.6914,
+    "weighted_average_price": 100.53,
+    "competitive_bids_received_crore": 26468,
+    "competitive_bids_accepted_crore": 9996.873,
+    "non_competitive_bids_accepted_crore": 3.127,
+    "auction_method": "Multiple price"
+  }
 }

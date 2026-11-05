@@ -6,16 +6,32 @@
     "718GOI37",
     "718GS2037-GS"
   ],
-  "announcement_date": "2023-09-21",
+  "announcement_date": "2023-09-25",
   "auction_date": "2023-09-28",
-  "issuance_date": "2023-10-03",
-  "maturity_date": "2037-04-06",
+  "issuance_date": "2023-09-29",
+  "maturity_date": "2037-07-24",
   "coupon_rate": 7.18,
   "yield_at_auction": 7.3494,
   "amount_issued_crore": 12000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=56464",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR10147E7914095E574E0889677ADF4F7B2CF8.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=56462",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=56439",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_25092023.pdf",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=56455"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 12000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2023-07-24",
+    "cut_off_price": 98.53,
+    "weighted_average_yield": 7.3494,
+    "weighted_average_price": 98.53,
+    "competitive_bids_received_crore": 26238,
+    "competitive_bids_accepted_crore": 11996.003,
+    "non_competitive_bids_accepted_crore": 3.997,
+    "auction_method": "Uniform price",
+    "note": "Auction advanced from 29 Sep 2023 to 28 Sep 2023 and settled on 29 Sep 2023, not 3 Oct as first announced (RBI press release of 27 Sep 2023 on the changed public holiday)."
+  }
 }

@@ -1,21 +1,36 @@
 {
-  "security_name": "GOI FRB 2031",
-  "security_type": "FRB",
+  "security_name": "6.84% GS 2022",
+  "security_type": "Gilt",
   "security_codes": [
-    "0GS31Y18",
-    "0GOI31",
-    "0GS2031-GS"
+    "684GS22M18",
+    "684GOI22",
+    "684GS2022-GS"
   ],
-  "announcement_date": "2018-05-11",
-  "auction_date": "2018-05-18",
-  "issuance_date": "2018-05-23",
-  "maturity_date": "2031-06-01",
-  "coupon_rate": 0,
-  "yield_at_auction": 7.501,
-  "amount_issued_crore": 1000,
+  "announcement_date": "2018-05-07",
+  "auction_date": "2018-05-11",
+  "issuance_date": "2018-05-14",
+  "maturity_date": "2022-12-19",
+  "coupon_rate": 6.84,
+  "yield_at_auction": 7.8242,
+  "amount_issued_crore": 3000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=43975",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR30439D7DE1F2C49E471EACDB051E589780DA.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=43903",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=43900",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11273&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11272&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/Auction_sale_PressRelease_07052018.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2016-09-12",
+    "cut_off_price": 96.25,
+    "weighted_average_price": 96.26,
+    "competitive_bids_received_crore": 6559,
+    "competitive_bids_accepted_crore": 75,
+    "non_competitive_bids_accepted_crore": 6.014,
+    "devolvement_on_primary_dealers_crore": 2918.986,
+    "auction_method": "Multiple price"
+  }
 }

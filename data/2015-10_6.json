@@ -1,0 +1,35 @@
+{
+  "security_name": "7.72% GS 2025",
+  "security_type": "Gilt",
+  "security_codes": [
+    "772GS25O15",
+    "772GOI25",
+    "772GS2025-GS"
+  ],
+  "announcement_date": "2015-10-05",
+  "auction_date": "2015-10-09",
+  "issuance_date": "2015-10-12",
+  "maturity_date": "2025-05-25",
+  "coupon_rate": 7.72,
+  "yield_at_auction": 7.5404,
+  "amount_issued_crore": 7000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=35183",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=35182",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10058&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10056&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/AuctionSale05102015.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 7000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2015-05-25",
+    "cut_off_price": 101.2,
+    "weighted_average_price": 101.21,
+    "competitive_bids_received_crore": 16234,
+    "competitive_bids_accepted_crore": 6993,
+    "non_competitive_bids_accepted_crore": 7,
+    "auction_method": "Multiple price"
+  }
+}

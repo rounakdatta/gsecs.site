@@ -1,0 +1,35 @@
+{
+  "security_name": "6.99% GS 2051",
+  "security_type": "Gilt",
+  "security_codes": [
+    "699GS51M22",
+    "699GOI51",
+    "699GS2051-GS"
+  ],
+  "announcement_date": "2022-05-13",
+  "auction_date": "2022-05-20",
+  "issuance_date": "2022-05-23",
+  "maturity_date": "2051-12-15",
+  "coupon_rate": 6.99,
+  "yield_at_auction": 7.6293,
+  "amount_issued_crore": 9000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53742",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53739",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53713",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_13052022.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 9000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2021-11-15",
+    "cut_off_price": 92.53,
+    "weighted_average_yield": 7.6174,
+    "weighted_average_price": 92.66,
+    "competitive_bids_received_crore": 20453,
+    "competitive_bids_accepted_crore": 8987.08,
+    "non_competitive_bids_accepted_crore": 12.92,
+    "auction_method": "Multiple price"
+  }
+}

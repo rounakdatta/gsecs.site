@@ -2,20 +2,35 @@
   "security_name": "8.27% GS 2020",
   "security_type": "Gilt",
   "security_codes": [
-    "827GS20G16",
+    "827GS20A14",
     "827GOI20",
     "827GS2020-GS"
   ],
-  "announcement_date": "2014-07-25",
+  "announcement_date": "2014-07-28",
   "auction_date": "2014-08-01",
-  "issuance_date": "2014-08-06",
-  "maturity_date": "2020-04-08",
+  "issuance_date": "2014-08-04",
+  "maturity_date": "2020-06-09",
   "coupon_rate": 8.27,
   "yield_at_auction": 8.5487,
-  "amount_issued_crore": null,
+  "amount_issued_crore": 3000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=31759",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR2343GS0814.pdf"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=31757",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=9137&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=9136&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/AuctionSale28072014.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2014-06-09",
+    "cut_off_price": 98.72,
+    "weighted_average_price": 98.76,
+    "competitive_bids_received_crore": 6297,
+    "competitive_bids_accepted_crore": 2500,
+    "non_competitive_bids_accepted_crore": 18,
+    "devolvement_on_primary_dealers_crore": 482,
+    "auction_method": "Multiple price"
+  }
 }

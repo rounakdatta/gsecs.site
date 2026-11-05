@@ -1,21 +1,36 @@
 {
-  "security_name": "GOI FRB 2031",
-  "security_type": "FRB",
+  "security_name": "7.19% GS 2060",
+  "security_type": "Gilt",
   "security_codes": [
-    "0GS31U20",
-    "0GOI31",
-    "0GS2031-GS"
+    "719GS60J20",
+    "719GOI60",
+    "719GS2060-GS"
   ],
-  "announcement_date": "2020-05-29",
+  "announcement_date": "2020-06-01",
   "auction_date": "2020-06-05",
-  "issuance_date": "2020-06-10",
-  "maturity_date": "2031-06-01",
-  "coupon_rate": 0,
-  "yield_at_auction": null,
-  "amount_issued_crore": null,
+  "issuance_date": "2020-06-08",
+  "maturity_date": "2060-09-15",
+  "coupon_rate": 7.19,
+  "yield_at_auction": 6.6443,
+  "amount_issued_crore": 7000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=49907",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR245584038E118BF04FF0A2C95C94C28E538A.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=49906",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11907&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_13.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 5000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2020-04-13",
+    "cut_off_price": 107.61,
+    "weighted_average_yield": 6.6195,
+    "weighted_average_price": 107.98,
+    "competitive_bids_received_crore": 18691,
+    "competitive_bids_accepted_crore": 6941.488,
+    "non_competitive_bids_accepted_crore": 58.512,
+    "auction_method": "Multiple price",
+    "additional_amount_retained_crore": 2000
+  }
 }

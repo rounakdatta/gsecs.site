@@ -1,0 +1,35 @@
+{
+  "security_name": "5.74% GS 2026",
+  "security_type": "Gilt",
+  "security_codes": [
+    "574GS26N21",
+    "574GOI26",
+    "574GS2026-GS"
+  ],
+  "announcement_date": "2021-11-22",
+  "auction_date": "2021-11-26",
+  "issuance_date": "2021-11-29",
+  "maturity_date": "2026-11-15",
+  "coupon_rate": 5.74,
+  "yield_at_auction": 5.7276,
+  "amount_issued_crore": 6000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52622",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52617",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52598",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_22112021.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 6000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2021-11-15",
+    "cut_off_price": 100.05,
+    "weighted_average_yield": 5.7276,
+    "weighted_average_price": 100.05,
+    "competitive_bids_received_crore": 14728,
+    "competitive_bids_accepted_crore": 5997.73,
+    "non_competitive_bids_accepted_crore": 2.27,
+    "auction_method": "Uniform price"
+  }
+}

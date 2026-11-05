@@ -10,13 +10,25 @@
   "auction_date": "2025-04-11",
   "issuance_date": "2025-04-15",
   "maturity_date": "2065-04-15",
-  "coupon_rate": 6.90,
-  "yield_at_auction": 6.90,
+  "coupon_rate": 6.9,
+  "yield_at_auction": 6.9,
   "amount_issued_crore": 16000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR50C5A035F8BF7B4CBAA8B99A07A5F69551.PDF",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR874ADA365F81D74BD7BD2FB17324C8518B.PDF",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR85DC17141BE59B4A0DBDB6089FB677C2AB.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=60202",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=60200",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=60165",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_07042025.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 16000,
+    "issue_type": "New issue",
+    "original_issue_date": "2025-04-15",
+    "weighted_average_yield": 6.8964,
+    "weighted_average_price": 100.05,
+    "competitive_bids_received_crore": 50999,
+    "competitive_bids_accepted_crore": 15990.721,
+    "non_competitive_bids_accepted_crore": 9.279,
+    "auction_method": "Multiple price"
+  }
 }

@@ -1,21 +1,35 @@
 {
-  "security_name": "8.17% GS 2044",
+  "security_name": "7.88% GS 2030",
   "security_type": "Gilt",
   "security_codes": [
-    "817GS44O16",
-    "817GOI44",
-    "817GS2044-GS"
+    "788GS30O15",
+    "788GOI30",
+    "788GS2030-GS"
   ],
-  "announcement_date": "2015-10-02",
-  "auction_date": "2015-10-09",
-  "issuance_date": "2015-10-14",
-  "maturity_date": "2044-09-29",
-  "coupon_rate": 8.17,
-  "yield_at_auction": 7.5742,
-  "amount_issued_crore": 2000,
+  "announcement_date": "2015-09-28",
+  "auction_date": "2015-10-01",
+  "issuance_date": "2015-10-05",
+  "maturity_date": "2030-03-19",
+  "coupon_rate": 7.88,
+  "yield_at_auction": 7.6974,
+  "amount_issued_crore": 7000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=35183",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR866C6DA0CC959C7476A81AB0A86A20FEDFD.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=35124",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=35123",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10045&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10043&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/AuctionSale28092015.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 7000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2015-05-11",
+    "cut_off_price": 101.57,
+    "weighted_average_price": 101.59,
+    "competitive_bids_received_crore": 17422.5,
+    "competitive_bids_accepted_crore": 6988,
+    "non_competitive_bids_accepted_crore": 12,
+    "auction_method": "Multiple price"
+  }
 }

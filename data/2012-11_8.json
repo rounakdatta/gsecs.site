@@ -2,20 +2,34 @@
   "security_name": "8.15% GS 2022",
   "security_type": "Gilt",
   "security_codes": [
-    "815GS22N16",
+    "815GS22N12",
     "815GOI22",
     "815GS2022-GS"
   ],
-  "announcement_date": "2012-11-09",
+  "announcement_date": "2012-11-12",
   "auction_date": "2012-11-16",
-  "issuance_date": "2012-11-21",
-  "maturity_date": "2022-06-15",
+  "issuance_date": "2012-11-19",
+  "maturity_date": "2022-06-11",
   "coupon_rate": 8.15,
   "yield_at_auction": 8.1991,
-  "amount_issued_crore": null,
+  "amount_issued_crore": 6000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=27594",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR824GS1112.pdf"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=27593",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=7691&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=7689&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/Auctionforsale12112012.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 6000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2012-06-11",
+    "cut_off_price": 99.67,
+    "weighted_average_price": 99.67,
+    "competitive_bids_received_crore": 13301.4,
+    "competitive_bids_accepted_crore": 5841.38,
+    "non_competitive_bids_accepted_crore": 158.62,
+    "auction_method": "Uniform price"
+  }
 }

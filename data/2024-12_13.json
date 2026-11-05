@@ -1,0 +1,35 @@
+{
+  "security_name": "6.92% GS 2039",
+  "security_type": "Gilt",
+  "security_codes": [
+    "692GS39D24",
+    "692GOI39",
+    "692GS2039-GS"
+  ],
+  "announcement_date": "2024-12-23",
+  "auction_date": "2024-12-27",
+  "issuance_date": "2024-12-30",
+  "maturity_date": "2039-11-18",
+  "coupon_rate": 6.92,
+  "yield_at_auction": 6.9091,
+  "amount_issued_crore": 12000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=59394",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=59393",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=59365",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_23122024.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 12000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2024-11-18",
+    "cut_off_price": 100.09,
+    "weighted_average_yield": 6.9069,
+    "weighted_average_price": 100.11,
+    "competitive_bids_received_crore": 39205,
+    "competitive_bids_accepted_crore": 11990.324,
+    "non_competitive_bids_accepted_crore": 9.676,
+    "auction_method": "Multiple price"
+  }
+}

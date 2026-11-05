@@ -6,16 +6,30 @@
     "396GOI22",
     "396GS2022-GS"
   ],
-  "announcement_date": "2020-12-04",
+  "announcement_date": "2020-12-07",
   "auction_date": "2020-12-11",
-  "issuance_date": "2020-12-16",
-  "maturity_date": "2022-06-15",
+  "issuance_date": "2020-12-14",
+  "maturity_date": "2022-11-09",
   "coupon_rate": 3.96,
   "yield_at_auction": 3.8319,
-  "amount_issued_crore": null,
+  "amount_issued_crore": 2000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50789",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR762A9C914506115406AA153958FEC45B722.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50788",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50765",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_07122020.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 2000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2020-11-09",
+    "cut_off_price": 100.23,
+    "weighted_average_yield": 3.8209,
+    "weighted_average_price": 100.25,
+    "competitive_bids_received_crore": 7714,
+    "competitive_bids_accepted_crore": 1999.941,
+    "non_competitive_bids_accepted_crore": 0.059,
+    "auction_method": "Multiple price"
+  }
 }

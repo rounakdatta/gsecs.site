@@ -1,0 +1,35 @@
+{
+  "security_name": "7.38% GS 2015",
+  "security_type": "Gilt",
+  "security_codes": [
+    "738GS15J13",
+    "738GOI15",
+    "738GS2015-GS"
+  ],
+  "announcement_date": "2013-07-22",
+  "auction_date": "2013-07-26",
+  "issuance_date": "2013-07-29",
+  "maturity_date": "2015-09-03",
+  "coupon_rate": 7.38,
+  "yield_at_auction": 8.9982,
+  "amount_issued_crore": 2000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=29171",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=29168",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=8257&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=8256&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/Auctionforsale22072013.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 2000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2002-09-03",
+    "cut_off_price": 96.96,
+    "weighted_average_price": 96.96,
+    "competitive_bids_received_crore": 7036,
+    "competitive_bids_accepted_crore": 1995.98,
+    "non_competitive_bids_accepted_crore": 4.02,
+    "auction_method": "Uniform price"
+  }
+}

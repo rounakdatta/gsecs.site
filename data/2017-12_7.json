@@ -6,16 +6,31 @@
     "657GOI33",
     "657GS2033-GS"
   ],
-  "announcement_date": "2017-12-22",
-  "auction_date": "2017-12-29",
-  "issuance_date": "2018-01-03",
-  "maturity_date": "2033-06-07",
+  "announcement_date": "2017-12-04",
+  "auction_date": "2017-12-08",
+  "issuance_date": "2017-12-11",
+  "maturity_date": "2033-12-05",
   "coupon_rate": 6.57,
-  "yield_at_auction": 7.5697,
-  "amount_issued_crore": 2000,
+  "yield_at_auction": 7.406,
+  "amount_issued_crore": 1000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=42705",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1775422AFEF19B484B09B4F69C76F9F843A3.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=42505",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=42500",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11182&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11181&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/AuctionPress04122017.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 1000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2016-12-05",
+    "cut_off_price": 92.24,
+    "weighted_average_price": 92.55,
+    "competitive_bids_received_crore": 1810,
+    "competitive_bids_accepted_crore": 993.258,
+    "non_competitive_bids_accepted_crore": 6.742,
+    "auction_method": "Multiple price",
+    "note": "Announced by the Government press communique of 4 Dec 2017; the specific notification RBI published is dated 5 Dec 2017."
+  }
 }

@@ -1,0 +1,35 @@
+{
+  "security_name": "7.30% GS 2053",
+  "security_type": "Gilt",
+  "security_codes": [
+    "730GS53J23",
+    "730GOI53",
+    "730GS2053-GS"
+  ],
+  "announcement_date": "2023-07-24",
+  "auction_date": "2023-07-28",
+  "issuance_date": "2023-07-31",
+  "maturity_date": "2053-06-19",
+  "coupon_rate": 7.3,
+  "yield_at_auction": 7.3807,
+  "amount_issued_crore": 11000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=56115",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=56112",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=56091",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_24072023.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 11000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2023-06-19",
+    "cut_off_price": 99.02,
+    "weighted_average_yield": 7.3723,
+    "weighted_average_price": 99.12,
+    "competitive_bids_received_crore": 31437.995,
+    "competitive_bids_accepted_crore": 10989.258,
+    "non_competitive_bids_accepted_crore": 10.742,
+    "auction_method": "Multiple price"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "security_name": "5.91% GS 2028",
+  "security_type": "Gilt",
+  "security_codes": [
+    "591GS28A25",
+    "591GOI28",
+    "591GS2028-GS"
+  ],
+  "announcement_date": "2025-08-18",
+  "auction_date": "2025-08-22",
+  "issuance_date": "2025-08-25",
+  "maturity_date": "2028-06-30",
+  "coupon_rate": 5.91,
+  "yield_at_auction": 6.0032,
+  "amount_issued_crore": 6000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61073",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61072",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61043",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_GSec_18082025.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 6000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2025-06-30",
+    "cut_off_price": 99.75,
+    "weighted_average_yield": 5.9994,
+    "weighted_average_price": 99.76,
+    "competitive_bids_received_crore": 21922,
+    "competitive_bids_accepted_crore": 5998.28,
+    "non_competitive_bids_accepted_crore": 1.72,
+    "auction_method": "Multiple price"
+  }
+}

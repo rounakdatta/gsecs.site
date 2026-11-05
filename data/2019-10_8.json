@@ -1,21 +1,35 @@
 {
-  "security_name": "6.45% GS 2029",
+  "security_name": "7.69% GS 2043",
   "security_type": "Gilt",
   "security_codes": [
-    "645GS29O19",
-    "645GOI29",
-    "645GS2029-GS"
+    "769GS43O19",
+    "769GOI43",
+    "769GS2043-GS"
   ],
-  "announcement_date": "2019-10-11",
-  "auction_date": "2019-10-18",
-  "issuance_date": "2019-10-23",
-  "maturity_date": "2029-12-23",
-  "coupon_rate": 6.45,
-  "yield_at_auction": 6.524,
-  "amount_issued_crore": 7000,
+  "announcement_date": "2019-10-07",
+  "auction_date": "2019-10-11",
+  "issuance_date": "2019-10-14",
+  "maturity_date": "2043-06-17",
+  "coupon_rate": 7.69,
+  "yield_at_auction": 7.186,
+  "amount_issued_crore": 1000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=48436",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR984416D0F663CE4476FABB2F828FF3DA8C2.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=48374",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=48373",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11708&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auctio_G_Sec_07102019.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 2000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2019-04-30",
+    "cut_off_price": 105.68,
+    "weighted_average_yield": 7.1681,
+    "weighted_average_price": 105.89,
+    "competitive_bids_received_crore": 4165,
+    "competitive_bids_accepted_crore": 989.982,
+    "non_competitive_bids_accepted_crore": 10.018,
+    "auction_method": "Multiple price"
+  }
 }

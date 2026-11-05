@@ -1,0 +1,36 @@
+{
+  "security_name": "7.06% GS 2046",
+  "security_type": "Gilt",
+  "security_codes": [
+    "706GS46M19",
+    "706GOI46",
+    "706GS2046-GS"
+  ],
+  "announcement_date": "2019-03-18",
+  "auction_date": "2019-03-22",
+  "issuance_date": "2019-03-25",
+  "maturity_date": "2046-10-10",
+  "coupon_rate": 7.06,
+  "yield_at_auction": 7.7329,
+  "amount_issued_crore": 3000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=46617",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=46616",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11502&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11501&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_Auction_GovernmentStock_18032019.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2016-10-10",
+    "cut_off_price": 92.37,
+    "weighted_average_yield": 7.7035,
+    "weighted_average_price": 92.68,
+    "competitive_bids_received_crore": 6992,
+    "competitive_bids_accepted_crore": 2997.653,
+    "non_competitive_bids_accepted_crore": 2.347,
+    "auction_method": "Multiple price"
+  }
+}

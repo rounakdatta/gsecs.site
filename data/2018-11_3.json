@@ -6,16 +6,30 @@
     "717GOI28",
     "717GS2028-GS"
   ],
-  "announcement_date": "2018-10-26",
+  "announcement_date": "2018-10-29",
   "auction_date": "2018-11-02",
-  "issuance_date": "2018-11-07",
-  "maturity_date": "2028-06-30",
+  "issuance_date": "2018-11-05",
+  "maturity_date": "2028-01-08",
   "coupon_rate": 7.17,
   "yield_at_auction": 7.7731,
   "amount_issued_crore": 3000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=45395",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1037939D321BA2E040F69701156EF480D035.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=45393",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11404&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11403&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_Auction_GovernmentStock_29102018.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2018-01-08",
+    "cut_off_price": 96.08,
+    "weighted_average_price": 96.08,
+    "competitive_bids_received_crore": 14624,
+    "competitive_bids_accepted_crore": 2997.982,
+    "non_competitive_bids_accepted_crore": 2.018,
+    "auction_method": "Multiple price"
+  }
 }

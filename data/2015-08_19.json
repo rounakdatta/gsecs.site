@@ -1,0 +1,35 @@
+{
+  "security_name": "8.24% GS 2033",
+  "security_type": "Gilt",
+  "security_codes": [
+    "824GS33A15",
+    "824GOI33",
+    "824GS2033-GS"
+  ],
+  "announcement_date": "2015-08-24",
+  "auction_date": "2015-08-28",
+  "issuance_date": "2015-08-31",
+  "maturity_date": "2033-11-10",
+  "coupon_rate": 8.24,
+  "yield_at_auction": 8.026,
+  "amount_issued_crore": 3000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=34841",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=34839",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=9998&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=9995&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/AuctionSale24082015.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2014-11-10",
+    "cut_off_price": 102.01,
+    "weighted_average_price": 102.11,
+    "competitive_bids_received_crore": 7565.551,
+    "competitive_bids_accepted_crore": 2991.5,
+    "non_competitive_bids_accepted_crore": 8.5,
+    "auction_method": "Multiple price"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "security_name": "5.79% GS 2030",
+  "security_type": "Gilt",
+  "security_codes": [
+    "579GS30M20",
+    "579GOI30",
+    "579GS2030-GS"
+  ],
+  "announcement_date": "2020-05-18",
+  "auction_date": "2020-05-22",
+  "issuance_date": "2020-05-26",
+  "maturity_date": "2030-05-11",
+  "coupon_rate": 5.79,
+  "yield_at_auction": 5.7403,
+  "amount_issued_crore": 20000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=49846",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=49845",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11890&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_18052020_E.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 18000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2020-05-11",
+    "cut_off_price": 100.37,
+    "weighted_average_yield": 5.7151,
+    "weighted_average_price": 100.56,
+    "competitive_bids_received_crore": 40790,
+    "competitive_bids_accepted_crore": 19973.4,
+    "non_competitive_bids_accepted_crore": 26.6,
+    "auction_method": "Multiple price",
+    "additional_amount_retained_crore": 2000
+  }
+}

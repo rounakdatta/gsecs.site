@@ -2,20 +2,34 @@
   "security_name": "7.68% GS 2023",
   "security_type": "Gilt",
   "security_codes": [
-    "768GS23U16",
+    "768GS23J15",
     "768GOI23",
     "768GS2023-GS"
   ],
-  "announcement_date": "2015-05-29",
-  "auction_date": "2015-06-05",
-  "issuance_date": "2015-06-10",
-  "maturity_date": "2023-12-31",
+  "announcement_date": "2015-05-25",
+  "auction_date": "2015-05-29",
+  "issuance_date": "2015-06-01",
+  "maturity_date": "2023-12-15",
   "coupon_rate": 7.68,
-  "yield_at_auction": 8.0058,
+  "yield_at_auction": 7.8013,
   "amount_issued_crore": 3000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=34108",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR258385E921996FB44397AA46053AFAC129D7.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=34056",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=34055",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=9742&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=9741&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/AuctionSale25052015.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2015-04-27",
+    "cut_off_price": 99.25,
+    "weighted_average_price": 99.28,
+    "competitive_bids_received_crore": 8734,
+    "competitive_bids_accepted_crore": 2989.9,
+    "non_competitive_bids_accepted_crore": 10.1,
+    "auction_method": "Multiple price"
+  }
 }

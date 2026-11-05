@@ -1,21 +1,34 @@
 {
-  "security_name": "7.06% GS 2046",
+  "security_name": "6.57% GS 2033",
   "security_type": "Gilt",
   "security_codes": [
-    "706GS46D16",
-    "706GOI46",
-    "706GS2046-GS"
+    "657GS33D16",
+    "657GOI33",
+    "657GS2033-GS"
   ],
-  "announcement_date": "2016-11-25",
+  "announcement_date": "2016-11-28",
   "auction_date": "2016-12-02",
-  "issuance_date": "2016-12-07",
-  "maturity_date": "2046-01-17",
-  "coupon_rate": 7.06,
-  "yield_at_auction": 6.6797,
+  "issuance_date": "2016-12-05",
+  "maturity_date": "2033-12-05",
+  "coupon_rate": 6.57,
+  "yield_at_auction": 6.57,
   "amount_issued_crore": 2000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=38771",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR13933036FB6223CA41139036EF4E4EFC5B8A.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=38770",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10750&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10747&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/pressauction28112016.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 2000,
+    "issue_type": "New issue",
+    "original_issue_date": "2016-12-05",
+    "weighted_average_yield": 6.5548,
+    "competitive_bids_received_crore": 8362,
+    "competitive_bids_accepted_crore": 1942.75,
+    "non_competitive_bids_accepted_crore": 57.25,
+    "auction_method": "Multiple price"
+  }
 }

@@ -6,16 +6,30 @@
     "665GOI20",
     "665GS2020-GS"
   ],
-  "announcement_date": "2018-10-26",
+  "announcement_date": "2018-10-29",
   "auction_date": "2018-11-02",
-  "issuance_date": "2018-11-07",
-  "maturity_date": "2020-04-08",
+  "issuance_date": "2018-11-05",
+  "maturity_date": "2020-04-09",
   "coupon_rate": 6.65,
   "yield_at_auction": 7.486,
   "amount_issued_crore": 2000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=45395",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1037939D321BA2E040F69701156EF480D035.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=45393",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11404&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11403&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_Auction_GovernmentStock_29102018.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 2000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2018-04-09",
+    "cut_off_price": 98.88,
+    "weighted_average_price": 98.9,
+    "competitive_bids_received_crore": 9300,
+    "competitive_bids_accepted_crore": 1997.72,
+    "non_competitive_bids_accepted_crore": 2.28,
+    "auction_method": "Multiple price"
+  }
 }

@@ -1,21 +1,35 @@
 {
-  "security_name": "5.09% GS 2022",
+  "security_name": "5.79% GS 2030",
   "security_type": "Gilt",
   "security_codes": [
-    "509GS22L20",
-    "509GOI22",
-    "509GS2022-GS"
+    "579GS30J20",
+    "579GOI30",
+    "579GS2030-GS"
   ],
-  "announcement_date": "2020-07-10",
+  "announcement_date": "2020-07-13",
   "auction_date": "2020-07-17",
-  "issuance_date": "2020-07-22",
-  "maturity_date": "2022-06-15",
-  "coupon_rate": 5.09,
-  "yield_at_auction": 3.9576,
-  "amount_issued_crore": null,
+  "issuance_date": "2020-07-20",
+  "maturity_date": "2030-05-11",
+  "coupon_rate": 5.79,
+  "yield_at_auction": 5.8333,
+  "amount_issued_crore": 18000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50097",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR7173A6E8C4EAFD4266AAD2A7BD847C9684.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50096",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50078",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_13072020.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 18000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2020-05-11",
+    "cut_off_price": 99.67,
+    "weighted_average_yield": 5.832,
+    "weighted_average_price": 99.68,
+    "competitive_bids_received_crore": 62817.5,
+    "competitive_bids_accepted_crore": 17946.725,
+    "non_competitive_bids_accepted_crore": 53.275,
+    "auction_method": "Multiple price"
+  }
 }

@@ -1,0 +1,35 @@
+{
+  "security_name": "7.95% GS 2032",
+  "security_type": "Gilt",
+  "security_codes": [
+    "795GS32A15",
+    "795GOI32",
+    "795GS2032-GS"
+  ],
+  "announcement_date": "2015-08-03",
+  "auction_date": "2015-08-07",
+  "issuance_date": "2015-08-10",
+  "maturity_date": "2032-08-28",
+  "coupon_rate": 7.95,
+  "yield_at_auction": 8.0625,
+  "amount_issued_crore": 3000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=34658",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=34656",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=9973&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=9970&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/AuctionSale03082015.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2002-08-28",
+    "cut_off_price": 98.96,
+    "weighted_average_price": 99.04,
+    "competitive_bids_received_crore": 9132.049,
+    "competitive_bids_accepted_crore": 2993.65,
+    "non_competitive_bids_accepted_crore": 6.35,
+    "auction_method": "Multiple price"
+  }
+}

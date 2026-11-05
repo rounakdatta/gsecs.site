@@ -1,21 +1,35 @@
 {
-  "security_name": "6.76% GS 2061",
+  "security_name": "6.10% GS 2031",
   "security_type": "Gilt",
   "security_codes": [
-    "676GS61S21",
-    "676GOI61",
-    "676GS2061-GS"
+    "610GS31S21",
+    "610GOI31",
+    "610GS2031-GS"
   ],
-  "announcement_date": "2021-09-10",
+  "announcement_date": "2021-09-13",
   "auction_date": "2021-09-17",
-  "issuance_date": "2021-09-22",
-  "maturity_date": "2061-03-04",
-  "coupon_rate": 6.76,
-  "yield_at_auction": 6.9297,
-  "amount_issued_crore": null,
+  "issuance_date": "2021-09-20",
+  "maturity_date": "2031-07-12",
+  "coupon_rate": 6.1,
+  "yield_at_auction": 6.181,
+  "amount_issued_crore": 14000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52245",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR879E10CB754271F4B209DD14B8AC76AC9F7.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52243",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52221",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_13092021.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 14000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2021-07-12",
+    "cut_off_price": 99.4,
+    "weighted_average_yield": 6.181,
+    "weighted_average_price": 99.4,
+    "competitive_bids_received_crore": 37420.595,
+    "competitive_bids_accepted_crore": 13988.005,
+    "non_competitive_bids_accepted_crore": 11.995,
+    "auction_method": "Uniform price"
+  }
 }

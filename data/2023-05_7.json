@@ -1,21 +1,34 @@
 {
-  "security_name": "7.40% GS 2062",
+  "security_name": "6.99% GS 2026",
   "security_type": "Gilt",
   "security_codes": [
-    "74GS62Y23",
-    "74GOI62",
-    "74GS2062-GS"
+    "699GS26M23",
+    "699GOI26",
+    "699GS2026-GS"
   ],
-  "announcement_date": "2023-05-05",
+  "announcement_date": "2023-05-08",
   "auction_date": "2023-05-12",
-  "issuance_date": "2023-05-17",
-  "maturity_date": "2062-04-02",
-  "coupon_rate": 7.4,
-  "yield_at_auction": 7.1784,
-  "amount_issued_crore": 12000,
+  "issuance_date": "2023-05-15",
+  "maturity_date": "2026-04-17",
+  "coupon_rate": 6.99,
+  "yield_at_auction": 6.9486,
+  "amount_issued_crore": 8000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=55666",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR21684C49DD989FA4663A964805BDBE55B1E.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=55665",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=55647"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 8000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2023-04-17",
+    "cut_off_price": 100.1,
+    "weighted_average_yield": 6.9486,
+    "weighted_average_price": 100.1,
+    "competitive_bids_received_crore": 22574,
+    "competitive_bids_accepted_crore": 7990.373,
+    "non_competitive_bids_accepted_crore": 9.627,
+    "auction_method": "Uniform price"
+  }
 }

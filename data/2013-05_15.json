@@ -1,21 +1,35 @@
 {
-  "security_name": "8.30% GS 2042",
+  "security_name": "8.32% GS 2032",
   "security_type": "Gilt",
   "security_codes": [
-    "83GS42Y16",
-    "83GOI42",
-    "83GS2042-GS"
+    "832GS32M13",
+    "832GOI32",
+    "832GS2032-GS"
   ],
-  "announcement_date": "2013-05-17",
+  "announcement_date": "2013-05-20",
   "auction_date": "2013-05-24",
-  "issuance_date": "2013-05-29",
-  "maturity_date": "2042-12-31",
-  "coupon_rate": 8.3,
-  "yield_at_auction": 7.4382,
-  "amount_issued_crore": null,
+  "issuance_date": "2013-05-27",
+  "maturity_date": "2032-08-02",
+  "coupon_rate": 8.32,
+  "yield_at_auction": 7.4212,
+  "amount_issued_crore": 3000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=28735",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR1965GS0513.pdf"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=28733",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=7990&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=7987&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/Auctionforsale20052013.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2007-08-02",
+    "cut_off_price": 109.1,
+    "weighted_average_price": 109.16,
+    "competitive_bids_received_crore": 10293.3,
+    "competitive_bids_accepted_crore": 2992.89,
+    "non_competitive_bids_accepted_crore": 7.11,
+    "auction_method": "Multiple price"
+  }
 }

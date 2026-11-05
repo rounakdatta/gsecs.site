@@ -6,16 +6,30 @@
     "619GOI34",
     "619GS2034-GS"
   ],
-  "announcement_date": "2020-08-28",
+  "announcement_date": "2020-08-31",
   "auction_date": "2020-09-04",
-  "issuance_date": "2020-09-09",
-  "maturity_date": "2034-07-04",
+  "issuance_date": "2020-09-07",
+  "maturity_date": "2034-09-16",
   "coupon_rate": 6.19,
   "yield_at_auction": 6.2379,
-  "amount_issued_crore": null,
+  "amount_issued_crore": 11000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50312",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR286CD6FC4CB61D945778EAACB260A1116AE.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50311",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50295",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_31082020.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 11000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2020-06-01",
+    "cut_off_price": 99.55,
+    "weighted_average_yield": 6.2314,
+    "weighted_average_price": 99.61,
+    "competitive_bids_received_crore": 30925.15,
+    "competitive_bids_accepted_crore": 10978.413,
+    "non_competitive_bids_accepted_crore": 21.587,
+    "auction_method": "Multiple price"
+  }
 }

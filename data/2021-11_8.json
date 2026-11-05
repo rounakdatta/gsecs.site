@@ -1,0 +1,35 @@
+{
+  "security_name": "6.10% GS 2031",
+  "security_type": "Gilt",
+  "security_codes": [
+    "610GS31N21",
+    "610GOI31",
+    "610GS2031-GS"
+  ],
+  "announcement_date": "2021-11-12",
+  "auction_date": "2021-11-18",
+  "issuance_date": "2021-11-22",
+  "maturity_date": "2031-07-12",
+  "coupon_rate": 6.1,
+  "yield_at_auction": 6.3441,
+  "amount_issued_crore": 13000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52587",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52586",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52555",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_12112021.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 13000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2021-07-12",
+    "cut_off_price": 98.25,
+    "weighted_average_yield": 6.3441,
+    "weighted_average_price": 98.25,
+    "competitive_bids_received_crore": 33995,
+    "competitive_bids_accepted_crore": 12999.243,
+    "non_competitive_bids_accepted_crore": 0.757,
+    "auction_method": "Uniform price"
+  }
+}

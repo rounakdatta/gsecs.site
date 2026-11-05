@@ -1,21 +1,35 @@
 {
-  "security_name": "8.33% GS 2026",
+  "security_name": "8.19% GS 2020",
   "security_type": "Gilt",
   "security_codes": [
-    "833GS26S16",
-    "833GOI26",
-    "833GS2026-GS"
+    "819GS20S12",
+    "819GOI20",
+    "819GS2020-GS"
   ],
-  "announcement_date": "2012-09-21",
-  "auction_date": "2012-09-28",
-  "issuance_date": "2012-10-03",
-  "maturity_date": "2026-12-07",
-  "coupon_rate": 8.33,
-  "yield_at_auction": 8.2281,
-  "amount_issued_crore": null,
+  "announcement_date": "2012-09-17",
+  "auction_date": "2012-09-21",
+  "issuance_date": "2012-09-24",
+  "maturity_date": "2020-01-16",
+  "coupon_rate": 8.19,
+  "yield_at_auction": 8.2493,
+  "amount_issued_crore": 4000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=27303",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR533G0912.pdf"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=27261",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=27259",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=7571&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=7569&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/Auction_GovtStock17092012.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 4000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2012-01-16",
+    "cut_off_price": 99.66,
+    "weighted_average_price": 99.66,
+    "competitive_bids_received_crore": 9795,
+    "competitive_bids_accepted_crore": 3985.09,
+    "non_competitive_bids_accepted_crore": 14.91,
+    "auction_method": "Uniform price"
+  }
 }

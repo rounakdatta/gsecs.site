@@ -2,20 +2,34 @@
   "security_name": "8.19% GS 2020",
   "security_type": "Gilt",
   "security_codes": [
-    "819GS20N16",
+    "819GS20N12",
     "819GOI20",
     "819GS2020-GS"
   ],
-  "announcement_date": "2012-11-16",
+  "announcement_date": "2012-11-19",
   "auction_date": "2012-11-23",
-  "issuance_date": "2012-11-28",
-  "maturity_date": "2020-04-08",
+  "issuance_date": "2012-11-26",
+  "maturity_date": "2020-01-16",
   "coupon_rate": 8.19,
   "yield_at_auction": 8.2414,
-  "amount_issued_crore": null,
+  "amount_issued_crore": 3000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=27639",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR869GS1112.pdf"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=27638",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=7699&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=7698&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/Auctionforsale19112012.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2012-01-16",
+    "cut_off_price": 99.71,
+    "weighted_average_price": 99.71,
+    "competitive_bids_received_crore": 11171,
+    "competitive_bids_accepted_crore": 2992.9,
+    "non_competitive_bids_accepted_crore": 7.1,
+    "auction_method": "Uniform price"
+  }
 }

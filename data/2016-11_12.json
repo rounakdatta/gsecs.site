@@ -1,21 +1,35 @@
 {
-  "security_name": "6.97% GS 2026",
+  "security_name": "7.72% GS 2055",
   "security_type": "Gilt",
   "security_codes": [
-    "697GS26N16",
-    "697GOI26",
-    "697GS2026-GS"
+    "772GS55N16",
+    "772GOI55",
+    "772GS2055-GS"
   ],
-  "announcement_date": "2016-11-18",
-  "auction_date": "2016-11-25",
-  "issuance_date": "2016-11-30",
-  "maturity_date": "2026-12-07",
-  "coupon_rate": 6.97,
-  "yield_at_auction": 6.205,
-  "amount_issued_crore": 8000,
+  "announcement_date": "2016-11-07",
+  "auction_date": "2016-11-11",
+  "issuance_date": "2016-11-15",
+  "maturity_date": "2055-10-26",
+  "coupon_rate": 7.72,
+  "yield_at_auction": 7.1492,
+  "amount_issued_crore": 3000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=38702",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1324309BC192552440BABF938F871BD784AC.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=38561",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=38559",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10681&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10677&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/auctionpressrelease07112016.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2015-10-26",
+    "cut_off_price": 107.46,
+    "weighted_average_price": 107.7,
+    "competitive_bids_received_crore": 9895.5,
+    "competitive_bids_accepted_crore": 3000,
+    "non_competitive_bids_accepted_crore": 0,
+    "auction_method": "Multiple price"
+  }
 }

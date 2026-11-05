@@ -1,21 +1,35 @@
 {
-  "security_name": "8.60% GS 2028",
+  "security_name": "8.27% GS 2020",
   "security_type": "Gilt",
   "security_codes": [
-    "86GS28F16",
-    "86GOI28",
-    "86GS2028-GS"
+    "827GS20F15",
+    "827GOI20",
+    "827GS2020-GS"
   ],
-  "announcement_date": "2015-02-06",
-  "auction_date": "2015-02-13",
-  "issuance_date": "2015-02-18",
-  "maturity_date": "2028-06-30",
-  "coupon_rate": 8.6,
-  "yield_at_auction": 7.7102,
-  "amount_issued_crore": null,
+  "announcement_date": "2015-02-02",
+  "auction_date": "2015-02-06",
+  "issuance_date": "2015-02-09",
+  "maturity_date": "2020-06-09",
+  "coupon_rate": 8.27,
+  "yield_at_auction": 7.7315,
+  "amount_issued_crore": 2000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=33239",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR1714FR130215.pdf"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=33181",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=33180",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=9538&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=9537&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/AuctionSale02022015.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 2000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2014-06-09",
+    "cut_off_price": 102.3,
+    "weighted_average_price": 102.33,
+    "competitive_bids_received_crore": 12320,
+    "competitive_bids_accepted_crore": 1967.5,
+    "non_competitive_bids_accepted_crore": 32.5,
+    "auction_method": "Multiple price"
+  }
 }

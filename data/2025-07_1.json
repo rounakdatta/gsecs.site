@@ -1,23 +1,35 @@
 {
-  "security_name": "6.28% Government Stock 2032",
+  "security_name": "6.68% GS 2040",
   "security_type": "Gilt",
-  "security_codes": ["628GS32Jl25", "628GOI32", "628GS2032-GS"],
-  "announcement_date": "2025-07-07",
-  "auction_date": "2025-07-11",
-  "issuance_date": "2025-07-14",
-  "maturity_date": "2032-07-14",
-  "coupon_rate": 6.28,
-  "yield_at_auction": 6.2800,
-  "amount_issued_crore": 11000,
+  "security_codes": [
+    "668GS40J25",
+    "668GOI40",
+    "668GS2040-GS"
+  ],
+  "announcement_date": "2025-06-30",
+  "auction_date": "2025-07-04",
+  "issuance_date": "2025-07-07",
+  "maturity_date": "2040-07-07",
+  "coupon_rate": 6.68,
+  "yield_at_auction": 6.68,
+  "amount_issued_crore": 16000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR673C6893C57179C46E583860BEE750726AE.PDF",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR696CD314B0B27024F779728633B0AA67F95.PDF"
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=60768",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=60767",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=60745",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_30062025.pdf"
   ],
   "additional_info": {
-    "auction_type": "Yield-based auction using multiple price method",
-    "non_competitive_segment": "Up to 5% of notified amount",
-    "minimum_bid_size": 10000,
-    "note": "New 7-year security issued in July 2025"
+    "notified_amount_crore": 16000,
+    "issue_type": "New issue",
+    "original_issue_date": "2025-07-07",
+    "cut_off_price": 100,
+    "weighted_average_yield": 6.669,
+    "weighted_average_price": 100.1,
+    "competitive_bids_received_crore": 46341,
+    "competitive_bids_accepted_crore": 15990.554,
+    "non_competitive_bids_accepted_crore": 9.446,
+    "auction_method": "Multiple price"
   }
 }

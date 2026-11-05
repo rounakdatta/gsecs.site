@@ -1,21 +1,35 @@
 {
   "security_name": "GOI FRB 2028",
   "security_type": "FRB",
-  "security_codes": [
-    "0GS28L22",
-    "0GOI28",
-    "0GS2028-GS"
-  ],
-  "announcement_date": "2022-06-24",
+  "security_codes": [],
+  "announcement_date": "2022-06-27",
   "auction_date": "2022-07-01",
-  "issuance_date": "2022-07-06",
-  "maturity_date": "2028-06-30",
-  "coupon_rate": 0,
+  "issuance_date": "2022-07-04",
+  "maturity_date": "2028-10-04",
+  "coupon_rate": 4.93,
   "yield_at_auction": 6.8948,
   "amount_issued_crore": 4000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53955",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR45723EE07472CBB471782A95513E370C710.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53954",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53927",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_27062022.pdf",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53503"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 4000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2021-10-04",
+    "cut_off_price": 97.01,
+    "weighted_average_yield": 6.8948,
+    "weighted_average_price": 97.01,
+    "competitive_bids_received_crore": 11288,
+    "competitive_bids_accepted_crore": 3025,
+    "non_competitive_bids_accepted_crore": 2.654,
+    "devolvement_on_primary_dealers_crore": 972.346,
+    "auction_method": "Uniform price",
+    "coupon_period": "2022-04-04 to 2022-10-03",
+    "note": "Floating rate bond: coupon_rate is the rate RBI set for the coupon period in which this tranche was issued."
+  }
 }

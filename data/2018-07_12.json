@@ -1,21 +1,35 @@
 {
-  "security_name": "8.13% GS 2045",
+  "security_name": "7.40% GS 2035",
   "security_type": "Gilt",
   "security_codes": [
-    "813GS45L18",
-    "813GOI45",
-    "813GS2045-GS"
+    "740GS35J18",
+    "740GOI35",
+    "740GS2035-GS"
   ],
-  "announcement_date": "2018-07-20",
-  "auction_date": "2018-07-27",
-  "issuance_date": "2018-08-01",
-  "maturity_date": "2045-12-07",
-  "coupon_rate": 8.13,
-  "yield_at_auction": 7.9055,
+  "announcement_date": "2018-07-09",
+  "auction_date": "2018-07-13",
+  "issuance_date": "2018-07-16",
+  "maturity_date": "2035-09-09",
+  "coupon_rate": 7.4,
+  "yield_at_auction": 8.1203,
   "amount_issued_crore": 2000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=44600",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR243FF87E5984CBB488E85C0F06FC90559FF.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=44485",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=44482",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11331&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11330&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_Auction_GovernmentStock_09072018.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 2000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2005-09-09",
+    "cut_off_price": 93.38,
+    "weighted_average_price": 93.52,
+    "competitive_bids_received_crore": 6585,
+    "competitive_bids_accepted_crore": 1999.5,
+    "non_competitive_bids_accepted_crore": 0.5,
+    "auction_method": "Multiple price"
+  }
 }

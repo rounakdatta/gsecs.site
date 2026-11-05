@@ -1,21 +1,35 @@
 {
-  "security_name": "7.17% GS 2028",
+  "security_name": "6.62% GS 2051",
   "security_type": "Gilt",
   "security_codes": [
-    "717GS28J18",
-    "717GOI28",
-    "717GS2028-GS"
+    "662GS51J18",
+    "662GOI51",
+    "662GS2051-GS"
   ],
-  "announcement_date": "2018-01-18",
-  "auction_date": "2018-01-25",
-  "issuance_date": "2018-01-30",
-  "maturity_date": "2028-06-30",
-  "coupon_rate": 7.17,
-  "yield_at_auction": 7.3369,
-  "amount_issued_crore": 8000,
+  "announcement_date": "2018-01-08",
+  "auction_date": "2018-01-12",
+  "issuance_date": "2018-01-15",
+  "maturity_date": "2051-11-28",
+  "coupon_rate": 6.62,
+  "yield_at_auction": 7.6698,
+  "amount_issued_crore": 2000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=42973",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR204131ADF935E850417AAF0FFDA948B92307.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=42857",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=42850",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11202&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11201&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/Auction_Sale_Reissue_GovernmentStocks_08012018_E.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 2000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2016-11-28",
+    "cut_off_price": 87.37,
+    "weighted_average_price": 87.37,
+    "competitive_bids_received_crore": 4413,
+    "competitive_bids_accepted_crore": 1996,
+    "non_competitive_bids_accepted_crore": 4,
+    "auction_method": "Multiple price"
+  }
 }

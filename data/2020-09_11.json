@@ -6,16 +6,30 @@
     "509GOI22",
     "509GS2022-GS"
   ],
-  "announcement_date": "2020-09-04",
-  "auction_date": "2020-09-11",
-  "issuance_date": "2020-09-16",
-  "maturity_date": "2022-06-15",
+  "announcement_date": "2020-09-21",
+  "auction_date": "2020-09-25",
+  "issuance_date": "2020-09-28",
+  "maturity_date": "2022-04-13",
   "coupon_rate": 5.09,
-  "yield_at_auction": null,
-  "amount_issued_crore": null,
+  "yield_at_auction": 4.2156,
+  "amount_issued_crore": 1054.883,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50344",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR318B20053E8A9B040CBAC2C87A5839FB45D.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50420",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50418",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50391",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_21092020.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2020-04-13",
+    "cut_off_price": 101.29,
+    "weighted_average_yield": 4.1955,
+    "weighted_average_price": 101.32,
+    "competitive_bids_received_crore": 6036,
+    "competitive_bids_accepted_crore": 1052.306,
+    "non_competitive_bids_accepted_crore": 2.577,
+    "auction_method": "Multiple price"
+  }
 }

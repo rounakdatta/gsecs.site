@@ -1,21 +1,34 @@
 {
-  "security_name": "7.50% GS 2034",
+  "security_name": "7.59% GS 2029",
   "security_type": "Gilt",
   "security_codes": [
-    "75GS34U16",
-    "75GOI34",
-    "75GS2034-GS"
+    "759GS29J16",
+    "759GOI29",
+    "759GS2029-GS"
   ],
-  "announcement_date": "2016-06-03",
+  "announcement_date": "2016-06-06",
   "auction_date": "2016-06-10",
-  "issuance_date": "2016-06-15",
-  "maturity_date": "2034-07-04",
-  "coupon_rate": 7.5,
+  "issuance_date": "2016-06-13",
+  "maturity_date": "2029-03-20",
+  "coupon_rate": 7.59,
   "yield_at_auction": 7.7148,
   "amount_issued_crore": 8000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=37192",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR28746F2655AB99A64E349ADF92BCCF0A7A6C.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=37189",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10440&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10438&Mode=0"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 8000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2015-10-19",
+    "cut_off_price": 98.98,
+    "weighted_average_price": 99.01,
+    "competitive_bids_received_crore": 16871.5,
+    "competitive_bids_accepted_crore": 7987.93,
+    "non_competitive_bids_accepted_crore": 12.07,
+    "auction_method": "Multiple price"
+  }
 }

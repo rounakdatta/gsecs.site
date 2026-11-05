@@ -1,0 +1,34 @@
+{
+  "security_name": "8.20% GS 2025",
+  "security_type": "Gilt",
+  "security_codes": [
+    "820GS25D12",
+    "820GOI25",
+    "820GS2025-GS"
+  ],
+  "announcement_date": "2012-12-24",
+  "auction_date": "2012-12-28",
+  "issuance_date": "2012-12-31",
+  "maturity_date": "2025-09-24",
+  "coupon_rate": 8.2,
+  "yield_at_auction": 8.182,
+  "amount_issued_crore": 6000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=27856",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=27851",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=7775&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=7772&Mode=0"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 6000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2012-09-24",
+    "cut_off_price": 100.12,
+    "weighted_average_price": 100.12,
+    "competitive_bids_received_crore": 14915.85,
+    "competitive_bids_accepted_crore": 5983.79,
+    "non_competitive_bids_accepted_crore": 16.21,
+    "auction_method": "Uniform price"
+  }
+}

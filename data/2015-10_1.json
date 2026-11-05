@@ -1,21 +1,35 @@
 {
-  "security_name": "8.13% GS 2045",
+  "security_name": "7.35% GS 2024",
   "security_type": "Gilt",
   "security_codes": [
-    "813GS45O16",
-    "813GOI45",
-    "813GS2045-GS"
+    "735GS24O15",
+    "735GOI24",
+    "735GS2024-GS"
   ],
-  "announcement_date": "2015-09-24",
+  "announcement_date": "2015-09-28",
   "auction_date": "2015-10-01",
-  "issuance_date": "2015-10-06",
-  "maturity_date": "2045-12-07",
-  "coupon_rate": 8.13,
+  "issuance_date": "2015-10-05",
+  "maturity_date": "2024-06-22",
+  "coupon_rate": 7.35,
   "yield_at_auction": 7.6211,
   "amount_issued_crore": 2000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=35124",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR807FD12F11B8F6E4648B045D62013DACE65.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=35123",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10045&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10044&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/AuctionSale28092015.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 2000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2009-06-22",
+    "cut_off_price": 98.28,
+    "weighted_average_price": 98.3,
+    "competitive_bids_received_crore": 7895,
+    "competitive_bids_accepted_crore": 1984.25,
+    "non_competitive_bids_accepted_crore": 15.75,
+    "auction_method": "Multiple price"
+  }
 }

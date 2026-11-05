@@ -6,16 +6,31 @@
     "772GOI55",
     "772GS2055-GS"
   ],
-  "announcement_date": "2018-10-12",
-  "auction_date": "2018-10-19",
-  "issuance_date": "2018-10-24",
-  "maturity_date": "2055-06-08",
+  "announcement_date": "2018-09-24",
+  "auction_date": "2018-09-28",
+  "issuance_date": "2018-10-01",
+  "maturity_date": "2055-10-26",
   "coupon_rate": 7.72,
-  "yield_at_auction": 7.6614,
-  "amount_issued_crore": 2000,
+  "yield_at_auction": 8.2507,
+  "amount_issued_crore": 4000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=45280",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR92259E1C8900D8A4001BC4491AA19A23D3E.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=45091",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=45088",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11379&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11378&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_Auction_GovernmentStock_24092018.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 4000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2015-10-26",
+    "cut_off_price": 93.88,
+    "weighted_average_price": 93.93,
+    "competitive_bids_received_crore": 7036,
+    "competitive_bids_accepted_crore": 185,
+    "non_competitive_bids_accepted_crore": 0.203,
+    "devolvement_on_primary_dealers_crore": 3814.797,
+    "auction_method": "Multiple price"
+  }
 }

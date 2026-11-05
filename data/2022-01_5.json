@@ -1,21 +1,35 @@
 {
-  "security_name": "GOI FRB 2034",
-  "security_type": "FRB",
+  "security_name": "6.99% GS 2051",
+  "security_type": "Gilt",
   "security_codes": [
-    "0GS34J22",
-    "0GOI34",
-    "0GS2034-GS"
+    "699GS51J22",
+    "699GOI51",
+    "699GS2051-GS"
   ],
-  "announcement_date": "2022-01-07",
-  "auction_date": "2022-01-14",
-  "issuance_date": "2022-01-19",
-  "maturity_date": "2034-07-04",
-  "coupon_rate": 0,
-  "yield_at_auction": 5.1926,
-  "amount_issued_crore": 13000,
+  "announcement_date": "2022-01-03",
+  "auction_date": "2022-01-07",
+  "issuance_date": "2022-01-10",
+  "maturity_date": "2051-12-15",
+  "coupon_rate": 6.99,
+  "yield_at_auction": 7.2173,
+  "amount_issued_crore": 7000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53102",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1547236E87B726474CC9850E699C79846B6B.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53064",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53062",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53037",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_03012022.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 7000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2021-11-15",
+    "cut_off_price": 97.22,
+    "weighted_average_yield": 7.1931,
+    "weighted_average_price": 97.51,
+    "competitive_bids_received_crore": 13996,
+    "competitive_bids_accepted_crore": 6988.958,
+    "non_competitive_bids_accepted_crore": 11.042,
+    "auction_method": "Multiple price"
+  }
 }

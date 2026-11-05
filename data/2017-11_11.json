@@ -6,16 +6,30 @@
     "773GOI34",
     "773GS2034-GS"
   ],
-  "announcement_date": "2017-11-10",
+  "announcement_date": "2017-11-13",
   "auction_date": "2017-11-17",
-  "issuance_date": "2017-11-22",
-  "maturity_date": "2034-07-04",
+  "issuance_date": "2017-11-20",
+  "maturity_date": "2034-12-19",
   "coupon_rate": 7.73,
   "yield_at_auction": 7.4666,
   "amount_issued_crore": 2000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=42302",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1371FE1772BACD02412395475C8848F9D035.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=42301",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11165&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11164&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/AuctionPress13112017.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 2000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2015-10-12",
+    "cut_off_price": 102.51,
+    "weighted_average_price": 102.71,
+    "competitive_bids_received_crore": 4605,
+    "competitive_bids_accepted_crore": 1979.25,
+    "non_competitive_bids_accepted_crore": 20.75,
+    "auction_method": "Multiple price"
+  }
 }

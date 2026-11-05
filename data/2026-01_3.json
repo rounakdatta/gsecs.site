@@ -1,0 +1,34 @@
+{
+  "security_name": "6.90% GS 2065",
+  "security_type": "Gilt",
+  "security_codes": [
+    "690GS65J26",
+    "690GOI65",
+    "690GS2065-GS"
+  ],
+  "announcement_date": "2026-01-05",
+  "auction_date": "2026-01-09",
+  "issuance_date": "2026-01-12",
+  "maturity_date": "2065-04-15",
+  "coupon_rate": 6.9,
+  "yield_at_auction": 7.4365,
+  "amount_issued_crore": 13000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62008",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62007",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61971"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 13000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2025-04-15",
+    "cut_off_price": 93.18,
+    "weighted_average_yield": 7.429,
+    "weighted_average_price": 93.27,
+    "competitive_bids_received_crore": 31225,
+    "competitive_bids_accepted_crore": 12994.83,
+    "non_competitive_bids_accepted_crore": 5.17,
+    "auction_method": "Multiple price"
+  }
+}

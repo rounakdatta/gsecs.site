@@ -1,0 +1,34 @@
+{
+  "security_name": "6.68% GS 2033",
+  "security_type": "Gilt",
+  "security_codes": [
+    "668GS33A26",
+    "668GOI33",
+    "668GS2033-GS"
+  ],
+  "announcement_date": "2026-04-20",
+  "auction_date": "2026-04-24",
+  "issuance_date": "2026-04-27",
+  "maturity_date": "2033-01-27",
+  "coupon_rate": 6.68,
+  "yield_at_auction": 6.9501,
+  "amount_issued_crore": 11000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62614",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62613",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62589"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 11000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2026-01-27",
+    "cut_off_price": 98.55,
+    "weighted_average_yield": 6.9425,
+    "weighted_average_price": 98.59,
+    "competitive_bids_received_crore": 34543.115,
+    "competitive_bids_accepted_crore": 10986.563,
+    "non_competitive_bids_accepted_crore": 13.437,
+    "auction_method": "Multiple price"
+  }
+}

@@ -1,21 +1,34 @@
 {
-  "security_name": "7.54% GS 2036",
+  "security_name": "7.36% GS 2052",
   "security_type": "Gilt",
   "security_codes": [
-    "754GS36S22",
-    "754GOI36",
-    "754GS2036-GS"
+    "736GS52S22",
+    "736GOI52",
+    "736GS2052-GS"
   ],
-  "announcement_date": "2022-09-02",
+  "announcement_date": "2022-09-05",
   "auction_date": "2022-09-09",
-  "issuance_date": "2022-09-14",
-  "maturity_date": "2036-04-08",
-  "coupon_rate": 7.54,
+  "issuance_date": "2022-09-12",
+  "maturity_date": "2052-09-12",
+  "coupon_rate": 7.36,
   "yield_at_auction": 7.36,
-  "amount_issued_crore": 11000,
+  "amount_issued_crore": 8000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=54348",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR85027D9C21D1ECC4A62A6868CF21329835A.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=54347",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=54318",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_05092022.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 8000,
+    "issue_type": "New issue",
+    "original_issue_date": "2022-09-12",
+    "weighted_average_yield": 7.36,
+    "weighted_average_price": 100,
+    "competitive_bids_received_crore": 23886,
+    "competitive_bids_accepted_crore": 7990.053,
+    "non_competitive_bids_accepted_crore": 9.947,
+    "auction_method": "Multiple price"
+  }
 }

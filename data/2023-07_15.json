@@ -1,0 +1,35 @@
+{
+  "security_name": "7.26% GS 2033",
+  "security_type": "Gilt",
+  "security_codes": [
+    "726GS33J23",
+    "726GOI33",
+    "726GS2033-GS"
+  ],
+  "announcement_date": "2023-07-24",
+  "auction_date": "2023-07-28",
+  "issuance_date": "2023-07-31",
+  "maturity_date": "2033-02-06",
+  "coupon_rate": 7.26,
+  "yield_at_auction": 7.1819,
+  "amount_issued_crore": 14000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=56115",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=56112",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=56091",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_24072023.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 14000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2023-02-06",
+    "cut_off_price": 100.53,
+    "weighted_average_yield": 7.1819,
+    "weighted_average_price": 100.53,
+    "competitive_bids_received_crore": 33633.45,
+    "competitive_bids_accepted_crore": 13983.423,
+    "non_competitive_bids_accepted_crore": 16.577,
+    "auction_method": "Uniform price"
+  }
+}

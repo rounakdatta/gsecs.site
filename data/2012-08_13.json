@@ -2,20 +2,34 @@
   "security_name": "8.07% GS 2017",
   "security_type": "Gilt",
   "security_codes": [
-    "807GS17G16",
+    "807GS17A12",
     "807GOI17",
     "807GS2017-GS"
   ],
   "announcement_date": "2012-08-17",
   "auction_date": "2012-08-24",
-  "issuance_date": "2012-08-29",
-  "maturity_date": "2017-12-31",
+  "issuance_date": "2012-08-27",
+  "maturity_date": "2017-07-03",
   "coupon_rate": 8.07,
   "yield_at_auction": 8.1901,
-  "amount_issued_crore": null,
+  "amount_issued_crore": 4000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=27095",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR325GF0812.pdf"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=27094",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=7516&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=7515&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/Auction_GovtStock17082012.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 4000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2012-07-03",
+    "cut_off_price": 99.51,
+    "weighted_average_price": 99.51,
+    "competitive_bids_received_crore": 7928.6,
+    "competitive_bids_accepted_crore": 3997.5,
+    "non_competitive_bids_accepted_crore": 2.5,
+    "auction_method": "Uniform price"
+  }
 }

@@ -6,16 +6,30 @@
     "706GOI46",
     "706GS2046-GS"
   ],
-  "announcement_date": "2017-02-03",
+  "announcement_date": "2017-02-06",
   "auction_date": "2017-02-10",
-  "issuance_date": "2017-02-15",
-  "maturity_date": "2046-01-17",
+  "issuance_date": "2017-02-13",
+  "maturity_date": "2046-10-10",
   "coupon_rate": 7.06,
   "yield_at_auction": 7.4203,
   "amount_issued_crore": 2000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=39536",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR2157BDEC06BD8E6542FDB026AB3F4C31389E.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=39533",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10854&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10850&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/Auctionpress06012017.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 2000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2016-10-10",
+    "cut_off_price": 95.69,
+    "weighted_average_price": 95.7,
+    "competitive_bids_received_crore": 5296.5,
+    "competitive_bids_accepted_crore": 1986.5,
+    "non_competitive_bids_accepted_crore": 13.5,
+    "auction_method": "Multiple price"
+  }
 }

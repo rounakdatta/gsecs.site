@@ -6,16 +6,29 @@
     "759GOI26",
     "759GS2026-GS"
   ],
-  "announcement_date": "2016-01-15",
-  "auction_date": "2016-01-22",
-  "issuance_date": "2016-01-27",
-  "maturity_date": "2026-12-07",
+  "announcement_date": "2016-01-04",
+  "auction_date": "2016-01-08",
+  "issuance_date": "2016-01-11",
+  "maturity_date": "2026-01-11",
   "coupon_rate": 7.59,
-  "yield_at_auction": 7.7328,
-  "amount_issued_crore": 3000,
+  "yield_at_auction": 7.59,
+  "amount_issued_crore": 8000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=36049",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1731701FC1E6541C4E29B2592ED616B34DF6.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=35925",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=35924",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10211&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10209&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/AuctionSaleNotification04012016_0.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 8000,
+    "issue_type": "New issue",
+    "original_issue_date": "2016-01-11",
+    "weighted_average_yield": 7.581,
+    "competitive_bids_received_crore": 28837,
+    "competitive_bids_accepted_crore": 7951.5,
+    "non_competitive_bids_accepted_crore": 48.5,
+    "auction_method": "Multiple price"
+  }
 }

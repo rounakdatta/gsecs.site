@@ -1,21 +1,37 @@
 {
   "security_name": "GOI FRB 2033",
   "security_type": "FRB",
-  "security_codes": [
-    "0GS33O20",
-    "0GOI33",
-    "0GS2033-GS"
-  ],
-  "announcement_date": "2020-10-02",
+  "security_codes": [],
+  "announcement_date": "2020-10-05",
   "auction_date": "2020-10-09",
-  "issuance_date": "2020-10-14",
-  "maturity_date": "2033-06-07",
-  "coupon_rate": 0,
+  "issuance_date": "2020-10-12",
+  "maturity_date": "2033-09-22",
+  "coupon_rate": 4.7,
   "yield_at_auction": 5.1229,
-  "amount_issued_crore": null,
+  "amount_issued_crore": 4435.399,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50487",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR46173905EAFB30C48FE8D7D71238DA8D348.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50483",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50466",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50461",
+    "https://dea.gov.in/files/press_release_documents/Revised_PressRelease_auction_G_Sec_09102020.pdf",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_05102020.pdf",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50390"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2020-06-22",
+    "cut_off_price": 96.12,
+    "weighted_average_yield": 5.1098,
+    "weighted_average_price": 96.24,
+    "competitive_bids_received_crore": 16088,
+    "competitive_bids_accepted_crore": 4433.381,
+    "non_competitive_bids_accepted_crore": 2.018,
+    "auction_method": "Multiple price",
+    "coupon_period": "2020-09-22 to 2021-03-21",
+    "additional_amount_retained_crore": 1435.399,
+    "note": "Announcement of 2020-10-05 was revised by RBI on 2020-10-06. Floating rate bond: coupon_rate is the rate RBI set for the coupon period in which this tranche was issued."
+  }
 }

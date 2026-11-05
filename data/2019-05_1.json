@@ -2,20 +2,35 @@
   "security_name": "7.00% GS 2021",
   "security_type": "Gilt",
   "security_codes": [
-    "70GS21Y19",
-    "70GOI21",
-    "70GS2021-GS"
+    "700GS21M19",
+    "700GOI21",
+    "700GS2021-GS"
   ],
   "announcement_date": "2019-04-26",
   "auction_date": "2019-05-03",
-  "issuance_date": "2019-05-08",
-  "maturity_date": "2021-03-14",
-  "coupon_rate": 7.0,
+  "issuance_date": "2019-05-06",
+  "maturity_date": "2021-01-21",
+  "coupon_rate": 7,
   "yield_at_auction": 6.7769,
   "amount_issued_crore": 3000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=46949",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR2591FFB73301C85F4BC7B48098246E527E31.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=46948",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11549&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11548&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_Auction_Government_Stock_26042019.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2019-01-21",
+    "cut_off_price": 100.34,
+    "weighted_average_yield": 6.76,
+    "weighted_average_price": 100.37,
+    "competitive_bids_received_crore": 9054,
+    "competitive_bids_accepted_crore": 2996.902,
+    "non_competitive_bids_accepted_crore": 3.098,
+    "auction_method": "Multiple price"
+  }
 }

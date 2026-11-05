@@ -2,20 +2,34 @@
   "security_name": "6.19% GS 2034",
   "security_type": "Gilt",
   "security_codes": [
-    "619GS34U20",
+    "619GS34J20",
     "619GOI34",
     "619GS2034-GS"
   ],
-  "announcement_date": "2020-06-05",
-  "auction_date": "2020-06-12",
-  "issuance_date": "2020-06-17",
-  "maturity_date": "2034-07-04",
+  "announcement_date": "2020-06-22",
+  "auction_date": "2020-06-26",
+  "issuance_date": "2020-06-29",
+  "maturity_date": "2034-09-16",
   "coupon_rate": 6.19,
-  "yield_at_auction": null,
-  "amount_issued_crore": null,
+  "yield_at_auction": 6.2974,
+  "amount_issued_crore": 11000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=49941",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR24895F16329503AD4107B8768273E23191A4.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50001",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=50000",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11918&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_22062020.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 11000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2020-06-01",
+    "cut_off_price": 99,
+    "weighted_average_yield": 6.2919,
+    "weighted_average_price": 99.05,
+    "competitive_bids_received_crore": 32830.8,
+    "competitive_bids_accepted_crore": 10953.831,
+    "non_competitive_bids_accepted_crore": 46.169,
+    "auction_method": "Multiple price"
+  }
 }

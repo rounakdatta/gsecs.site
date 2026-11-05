@@ -1,21 +1,33 @@
 {
-  "security_name": "8.30% GS 2042",
+  "security_name": "8.60% GS 2028",
   "security_type": "Gilt",
   "security_codes": [
-    "83GS42U16",
-    "83GOI42",
-    "83GS2042-GS"
+    "860GS28J14",
+    "860GOI28",
+    "860GS2028-GS"
   ],
-  "announcement_date": "2014-05-30",
-  "auction_date": "2014-06-06",
-  "issuance_date": "2014-06-11",
-  "maturity_date": "2042-12-31",
-  "coupon_rate": 8.3,
-  "yield_at_auction": 8.5489,
-  "amount_issued_crore": null,
+  "announcement_date": "2014-05-26",
+  "auction_date": "2014-05-30",
+  "issuance_date": "2014-06-02",
+  "maturity_date": "2028-06-02",
+  "coupon_rate": 8.6,
+  "yield_at_auction": 8.6,
+  "amount_issued_crore": 7000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=31361",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR2375GS0614.pdf"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=31311",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=31310",
+    "https://dea.gov.in/files/press_release_documents/AuctionSale26052014.pdf",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=9100&Mode=0"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 7000,
+    "issue_type": "New issue",
+    "original_issue_date": "2014-06-02",
+    "weighted_average_yield": 8.6,
+    "competitive_bids_received_crore": 19239,
+    "competitive_bids_accepted_crore": 6985,
+    "non_competitive_bids_accepted_crore": 15,
+    "auction_method": "Uniform price"
+  }
 }

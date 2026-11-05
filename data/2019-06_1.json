@@ -1,21 +1,36 @@
 {
-  "security_name": "7.32% GS 2024",
+  "security_name": "7.00% GS 2021",
   "security_type": "Gilt",
   "security_codes": [
-    "732GS24U19",
-    "732GOI24",
-    "732GS2024-GS"
+    "700GS21J19",
+    "700GOI21",
+    "700GS2021-GS"
   ],
-  "announcement_date": "2019-05-31",
-  "auction_date": "2019-06-07",
-  "issuance_date": "2019-06-12",
-  "maturity_date": "2024-06-04",
-  "coupon_rate": 7.32,
-  "yield_at_auction": 6.7762,
-  "amount_issued_crore": 5000,
+  "announcement_date": "2019-05-27",
+  "auction_date": "2019-05-31",
+  "issuance_date": "2019-06-03",
+  "maturity_date": "2021-01-21",
+  "coupon_rate": 7,
+  "yield_at_auction": 6.4363,
+  "amount_issued_crore": 3000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=47242",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR2885341E183A10064C63A98A86CD57C38BC4.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=47180",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=47179",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11563&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11562&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_27052019_E.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2019-01-21",
+    "cut_off_price": 100.85,
+    "weighted_average_yield": 6.4238,
+    "weighted_average_price": 100.87,
+    "competitive_bids_received_crore": 16169,
+    "competitive_bids_accepted_crore": 2997.429,
+    "non_competitive_bids_accepted_crore": 2.571,
+    "auction_method": "Multiple price"
+  }
 }

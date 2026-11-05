@@ -1,0 +1,35 @@
+{
+  "security_name": "7.27% GS 2026",
+  "security_type": "Gilt",
+  "security_codes": [
+    "727GS26J19",
+    "727GOI26",
+    "727GS2026-GS"
+  ],
+  "announcement_date": "2019-07-22",
+  "auction_date": "2019-07-26",
+  "issuance_date": "2019-07-29",
+  "maturity_date": "2026-04-08",
+  "coupon_rate": 7.27,
+  "yield_at_auction": 6.7184,
+  "amount_issued_crore": 3000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=47708",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=47707",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11631&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_22072019.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2019-04-08",
+    "cut_off_price": 102.92,
+    "weighted_average_yield": 6.7124,
+    "weighted_average_price": 102.95,
+    "competitive_bids_received_crore": 9027,
+    "competitive_bids_accepted_crore": 2994.956,
+    "non_competitive_bids_accepted_crore": 5.044,
+    "auction_method": "Multiple price"
+  }
+}

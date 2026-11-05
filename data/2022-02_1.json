@@ -6,16 +6,31 @@
     "456GOI23",
     "456GS2023-GS"
   ],
-  "announcement_date": "2022-01-28",
+  "announcement_date": "2022-01-31",
   "auction_date": "2022-02-04",
-  "issuance_date": "2022-02-09",
-  "maturity_date": "2023-12-31",
+  "issuance_date": "2022-02-08",
+  "maturity_date": "2023-11-29",
   "coupon_rate": 4.56,
   "yield_at_auction": 5.1001,
   "amount_issued_crore": 2000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53225",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR167092957F16EE064BAAB68DD7EFC1FC40D9.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53221",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53201",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_31012022.pdf",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53229"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 2000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2021-11-29",
+    "cut_off_price": 99.07,
+    "weighted_average_price": 99.07,
+    "competitive_bids_received_crore": 5296,
+    "competitive_bids_accepted_crore": 1997.813,
+    "non_competitive_bids_accepted_crore": 2.187,
+    "auction_method": "Uniform price",
+    "note": "Settlement moved from 7 Feb to 8 Feb 2022: 7 Feb was declared a public holiday after the auction was announced."
+  }
 }

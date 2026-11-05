@@ -1,21 +1,32 @@
 {
-  "security_name": "7.72% GS 2055",
-  "security_type": "Gilt",
-  "security_codes": [
-    "772GS55Y18",
-    "772GOI55",
-    "772GS2055-GS"
-  ],
-  "announcement_date": "2018-05-04",
-  "auction_date": "2018-05-11",
-  "issuance_date": "2018-05-16",
-  "maturity_date": "2055-06-08",
-  "coupon_rate": 7.72,
-  "yield_at_auction": 7.9299,
+  "security_name": "GOI FRB 2031",
+  "security_type": "FRB",
+  "security_codes": [],
+  "announcement_date": "2018-04-27",
+  "auction_date": "2018-05-04",
+  "issuance_date": "2018-05-07",
+  "maturity_date": "2031-12-07",
+  "coupon_rate": 7.33,
+  "yield_at_auction": 7.33,
   "amount_issued_crore": 3000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=43903",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR29726249B4C735CF4F6EB47F8F62CB11ECF5.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=43837",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=43831",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11265&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11264&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/Auction_sale_PressRelease_27042018.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "New issue",
+    "original_issue_date": "2018-05-07",
+    "weighted_average_yield": 7.259,
+    "competitive_bids_received_crore": 13212,
+    "competitive_bids_accepted_crore": 3000,
+    "non_competitive_bids_accepted_crore": 0,
+    "auction_method": "Multiple price",
+    "coupon_period": "2018-05-07 to 2018-06-06",
+    "note": "Floating rate bond: coupon_rate is the rate fixed for the first coupon period at the new issue."
+  }
 }

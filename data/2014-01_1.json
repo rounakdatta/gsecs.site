@@ -1,21 +1,35 @@
 {
-  "security_name": "8.24% GS 2027",
-  "security_type": "Gilt",
+  "security_name": "1.44% GOI IIB 2023",
+  "security_type": "Inflation Indexed Bond",
   "security_codes": [
-    "824GS27J16",
-    "824GOI27",
-    "824GS2027-GS"
+    "144GS23J14",
+    "144GOI23",
+    "144GS2023-GS"
   ],
-  "announcement_date": "2013-12-27",
-  "auction_date": "2014-01-03",
-  "issuance_date": "2014-01-08",
-  "maturity_date": "2027-06-03",
-  "coupon_rate": 8.24,
-  "yield_at_auction": 9.1109,
-  "amount_issued_crore": null,
+  "announcement_date": "2013-12-24",
+  "auction_date": "2013-12-31",
+  "issuance_date": "2014-01-01",
+  "maturity_date": "2023-06-05",
+  "coupon_rate": 1.44,
+  "yield_at_auction": 3.6211,
+  "amount_issued_crore": 500,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=30328",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR1342GS0114.pdf"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=30298",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=30296",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=30257",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=8650&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/SaleInflaInd24122013.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 500,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2013-06-05",
+    "cut_off_price": 82.71,
+    "weighted_average_price": 82.71,
+    "competitive_bids_received_crore": 1683,
+    "competitive_bids_accepted_crore": 498.34,
+    "non_competitive_bids_accepted_crore": 1.66,
+    "auction_method": "Uniform price"
+  }
 }

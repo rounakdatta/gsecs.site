@@ -1,0 +1,35 @@
+{
+  "security_name": "GOI FRB 2024",
+  "security_type": "FRB",
+  "security_codes": [],
+  "announcement_date": "2017-12-18",
+  "auction_date": "2017-12-22",
+  "issuance_date": "2017-12-26",
+  "maturity_date": "2024-11-07",
+  "coupon_rate": 6.18,
+  "yield_at_auction": 6.8435,
+  "amount_issued_crore": 3000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=42654",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=42650",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=42596",
+    "https://dea.gov.in/files/press_release_documents/Auction_Sale_Reissue_GovernmentStocks_18122017E.pdf",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11178&Mode=0",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=42181"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2016-11-07",
+    "cut_off_price": 97.02,
+    "weighted_average_price": 97.06,
+    "competitive_bids_received_crore": 5204,
+    "competitive_bids_accepted_crore": 675,
+    "non_competitive_bids_accepted_crore": 0,
+    "devolvement_on_primary_dealers_crore": 2325,
+    "auction_method": "Multiple price",
+    "coupon_period": "2017-11-07 to 2018-05-06",
+    "note": "Floating rate bond: coupon_rate is the rate RBI set for the coupon period in which this tranche was issued."
+  }
+}

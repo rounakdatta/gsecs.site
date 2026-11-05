@@ -1,21 +1,34 @@
 {
-  "security_name": "6.54% GS 2032",
-  "security_type": "Gilt",
-  "security_codes": [
-    "654GS32Y22",
-    "654GOI32",
-    "654GS2032-GS"
-  ],
-  "announcement_date": "2022-05-20",
-  "auction_date": "2022-05-27",
-  "issuance_date": "2022-06-01",
-  "maturity_date": "2032-07-14",
-  "coupon_rate": 6.54,
-  "yield_at_auction": 7.339,
-  "amount_issued_crore": 13000,
+  "security_name": "GOI FRB 2034",
+  "security_type": "FRB",
+  "security_codes": [],
+  "announcement_date": "2022-05-13",
+  "auction_date": "2022-05-20",
+  "issuance_date": "2022-05-23",
+  "maturity_date": "2034-10-30",
+  "coupon_rate": 5.38,
+  "yield_at_auction": 6.4072,
+  "amount_issued_crore": 4000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53770",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR272BE40EFB6B3A7469088DC8C57A1B4B6EF.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53742",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53739",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53713",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_13052022.pdf",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53634"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 4000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2021-08-30",
+    "cut_off_price": 96.52,
+    "weighted_average_yield": 6.4072,
+    "weighted_average_price": 96.52,
+    "competitive_bids_received_crore": 7923,
+    "competitive_bids_accepted_crore": 3999.713,
+    "non_competitive_bids_accepted_crore": 0.287,
+    "auction_method": "Uniform price",
+    "coupon_period": "2022-04-30 to 2022-10-29",
+    "note": "Floating rate bond: coupon_rate is the rate RBI set for the coupon period in which this tranche was issued."
+  }
 }

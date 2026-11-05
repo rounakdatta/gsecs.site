@@ -1,0 +1,36 @@
+{
+  "security_name": "5.85% GS 2030",
+  "security_type": "Gilt",
+  "security_codes": [
+    "585GS30F21",
+    "585GOI30",
+    "585GS2030-GS"
+  ],
+  "announcement_date": "2021-02-12",
+  "auction_date": "2021-02-18",
+  "issuance_date": "2021-02-22",
+  "maturity_date": "2030-12-01",
+  "coupon_rate": 5.85,
+  "yield_at_auction": 6.0596,
+  "amount_issued_crore": 11000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=51154",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=51151",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=51126",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_Auction_G_Sec_12022021.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 11000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2020-12-01",
+    "cut_off_price": 98.46,
+    "weighted_average_yield": 6.0596,
+    "weighted_average_price": 98.46,
+    "competitive_bids_received_crore": 15520,
+    "competitive_bids_accepted_crore": 100,
+    "non_competitive_bids_accepted_crore": 6.176,
+    "devolvement_on_primary_dealers_crore": 10893.824,
+    "auction_method": "Multiple price"
+  }
+}

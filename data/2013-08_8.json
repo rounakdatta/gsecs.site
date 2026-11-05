@@ -1,0 +1,35 @@
+{
+  "security_name": "8.30% GS 2042",
+  "security_type": "Gilt",
+  "security_codes": [
+    "830GS42A13",
+    "830GOI42",
+    "830GS2042-GS"
+  ],
+  "announcement_date": "2013-08-05",
+  "auction_date": "2013-08-08",
+  "issuance_date": "2013-08-12",
+  "maturity_date": "2042-12-31",
+  "coupon_rate": 8.3,
+  "yield_at_auction": 8.7785,
+  "amount_issued_crore": 3000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=29268",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=29266",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=8292&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=8288&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/Auctionforsale05082013.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2012-12-31",
+    "cut_off_price": 94.97,
+    "weighted_average_price": 94.97,
+    "competitive_bids_received_crore": 5547,
+    "competitive_bids_accepted_crore": 2999.8,
+    "non_competitive_bids_accepted_crore": 0.2,
+    "auction_method": "Uniform price"
+  }
+}

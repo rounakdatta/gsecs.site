@@ -1,21 +1,35 @@
 {
-  "security_name": "GOI FRB 2031",
-  "security_type": "FRB",
+  "security_name": "8.24% GS 2027",
+  "security_type": "Gilt",
   "security_codes": [
-    "0GS31J19",
-    "0GOI31",
-    "0GS2031-GS"
+    "824GS27J19",
+    "824GOI27",
+    "824GS2027-GS"
   ],
-  "announcement_date": "2018-12-28",
+  "announcement_date": "2018-12-31",
   "auction_date": "2019-01-04",
-  "issuance_date": "2019-01-09",
-  "maturity_date": "2031-06-01",
-  "coupon_rate": 0,
+  "issuance_date": "2019-01-07",
+  "maturity_date": "2027-02-15",
+  "coupon_rate": 8.24,
   "yield_at_auction": 7.5442,
-  "amount_issued_crore": 2000,
+  "amount_issued_crore": 1000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=45921",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1563A3A5183E50E94250B0E7C187C83DD6E5.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=45916",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11444&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11443&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_Auction_GovernmentStock_31122018.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 2000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2007-02-15",
+    "cut_off_price": 104.15,
+    "weighted_average_price": 104.22,
+    "competitive_bids_received_crore": 4570,
+    "competitive_bids_accepted_crore": 996.907,
+    "non_competitive_bids_accepted_crore": 3.093,
+    "auction_method": "Multiple price"
+  }
 }

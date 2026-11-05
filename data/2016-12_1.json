@@ -6,16 +6,30 @@
     "761GOI30",
     "761GS2030-GS"
   ],
-  "announcement_date": "2016-11-25",
+  "announcement_date": "2016-11-28",
   "auction_date": "2016-12-02",
-  "issuance_date": "2016-12-07",
-  "maturity_date": "2030-07-21",
+  "issuance_date": "2016-12-05",
+  "maturity_date": "2030-05-09",
   "coupon_rate": 7.61,
   "yield_at_auction": 6.4594,
   "amount_issued_crore": 8000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=38771",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR13933036FB6223CA41139036EF4E4EFC5B8A.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=38770",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10750&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=10748&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/pressauction28112016.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 8000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2016-05-09",
+    "cut_off_price": 110.22,
+    "weighted_average_price": 110.27,
+    "competitive_bids_received_crore": 25021,
+    "competitive_bids_accepted_crore": 7986.45,
+    "non_competitive_bids_accepted_crore": 13.55,
+    "auction_method": "Multiple price"
+  }
 }

@@ -1,0 +1,35 @@
+{
+  "security_name": "7.37% GS 2023",
+  "security_type": "Gilt",
+  "security_codes": [
+    "737GS23D18",
+    "737GOI23",
+    "737GS2023-GS"
+  ],
+  "announcement_date": "2018-12-24",
+  "auction_date": "2018-12-28",
+  "issuance_date": "2018-12-31",
+  "maturity_date": "2023-04-16",
+  "coupon_rate": 7.37,
+  "yield_at_auction": 7.1625,
+  "amount_issued_crore": 3000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=45842",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=45841",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11437&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11436&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_Auction_GovernmentStock_24122018.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2018-04-16",
+    "cut_off_price": 100.74,
+    "weighted_average_price": 100.76,
+    "competitive_bids_received_crore": 6649,
+    "competitive_bids_accepted_crore": 2995.426,
+    "non_competitive_bids_accepted_crore": 4.574,
+    "auction_method": "Multiple price"
+  }
+}

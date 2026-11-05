@@ -1,21 +1,35 @@
 {
-  "security_name": "5.74% GS 2026",
+  "security_name": "4.56% GS 2023",
   "security_type": "Gilt",
   "security_codes": [
-    "574GS26Y22",
-    "574GOI26",
-    "574GS2026-GS"
+    "456GS23M22",
+    "456GOI23",
+    "456GS2023-GS"
   ],
-  "announcement_date": "2022-05-13",
-  "auction_date": "2022-05-20",
-  "issuance_date": "2022-05-25",
-  "maturity_date": "2026-12-07",
-  "coupon_rate": 5.74,
-  "yield_at_auction": 7.1105,
-  "amount_issued_crore": 9000,
+  "announcement_date": "2022-05-09",
+  "auction_date": "2022-05-13",
+  "issuance_date": "2022-05-17",
+  "maturity_date": "2023-11-29",
+  "coupon_rate": 4.56,
+  "yield_at_auction": 6.1533,
+  "amount_issued_crore": 4000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53742",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR244GSECA7BC0707C6144146AEC43E470B23C690.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53703",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53701",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53682",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_09052022.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 4000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2021-11-29",
+    "cut_off_price": 97.7,
+    "weighted_average_yield": 6.1533,
+    "weighted_average_price": 97.7,
+    "competitive_bids_received_crore": 12068,
+    "competitive_bids_accepted_crore": 3996.921,
+    "non_competitive_bids_accepted_crore": 3.079,
+    "auction_method": "Uniform price"
+  }
 }

@@ -6,16 +6,30 @@
     "772GOI55",
     "772GS2055-GS"
   ],
-  "announcement_date": "2017-08-25",
+  "announcement_date": "2017-08-28",
   "auction_date": "2017-09-01",
-  "issuance_date": "2017-09-06",
-  "maturity_date": "2055-06-08",
+  "issuance_date": "2017-09-04",
+  "maturity_date": "2055-10-26",
   "coupon_rate": 7.72,
   "yield_at_auction": 7.1501,
   "amount_issued_crore": 3000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=41540",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR6086EC3E16563684728AF54ACF7686298FD.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=41538",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11108&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11104&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/auctionpress28082017.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2015-10-26",
+    "cut_off_price": 107.41,
+    "weighted_average_price": 107.42,
+    "competitive_bids_received_crore": 8542,
+    "competitive_bids_accepted_crore": 2996,
+    "non_competitive_bids_accepted_crore": 4,
+    "auction_method": "Multiple price"
+  }
 }

@@ -1,0 +1,34 @@
+{
+  "security_name": "6.53% GS 2031",
+  "security_type": "Gilt",
+  "security_codes": [
+    "653GS31S26",
+    "653GOI31",
+    "653GS2031-GS"
+  ],
+  "announcement_date": "2026-08-31",
+  "auction_date": "2026-09-04",
+  "issuance_date": "2026-09-07",
+  "maturity_date": "2031-09-07",
+  "coupon_rate": 6.53,
+  "yield_at_auction": 6.53,
+  "amount_issued_crore": 21000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63517",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63516",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63484"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 21000,
+    "issue_type": "New issue",
+    "original_issue_date": "2026-09-07",
+    "cut_off_price": 100,
+    "weighted_average_yield": 6.5163,
+    "weighted_average_price": 100.06,
+    "competitive_bids_received_crore": 49886,
+    "competitive_bids_accepted_crore": 20996.823,
+    "non_competitive_bids_accepted_crore": 3.177,
+    "auction_method": "Multiple price"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "security_name": "7.17% GS 2028",
+  "security_type": "Gilt",
+  "security_codes": [
+    "717GS28J18",
+    "717GOI28",
+    "717GS2028-GS"
+  ],
+  "announcement_date": "2018-07-23",
+  "auction_date": "2018-07-27",
+  "issuance_date": "2018-07-30",
+  "maturity_date": "2028-01-08",
+  "coupon_rate": 7.17,
+  "yield_at_auction": 7.7811,
+  "amount_issued_crore": 4000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=44600",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=44597",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11343&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11342&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_Auction_GovernmentStock_23072018.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 4000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2018-01-08",
+    "cut_off_price": 95.96,
+    "weighted_average_price": 95.97,
+    "competitive_bids_received_crore": 14491,
+    "competitive_bids_accepted_crore": 3999.93,
+    "non_competitive_bids_accepted_crore": 0.07,
+    "auction_method": "Multiple price"
+  }
+}

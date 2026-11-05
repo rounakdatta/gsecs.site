@@ -6,16 +6,30 @@
     "667GOI35",
     "667GS2035-GS"
   ],
-  "announcement_date": "2021-10-01",
+  "announcement_date": "2021-10-04",
   "auction_date": "2021-10-08",
-  "issuance_date": "2021-10-13",
-  "maturity_date": "2035-06-05",
+  "issuance_date": "2021-10-11",
+  "maturity_date": "2035-12-15",
   "coupon_rate": 6.67,
   "yield_at_auction": 6.7974,
-  "amount_issued_crore": null,
+  "amount_issued_crore": 9000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52381",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR101629D7D49CB1234F39805605F6CDD6FDC6.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52372",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52348",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_04102021.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 9000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2021-09-13",
+    "cut_off_price": 98.85,
+    "weighted_average_yield": 6.7974,
+    "weighted_average_price": 98.85,
+    "competitive_bids_received_crore": 18366,
+    "competitive_bids_accepted_crore": 8987.069,
+    "non_competitive_bids_accepted_crore": 12.931,
+    "auction_method": "Uniform price"
+  }
 }

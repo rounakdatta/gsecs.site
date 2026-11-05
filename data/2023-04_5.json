@@ -1,21 +1,34 @@
 {
-  "security_name": "7.06% GS 2028",
+  "security_name": "7.17% GS 2030",
   "security_type": "Gilt",
   "security_codes": [
-    "706GS28A23",
-    "706GOI28",
-    "706GS2028-GS"
+    "717GS30A23",
+    "717GOI30",
+    "717GS2030-GS"
   ],
-  "announcement_date": "2023-04-14",
-  "auction_date": "2023-04-21",
-  "issuance_date": "2023-04-26",
-  "maturity_date": "2028-06-30",
-  "coupon_rate": 7.06,
-  "yield_at_auction": 7.042,
-  "amount_issued_crore": 8000,
+  "announcement_date": "2023-04-10",
+  "auction_date": "2023-04-13",
+  "issuance_date": "2023-04-17",
+  "maturity_date": "2030-04-17",
+  "coupon_rate": 7.17,
+  "yield_at_auction": 7.17,
+  "amount_issued_crore": 7000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=55555",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR105FEC70714F7FC4A7B823628AF4DAD2AC8.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=55510",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=55509",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=55495",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_10042023.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 7000,
+    "issue_type": "New issue",
+    "original_issue_date": "2023-04-17",
+    "weighted_average_yield": 7.17,
+    "weighted_average_price": 100,
+    "competitive_bids_received_crore": 17975,
+    "competitive_bids_accepted_crore": 6987.421,
+    "non_competitive_bids_accepted_crore": 12.579,
+    "auction_method": "Uniform price"
+  }
 }

@@ -1,0 +1,36 @@
+{
+  "security_name": "5.15% GS 2025",
+  "security_type": "Gilt",
+  "security_codes": [
+    "515GS25F21",
+    "515GOI25",
+    "515GS2025-GS"
+  ],
+  "announcement_date": "2021-02-08",
+  "auction_date": "2021-02-11",
+  "issuance_date": "2021-02-12",
+  "maturity_date": "2025-11-09",
+  "coupon_rate": 5.15,
+  "yield_at_auction": 5.541,
+  "amount_issued_crore": 13000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=51113",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=51112",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=51097",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_Special_Auction_G_Sec_08022021.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 11000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2020-11-09",
+    "cut_off_price": 98.38,
+    "weighted_average_yield": 5.5288,
+    "weighted_average_price": 98.43,
+    "competitive_bids_received_crore": 34621,
+    "competitive_bids_accepted_crore": 12974.795,
+    "non_competitive_bids_accepted_crore": 25.205,
+    "auction_method": "Multiple price",
+    "additional_amount_retained_crore": 2000
+  }
+}

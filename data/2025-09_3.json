@@ -1,0 +1,37 @@
+{
+  "security_name": "6.28% GS 2032",
+  "security_type": "Gilt",
+  "security_codes": [
+    "628GS32S25",
+    "628GOI32",
+    "628GS2032-GS"
+  ],
+  "announcement_date": "2025-09-01",
+  "auction_date": "2025-09-04",
+  "issuance_date": "2025-09-09",
+  "maturity_date": "2032-07-14",
+  "coupon_rate": 6.28,
+  "yield_at_auction": 6.5497,
+  "amount_issued_crore": 11000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61152",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61151",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61137",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_GSec_01092025.pdf",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61158"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 11000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2025-07-14",
+    "cut_off_price": 98.52,
+    "weighted_average_yield": 6.5423,
+    "weighted_average_price": 98.56,
+    "competitive_bids_received_crore": 26398.5,
+    "competitive_bids_accepted_crore": 10985.863,
+    "non_competitive_bids_accepted_crore": 14.137,
+    "auction_method": "Multiple price",
+    "note": "Settlement moved from 8 Sep to 9 Sep 2025: 8 Sep was declared a public holiday after the auction was announced."
+  }
+}

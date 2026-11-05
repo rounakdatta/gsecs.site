@@ -1,0 +1,35 @@
+{
+  "security_name": "7.50% GS 2034",
+  "security_type": "Gilt",
+  "security_codes": [
+    "750GS34S18",
+    "750GOI34",
+    "750GS2034-GS"
+  ],
+  "announcement_date": "2018-09-17",
+  "auction_date": "2018-09-21",
+  "issuance_date": "2018-09-24",
+  "maturity_date": "2034-08-10",
+  "coupon_rate": 7.5,
+  "yield_at_auction": 8.3299,
+  "amount_issued_crore": 2000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=45028",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=45026",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11374&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11373&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_Auction_GovernmentStock_17092018.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 2000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2004-08-10",
+    "cut_off_price": 92.75,
+    "weighted_average_price": 92.79,
+    "competitive_bids_received_crore": 6510,
+    "competitive_bids_accepted_crore": 1997.844,
+    "non_competitive_bids_accepted_crore": 2.156,
+    "auction_method": "Multiple price"
+  }
+}

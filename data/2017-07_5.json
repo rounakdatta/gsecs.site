@@ -1,21 +1,35 @@
 {
-  "security_name": "GOI FRB 2024",
-  "security_type": "FRB",
+  "security_name": "6.84% GS 2022",
+  "security_type": "Gilt",
   "security_codes": [
-    "0GS24L17",
-    "0GOI24",
-    "0GS2024-GS"
+    "684GS22J17",
+    "684GOI22",
+    "684GS2022-GS"
   ],
-  "announcement_date": "2017-07-07",
-  "auction_date": "2017-07-14",
-  "issuance_date": "2017-07-19",
-  "maturity_date": "2024-06-04",
-  "coupon_rate": 0,
-  "yield_at_auction": 6.8197,
+  "announcement_date": "2017-07-03",
+  "auction_date": "2017-07-07",
+  "issuance_date": "2017-07-10",
+  "maturity_date": "2022-12-19",
+  "coupon_rate": 6.84,
+  "yield_at_auction": 6.6832,
   "amount_issued_crore": 3000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=41067",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR136B38DEFE793F543CEB5A46714DD23F9F7.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=40998",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=40996",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11026&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11025&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/auctionpress03072017.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2016-09-12",
+    "cut_off_price": 100.7,
+    "weighted_average_price": 100.72,
+    "competitive_bids_received_crore": 11602,
+    "competitive_bids_accepted_crore": 2985.6,
+    "non_competitive_bids_accepted_crore": 14.4,
+    "auction_method": "Multiple price"
+  }
 }

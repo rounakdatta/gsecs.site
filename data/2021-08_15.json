@@ -1,0 +1,32 @@
+{
+  "security_name": "GOI FRB 2034",
+  "security_type": "FRB",
+  "security_codes": [],
+  "announcement_date": "2021-08-23",
+  "auction_date": "2021-08-27",
+  "issuance_date": "2021-08-30",
+  "maturity_date": "2034-10-30",
+  "coupon_rate": 4.45,
+  "yield_at_auction": 4.45,
+  "amount_issued_crore": 3000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52124",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52123",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52097",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_23082021.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "New issue",
+    "original_issue_date": "2021-08-30",
+    "weighted_average_yield": 4.45,
+    "weighted_average_price": 100,
+    "competitive_bids_received_crore": 25381,
+    "competitive_bids_accepted_crore": 2999.945,
+    "non_competitive_bids_accepted_crore": 0.055,
+    "auction_method": "Uniform price",
+    "coupon_period": "2021-08-30 to 2021-10-29",
+    "note": "Floating rate bond: coupon_rate is the rate fixed for the first coupon period at the new issue."
+  }
+}

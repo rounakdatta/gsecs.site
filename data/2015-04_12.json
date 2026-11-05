@@ -2,20 +2,34 @@
   "security_name": "8.17% GS 2044",
   "security_type": "Gilt",
   "security_codes": [
-    "817GS44A16",
+    "817GS44A15",
     "817GOI44",
     "817GS2044-GS"
   ],
-  "announcement_date": "2015-04-23",
-  "auction_date": "2015-04-30",
-  "issuance_date": "2015-05-05",
-  "maturity_date": "2044-09-29",
+  "announcement_date": "2015-04-20",
+  "auction_date": "2015-04-24",
+  "issuance_date": "2015-04-27",
+  "maturity_date": "2044-12-01",
   "coupon_rate": 8.17,
-  "yield_at_auction": 7.8999,
+  "yield_at_auction": 7.8557,
   "amount_issued_crore": 3000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=33833",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/IEPR2307GSE5F00163F6D949358032C277FBC3683B.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=33775",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=33774",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=9677&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=9673&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/AuctionSale20042015.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 3000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2014-12-01",
+    "cut_off_price": 103.58,
+    "weighted_average_price": 103.65,
+    "competitive_bids_received_crore": 7135.6,
+    "competitive_bids_accepted_crore": 2998.02,
+    "non_competitive_bids_accepted_crore": 1.98,
+    "auction_method": "Multiple price"
+  }
 }

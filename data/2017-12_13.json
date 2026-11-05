@@ -1,0 +1,35 @@
+{
+  "security_name": "6.62% GS 2051",
+  "security_type": "Gilt",
+  "security_codes": [
+    "662GS51D17",
+    "662GOI51",
+    "662GS2051-GS"
+  ],
+  "announcement_date": "2017-12-18",
+  "auction_date": "2017-12-22",
+  "issuance_date": "2017-12-26",
+  "maturity_date": "2051-11-28",
+  "coupon_rate": 6.62,
+  "yield_at_auction": 7.5401,
+  "amount_issued_crore": 2000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=42654",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=42650",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=42596",
+    "https://dea.gov.in/files/press_release_documents/Auction_Sale_Reissue_GovernmentStocks_18122017E.pdf",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11173&Mode=0"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 2000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2016-11-28",
+    "cut_off_price": 88.78,
+    "weighted_average_price": 88.78,
+    "competitive_bids_received_crore": 4878,
+    "competitive_bids_accepted_crore": 1999.75,
+    "non_competitive_bids_accepted_crore": 0.25,
+    "auction_method": "Multiple price"
+  }
+}

@@ -1,21 +1,34 @@
 {
-  "security_name": "4.56% GS 2023",
-  "security_type": "Gilt",
-  "security_codes": [
-    "456GS23J22",
-    "456GOI23",
-    "456GS2023-GS"
-  ],
-  "announcement_date": "2022-01-14",
-  "auction_date": "2022-01-21",
-  "issuance_date": "2022-01-26",
-  "maturity_date": "2023-12-31",
-  "coupon_rate": 4.56,
-  "yield_at_auction": 4.9348,
-  "amount_issued_crore": 2000,
+  "security_name": "GOI FRB 2034",
+  "security_type": "FRB",
+  "security_codes": [],
+  "announcement_date": "2022-01-10",
+  "auction_date": "2022-01-14",
+  "issuance_date": "2022-01-17",
+  "maturity_date": "2034-10-30",
+  "coupon_rate": 4.68,
+  "yield_at_auction": 5.1926,
+  "amount_issued_crore": 4000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53142",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR158708E9222CC6A24B899FEBA958E30C76A0.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53102",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53100",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=53077",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_10012022.pdf",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=52487"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 4000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2021-08-30",
+    "cut_off_price": 97.85,
+    "weighted_average_yield": 5.1926,
+    "weighted_average_price": 97.85,
+    "competitive_bids_received_crore": 16231.636,
+    "competitive_bids_accepted_crore": 3999.913,
+    "non_competitive_bids_accepted_crore": 0.087,
+    "auction_method": "Uniform price",
+    "coupon_period": "2021-10-30 to 2022-04-29",
+    "note": "Floating rate bond: coupon_rate is the rate RBI set for the coupon period in which this tranche was issued."
+  }
 }

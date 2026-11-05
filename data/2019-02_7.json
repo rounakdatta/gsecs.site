@@ -6,16 +6,31 @@
     "726GOI29",
     "726GS2029-GS"
   ],
-  "announcement_date": "2019-02-01",
+  "announcement_date": "2019-02-04",
   "auction_date": "2019-02-08",
-  "issuance_date": "2019-02-13",
-  "maturity_date": "2029-12-23",
+  "issuance_date": "2019-02-11",
+  "maturity_date": "2029-01-14",
   "coupon_rate": 7.26,
   "yield_at_auction": 7.3105,
   "amount_issued_crore": 4000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
     "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=46248",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1890EC7C44F22A754274B3435FFE1974EC74.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=46247",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11464&Mode=0",
+    "https://rbi.org.in/Scripts/NotificationUser.aspx?Id=11463&Mode=0",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_Auction_GovernmentStock_04022019.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 4000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2019-01-14",
+    "cut_off_price": 99.64,
+    "weighted_average_yield": 7.2989,
+    "weighted_average_price": 99.72,
+    "competitive_bids_received_crore": 10185,
+    "competitive_bids_accepted_crore": 3996.268,
+    "non_competitive_bids_accepted_crore": 3.732,
+    "auction_method": "Multiple price"
+  }
 }

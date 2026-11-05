@@ -1,6 +1,6 @@
 {
   "security_name": "6.79% GOI SGrB 2034",
-  "security_type": "Gilt",
+  "security_type": "Sovereign Green Bond",
   "security_codes": [
     "679GS34F25",
     "679GOI34",
@@ -15,9 +15,22 @@
   "amount_issued_crore": 5000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR2017EC31CFE6D42E449BB2A8190EB6BD1EB0.PDF",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR203747640E9D9A404E9DA9AF7B6A9370A54A.PDF",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR2052355D1D9B0F6644769521285DA2F08DA6.PDF",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR20512B5DB204FACA4916980F0D7B8B083AB6.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=59650",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=59649",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=59615",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_27012025.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 5000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2024-12-02",
+    "cut_off_price": 100.67,
+    "weighted_average_yield": 6.6941,
+    "weighted_average_price": 100.67,
+    "competitive_bids_received_crore": 7718.895,
+    "competitive_bids_accepted_crore": 1053.895,
+    "non_competitive_bids_accepted_crore": 0.596,
+    "devolvement_on_primary_dealers_crore": 3945.509,
+    "auction_method": "Multiple price"
+  }
 }

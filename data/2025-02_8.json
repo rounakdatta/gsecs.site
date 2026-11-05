@@ -1,0 +1,35 @@
+{
+  "security_name": "7.09% GS 2074",
+  "security_type": "Gilt",
+  "security_codes": [
+    "709GS74F25",
+    "709GOI74",
+    "709GS2074-GS"
+  ],
+  "announcement_date": "2025-02-10",
+  "auction_date": "2025-02-14",
+  "issuance_date": "2025-02-17",
+  "maturity_date": "2074-11-25",
+  "coupon_rate": 7.09,
+  "yield_at_auction": 7.0735,
+  "amount_issued_crore": 10000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=59758",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=59757",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=59721",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_G_Sec_10022025.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 10000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2024-11-25",
+    "cut_off_price": 100.21,
+    "weighted_average_yield": 7.0655,
+    "weighted_average_price": 100.32,
+    "competitive_bids_received_crore": 25104,
+    "competitive_bids_accepted_crore": 9998.301,
+    "non_competitive_bids_accepted_crore": 1.699,
+    "auction_method": "Multiple price"
+  }
+}

@@ -1,21 +1,35 @@
 {
-  "security_name": "7.10% GS 2029",
-  "security_type": "Gilt",
+  "security_name": "7.10% GOI SGrB 2028",
+  "security_type": "Sovereign Green Bond",
   "security_codes": [
-    "71GS29F23",
-    "71GOI29",
-    "71GS2029-GS"
+    "710GS28F23",
+    "710GOI28",
+    "710GS2028-GS"
   ],
   "announcement_date": "2023-02-03",
-  "auction_date": "2023-02-10",
-  "issuance_date": "2023-02-15",
-  "maturity_date": "2029-12-23",
+  "auction_date": "2023-02-09",
+  "issuance_date": "2023-02-10",
+  "maturity_date": "2028-01-27",
   "coupon_rate": 7.1,
-  "yield_at_auction": 7.3399,
-  "amount_issued_crore": 6000,
+  "yield_at_auction": 7.2304,
+  "amount_issued_crore": 4000,
   "interest_payment_frequency": "semi-annual",
   "source_urls": [
-    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=55202",
-    "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR1704B396CB0DEBB14EBA89753CF761BEDA9E.PDF"
-  ]
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=55190",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=55189",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=55164",
+    "https://dea.gov.in/files/press_release_documents/PressRelease_auction_SGrB_03022023.pdf"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 4000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2023-01-27",
+    "cut_off_price": 99.46,
+    "weighted_average_yield": 7.2304,
+    "weighted_average_price": 99.46,
+    "competitive_bids_received_crore": 10779.3,
+    "competitive_bids_accepted_crore": 3998.365,
+    "non_competitive_bids_accepted_crore": 1.635,
+    "auction_method": "Uniform price"
+  }
 }
