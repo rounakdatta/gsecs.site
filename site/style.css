@@ -1,0 +1,1217 @@
+/* The same paper, ink and single accent as rounak.taptappers.club, so the two read as one hand. */
+
+@font-face {
+  font-family: 'EB Garamond';
+  src: url('fonts/eb-garamond.woff2') format('woff2');
+  font-weight: 400 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  color-scheme: light dark;
+  --paper: light-dark(#fffff8, #151412);
+  --paper-raised: light-dark(#f6f4ea, #1e1d1a);
+  --ink: light-dark(#2a2926, #e8e4d8);
+  --ink-muted: light-dark(#696760, #a5a093);
+  --rule: light-dark(#e4e1d4, #2f2d28);
+  --accent: light-dark(#ad4310, #f0926a);
+  --serif: 'EB Garamond', Georgia, serif;
+
+  --measure: 34em;
+  --wide: 72rem;
+  --gutter: clamp(1.1rem, 4vw, 2rem);
+  --step-small: 0.86em;
+  --radius: 4px;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  scrollbar-gutter: stable;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: clamp(1.125rem, 0.95rem + 0.55vw, 1.375rem);
+  line-height: 1.6;
+  font-variant-numeric: oldstyle-nums proportional-nums;
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.005em;
+  text-wrap: balance;
+  margin: 1.8em 0 0.5em;
+}
+
+h1 {
+  font-size: clamp(1.6em, 1.3em + 1.2vw, 2em);
+  line-height: 1.12;
+  letter-spacing: -0.012em;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 1.12em;
+}
+
+p {
+  margin: 0 0 1em;
+  text-wrap: pretty;
+}
+
+a {
+  color: inherit;
+  text-decoration-line: underline;
+  text-decoration-color: color-mix(in oklab, var(--accent) 55%, transparent);
+  text-decoration-thickness: 0.07em;
+  text-underline-offset: 0.18em;
+  transition: color 0.15s, text-decoration-color 0.15s;
+}
+
+a:hover {
+  color: var(--accent);
+  text-decoration-color: currentColor;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+::selection {
+  background: color-mix(in oklab, var(--accent) 24%, transparent);
+}
+
+/* Money and dates that line up and never twitch. */
+.figures,
+.amount {
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+.label {
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.06em;
+  font-weight: 400;
+  color: var(--ink-muted);
+}
+
+.muted {
+  color: var(--ink-muted);
+}
+
+.small {
+  font-size: var(--step-small);
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ---------- Page frame ---------- */
+
+.skip-link {
+  position: absolute;
+  left: var(--gutter);
+  top: 0.75rem;
+  z-index: 10;
+  padding: 0.35em 0.8em;
+  background: var(--ink);
+  color: var(--paper);
+  border-radius: var(--radius);
+  text-decoration: none;
+  transform: translateY(-200%);
+}
+
+.skip-link:focus-visible {
+  transform: none;
+}
+
+.site-header,
+.site-footer {
+  width: min(100% - 2 * var(--gutter), var(--wide));
+  margin-inline: auto;
+}
+
+.site-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  column-gap: 1.5em;
+  row-gap: 0.35em;
+  padding-block: clamp(1.2rem, 3vw, 2rem) 0.9rem;
+  margin-bottom: clamp(1.75rem, 5vw, 3rem);
+  border-bottom: 1px solid var(--rule);
+}
+
+.site-name {
+  font-size: 1.15em;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+}
+
+.site-name:hover {
+  color: inherit;
+}
+
+.site-nav ul {
+  display: flex;
+  gap: clamp(0.9em, 3vw, 1.6em);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-nav a {
+  font-size: 0.95em;
+  color: var(--ink-muted);
+  text-decoration: none;
+  padding-block: 0.3em;
+}
+
+.site-nav a:hover {
+  color: var(--ink);
+}
+
+.site-nav a[aria-current='page'] {
+  color: var(--ink);
+  text-decoration-line: underline;
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 0.35em;
+}
+
+.site-main {
+  display: grid;
+  grid-template-columns:
+    [full-start] minmax(var(--gutter), 1fr)
+    [wide-start] minmax(0, calc((var(--wide) - var(--measure)) / 2))
+    [content-start] min(100% - 2 * var(--gutter), var(--measure))
+    [content-end] minmax(0, calc((var(--wide) - var(--measure)) / 2))
+    [wide-end] minmax(var(--gutter), 1fr) [full-end];
+  outline: none;
+}
+
+.site-main > * {
+  grid-column: content;
+  min-width: 0;
+}
+
+.site-main > .wide {
+  grid-column: wide;
+}
+
+.site-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.5em 1.5em;
+  margin-top: clamp(3rem, 8vw, 5rem);
+  padding-block: 1.4rem 2.2rem;
+  border-top: 1px solid var(--rule);
+  color: var(--ink-muted);
+}
+
+.site-footer > * {
+  font-size: var(--step-small);
+}
+
+.site-footer p {
+  margin: 0;
+  max-width: 36em;
+}
+
+.site-footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35em 1.1em;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-footer a,
+.site-footer .link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.site-footer a:hover,
+.site-footer .link:hover {
+  color: var(--ink);
+}
+
+.noscript {
+  width: min(100% - 2 * var(--gutter), var(--measure));
+  margin: 2rem auto;
+}
+
+/* ---------- Controls ---------- */
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  min-height: 2.5rem;
+  padding: 0.25em 0.95em;
+  border: 1px solid var(--ink);
+  border-radius: var(--radius);
+  background: var(--ink);
+  color: var(--paper);
+  font-size: 0.95em;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.button:hover {
+  background: color-mix(in oklab, var(--ink) 86%, var(--accent));
+}
+
+.button.quiet {
+  background: transparent;
+  color: var(--ink);
+  border-color: var(--rule);
+}
+
+.button.quiet:hover {
+  border-color: var(--ink-muted);
+  background: transparent;
+}
+
+.button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.link {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: color-mix(in oklab, var(--accent) 55%, transparent);
+  text-decoration-thickness: 0.07em;
+  text-underline-offset: 0.18em;
+}
+
+.link:hover {
+  color: var(--accent);
+}
+
+.link.quiet {
+  color: var(--ink-muted);
+  text-decoration: none;
+}
+
+.link.quiet:hover {
+  color: var(--ink);
+}
+
+.field {
+  display: grid;
+  gap: 0.25em;
+  margin: 0 0 1.1em;
+}
+
+.field > label {
+  font-size: 0.95em;
+}
+
+input[type='text'],
+input[type='search'],
+input[type='number'],
+input[type='date'],
+select,
+textarea {
+  width: 100%;
+  min-height: 2.6rem;
+  padding: 0.35em 0.6em;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  background: var(--paper);
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+input:hover,
+select:hover,
+textarea:hover {
+  border-color: var(--ink-muted);
+}
+
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 0;
+  border-color: transparent;
+}
+
+input[aria-invalid='true'] {
+  border-color: var(--accent);
+}
+
+textarea {
+  min-height: 7em;
+  resize: vertical;
+  line-height: 1.45;
+}
+
+.prefix {
+  position: relative;
+}
+
+.prefix > span {
+  position: absolute;
+  left: 0.65em;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--ink-muted);
+  pointer-events: none;
+}
+
+.prefix > input {
+  padding-left: 1.5em;
+}
+
+.hint {
+  font-size: var(--step-small);
+  color: var(--ink-muted);
+}
+
+.complaint {
+  font-size: var(--step-small);
+  color: var(--accent);
+}
+
+/* A two- or three-way choice, drawn as one control. */
+.choice {
+  display: inline-flex;
+  flex-wrap: wrap;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  padding: 2px;
+  gap: 2px;
+  margin: 0 0 1.1em;
+}
+
+.choice button {
+  border: 0;
+  border-radius: 3px;
+  background: none;
+  padding: 0.3em 0.85em;
+  min-height: 2.3rem;
+  color: var(--ink-muted);
+  font-size: 0.95em;
+  cursor: pointer;
+}
+
+.choice button[aria-pressed='true'] {
+  background: var(--paper-raised);
+  color: var(--ink);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6em 1em;
+  align-items: center;
+}
+
+.row > .field {
+  flex: 1 1 10em;
+}
+
+/* ---------- Search ---------- */
+
+.search .box {
+  position: relative;
+}
+
+/* the browser's clear button, in this page's ink rather than the system blue */
+.search input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 0.75em;
+  height: 0.75em;
+  margin-left: 0.4em;
+  background: var(--ink-muted);
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath d='M2 2l8 8M10 2l-8 8' stroke='black' stroke-width='1.6' stroke-linecap='round'/%3E%3C/svg%3E") center / contain no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath d='M2 2l8 8M10 2l-8 8' stroke='black' stroke-width='1.6' stroke-linecap='round'/%3E%3C/svg%3E") center / contain no-repeat;
+  cursor: pointer;
+}
+
+.search input {
+  padding-left: 2.1em;
+}
+
+.search .icon {
+  position: absolute;
+  left: 0.65em;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1em;
+  height: 1em;
+  color: var(--ink-muted);
+  pointer-events: none;
+}
+
+.options {
+  list-style: none;
+  margin: 0.3em 0 0;
+  padding: 0.25em 0;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  background: var(--paper);
+  max-height: min(19rem, 45svh);
+  overflow-y: auto;
+}
+
+.options li {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+  padding: 0.35em 0.75em;
+  cursor: pointer;
+}
+
+.options li[aria-selected='true'],
+.options li:hover {
+  background: var(--paper-raised);
+}
+
+.options .meta {
+  color: var(--ink-muted);
+  font-size: var(--step-small);
+  white-space: nowrap;
+}
+
+/* ---------- First visit ---------- */
+
+.welcome p {
+  max-width: 30em;
+}
+
+.welcome .search {
+  margin-top: 1.5em;
+}
+
+.welcome .aside {
+  margin-top: 1.2em;
+  font-size: var(--step-small);
+  color: var(--ink-muted);
+}
+
+/* ---------- The year at a glance ---------- */
+
+.summary {
+  margin: 0 0 1.6em;
+}
+
+.summary .big {
+  display: block;
+  font-size: clamp(1.7em, 1.3em + 1.6vw, 2.3em);
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+.summary .per {
+  font-size: 0.42em;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: var(--ink-muted);
+}
+
+.summary .next {
+  margin: 0.5em 0 0;
+}
+
+.summary .next .amount {
+  font-weight: 600;
+}
+
+/* The calendar keeps the text's left edge and widens only to the right. */
+.site-main > .gantt {
+  grid-column: content-start / wide-end;
+}
+
+.gantt {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  margin: 0 0 2.2em;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+
+.gantt-labels {
+  border-right: 1px solid var(--rule);
+  padding-top: var(--axis);
+  font-size: 0.8em;
+  max-width: 9.5em;
+}
+
+.gantt-labels a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: var(--row);
+  padding: 0.35em 0.8em 0 0;
+  text-decoration: none;
+  line-height: 1.15;
+  white-space: nowrap;
+}
+
+.gantt-labels .name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.gantt-labels a:hover {
+  color: var(--accent);
+}
+
+.gantt-labels .sub {
+  font-size: 0.86em;
+  color: var(--ink-muted);
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+.gantt-canvas {
+  min-width: 0;
+}
+
+.gantt svg {
+  display: block;
+  max-width: none;
+  height: auto;
+  font-family: var(--serif);
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+.gantt .month line {
+  stroke: var(--rule);
+}
+
+.gantt .month text {
+  fill: var(--ink-muted);
+  font-size: 12px;
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.06em;
+}
+
+.gantt .month text.year {
+  fill: var(--ink);
+}
+
+.gantt .life {
+  stroke: var(--rule);
+  stroke-width: 2;
+  stroke-linecap: round;
+}
+
+.gantt .today line {
+  stroke: var(--accent);
+  stroke-width: 1;
+}
+
+.gantt .today text {
+  fill: var(--accent);
+  font-size: 12px;
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.06em;
+}
+
+.gantt circle {
+  stroke-width: 1.5;
+}
+
+.gantt .got circle {
+  fill: var(--ink);
+  stroke: var(--ink);
+}
+
+.gantt .due circle {
+  fill: var(--paper);
+  stroke: var(--ink-muted);
+}
+
+.gantt .soon circle {
+  fill: var(--paper);
+  stroke: var(--accent);
+}
+
+.gantt .next circle {
+  fill: var(--accent);
+  stroke: var(--accent);
+}
+
+.gantt .back rect {
+  fill: var(--paper);
+  stroke: var(--ink);
+  stroke-width: 1.5;
+}
+
+.gantt .pay text {
+  fill: var(--ink-muted);
+  font-size: 12px;
+}
+
+.gantt .next text,
+.gantt .soon text {
+  fill: var(--ink);
+}
+
+.gantt .next text {
+  font-weight: 600;
+}
+
+/* ---------- Lists ---------- */
+
+.section-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.4em 1em;
+  margin: 2.4em 0 0.6em;
+}
+
+.section-head h2 {
+  margin: 0;
+}
+
+.section-head .actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em 1.1em;
+  font-size: var(--step-small);
+}
+
+.plain {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.agenda .month {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 1em 0 0.15em;
+}
+
+.total {
+  font-size: var(--step-small);
+  color: var(--ink-muted);
+}
+
+.agenda .month:first-child {
+  margin-top: 0;
+}
+
+.agenda li.pay {
+  display: grid;
+  grid-template-columns: 4.6em 1fr auto;
+  gap: 0.75em;
+  padding: 0.3em 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.agenda .when {
+  color: var(--ink-muted);
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+.agenda .amount {
+  text-align: right;
+}
+
+.holding {
+  padding: 0.9em 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.holding:first-child {
+  border-top: 1px solid var(--rule);
+}
+
+.holding .top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.2em 1em;
+}
+
+.holding .name {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.holding .facts {
+  margin: 0.25em 0 0;
+  color: var(--ink-muted);
+  font-size: var(--step-small);
+  line-height: 1.5;
+}
+
+.holding .facts span + span::before {
+  content: ' · ';
+}
+
+.holding .tools {
+  display: flex;
+  gap: 1.1em;
+  font-size: var(--step-small);
+}
+
+.confirm {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6em 1em;
+  margin-top: 0.6em;
+  font-size: var(--step-small);
+}
+
+/* A financial year folds to its total; the caret says it opens. */
+.fy > summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0.55em 0 0.3em;
+  list-style: none;
+  cursor: pointer;
+}
+
+.fy > summary::-webkit-details-marker {
+  display: none;
+}
+
+.fy > summary .label::before {
+  content: '';
+  display: inline-block;
+  width: 0.36em;
+  height: 0.36em;
+  margin: 0 0.6em 0.12em 0.1em;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(-45deg);
+  transition: transform 0.15s var(--ease-out);
+}
+
+.fy[open] > summary .label::before {
+  transform: rotate(45deg);
+}
+
+.fy > summary:hover .label {
+  color: var(--ink);
+}
+
+.fy + .fy {
+  border-top: 1px solid var(--rule);
+}
+
+.fy[open] {
+  padding-bottom: 0.8em;
+}
+
+.received li {
+  border-bottom: 1px solid var(--rule);
+}
+
+.received li:last-child {
+  border-bottom: 0;
+}
+
+.pay-row {
+  display: grid;
+  grid-template-columns: 5.2em 1fr auto;
+  gap: 0.75em;
+  width: 100%;
+  padding: 0.35em 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+@media (hover: hover) {
+  .pay-row:hover {
+    background: linear-gradient(to right, transparent, var(--paper-raised) 12%, var(--paper-raised) 88%, transparent);
+  }
+}
+
+.received .when {
+  color: var(--ink-muted);
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+.received .narration {
+  min-width: 0;
+  color: var(--ink-muted);
+  font-size: var(--step-small);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.received .amount {
+  text-align: right;
+}
+
+.received .ask {
+  color: var(--accent);
+}
+
+.received .gone {
+  color: var(--ink-muted);
+}
+
+.empty-note {
+  color: var(--ink-muted);
+  margin: 0.4em 0 0;
+}
+
+/* ---------- All bonds ---------- */
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.8em 1.2em;
+  margin: 0 0 1em;
+}
+
+.filters .search {
+  flex: 1 1 16em;
+}
+
+.filters label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  font-size: var(--step-small);
+  color: var(--ink-muted);
+  cursor: pointer;
+}
+
+.bonds li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.35fr) 8.2em;
+  gap: 0.1em 1em;
+  align-items: baseline;
+  padding: 0.45em 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.bonds .name {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.bonds .pays {
+  color: var(--ink-muted);
+  font-size: var(--step-small);
+}
+
+.bonds .last {
+  text-align: right;
+  font-size: var(--step-small);
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+.bonds li.head {
+  padding: 0 0 0.1em;
+  color: var(--ink-muted);
+  font-size: var(--step-small);
+  text-align: right;
+}
+
+.bonds li.head span:last-child {
+  grid-column: 2 / -1;
+}
+
+.bonds li.none {
+  display: block;
+  border: 0;
+}
+
+.bonds .held {
+  color: var(--accent);
+  font-size: var(--step-small);
+}
+
+@media (max-width: 34rem) {
+  .bonds li {
+    grid-template-columns: 1fr auto;
+  }
+  .bonds .pays {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+}
+
+.facts-list {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.25em 1.2em;
+  margin: 0 0 1.4em;
+}
+
+.facts-list dt {
+  color: var(--ink-muted);
+}
+
+.facts-list dd {
+  margin: 0;
+}
+
+.spark {
+  margin: 0.2em 0 0.6em;
+}
+
+.spark svg {
+  display: block;
+  overflow: visible;
+}
+
+.spark path {
+  fill: none;
+  stroke: var(--ink);
+  stroke-width: 1.5;
+  stroke-linejoin: round;
+}
+
+.spark circle {
+  fill: var(--paper);
+  stroke: var(--ink);
+  stroke-width: 1.2;
+}
+
+.spark circle.new {
+  fill: var(--accent);
+  stroke: var(--accent);
+}
+
+.spark text {
+  fill: var(--ink);
+  font-size: 0.8rem;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+.spark .axis {
+  fill: var(--ink-muted);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92em;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+th,
+td {
+  padding: 0.4em 0.8em 0.4em 0;
+  border-bottom: 1px solid var(--rule);
+  text-align: left;
+  vertical-align: baseline;
+}
+
+th {
+  font-weight: 400;
+}
+
+td.num,
+th.num {
+  text-align: right;
+  padding-right: 0;
+  padding-left: 0.8em;
+}
+
+.table-scroll {
+  overflow-x: auto;
+}
+
+/* ---------- The sheet: adding, editing, recording ---------- */
+
+dialog {
+  width: min(100% - 2 * var(--gutter), 32rem);
+  max-height: min(100svh - 2rem, 46rem);
+  padding: 0;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  background: var(--paper);
+  color: var(--ink);
+  box-shadow: 0 1.5rem 3rem -1rem rgb(0 0 0 / 0.25);
+}
+
+dialog::backdrop {
+  background: color-mix(in oklab, #000 28%, transparent);
+}
+
+dialog[open] {
+  animation: rise 0.22s var(--ease-out);
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(0.75rem);
+  }
+}
+
+.sheet {
+  display: flex;
+  flex-direction: column;
+  max-height: inherit;
+}
+
+.sheet header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1em;
+  padding: 1.1rem 1.3rem 0.4rem;
+}
+
+.sheet header h2 {
+  margin: 0;
+  font-size: 1.15em;
+}
+
+.sheet .body {
+  padding: 0.6rem 1.3rem 0.4rem;
+  overflow-y: auto;
+}
+
+.sheet footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.6em;
+  padding: 0.8rem 1.3rem 1.2rem;
+  border-top: 1px solid var(--rule);
+}
+
+.sheet footer .ask {
+  margin-right: auto;
+}
+
+@media (max-width: 34rem) {
+  .sheet footer .ask {
+    flex-basis: 100%;
+    margin-bottom: 0.2em;
+  }
+}
+
+.chosen {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1em;
+  padding: 0.45em 0.7em;
+  margin: 0 0 1.1em;
+  border-radius: var(--radius);
+  background: var(--paper-raised);
+}
+
+.chosen strong {
+  font-weight: 600;
+}
+
+.preview {
+  margin: 0.2em 0 0.6em;
+  padding: 0.7em 0.85em;
+  border-left: 2px solid var(--accent);
+  background: var(--paper-raised);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  font-size: 0.95em;
+}
+
+.preview p {
+  margin: 0;
+}
+
+.preview p + p {
+  margin-top: 0.35em;
+}
+
+.found li {
+  display: grid;
+  grid-template-columns: 5.5em auto 1fr;
+  gap: 0.6em;
+  padding: 0.3em 0;
+  border-bottom: 1px solid var(--rule);
+  font-size: var(--step-small);
+}
+
+.found li.note {
+  display: block;
+  border: 0;
+  color: var(--ink-muted);
+}
+
+/* On a phone the sheet comes up from the bottom, where a thumb is. */
+@media (max-width: 34rem) {
+  dialog {
+    width: 100%;
+    max-width: none;
+    margin: auto 0 0;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 0;
+    max-height: 92svh;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  dialog[open] {
+    animation: none;
+  }
+  * {
+    transition: none !important;
+  }
+}

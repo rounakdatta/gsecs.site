@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>gsecs · when your government bonds pay</title>
+    <meta name="description" content="Every interest payment from your Government of India bonds and Sovereign Gold Bonds, on one calendar." />
+    <meta name="theme-color" content="#fffff8" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#151412" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" href="icon.svg" type="image/svg+xml" />
+    <link rel="preload" href="fonts/eb-garamond.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="bonds.json" as="fetch" crossorigin />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="site-name" href="#/">gsecs</a>
+      <nav class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="#/" data-nav="home">Your bonds</a></li>
+          <li><a href="#/bonds" data-nav="bonds">All bonds</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main" class="site-main" tabindex="-1"></main>
+    <footer class="site-footer">
+      <p>Bond data from the Reserve Bank of India, checked every day. Your bonds stay in this browser.</p>
+      <ul>
+        <li><button type="button" class="link" data-action="backup">Back up</button></li>
+        <li><button type="button" class="link" data-action="restore">Restore</button></li>
+        <li><a href="https://github.com/rounakdatta/gsecs.site" target="_blank" rel="noopener">Source<span class="visually-hidden"> (opens in a new tab)</span></a></li>
+      </ul>
+      <input type="file" accept="application/json,.json" hidden data-restore />
+    </footer>
+    <dialog id="sheet" aria-labelledby="sheet-title"></dialog>
+    <noscript><p class="noscript">This calendar needs JavaScript to work out your payments.</p></noscript>
+  </body>
+</html>
