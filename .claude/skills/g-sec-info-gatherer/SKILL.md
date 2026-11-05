@@ -5,6 +5,17 @@ description: Scrapes relevant bulletins from the RBI website intelligently and f
 
 # G-Sec Information Gatherer
 
+## Daily updates are automated
+`.github/workflows/update-data.yml` runs `.github/scripts/gsec.py update` every day. It adds each new RBI auction to `data/` only after every check in that script passes, and it opens a `data-pipeline` issue for anything it holds back. Use this skill to investigate such an issue, or for history the pipeline does not cover (before Aug 2012). Whatever you change in `data/` must pass `python3 .github/scripts/gsec.py check`.
+
+The conventions the data follows:
+- **File month:** the month of `issuance_date`, the settlement date. Serials run in auction order, then in the order RBI lists the bonds.
+- **`amount_issued_crore`:** the amount actually issued, i.e. competitive + non-competitive + devolvement, including any green shoe. The notified amount goes in `additional_info.notified_amount_crore`.
+- **Rejected bids:** a security for which RBI rejected every bid gets no record.
+- **Yield:** the yield comes from the auction results. Before mid-2020, announcements are in RBI's *Notifications* section and the Finance Ministry archive, not in press releases.
+- **Floating rate bonds:** `coupon_rate` is the rate for the coupon period in which the tranche settled.
+- **`security_codes`:** the three patterns below, applied literally.
+
 ## Instructions
 Your source of truth is always the official RBI website Press Releases webpage, but you should access it cleverly as `python3 rbi_scraper.py <year> <month>`. Your monumental task is to figure out what's to be picked and what not to. Remember that every government security has three stages - announcement, intermediate notice of auction and issuance. This is how the bulletin titles look like:
 - Announcement: "Auction of Government of India Dated Securities" or "Auction of Government of India Dated Security" (if it is a single one)
