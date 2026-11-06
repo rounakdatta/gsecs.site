@@ -166,7 +166,8 @@ function home() {
     next && h('p', { class: 'next' }, 'Next: ',
       known.length ? [h('span', { class: 'amount' }, L.rupees(known.reduce((x, d) => x + d.amount, 0))), ' '] : null,
       h('time', { datetime: next.on }, next.on === t ? 'today' : next.on === L.addDays(t, 1) ? 'tomorrow' : `on ${L.sayDate(next.on, t)}`),
-      ' from ', nextAll.map((d, i) => [i ? ' and ' : '', nameOf(d.holding)]))));
+      ' from ', nextAll.map((d, i) => [i ? ' and ' : '', nb(nameOf(d.holding))])),
+    h('p', { class: 'aside' }, 'Got a credit from CDSL? ', h('button', { class: 'link', type: 'button', 'data-key': 'which', onclick: () => openPayment() }, 'See which bond paid it'))));
   out.push(gantt(rows, t));
   out.push(agenda(upcoming, t));
   out.push(holdingsList(rows, t));
@@ -376,10 +377,10 @@ function receivedList(t, match) {
     h('div', { class: 'section-head' },
       h('h2', {}, 'Received'),
       h('div', { class: 'actions' },
-        h('button', { class: 'link', type: 'button', 'data-key': 'record', onclick: () => openPayment() }, 'Record a payment'),
+        h('button', { class: 'link', type: 'button', 'data-key': 'record', onclick: () => openPayment() }, 'Which bond paid this?'),
         h('button', { class: 'link quiet', type: 'button', 'data-key': 'paste', onclick: () => openPaste() }, 'Paste from a statement'))),
     !pays.length
-      ? h('p', { class: 'empty-note' }, 'Note the interest that reaches your bank, and each credit is matched to its bond by amount and date.')
+      ? h('p', { class: 'empty-note' }, 'When interest reaches your bank, paste its narration here to see which bond paid it, and keep a record by financial year.')
       : [...groups].map(([k, ps], i) => h('details', { class: 'fy', open: i === 0 || ps.some((p) => !match.get(p.id) && !p.label) },
         h('summary', {},
           h('span', { class: 'label' }, `FY ${k}`),
@@ -706,31 +707,83 @@ function openSgb(edit) {
   preview();
 }
 
+// "Which bond paid this?" A CDSL credit never names its bond, so the sheet answers from whatever the
+// person has: a date alone narrows it to the bonds paying around then, the amount settles it, and
+// a pasted narration brings its own date in its NEFT reference.
 function openPayment(edit) {
   const t = today();
   const st = edit
     ? { date: edit.date, amount: edit.amount, narration: edit.narration || '', choice: edit.holding || '' }
     : { date: t, amount: null, narration: '', choice: '' };
-  const hintBox = h('p', { class: 'hint', 'aria-live': 'polite' });
-  const sel = h('select', { onchange: () => { st.choice = sel.value; } },
-    h('option', { value: '' }, 'Work it out from the amount and date'),
-    held().map((x) => h('option', { value: x.id, selected: x.id === st.choice }, nameOf(x))));
-  const say = (hd, due, kind, verb) => `${verb} ${nameOf(hd)}’s ${kind === 'interest' ? `${L.sayDate(due, t, { weekday: false })} payment` : 'repayment'}.`;
-  const guess = () => {
-    if (!(st.amount > 0) || !st.date) { hintBox.textContent = ''; return; }
-    const c = L.candidates({ date: st.date, amount: st.amount }, held(), state.byId)[0];
-    const hd = c && held().find((x) => x.id === c.holding);
-    hintBox.textContent = hd ? say(hd, c.due, c.kind, 'Looks like') : 'No bond you hold pays this amount around this date.';
+  const typed = { date: !!edit, amount: !!edit }; // what the person set themselves, which a paste leaves alone
+  const { match } = ledger();
+  const taken = new Set(); // payments other credits already account for
+  for (const p of state.store.payments) {
+    const m = match.get(p.id);
+    if (m && p.id !== edit?.id) taken.add(L.dueKey(m.holding, m.due, m.kind));
+  }
+  const holder = (id) => held().find((x) => x.id === id);
+  const on = (d) => L.sayDate(d, t, { weekday: false });
+  const what = (c) => (c.kind === 'interest' ? `its ${on(c.due)} interest` : 'its repayment');
+  let only = null; // the one payment a credit with no amount can be, if there is just one
+  let dup = null; // a credit already recorded
+  const answer = h('div', { class: 'preview answer', role: 'status' });
+  const primary = h('button', { class: 'button', type: 'button', onclick: () => save() });
+  const think = () => {
+    only = null;
+    const ref = L.referenceOf(st.narration);
+    dup = !edit && state.store.payments.find((p) => (ref && L.referenceOf(p.narration) === ref)
+      || (p.date === st.date && Math.abs(p.amount - (st.amount ?? NaN)) < 0.005));
+    const say = (...kids) => answer.replaceChildren(h('p', {}, ...kids));
+    const unchanged = edit && st.date === edit.date && st.amount === edit.amount;
+    const m = unchanged && match.get(edit.id);
+    if (st.choice) say('You chose ', h('strong', {}, nameOf(holder(st.choice))), '.');
+    else if (dup) {
+      const dm = match.get(dup.id);
+      say('Already recorded: ', dm ? [h('strong', {}, nameOf(holder(dm.holding))), `, ${what(dm)}, `] : '', `${L.rupees(dup.amount)} on ${on(dup.date)}.`);
+    } else if (m) say('Matched to ', h('strong', {}, nameOf(holder(m.holding))), `, ${what(m)}.`);
+    else if (unchanged && edit.label) say(`From ${edit.label}, which you removed.`);
+    else if (!st.date) say('Enter the date it reached your bank.');
+    else if (st.amount > 0) {
+      const c = L.candidates({ date: st.date, amount: st.amount }, held(), state.byId).find((x) => !taken.has(L.dueKey(x.holding, x.due, x.kind)));
+      if (c) say(h('strong', {}, nameOf(holder(c.holding))), `: ${what(c)}.`);
+      else {
+        const near = L.around(st.date, held(), state.byId, taken).filter((d) => d.amount != null);
+        say(`No bond you hold pays ${L.rupees(st.amount)} around ${on(st.date)}.`,
+          near.length ? ` Around then, ${near.map((d) => `${nameOf(holder(d.holding))} pays ${L.rupees(d.amount)}`).join('; ')}.` : '');
+      }
+    } else {
+      // No amount: what pays around that day. A bond whose money was due that very day is the
+      // answer; the others are said with their amounts, which the bank's entry can be checked against.
+      const all = L.around(st.date, held(), state.byId);
+      const open = all.filter((d) => !taken.has(L.dueKey(d.holding, d.due, d.kind)));
+      const sum = (d) => (d.amount != null ? `, ${L.rupees(d.amount)}` : '');
+      const sameDay = open.filter((d) => d.lag === 0);
+      if (open.length === 1 || sameDay.length === 1) {
+        only = open.length === 1 ? open[0] : sameDay[0];
+        const others = open.filter((d) => d !== only && d.amount != null);
+        answer.replaceChildren(h('p', {}, h('strong', {}, nameOf(holder(only.holding))), `: ${what(only)}${sum(only)}.`),
+          others.length ? h('p', { class: 'muted small' }, `If the amount was ${others.map((d) => `${L.rupees(d.amount)}, it’s ${nameOf(holder(d.holding))}’s instead`).join('; or ')}.`) : null);
+      } else if (open.length > 1) {
+        answer.replaceChildren(h('p', {}, `${sameDay.length ? 'On' : 'Around'} ${on(st.date)}, more than one of your bonds pays; the amount tells which:`),
+          h('ul', { class: 'plain options-list' }, (sameDay.length ? sameDay : open).map((d) => h('li', {}, h('strong', {}, nameOf(holder(d.holding))), ` · ${d.amount != null ? L.rupees(d.amount) : 'amount not set yet'}, due ${on(d.due)}`))));
+      } else if (all.length) {
+        say('Already recorded: ', all.map((d, i) => [i ? '; ' : '', h('strong', {}, nameOf(holder(d.holding))), `’s ${d.kind === 'interest' ? `${on(d.due)} interest` : 'repayment'}${sum(d)}`]), '. Nothing else pays around then.');
+      } else say(`None of your bonds pays around ${on(st.date)}.`);
+    }
+    primary.textContent = edit ? 'Save' : dup ? 'Done' : !(st.amount > 0) && only?.amount != null ? `Record ${L.rupees(only.amount)}` : 'Record';
   };
   const save = () => {
-    if (!(st.amount > 0) || !st.date) {
+    if (dup) { sheet().close(); return; }
+    const amount = st.amount > 0 ? st.amount : only?.amount;
+    if (!(amount > 0) || !st.date) {
       const out = sheet().querySelector('.complaint') || h('p', { class: 'complaint', role: 'alert' });
-      out.textContent = 'Enter the date and the amount.';
+      out.textContent = st.date ? 'Enter the amount that reached your bank.' : 'Enter the date and the amount.';
       sheet().querySelector('.body').append(out);
       return;
     }
-    const p = { id: edit?.id || uid(), date: st.date, amount: st.amount, narration: st.narration.trim() || null };
-    const hd = st.choice && held().find((x) => x.id === st.choice);
+    const p = { id: edit?.id || uid(), date: st.date, amount, narration: st.narration.trim() || null };
+    const hd = st.choice && holder(st.choice);
     if (hd) {
       const near = L.nearestDue(p, hd, bondOf(hd));
       Object.assign(p, { holding: hd.id, due: near ? near.due : p.date, kind: near ? near.kind : 'interest' });
@@ -750,24 +803,49 @@ function openPayment(edit) {
       } }, 'Remove'));
     foot.querySelector('.button').focus();
   };
-  openSheet(edit ? 'A payment you received' : 'Record a payment', [
-    h('div', { class: 'row' },
-      field('Date', h('input', { type: 'date', max: t, value: st.date, oninput: (e) => { st.date = e.target.value; guess(); } })),
-      field('Amount', h('div', { class: 'prefix' }, h('span', {}, '₹'),
-        h('input', { type: 'number', min: '0.01', step: '0.01', inputmode: 'decimal', value: st.amount ?? '', oninput: (e) => { st.amount = num(e.target.value); guess(); } })))),
-    hintBox,
-    field('Bank narration', h('input', { type: 'text', value: st.narration, oninput: (e) => { st.narration = e.target.value; } }), { hint: edit ? null : 'Optional. Paste it from your statement to keep a record.' }),
-    field('Bond', sel),
+  const dateInput = h('input', { type: 'date', max: t, value: st.date, oninput: (e) => { st.date = e.target.value; typed.date = true; dateNote.textContent = ''; think(); } });
+  const amountInput = h('input', { type: 'number', min: '0.01', step: '0.01', inputmode: 'decimal', value: st.amount ?? '',
+    oninput: (e) => { st.amount = num(e.target.value); typed.amount = true; think(); } });
+  // A pasted narration or statement line fills in what it carries: a date (or its NEFT reference's),
+  // and from a statement line, the amount that matches a coupon rather than the balance.
+  const narration = h('input', { type: 'text', value: st.narration, autocomplete: 'off', oninput: (e) => {
+    st.narration = e.target.value;
+    const written = L.findDate(st.narration);
+    const d = written || L.utrDate(st.narration);
+    if (d && !typed.date && d <= t) {
+      st.date = d;
+      dateInput.value = d;
+      dateNote.textContent = written ? '' : 'From the NEFT reference above.';
+    }
+    const amounts = L.findAmounts(st.narration);
+    if (amounts.length && !typed.amount) {
+      const fits = amounts.find((a) => L.candidates({ date: st.date, amount: a }, held(), state.byId).length);
+      st.amount = fits ?? amounts[0];
+      amountInput.value = st.amount;
+    }
+    think();
+  } });
+  const dateField = field('Date', dateInput);
+  const dateNote = h('span', { class: 'hint' });
+  dateField.append(dateNote);
+  openSheet(edit ? 'A payment you received' : 'Which bond paid this?', [
+    field('Bank narration', narration, { hint: edit ? null : 'Paste it from your bank. CDSL never names the bond in it; the date and the amount say which.' }),
+    h('div', { class: 'row' }, dateField, field('Amount', h('div', { class: 'prefix' }, h('span', {}, '₹'), amountInput))),
+    answer,
+    field('Bond', sel()),
   ], [edit && h('button', { class: 'link quiet', type: 'button', style: 'margin-right:auto', onclick: remove }, 'Remove'),
     h('button', { class: 'button quiet', type: 'button', onclick: () => sheet().close() }, 'Cancel'),
-    h('button', { class: 'button', type: 'button', onclick: save }, edit ? 'Save' : 'Record')]);
-  // An existing payment says what it was matched to, until the amount or date changes.
-  const m = edit && ledger().match.get(edit.id);
-  const hd = m && held().find((x) => x.id === m.holding);
-  if (hd) hintBox.textContent = say(hd, m.due, m.kind, 'Matched to');
-  else if (edit?.label) hintBox.textContent = `From ${edit.label}, which you removed.`;
-  else guess();
-  if (edit && !hd && !edit.label && matchMedia('(pointer: fine)').matches) sel.focus(); // it was opened to answer "Which bond?"
+    primary]);
+  think();
+  if (matchMedia('(pointer: fine)').matches) (edit ? null : narration)?.focus();
+  if (edit && !match.get(edit.id) && !edit.label && matchMedia('(pointer: fine)').matches) sheet().querySelector('select').focus(); // opened to answer "Which bond?"
+
+  function sel() {
+    const el = h('select', { onchange: () => { st.choice = el.value; think(); } },
+      h('option', { value: '' }, 'Work it out from the date and amount'),
+      held().map((x) => h('option', { value: x.id, selected: x.id === st.choice }, nameOf(x))));
+    return el;
+  }
 }
 
 // Many credits at once: paste the lines of a statement, keep the ones that are interest.
