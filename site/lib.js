@@ -199,6 +199,26 @@ export function reconcile(payments, holdings, bonds) {
   return result;
 }
 
+// Which payments fall around a date: what a credit on that day could be when its amount is not
+// known. `lag` counts days from when the money was due to arrive, so 0 means it came on its day;
+// nearest first. Payments already received (`taken`, by dueKey) are left out.
+export function around(date, holdings, bonds, taken = new Set()) {
+  const out = [];
+  for (const h of holdings) {
+    for (const d of paymentsOf(h, bonds[h.bond])) {
+      const late = daysBetween(d.date, date);
+      if (late >= -EARLY && late <= LATE && !taken.has(dueKey(h.id, d.date, d.kind))) {
+        out.push({ holding: h.id, due: d.date, kind: d.kind, amount: d.amount, lag: daysBetween(d.on, date) });
+      }
+    }
+  }
+  return out.sort((a, b) => Math.abs(a.lag) - Math.abs(b.lag) || a.due.localeCompare(b.due));
+}
+
+// The reference a bank puts at the end of a narration (IN2262…, CMS4736…): the same reference is
+// the same credit, however the spaces around it were copied.
+export const referenceOf = (narration) => (String(narration || '').toUpperCase().match(/[A-Z]*\d{8,}/g) || []).at(-1) || null;
+
 // When a person says which bond a credit came from: the payment of that bond it most likely is.
 // A credit far larger than any coupon is the repayment; otherwise the nearest coupon by date.
 export function nearestDue(payment, h, bond) {
@@ -244,6 +264,21 @@ export function findDate(text) {
   return null;
 }
 
+// A NEFT reference carries the day it was sent, so a narration copied without its date still has
+// one: ICICI writes it out (ICICN2 20251018 …), others give the year and the day of the year
+// (…N2 26 262 … is 19 Sep 2026).
+export function utrDate(text) {
+  let m = text.match(/N2(20\d{2})(\d{2})(\d{2})\d{6,}/);
+  if (m && +m[2] >= 1 && +m[2] <= 12 && +m[3] >= 1 && +m[3] <= daysIn(+m[1], +m[2])) return toIso(+m[1], +m[2], +m[3]);
+  m = text.match(/N2(\d{2})(\d{3})\d{6,}/);
+  if (m) {
+    const y = 2000 + +m[1];
+    const yearDays = daysIn(y, 2) === 29 ? 366 : 365;
+    if (+m[2] >= 1 && +m[2] <= yearDays) return addDays(toIso(y, 1, 1), +m[2] - 1);
+  }
+  return null;
+}
+
 export function findAmounts(text) {
   return [...text.matchAll(/(?:₹|Rs\.?|INR)?\s?(\d{1,3}(?:,\d{2,3})+(?:\.\d{1,2})?|\d+\.\d{2})(?!\d)/g)].map((m) =>
     Number(m[1].replace(/,/g, '')),
@@ -253,7 +288,7 @@ export function findAmounts(text) {
 // One pasted statement line -> {date, amount, narration}. A statement line often carries a
 // withdrawal, a deposit and a balance; the amount that matches a due payment wins.
 export function readLine(line, holdings, bonds) {
-  const date = findDate(line);
+  const date = findDate(line) || utrDate(line);
   const amounts = findAmounts(line);
   if (!date || !amounts.length) return null;
   const best = amounts

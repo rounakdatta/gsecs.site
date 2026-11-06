@@ -452,7 +452,7 @@ textarea {
   display: flex;
   flex-wrap: wrap;
   gap: 0.6em 1em;
-  align-items: center;
+  align-items: start; /* labels line up even when only one field has a note under it */
 }
 
 .row > .field {
@@ -559,6 +559,12 @@ textarea {
   font-weight: 400;
   letter-spacing: 0;
   color: var(--ink-muted);
+}
+
+.summary .aside {
+  margin: 0.5em 0 0;
+  color: var(--ink-muted);
+  font-size: var(--step-small);
 }
 
 .summary .next {
@@ -1178,6 +1184,22 @@ dialog[open] {
 
 .preview p + p {
   margin-top: 0.35em;
+}
+
+.answer {
+  margin-top: 0;
+}
+
+.answer:empty {
+  display: none;
+}
+
+.answer .options-list {
+  margin: 0.35em 0 0;
+}
+
+.answer .options-list li + li {
+  margin-top: 0.15em;
 }
 
 .found li {

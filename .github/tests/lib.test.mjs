@@ -10,6 +10,7 @@ const BONDS = {
   gs2022: bond(6.84, '2022-12-19', '2016-09-12'),
   gs2029: bond(7.1, '2029-04-18', '2022-04-18'),
   gs2063: bond(7.25, '2063-06-12', '2023-06-12'),
+  gs2062: bond(7.4, '2062-09-19', '2022-09-19'),
 };
 const holding = (id, b, face, date) => ({ id, kind: 'gsec', bond: b, face, date });
 
@@ -174,4 +175,33 @@ test('a floating rate bond pays on known dates, but each amount waits for the ra
   assert.deepEqual(p.slice(0, 2).map((x) => [x.date, x.amount]), [['2024-04-30', null], ['2024-10-30', null]]);
   assert.equal(p.at(-1).amount, 100000);
   assert.equal(L.yearlyIncome(holding('a', 'f', 100000, '2024-01-02'), frb, '2026-11-05'), null);
+});
+
+test('a NEFT reference gives away the day it was sent, so a bare narration still has a date', () => {
+  const cdsl = 'NEFT CR-ICIC0099999-CENTRAL DEPOSITORY SERVICES INDIA LIMITED G-A PERSON-';
+  assert.equal(L.utrDate(cdsl + 'IN22626200000001'), '2026-09-19'); // 2026, day 262
+  assert.equal(L.utrDate(cdsl + 'ICICN22025101800000001'), '2025-10-18'); // 2025-10-18 written out
+  assert.equal(L.utrDate(cdsl + 'IN22536300000001'), '2025-12-29'); // day 363 of a common year
+  assert.equal(L.utrDate(cdsl + 'IN22636700000001'), null); // no day 367
+  assert.equal(L.utrDate(cdsl + 'CMS1234567890'), null); // CMS references carry no date
+  const line = cdsl + 'IN22626200000001 1,480.00';
+  assert.deepEqual(L.readLine(line, [holding('a', 'gs2062', 40000, '2023-01-02')], BONDS), { date: '2026-09-19', amount: 1480, narration: line });
+});
+
+test('a date alone names the bonds that pay around it, nearest first, leaving out what was already received', () => {
+  const holdings = [holding('a', 'gs2062', 40000, '2023-01-02'), holding('b', 'gs2052', 100000, '2024-01-02')];
+  const near = L.around('2026-09-19', holdings, BONDS);
+  assert.deepEqual(near.map((d) => [d.holding, d.due, d.amount]), [['a', '2026-09-19', 1480], ['b', '2026-09-12', 3680]]);
+  const left = L.around('2026-09-19', holdings, BONDS, new Set([L.dueKey('b', '2026-09-12')]));
+  assert.deepEqual(left.map((d) => d.holding), ['a']);
+  assert.deepEqual(L.around('2026-07-01', holdings, BONDS), []);
+});
+
+test('the same bank reference is the same credit, whatever the spacing', () => {
+  const a = 'NEFT CR-ICIC0099999-CENTRAL DEPOSITORY SERVICES  INDIA  LIMITED     G-A PERSON-IN22626200000001';
+  const b = 'NEFT CR-ICIC0099999-CENTRAL DEPOSITORY SERVICES INDIA LIMITED G-A PERSON-IN22626200000001';
+  assert.equal(L.referenceOf(a), 'IN22626200000001');
+  assert.equal(L.referenceOf(a), L.referenceOf(b));
+  assert.equal(L.referenceOf('NEFT Cr-ICIC0099999-CENTRAL DEPOSITORY SERVICES INDIA LIMITED G-A PERSON-CMS1234567890'), 'CMS1234567890');
+  assert.equal(L.referenceOf('interest'), null);
 });
