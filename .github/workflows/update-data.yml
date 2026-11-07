@@ -24,6 +24,9 @@ jobs:
   data:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    env:
+      # A step's `if` cannot read secrets; it can read this.
+      TS_OAUTH_CLIENT_ID: ${{ secrets.TS_OAUTH_CLIENT_ID }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
       - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0  # v7.1.0
@@ -36,23 +39,49 @@ jobs:
       - name: Check the dataset's invariants
         run: python .github/scripts/gsec.py check
 
+      # The AI gateway behind AIAPI_HOST answers on the homelab's tailnet only, so
+      # the runner joins it here, as an ephemeral node tagged tag:gsecs-ci, for the
+      # events that ask the AI. An OAuth client, not an auth key: auth keys expire
+      # within 90 days. Quiet, because this repo's logs are public.
+      #
+      # The AI is a second opinion, never a gate: if joining fails (or is skipped,
+      # as on forks) the steps below get no AIAPI_* at all, so the checks run
+      # deterministically and never claim an AI reading that did not happen --
+      # rather than waiting out timeouts against an address they cannot reach.
+      - name: Join the tailnet (the AI gateway is tailnet-only)
+        id: tailnet
+        if: env.TS_OAUTH_CLIENT_ID != '' && github.event_name != 'push'
+        continue-on-error: true
+        uses: tailscale/github-action@064b10558093f38325e838ddea35486bdc6b1d5c  # v4.4.0
+        with:
+          oauth-client-id: ${{ secrets.TS_OAUTH_CLIENT_ID }}
+          oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}
+          tags: tag:gsecs-ci
+          log-mode: quiet
+
       - name: Rebuild the latest auction from RBI and compare (pull requests)
         if: github.event_name == 'pull_request'
         run: python .github/scripts/gsec.py selftest
         env:
-          AIAPI_HOST: ${{ secrets.AIAPI_HOST }}
-          AIAPI_KEY: ${{ secrets.AIAPI_KEY }}
+          AIAPI_HOST: ${{ steps.tailnet.outcome == 'success' && secrets.AIAPI_HOST || '' }}
+          AIAPI_KEY: ${{ steps.tailnet.outcome == 'success' && secrets.AIAPI_KEY || '' }}
           AIAPI_MODEL: ${{ vars.AIAPI_MODEL }}
 
       - name: Add new auctions, verify, commit
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: python .github/scripts/gsec.py update
         env:
-          AIAPI_HOST: ${{ secrets.AIAPI_HOST }}
-          AIAPI_KEY: ${{ secrets.AIAPI_KEY }}
+          AIAPI_HOST: ${{ steps.tailnet.outcome == 'success' && secrets.AIAPI_HOST || '' }}
+          AIAPI_KEY: ${{ steps.tailnet.outcome == 'success' && secrets.AIAPI_KEY || '' }}
           AIAPI_MODEL: ${{ vars.AIAPI_MODEL }}
           AUDIT_SAMPLE: '6'
           GITHUB_TOKEN: ${{ github.token }}
+
+      # Worth an issue: the run passed, but on half its checks. Also fires while
+      # TS_OAUTH_* is unset, so a missing secret cannot switch the AI off quietly.
+      - name: Note a skipped AI cross-check
+        if: always() && steps.tailnet.outcome != 'success' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
+        run: echo '- The runner did not join the tailnet (or TS_OAUTH_* is not set), so the AI cross-check was skipped; deterministic checks only.' >> warning.md
 
       - name: Open, update or close the tracking issue
         if: always() && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
