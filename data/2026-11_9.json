@@ -1,0 +1,34 @@
+{
+  "security_name": "7.71% GS 2066",
+  "security_type": "Gilt",
+  "security_codes": [
+    "771GS66N26",
+    "771GOI66",
+    "771GS2066-GS"
+  ],
+  "announcement_date": "2026-11-16",
+  "auction_date": "2026-11-20",
+  "issuance_date": "2026-11-23",
+  "maturity_date": "2066-05-18",
+  "coupon_rate": 7.71,
+  "yield_at_auction": 7.8083,
+  "amount_issued_crore": 14000,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=64012",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=64011",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63983"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 14000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2026-05-18",
+    "cut_off_price": 98.8,
+    "weighted_average_yield": 7.8033,
+    "weighted_average_price": 98.86,
+    "competitive_bids_received_crore": 36969,
+    "competitive_bids_accepted_crore": 13980.724,
+    "non_competitive_bids_accepted_crore": 19.276,
+    "auction_method": "Multiple price"
+  }
+}
