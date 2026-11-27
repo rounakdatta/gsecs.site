@@ -1,0 +1,34 @@
+{
+  "security_name": "6.20% GS 2029",
+  "security_type": "Gilt",
+  "security_codes": [
+    "620GS29N26",
+    "620GOI29",
+    "620GS2029-GS"
+  ],
+  "announcement_date": "2026-11-23",
+  "auction_date": "2026-11-27",
+  "issuance_date": "2026-11-30",
+  "maturity_date": "2029-08-17",
+  "coupon_rate": 6.2,
+  "yield_at_auction": 6.996,
+  "amount_issued_crore": 3677.495,
+  "interest_payment_frequency": "semi-annual",
+  "source_urls": [
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=64056",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=64055",
+    "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=64029"
+  ],
+  "additional_info": {
+    "notified_amount_crore": 9000,
+    "issue_type": "Re-issue",
+    "original_issue_date": "2026-08-17",
+    "cut_off_price": 98.05,
+    "weighted_average_yield": 6.9835,
+    "weighted_average_price": 98.08,
+    "competitive_bids_received_crore": 13785.2,
+    "competitive_bids_accepted_crore": 3670.2,
+    "non_competitive_bids_accepted_crore": 7.295,
+    "auction_method": "Multiple price"
+  }
+}
